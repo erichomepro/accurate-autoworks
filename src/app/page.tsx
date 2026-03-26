@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { GarageBg } from "@/components/garage-bg";
 
 export const metadata: Metadata = {
   title: "Accurate Autoworks | Tint, Wraps, Detailing & Print | Stony Plain AB",
@@ -57,10 +58,12 @@ export default function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden garage-bg bolt-pattern">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+        {/* Animated garage background */}
+        <GarageBg />
         {/* Background pattern */}
         <div className="absolute inset-0 hero-stripe" />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-transparent to-[#0a0a0a]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/80 via-transparent to-[#0a0a0a]" />
 
         {/* Diagonal accent line */}
         <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-[#22d65f]/5 to-transparent skew-x-[-12deg] translate-x-20" />
