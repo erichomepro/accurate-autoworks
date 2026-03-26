@@ -96,6 +96,12 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-[#1a1a1a] text-center text-xs text-[#555]">
           <p>&copy; {new Date().getFullYear()} Accurate Autoworks. All rights reserved. Est. 2023 | Stony Plain, Alberta</p>
+          <p className="mt-2">
+            Website by{" "}
+            <a href="https://aiprecisionmarketing.ca/portfolio" target="_blank" rel="noopener noreferrer" className="hover:text-[#22d65f] transition-colors">
+              AI Precision Marketing
+            </a>
+          </p>
         </div>
       </div>
     </footer>
