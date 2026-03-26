@@ -57,7 +57,7 @@ export default function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden garage-bg bolt-pattern">
         {/* Background pattern */}
         <div className="absolute inset-0 hero-stripe" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-transparent to-[#0a0a0a]" />

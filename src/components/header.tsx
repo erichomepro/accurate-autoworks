@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const NAV_LINKS = [
@@ -23,7 +24,14 @@ export function Header() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <span className="text-xl sm:text-2xl font-black tracking-tight uppercase">
+            <Image
+              src="/images/logo-round.png"
+              alt="Accurate Autoworks"
+              width={40}
+              height={40}
+              className="w-9 h-9 sm:w-10 sm:h-10"
+            />
+            <span className="text-lg sm:text-2xl font-black tracking-tight uppercase">
               Accurate<span className="text-[#22d65f]"> Autoworks</span>
             </span>
           </Link>

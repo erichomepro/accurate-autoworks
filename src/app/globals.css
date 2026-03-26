@@ -32,6 +32,49 @@ body {
   z-index: 1;
 }
 
+/* Garage texture background — tire treads, wrenches, gears feel */
+.garage-bg {
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(34, 214, 95, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(34, 214, 95, 0.02) 0%, transparent 40%),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 40px,
+      rgba(255,255,255,0.008) 40px,
+      rgba(255,255,255,0.008) 41px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 40px,
+      rgba(255,255,255,0.008) 40px,
+      rgba(255,255,255,0.008) 41px
+    );
+}
+
+/* Gear/bolt decorative pattern */
+.bolt-pattern::before {
+  content: '⚙';
+  position: absolute;
+  font-size: 200px;
+  opacity: 0.015;
+  top: 10%;
+  right: 5%;
+  transform: rotate(15deg);
+  pointer-events: none;
+}
+.bolt-pattern::after {
+  content: '🔧';
+  position: absolute;
+  font-size: 150px;
+  opacity: 0.015;
+  bottom: 10%;
+  left: 5%;
+  transform: rotate(-20deg);
+  pointer-events: none;
+}
+
 /* Accent glow */
 .glow-accent {
   text-shadow: 0 0 20px rgba(34, 214, 95, 0.3), 0 0 40px rgba(34, 214, 95, 0.1);

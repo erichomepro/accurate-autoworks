@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { InstagramFeed } from "@/components/instagram-feed";
 
 export const metadata: Metadata = {
   title: "Gallery | Our Work",
@@ -23,8 +24,11 @@ export default function GalleryPage() {
           </p>
         </div>
 
-        {/* Gallery grid — placeholder for real images from Instagram/Facebook */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
+        {/* Live Instagram Feed */}
+        <InstagramFeed />
+
+        {/* Fallback Gallery grid — shows if Instagram feed is not connected */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 mt-8">
           {[
             { label: "Full Wrap", category: "Wraps" },
             { label: "Ceramic Tint", category: "Tinting" },

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -7,9 +8,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="md:col-span-1">
-            <h3 className="text-xl font-black uppercase tracking-tight">
-              Accurate<span className="text-[#22d65f]"> Autoworks</span>
-            </h3>
+            <div className="flex items-center gap-3">
+              <Image src="/images/logo-round.png" alt="Accurate Autoworks" width={36} height={36} />
+              <h3 className="text-xl font-black uppercase tracking-tight">
+                Accurate<span className="text-[#22d65f]"> Autoworks</span>
+              </h3>
+            </div>
             <p className="mt-3 text-sm text-[#888] leading-relaxed">
               Stony Plain&apos;s premier auto customization shop. Tint. Wraps. Detail. Print. Est. 2023.
             </p>
