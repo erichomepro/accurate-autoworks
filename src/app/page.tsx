@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { GarageBg } from "@/components/garage-bg";
+import { Reviews } from "@/components/reviews";
 
 export const metadata: Metadata = {
   title: "Accurate Autoworks | Tint, Wraps, Detailing & Print | Stony Plain AB",
@@ -118,6 +119,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* GOOGLE REVIEWS */}
+      <Reviews />
 
       {/* SERVICES */}
       <section className="py-20 sm:py-28">
