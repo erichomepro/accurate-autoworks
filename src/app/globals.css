@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #0a0a0a;
+  --color-foreground: #f0f0f0;
+  --color-accent: #22d65f;
+  --color-accent-dim: #1aab4b;
+  --color-surface: #141414;
+  --color-surface-light: #1e1e1e;
+  --color-border: #2a2a2a;
+  --color-muted: #888888;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Grunge texture overlay */
+.grunge-overlay {
+  position: relative;
+}
+.grunge-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Accent glow */
+.glow-accent {
+  text-shadow: 0 0 20px rgba(34, 214, 95, 0.3), 0 0 40px rgba(34, 214, 95, 0.1);
+}
+
+/* Gradient border card */
+.card-gradient {
+  background: linear-gradient(135deg, #141414 0%, #1a1a1a 100%);
+  border: 1px solid #2a2a2a;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+.card-gradient:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-2px);
+}
+
+/* Hero diagonal stripe */
+.hero-stripe {
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 10px,
+    rgba(255,255,255,0.02) 10px,
+    rgba(255,255,255,0.02) 20px
+  );
+}
+
+/* Scroll animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* Service card hover effect */
+.service-card {
+  position: relative;
+  overflow: hidden;
+}
+.service-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--color-accent);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.service-card:hover::after {
+  transform: scaleX(1);
+}
+
+/* CTA button */
+.btn-primary {
+  background: var(--color-accent);
+  color: #000;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+.btn-primary:hover {
+  background: #2ae86d;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 20px rgba(34, 214, 95, 0.3);
+}
+
+.btn-outline {
+  border: 2px solid var(--color-accent);
+  color: var(--color-accent);
+  font-weight: 700;
+  padding: 12px 32px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  display: inline-block;
+  text-decoration: none;
+  background: transparent;
+}
+.btn-outline:hover {
+  background: var(--color-accent);
+  color: #000;
+}
