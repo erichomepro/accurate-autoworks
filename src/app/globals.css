@@ -199,3 +199,48 @@ body {
   background: var(--color-accent);
   color: #000;
 }
+
+/* Graffiti/spray paint texture overlay */
+.graffiti-hero {
+  position: relative;
+  overflow: hidden;
+}
+.graffiti-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 10% 90%, rgba(34, 214, 95, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 90% 10%, rgba(34, 214, 95, 0.05) 0%, transparent 40%),
+    linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.85) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+.graffiti-hero > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Spray paint splatter effect (subtle) */
+.spray-texture {
+  background-image:
+    radial-gradient(circle at 15% 25%, rgba(34, 214, 95, 0.04) 0%, transparent 20%),
+    radial-gradient(circle at 85% 75%, rgba(34, 214, 95, 0.03) 0%, transparent 25%),
+    radial-gradient(circle at 50% 10%, rgba(255, 255, 255, 0.02) 0%, transparent 15%),
+    radial-gradient(circle at 70% 50%, rgba(34, 214, 95, 0.02) 0%, transparent 30%);
+}
+
+/* Process timeline number */
+.process-number {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #22d65f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 18px;
+  color: #22d65f;
+  flex-shrink: 0;
+}
