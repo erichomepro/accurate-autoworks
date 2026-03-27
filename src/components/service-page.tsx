@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GraffitiOverlay, SkullIcon, CrossBones, SpraySplatter, PaintDrips, SprayCanLine } from "./graffiti-elements";
 
 interface FAQ {
   question: string;
@@ -86,11 +87,16 @@ export function ServicePage({
 
       {/* Benefits Section */}
       {benefits && benefits.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 py-20">
-          <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-center mb-12">
+        <section className="relative max-w-7xl mx-auto px-4 sm:px-6 py-20 overflow-hidden">
+          {/* Graffiti elements */}
+          <SkullIcon className="absolute top-8 right-4 w-[100px] h-[100px] rotate-12 opacity-60" />
+          <CrossBones className="absolute bottom-12 left-2 w-[130px] h-[90px] -rotate-12 opacity-50" />
+          <SpraySplatter className="absolute top-[20%] left-0 w-[250px] h-[250px] opacity-80" />
+
+          <h2 className="relative z-10 text-2xl sm:text-3xl font-black uppercase tracking-tight text-center mb-12">
             Why <span className="text-[#22d65f]">{titleAccent}</span>?
           </h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="relative z-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {benefits.map((benefit) => (
               <div
                 key={benefit.title}
@@ -111,8 +117,12 @@ export function ServicePage({
 
       {/* Process / How It Works */}
       {processSteps && processSteps.length > 0 && (
-        <section className="py-20 bg-[#0d0d0d] border-t border-b border-[#1a1a1a]">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6">
+        <section className="relative py-20 bg-[#0d0d0d] border-t border-b border-[#1a1a1a] overflow-hidden">
+          {/* Paint drips from top */}
+          <PaintDrips className="absolute top-0 left-0 w-full h-[80px]" />
+          <SprayCanLine className="absolute bottom-8 left-0 w-full h-[20px] opacity-60" />
+          <SkullIcon className="absolute bottom-[15%] right-[5%] w-[80px] h-[80px] rotate-6 opacity-40" />
+          <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6">
             <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-center mb-14">
               The <span className="text-[#22d65f]">Process</span>
             </h2>
@@ -139,7 +149,9 @@ export function ServicePage({
       )}
 
       {/* Features Grid */}
-      <section className={`max-w-7xl mx-auto px-4 sm:px-6 py-20 ${benefits || processSteps ? "" : "mt-0"} spray-texture`}>
+      <section className={`relative max-w-7xl mx-auto px-4 sm:px-6 py-20 ${benefits || processSteps ? "" : "mt-0"} spray-texture overflow-hidden`}>
+        <CrossBones className="absolute top-10 left-4 w-[110px] h-[75px] rotate-15 opacity-40" />
+        <SpraySplatter className="absolute bottom-[10%] right-0 w-[200px] h-[200px] rotate-90 opacity-60" />
         <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-center mb-10">
           What&apos;s <span className="text-[#22d65f]">Included</span>
         </h2>
@@ -155,8 +167,11 @@ export function ServicePage({
 
       {/* Why This Matters */}
       {whySection && (
-        <section className="py-20 bg-[#0d0d0d] border-t border-b border-[#1a1a1a]">
-          <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+        <section className="relative py-20 bg-[#0d0d0d] border-t border-b border-[#1a1a1a] overflow-hidden">
+          <SkullIcon className="absolute top-[15%] left-[3%] w-[90px] h-[90px] -rotate-8 opacity-50" />
+          <CrossBones className="absolute bottom-[10%] right-[5%] w-[120px] h-[80px] rotate-20 opacity-40" />
+          <PaintDrips className="absolute top-0 left-0 w-full h-[60px] opacity-80" />
+          <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 text-center">
             <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight mb-6">
               {whySection.title}
             </h2>
@@ -230,8 +245,10 @@ export function ServicePage({
       )}
 
       {/* CTA */}
-      <section className="py-16 bg-[#0d0d0d] border-t border-[#1a1a1a]">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+      <section className="relative py-16 bg-[#0d0d0d] border-t border-[#1a1a1a] overflow-hidden">
+        <SkullIcon className="absolute top-[20%] right-[8%] w-[70px] h-[70px] rotate-12 opacity-30" />
+        <SprayCanLine className="absolute top-4 left-0 w-full h-[20px] opacity-50" />
+        <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight">
             Ready to <span className="text-[#22d65f]">Go</span>?
           </h2>

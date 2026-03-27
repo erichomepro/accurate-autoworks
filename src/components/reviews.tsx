@@ -77,7 +77,7 @@ export function Reviews() {
 
         <div className="mt-10 text-center">
           <a
-            href="https://www.google.com/maps/place/Accurate+Autoworks/"
+            href="https://www.google.com/maps/search/Accurate+Autoworks+15+Boulder+Blvd+Stony+Plain+AB"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-[#22d65f] hover:text-[#2ae86d] font-medium uppercase tracking-wider transition-colors"
