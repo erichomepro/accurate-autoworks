@@ -14,7 +14,7 @@ export default function PPFPage() {
       badge="Paint Protection Film"
       title="Paint"
       titleAccent="Protection"
-      heroImage="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1920&q=80"
+      heroImage="/images/hero-ppf.jpg"
       description="Invisible armor for your vehicle. PPF absorbs rock chips, scratches, and road debris so your paint doesn&apos;t have to. Self-healing technology means minor scratches disappear with heat. At Accurate Autoworks in Stony Plain, we precision-cut every piece of film using a digital plotter for a factory-perfect fit — no guessing, no rough edges. If you&apos;re driving Alberta roads, especially the gravel highways around Parkland County, PPF isn&apos;t optional — it&apos;s essential."
       benefits={[
         {

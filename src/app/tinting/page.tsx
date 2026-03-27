@@ -14,7 +14,7 @@ export default function TintingPage() {
       badge="Window Tinting"
       title="Premium Window"
       titleAccent="Tinting"
-      heroImage="/images/accurate-tinting-banner.jpg"
+      heroImage="/images/hero-tinting.jpg"
       description="Keep your interior cool, protect your skin from UV, and get the privacy you want. We carry ceramic, carbon, and dyed tint films in every shade — installed with zero bubbles, guaranteed. At Accurate Autoworks in Stony Plain, we&apos;ve tinted hundreds of vehicles from daily drivers to brand new trucks, and every install comes with the same attention to detail. Whether you want a subtle factory look or full limo dark, we&apos;ll get it done right the first time."
       benefits={[
         {

@@ -14,7 +14,7 @@ export default function WrapsPage() {
       badge="Vinyl Wraps"
       title="Vinyl"
       titleAccent="Wraps"
-      heroImage="/images/accurate-wraps-banner.jpg"
+      heroImage="/images/hero-wraps.jpg"
       description="Change the entire look of your vehicle without touching the paint. Full wraps, partial wraps, color changes, racing stripes, commercial branding — we do it all with premium cast vinyl that lasts. At Accurate Autoworks, we use only 3M and Avery Dennison materials because they hold up to Alberta&apos;s weather and remove cleanly when you&apos;re ready for something new. Whether you want to make your personal ride stand out or turn your work trucks into rolling billboards, this is where it happens."
       benefits={[
         {

@@ -14,7 +14,7 @@ export default function PrintPage() {
       badge="Commercial Print & Signage"
       title="Print &"
       titleAccent="Signage"
-      heroImage="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=1920&q=80"
+      heroImage="/images/hero-print.jpg"
       description="If you can imagine it, we can print it. Commercial-grade equipment on-site means we handle everything from design to finished product — fleet wraps, storefront signs, banners, decals, and custom graphics for businesses across Parkland County. At Accurate Autoworks in Stony Plain, we&apos;ve built our print and signage operation to serve local businesses who want quality work without Edmonton prices or Edmonton wait times. Everything is produced in-house so we control the quality from start to finish."
       benefits={[
         {

@@ -14,7 +14,7 @@ export default function TiresPage() {
       badge="Tires & Service"
       title="Accurate"
       titleAccent="Tires"
-      heroImage="/images/accurate-tires-banner.jpg"
+      heroImage="/images/hero-tires.jpg"
       description="Seasonal changeovers, mount and balance, flat repairs, new rubber — we handle it all. No appointment needed for most tire work, and we get it done fast so you&apos;re not sitting around all day. Whether you&apos;re swapping your winters on before the first snow or you picked up a nail on Highway 16A, Accurate Autoworks has you covered. We work on everything from daily drivers to lifted trucks and commercial vehicles."
       benefits={[
         {
