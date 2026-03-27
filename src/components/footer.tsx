@@ -52,6 +52,7 @@ export function Footer() {
                 { href: "/wraps", label: "Vinyl Wraps" },
                 { href: "/detailing", label: "Car Detailing" },
                 { href: "/ppf", label: "Paint Protection Film" },
+                { href: "/tires", label: "Tires & Service" },
                 { href: "/print", label: "Print & Signage" },
               ].map((link) => (
                 <li key={link.href}>

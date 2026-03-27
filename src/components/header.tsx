@@ -10,6 +10,7 @@ const NAV_LINKS = [
   { href: "/wraps", label: "Wraps" },
   { href: "/detailing", label: "Detailing" },
   { href: "/ppf", label: "PPF" },
+  { href: "/tires", label: "Tires" },
   { href: "/print", label: "Print & Signs" },
   { href: "/gallery", label: "Gallery" },
   { href: "/contact", label: "Contact" },
