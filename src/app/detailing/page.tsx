@@ -14,7 +14,7 @@ export default function DetailingPage() {
       badge="Car Detailing"
       title="Car"
       titleAccent="Detailing"
-      heroImage="/images/hero-detailing.jpg"
+      heroImage="/images/hero-detailing.jpeg"
       description="Your ride, looking like it just rolled off the showroom floor. From a quick exterior wash and wax to a deep interior clean, we bring your vehicle back to its best. At Accurate Autoworks in Stony Plain, we don&apos;t rush through details — every vehicle gets the time and attention it needs, whether it&apos;s a daily driver that needs some love or a show car getting prepped for the season. We use professional-grade products, proper techniques, and we actually care about the result."
       benefits={[
         {
