@@ -274,3 +274,23 @@ body {
   color: #22d65f;
   flex-shrink: 0;
 }
+
+/* Smooth details/summary accordion */
+details summary {
+  list-style: none;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+details[open] > summary ~ * {
+  animation: accordionOpen 0.25s ease-out;
+}
+@keyframes accordionOpen {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
