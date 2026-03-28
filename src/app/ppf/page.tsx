@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import { ServicePage } from "@/components/service-page";
 
 export const metadata: Metadata = {
-  title:
-    "Paint Protection Film (PPF) Stony Plain | Clear Bra | Spruce Grove, Parkland County",
+  title: "Paint Protection Film (PPF) Stony Plain | Clear Bra",
   description:
-    "Professional paint protection film (PPF) installation in Stony Plain, AB. Self-healing clear bra from $800. Protect against rock chips, scratches, road debris. Serving Spruce Grove, Parkland County, Acheson & Edmonton West. Call 780.818.9904",
+    "PPF installation in Stony Plain. Self-healing clear bra from $800. Rock chip, scratch & debris protection. Serving Spruce Grove, Parkland County & Acheson.",
+  alternates: { canonical: "/ppf" },
+  openGraph: { images: [{ url: "/images/hero-ppf.jpg", width: 1200, height: 630, alt: "Paint Protection Film at Accurate Autoworks Stony Plain" }] },
 };
 
 export default function PPFPage() {

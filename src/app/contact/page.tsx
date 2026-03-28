@@ -1,25 +1,15 @@
-"use client";
-
-import { useState } from "react";
+import Link from "next/link";
 import type { Metadata } from "next";
+import { ContactForm } from "@/components/contact-form";
 
-const SERVICES = [
-  "Window Tinting",
-  "Vinyl Wrap — Full",
-  "Vinyl Wrap — Partial",
-  "Car Detailing — Interior",
-  "Car Detailing — Exterior",
-  "Car Detailing — Full",
-  "Paint Protection Film (PPF)",
-  "Commercial Print / Signage",
-  "Fleet Wrap / Branding",
-  "Tires — Mount & Balance",
-  "Other",
-];
+export const metadata: Metadata = {
+  title: "Contact & Book a Service | Stony Plain",
+  description:
+    "Book window tinting, wraps, detailing, PPF or print services at Accurate Autoworks in Stony Plain. Call 780.818.9904 or request a quote online.",
+  alternates: { canonical: "/contact" },
+};
 
 export default function ContactPage() {
-  const [submitted, setSubmitted] = useState(false);
-
   return (
     <div className="pt-24 sm:pt-32 pb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -37,123 +27,12 @@ export default function ContactPage() {
 
         <div className="grid lg:grid-cols-5 gap-12">
           {/* Form */}
-          <div className="lg:col-span-3">
-            {submitted ? (
-              <div className="card-gradient rounded-xl p-12 text-center">
-                <div className="text-4xl mb-4">&#10003;</div>
-                <h3 className="text-xl font-bold">Request Received</h3>
-                <p className="mt-3 text-[#888]">
-                  We&apos;ll get back to you within a few hours. If it&apos;s urgent, call us at 780.818.9904.
-                </p>
-              </div>
-            ) : (
-              <form
-                onSubmit={(e) => {
-                  e.preventDefault();
-                  setSubmitted(true);
-                }}
-                className="card-gradient rounded-xl p-8 sm:p-10 space-y-6"
-              >
-                <div className="grid sm:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#888] mb-2">
-                      Name *
-                    </label>
-                    <input
-                      type="text"
-                      required
-                      className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors"
-                      placeholder="Your name"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#888] mb-2">
-                      Phone *
-                    </label>
-                    <input
-                      type="tel"
-                      required
-                      className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors"
-                      placeholder="780-000-0000"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-[#888] mb-2">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors"
-                    placeholder="you@email.com"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-[#888] mb-2">
-                    Service Needed *
-                  </label>
-                  <select
-                    required
-                    className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors"
-                    defaultValue=""
-                  >
-                    <option value="" disabled>
-                      Choose a service...
-                    </option>
-                    {SERVICES.map((s) => (
-                      <option key={s} value={s}>
-                        {s}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-
-                <div className="grid sm:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#888] mb-2">
-                      Vehicle (Year / Make / Model)
-                    </label>
-                    <input
-                      type="text"
-                      className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors"
-                      placeholder="e.g. 2024 Ford F-150"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#888] mb-2">
-                      Preferred Date
-                    </label>
-                    <input
-                      type="date"
-                      className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-[#888] mb-2">
-                    Tell Us More
-                  </label>
-                  <textarea
-                    rows={4}
-                    className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors resize-none"
-                    placeholder="Any details about what you're looking for..."
-                  />
-                </div>
-
-                <button type="submit" className="btn-primary w-full text-center text-base">
-                  Send Request
-                </button>
-              </form>
-            )}
-          </div>
+          <ContactForm />
 
           {/* Contact Info Sidebar */}
           <div className="lg:col-span-2 space-y-6">
             <div className="card-gradient rounded-xl p-8">
-              <h3 className="text-sm font-bold uppercase tracking-widest text-[#22d65f] mb-4">Call Us</h3>
+              <h2 className="text-sm font-bold uppercase tracking-widest text-[#22d65f] mb-4">Call Us</h2>
               <a href="tel:7808189904" className="text-2xl font-black text-white hover:text-[#22d65f] transition-colors">
                 780.818.9904
               </a>
@@ -161,7 +40,7 @@ export default function ContactPage() {
             </div>
 
             <div className="card-gradient rounded-xl p-8">
-              <h3 className="text-sm font-bold uppercase tracking-widest text-[#22d65f] mb-4">Location</h3>
+              <h2 className="text-sm font-bold uppercase tracking-widest text-[#22d65f] mb-4">Location</h2>
               <p className="text-white font-medium">Stony Plain, Alberta</p>
               <p className="mt-2 text-sm text-[#888]">
                 Serving Stony Plain, Spruce Grove, Parkland County, Acheson, and Edmonton West.
@@ -169,7 +48,7 @@ export default function ContactPage() {
             </div>
 
             <div className="card-gradient rounded-xl p-8">
-              <h3 className="text-sm font-bold uppercase tracking-widest text-[#22d65f] mb-4">Follow Us</h3>
+              <h2 className="text-sm font-bold uppercase tracking-widest text-[#22d65f] mb-4">Follow Us</h2>
               <div className="space-y-3">
                 <a
                   href="https://www.facebook.com/HFDC780"
@@ -194,6 +73,39 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
+
+      {/* Contact Page Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AutoRepair",
+            name: "Accurate Autoworks",
+            telephone: "+1-780-818-9904",
+            url: "https://www.accurateautoworks.ca",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Stony Plain",
+              addressRegion: "AB",
+              addressCountry: "CA",
+            },
+            areaServed: [
+              { "@type": "City", name: "Stony Plain" },
+              { "@type": "City", name: "Spruce Grove" },
+              { "@type": "AdministrativeArea", name: "Parkland County" },
+              { "@type": "City", name: "Acheson" },
+              { "@type": "City", name: "Edmonton" },
+            ],
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+1-780-818-9904",
+              contactType: "customer service",
+              availableLanguage: "English",
+            },
+          }),
+        }}
+      />
     </div>
   );
 }

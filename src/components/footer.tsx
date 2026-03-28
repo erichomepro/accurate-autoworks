@@ -9,7 +9,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-3">
-              <Image src="/images/logo-round.png" alt="Accurate Autoworks" width={36} height={36} />
+              <Image src="/images/logo-round.png" alt="Accurate Autoworks — Auto Customization Shop in Stony Plain AB" width={36} height={36} />
               <h3 className="text-xl font-black uppercase tracking-tight">
                 Accurate<span className="text-[#22d65f]"> Autoworks</span>
               </h3>
@@ -54,6 +54,7 @@ export function Footer() {
                 { href: "/ppf", label: "Paint Protection Film" },
                 { href: "/tires", label: "Tires & Service" },
                 { href: "/print", label: "Print & Signage" },
+                { href: "/blog", label: "Blog" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="text-sm text-[#888] hover:text-white transition-colors">

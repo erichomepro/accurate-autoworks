@@ -6,7 +6,8 @@ import { Reviews } from "@/components/reviews";
 export const metadata: Metadata = {
   title: "Accurate Autoworks | Tint, Wraps, Detailing & Print | Stony Plain AB",
   description:
-    "Stony Plain's premier auto customization shop. Window tinting, vinyl wraps, car detailing, PPF, commercial printing & signage. Serving Spruce Grove, Parkland County & Acheson. Est. 2023. Call 780.818.9904",
+    "Stony Plain's auto customization shop. Window tinting, vinyl wraps, detailing, PPF, printing & signage. Serving Spruce Grove & Parkland County. 780.818.9904",
+  alternates: { canonical: "/" },
 };
 
 const SERVICES = [
@@ -276,20 +277,38 @@ export default function HomePage() {
             "@context": "https://schema.org",
             "@type": "AutoRepair",
             name: "Accurate Autoworks",
+            url: "https://www.accurateautoworks.ca",
+            image: "https://www.accurateautoworks.ca/images/logo-banner.png",
             description:
               "Stony Plain's premier auto customization shop offering window tinting, vinyl wraps, car detailing, PPF, commercial printing and signage.",
             telephone: "+1-780-818-9904",
+            priceRange: "$$",
             address: {
               "@type": "PostalAddress",
               addressLocality: "Stony Plain",
               addressRegion: "AB",
+              postalCode: "T7Z",
               addressCountry: "CA",
             },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 53.5346,
+              longitude: -114.0089,
+            },
+            openingHoursSpecification: [
+              {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                opens: "09:00",
+                closes: "17:00",
+              },
+            ],
             areaServed: [
               { "@type": "City", name: "Stony Plain" },
               { "@type": "City", name: "Spruce Grove" },
               { "@type": "AdministrativeArea", name: "Parkland County" },
               { "@type": "City", name: "Acheson" },
+              { "@type": "City", name: "Edmonton" },
             ],
             foundingDate: "2023",
             sameAs: [
@@ -300,12 +319,12 @@ export default function HomePage() {
               "@type": "OfferCatalog",
               name: "Auto Customization Services",
               itemListElement: [
-                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Window Tinting" } },
-                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Vinyl Wraps" } },
-                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Car Detailing" } },
-                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Paint Protection Film" } },
-                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Commercial Printing & Signage" } },
-                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Tires Mount & Balance" } },
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Window Tinting", url: "https://www.accurateautoworks.ca/tinting" } },
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Vinyl Wraps", url: "https://www.accurateautoworks.ca/wraps" } },
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Car Detailing", url: "https://www.accurateautoworks.ca/detailing" } },
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Paint Protection Film", url: "https://www.accurateautoworks.ca/ppf" } },
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Commercial Printing & Signage", url: "https://www.accurateautoworks.ca/print" } },
+                { "@type": "Offer", itemOffered: { "@type": "Service", name: "Tires Mount & Balance", url: "https://www.accurateautoworks.ca/tires" } },
               ],
             },
           }),

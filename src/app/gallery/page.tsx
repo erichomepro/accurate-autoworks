@@ -3,9 +3,10 @@ import Link from "next/link";
 import { InstagramFeed } from "@/components/instagram-feed";
 
 export const metadata: Metadata = {
-  title: "Gallery | Our Work",
+  title: "Tint, Wrap & Detail Gallery | Stony Plain",
   description:
-    "See the work at Accurate Autoworks — window tinting, vinyl wraps, car detailing, PPF, and commercial printing. Stony Plain, AB.",
+    "See our work — window tinting, vinyl wraps, car detailing, PPF & commercial printing at Accurate Autoworks in Stony Plain, AB. Real results.",
+  alternates: { canonical: "/gallery" },
 };
 
 export default function GalleryPage() {

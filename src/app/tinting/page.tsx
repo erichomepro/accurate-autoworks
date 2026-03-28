@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import { ServicePage } from "@/components/service-page";
 
 export const metadata: Metadata = {
-  title:
-    "Window Tinting Stony Plain | Ceramic & Carbon Tint | Spruce Grove, Parkland County",
+  title: "Window Tinting Stony Plain | Ceramic & Carbon Tint",
   description:
-    "Professional window tinting in Stony Plain, AB. Ceramic, carbon, and dyed tint films starting at $200. UV protection, heat rejection, privacy. Serving Spruce Grove, Parkland County, Acheson & Edmonton West. Call 780.818.9904",
+    "Professional window tinting in Stony Plain. Ceramic, carbon & dyed films from $200. UV protection, heat rejection, privacy. Serving Spruce Grove & Parkland County.",
+  alternates: { canonical: "/tinting" },
+  openGraph: { images: [{ url: "/images/hero-tinting.jpg", width: 1200, height: 630, alt: "Window Tinting at Accurate Autoworks Stony Plain" }] },
 };
 
 export default function TintingPage() {

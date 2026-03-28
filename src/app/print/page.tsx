@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import { ServicePage } from "@/components/service-page";
 
 export const metadata: Metadata = {
-  title:
-    "Commercial Printing & Signage Stony Plain | Fleet Wraps, Signs, Banners | Spruce Grove, Acheson",
+  title: "Commercial Printing & Signage Stony Plain",
   description:
-    "Commercial-grade printing and signage in Stony Plain, AB. Fleet vehicle wraps, storefront signs, banners, decals, custom graphics. Full plotter and large-format printer on-site. Serving Spruce Grove, Parkland County, Acheson & Edmonton West. Call 780.818.9904",
+    "Commercial printing & signage in Stony Plain. Fleet wraps, storefront signs, banners, decals & custom graphics. Full plotter on-site. Spruce Grove & Acheson.",
+  alternates: { canonical: "/print" },
+  openGraph: { images: [{ url: "/images/hero-print.jpg", width: 1200, height: 630, alt: "Commercial Printing & Signage at Accurate Autoworks Stony Plain" }] },
 };
 
 export default function PrintPage() {

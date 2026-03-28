@@ -222,6 +222,36 @@ export function ServicePage({
             }),
           }}
         />
+        {/* Service Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              name: badge,
+              description: description.replace(/&apos;/g, "'"),
+              provider: {
+                "@type": "AutoRepair",
+                name: "Accurate Autoworks",
+                telephone: "+1-780-818-9904",
+                url: "https://www.accurateautoworks.ca",
+                address: {
+                  "@type": "PostalAddress",
+                  addressLocality: "Stony Plain",
+                  addressRegion: "AB",
+                  addressCountry: "CA",
+                },
+              },
+              areaServed: [
+                { "@type": "City", name: "Stony Plain" },
+                { "@type": "City", name: "Spruce Grove" },
+                { "@type": "AdministrativeArea", name: "Parkland County" },
+                { "@type": "City", name: "Acheson" },
+              ],
+            }),
+          }}
+        />
       </section>
 
       {/* Related Services */}

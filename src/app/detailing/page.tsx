@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import { ServicePage } from "@/components/service-page";
 
 export const metadata: Metadata = {
-  title:
-    "Car Detailing Stony Plain | Interior & Exterior Detail | Spruce Grove, Parkland County",
+  title: "Car Detailing Stony Plain | Interior & Exterior",
   description:
-    "Professional car detailing in Stony Plain, AB. Interior, exterior, and full detail packages from $150. Ceramic coating, paint correction, pre-sale detailing. Serving Spruce Grove, Parkland County, Acheson & Edmonton West. Call 780.818.9904",
+    "Professional car detailing in Stony Plain. Interior, exterior & full packages from $150. Ceramic coating, paint correction, pre-sale detail. Spruce Grove & area.",
+  alternates: { canonical: "/detailing" },
+  openGraph: { images: [{ url: "/images/hero-detailing.jpeg", width: 1200, height: 630, alt: "Car Detailing at Accurate Autoworks Stony Plain" }] },
 };
 
 export default function DetailingPage() {

@@ -13,6 +13,7 @@ const NAV_LINKS = [
   { href: "/tires", label: "Tires" },
   { href: "/print", label: "Print & Signs" },
   { href: "/gallery", label: "Gallery" },
+  { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -27,7 +28,7 @@ export function Header() {
           <Link href="/" className="flex items-center gap-3">
             <Image
               src="/images/logo-round.png"
-              alt="Accurate Autoworks"
+              alt="Accurate Autoworks — Auto Customization Shop in Stony Plain AB"
               width={40}
               height={40}
               className="w-9 h-9 sm:w-10 sm:h-10"

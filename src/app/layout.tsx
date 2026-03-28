@@ -15,26 +15,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.accurateautoworks.ca"),
   title: {
     default: "Accurate Autoworks | Tint, Wraps, Detailing & Print | Stony Plain AB",
     template: "%s | Accurate Autoworks",
   },
   description:
-    "Stony Plain's premier auto customization shop. Window tinting, vinyl wraps, car detailing, PPF, commercial printing & signage. Serving Spruce Grove, Parkland County & Acheson. Call 780.818.9904",
-  keywords: [
-    "window tinting Stony Plain",
-    "vinyl wrap Spruce Grove",
-    "car detailing Stony Plain",
-    "PPF Spruce Grove",
-    "commercial printing Stony Plain",
-    "vehicle wrap Parkland County",
-    "auto detailing Acheson",
-    "sign printing Spruce Grove",
-  ],
+    "Stony Plain's auto customization shop. Window tinting, vinyl wraps, detailing, PPF, printing & signage. Serving Spruce Grove & Parkland County. 780.818.9904",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "en_CA",
     siteName: "Accurate Autoworks",
+    images: [
+      {
+        url: "/images/logo-banner.png",
+        width: 1200,
+        height: 630,
+        alt: "Accurate Autoworks — Tint, Wraps, Detailing & Print in Stony Plain AB",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/images/logo-banner.png"],
   },
 };
 

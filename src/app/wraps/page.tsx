@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import { ServicePage } from "@/components/service-page";
 
 export const metadata: Metadata = {
-  title:
-    "Vinyl Vehicle Wraps Stony Plain | Full & Partial Wraps | Spruce Grove, Parkland County",
+  title: "Vinyl Vehicle Wraps Stony Plain | Full & Partial",
   description:
-    "Professional vinyl wraps in Stony Plain, AB. Full vehicle wraps, partial wraps, color changes, commercial fleet wraps from $2,500. 3M and Avery Dennison vinyl. Serving Spruce Grove, Parkland County, Acheson & Edmonton West.",
+    "Professional vinyl wraps in Stony Plain. Full wraps, partial wraps, color changes & fleet wraps from $2,500. 3M & Avery Dennison vinyl. Spruce Grove & area.",
+  alternates: { canonical: "/wraps" },
+  openGraph: { images: [{ url: "/images/hero-wraps.jpg", width: 1200, height: 630, alt: "Vinyl Vehicle Wraps at Accurate Autoworks Stony Plain" }] },
 };
 
 export default function WrapsPage() {
