@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { GraffitiOverlay, SkullIcon, CrossBones, SpraySplatter, PaintDrips, SprayCanLine } from "./graffiti-elements";
 
 interface FAQ {
@@ -39,11 +40,17 @@ export function ServicePage({
     <div className="pb-20">
       {/* Hero */}
       {heroImage ? (
-        <section
-          className="graffiti-hero min-h-[60vh] flex items-center justify-center bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroImage})` }}
-        >
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center py-32 sm:py-40">
+        <section className="graffiti-hero min-h-[60vh] flex items-center justify-center relative overflow-hidden">
+          <Image
+            src={heroImage}
+            alt={`${badge} at Accurate Autoworks in Stony Plain AB`}
+            fill
+            priority
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-[#0a0a0a]/60" />
+          <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center py-32 sm:py-40">
             <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full bg-black/40 backdrop-blur-sm">
               {badge}
             </div>
@@ -63,7 +70,7 @@ export function ServicePage({
             </div>
           </div>
         </section>
-      ) : (
+      ) : /* fallback with no hero image */ (
         <section className="pt-24 sm:pt-32 max-w-5xl mx-auto px-4 sm:px-6 text-center mb-16">
           <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full">
             {badge}

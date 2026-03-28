@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { ServicePage } from "@/components/service-page";
 
 export const metadata: Metadata = {
-  title: "Window Tinting Stony Plain | Ceramic & Carbon Tint",
+  title: "Window Tinting Stony Plain | Ceramic & Carbon",
   description:
     "Professional window tinting in Stony Plain. Ceramic, carbon & dyed films from $200. UV protection, heat rejection, privacy. Serving Spruce Grove & Parkland County.",
   alternates: { canonical: "/tinting" },

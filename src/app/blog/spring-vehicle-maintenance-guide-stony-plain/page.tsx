@@ -5,22 +5,10 @@ export const metadata: Metadata = {
   title:
     "Spring Vehicle Maintenance Guide for Stony Plain & Spruce Grove Drivers | 2026 Checklist",
   description:
-    "Complete spring car maintenance checklist for Alberta drivers. Tire changeover, detailing, paint protection, tint inspection & more. Accurate Autoworks in Stony Plain serves Spruce Grove, Parkland County & Acheson. Call 780.818.9904",
-  keywords: [
-    "spring car maintenance Stony Plain",
-    "spring vehicle checklist Alberta",
-    "tire changeover Spruce Grove",
-    "spring detailing Stony Plain",
-    "paint protection Parkland County",
-    "spring auto care Alberta",
-    "car care after winter Stony Plain",
-    "window tint inspection Spruce Grove",
-    "spring car wash Acheson",
-    "vehicle maintenance near me",
-  ],
+    "Complete spring car maintenance checklist for Alberta drivers. Tire changeover, detailing, paint protection & tint inspection. Accurate Autoworks, Stony Plain.",
   alternates: {
     canonical:
-      "https://accurateautoworks.ca/blog/spring-vehicle-maintenance-guide-stony-plain",
+      "https://www.accurateautoworks.ca/blog/spring-vehicle-maintenance-guide-stony-plain",
   },
   openGraph: {
     title:
@@ -828,7 +816,7 @@ export default function SpringMaintenanceGuidePage() {
             mainEntityOfPage: {
               "@type": "WebPage",
               "@id":
-                "https://accurateautoworks.ca/blog/spring-vehicle-maintenance-guide-stony-plain",
+                "https://www.accurateautoworks.ca/blog/spring-vehicle-maintenance-guide-stony-plain",
             },
           }),
         }}

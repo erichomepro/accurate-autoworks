@@ -61,7 +61,7 @@ export function InstagramFeed() {
         >
           <img
             src={post.media_type === "VIDEO" ? post.thumbnail_url || post.media_url : post.media_url}
-            alt={post.caption?.slice(0, 100) || "Accurate Autoworks"}
+            alt={post.caption?.slice(0, 100) || "Accurate Autoworks — window tinting, wraps, detailing and print in Stony Plain AB"}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             loading="lazy"
           />

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { GarageBg } from "@/components/garage-bg";
 import { Reviews } from "@/components/reviews";
@@ -62,9 +63,13 @@ export default function HomePage() {
       {/* HERO */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
         {/* Graffiti banner background */}
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url(/images/hero-main.jpg)" }}
+        <Image
+          src="/images/hero-main.jpg"
+          alt="Accurate Autoworks shop — window tinting, vinyl wraps, car detailing, PPF and commercial printing in Stony Plain AB"
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
         />
         {/* Animated garage background on top */}
         <GarageBg />
