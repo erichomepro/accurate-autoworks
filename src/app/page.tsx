@@ -74,7 +74,7 @@ export default function HomePage() {
         {/* Animated garage background on top */}
         <GarageBg />
         {/* Darkened overlay so text is readable */}
-        <div className="absolute inset-0 bg-[#0a0a0a]/80" />
+        <div className="absolute inset-0 bg-[#0a0a0a]/85" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/60 via-transparent to-[#0a0a0a]" />
 
         {/* Diagonal accent line */}
@@ -85,7 +85,7 @@ export default function HomePage() {
             Stony Plain&apos;s Auto Customization Shop
           </div>
 
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black uppercase leading-[0.95] tracking-tight hero-title-shadow">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black uppercase leading-[0.95] tracking-tight hero-title-shadow drop-shadow-[0_4px_12px_rgba(0,0,0,1)]">
             Your Ride.{" "}
             <span className="text-[#22d65f] glow-accent">Your Style.</span>
             <br />
@@ -109,7 +109,7 @@ export default function HomePage() {
           <div className="mt-8">
             <a
               href="tel:7808189904"
-              className="text-[#888] hover:text-[#22d65f] transition-colors text-lg font-medium"
+              className="text-[#aaa] hover:text-[#22d65f] transition-colors text-xl sm:text-2xl font-medium hero-title-shadow"
             >
               or call <span className="text-white font-bold">780.818.9904</span>
             </a>

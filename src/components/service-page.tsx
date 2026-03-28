@@ -49,22 +49,22 @@ export function ServicePage({
             className="object-cover"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-[#0a0a0a]/80" />
+          <div className="absolute inset-0 bg-[#0a0a0a]/85" />
           <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center py-32 sm:py-40">
             <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full bg-black/60 backdrop-blur-sm">
               {badge}
             </div>
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight leading-[0.95] hero-title-shadow">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight leading-[0.95] hero-title-shadow drop-shadow-[0_4px_12px_rgba(0,0,0,1)]">
               {title} <span className="text-[#22d65f] glow-accent">{titleAccent}</span>
             </h1>
-            <p className="mt-6 text-lg text-[#ccc] max-w-2xl mx-auto leading-relaxed hero-title-shadow">
+            <p className="mt-6 text-lg sm:text-xl text-[#ccc] max-w-2xl mx-auto leading-relaxed hero-title-shadow">
               {description}
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link href="/contact" className="btn-primary">
+              <Link href="/contact" className="btn-primary text-base sm:text-lg !py-4 !px-10">
                 {ctaText}
               </Link>
-              <a href="tel:7808189904" className="btn-outline">
+              <a href="tel:7808189904" className="btn-outline text-base sm:text-lg !py-4 !px-10">
                 Call 780.818.9904
               </a>
             </div>
