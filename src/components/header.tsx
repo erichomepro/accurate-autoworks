@@ -29,9 +29,9 @@ export function Header() {
             <Image
               src="/images/logo-round.png"
               alt="Accurate Autoworks — Auto Customization Shop in Stony Plain AB"
-              width={40}
-              height={40}
-              className="w-9 h-9 sm:w-10 sm:h-10"
+              width={56}
+              height={56}
+              className="w-11 h-11 sm:w-14 sm:h-14"
             />
             <span className="text-lg sm:text-2xl font-black tracking-tight uppercase">
               Accurate<span className="text-[#22d65f]"> Autoworks</span>

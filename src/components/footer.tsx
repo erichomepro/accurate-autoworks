@@ -9,7 +9,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-3">
-              <Image src="/images/logo-round.png" alt="Accurate Autoworks — Auto Customization Shop in Stony Plain AB" width={36} height={36} />
+              <Image src="/images/logo-round.png" alt="Accurate Autoworks — Auto Customization Shop in Stony Plain AB" width={44} height={44} />
               <h3 className="text-xl font-black uppercase tracking-tight">
                 Accurate<span className="text-[#22d65f]"> Autoworks</span>
               </h3>
