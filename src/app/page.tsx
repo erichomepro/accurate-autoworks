@@ -74,7 +74,7 @@ export default function HomePage() {
         {/* Animated garage background on top */}
         <GarageBg />
         {/* Darkened overlay so text is readable */}
-        <div className="absolute inset-0 bg-[#0a0a0a]/70" />
+        <div className="absolute inset-0 bg-[#0a0a0a]/80" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/60 via-transparent to-[#0a0a0a]" />
 
         {/* Diagonal accent line */}
@@ -85,14 +85,14 @@ export default function HomePage() {
             Stony Plain&apos;s Auto Customization Shop
           </div>
 
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black uppercase leading-[0.95] tracking-tight">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black uppercase leading-[0.95] tracking-tight hero-title-shadow">
             Your Ride.{" "}
             <span className="text-[#22d65f] glow-accent">Your Style.</span>
             <br />
             Done Right.
           </h1>
 
-          <p className="mt-6 text-lg sm:text-xl text-[#999] max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-6 text-lg sm:text-xl text-[#999] max-w-2xl mx-auto leading-relaxed hero-title-shadow">
             Tint. Wraps. Detail. Print. From a fresh tint job to full commercial
             fleet wraps — we make it look exactly how you want it.
           </p>

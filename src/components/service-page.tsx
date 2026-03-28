@@ -49,15 +49,15 @@ export function ServicePage({
             className="object-cover"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-[#0a0a0a]/60" />
+          <div className="absolute inset-0 bg-[#0a0a0a]/80" />
           <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center py-32 sm:py-40">
-            <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full bg-black/40 backdrop-blur-sm">
+            <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full bg-black/60 backdrop-blur-sm">
               {badge}
             </div>
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight leading-[0.95]">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight leading-[0.95] hero-title-shadow">
               {title} <span className="text-[#22d65f] glow-accent">{titleAccent}</span>
             </h1>
-            <p className="mt-6 text-lg text-[#ccc] max-w-2xl mx-auto leading-relaxed">
+            <p className="mt-6 text-lg text-[#ccc] max-w-2xl mx-auto leading-relaxed hero-title-shadow">
               {description}
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
