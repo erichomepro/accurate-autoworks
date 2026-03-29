@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Blog | Auto Care Tips & Guides",
   description:
     "Auto care tips, maintenance guides & vehicle customization advice from Accurate Autoworks in Stony Plain. Serving Spruce Grove & Parkland County.",
-  alternates: { canonical: "/blog" },
+  alternates: { canonical: "/blog/" },
 };
 
 const POSTS = [

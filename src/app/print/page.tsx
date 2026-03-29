@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Commercial Printing & Signage Stony Plain",
   description:
     "Commercial printing & signage in Stony Plain. Fleet wraps, storefront signs, banners, decals & custom graphics. Full plotter on-site. Spruce Grove & Acheson.",
-  alternates: { canonical: "/print" },
+  alternates: { canonical: "/print/" },
   openGraph: { images: [{ url: "/images/hero-print.jpg", width: 1200, height: 630, alt: "Commercial Printing & Signage at Accurate Autoworks Stony Plain" }] },
 };
 

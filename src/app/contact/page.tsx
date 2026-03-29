@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Contact & Book a Service | Stony Plain",
   description:
     "Book window tinting, wraps, detailing, PPF or print services at Accurate Autoworks in Stony Plain. Call 780.818.9904 or request a quote online.",
-  alternates: { canonical: "/contact" },
+  alternates: { canonical: "/contact/" },
 };
 
 export default function ContactPage() {

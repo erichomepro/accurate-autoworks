@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Tire Service Stony Plain | Mount, Balance & Changeover",
   description:
     "Tire service in Stony Plain. Seasonal changeovers, mount & balance, flat repairs, TPMS resets. Fast turnaround, fair prices. Spruce Grove & Parkland County.",
-  alternates: { canonical: "/tires" },
+  alternates: { canonical: "/tires/" },
   openGraph: { images: [{ url: "/images/hero-tires.jpg", width: 1200, height: 630, alt: "Tire Service at Accurate Autoworks Stony Plain" }] },
 };
 

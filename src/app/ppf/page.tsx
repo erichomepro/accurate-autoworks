@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Paint Protection Film (PPF) Stony Plain | Clear Bra",
   description:
     "PPF installation in Stony Plain. Self-healing clear bra from $800. Rock chip, scratch & debris protection. Serving Spruce Grove, Parkland County & Acheson.",
-  alternates: { canonical: "/ppf" },
+  alternates: { canonical: "/ppf/" },
   openGraph: { images: [{ url: "/images/hero-ppf.jpg", width: 1200, height: 630, alt: "Paint Protection Film at Accurate Autoworks Stony Plain" }] },
 };
 

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Complete spring car maintenance checklist for Alberta drivers. Tire changeover, detailing, paint protection & tint inspection. Accurate Autoworks, Stony Plain.",
   alternates: {
     canonical:
-      "https://www.accurateautoworks.ca/blog/spring-vehicle-maintenance-guide-stony-plain",
+      "https://www.accurateautoworks.ca/blog/spring-vehicle-maintenance-guide-stony-plain/",
   },
   openGraph: {
     title:

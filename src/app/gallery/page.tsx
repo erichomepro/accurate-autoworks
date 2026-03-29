@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Tint, Wrap & Detail Gallery | Stony Plain",
   description:
     "See our work — window tinting, vinyl wraps, car detailing, PPF & commercial printing at Accurate Autoworks in Stony Plain, AB. Real results.",
-  alternates: { canonical: "/gallery" },
+  alternates: { canonical: "/gallery/" },
 };
 
 export default function GalleryPage() {

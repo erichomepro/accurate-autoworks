@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Car Detailing Stony Plain | Interior & Exterior",
   description:
     "Professional car detailing in Stony Plain. Interior, exterior & full packages from $150. Ceramic coating, paint correction, pre-sale detail. Spruce Grove & area.",
-  alternates: { canonical: "/detailing" },
+  alternates: { canonical: "/detailing/" },
   openGraph: { images: [{ url: "/images/hero-detailing.jpeg", width: 1200, height: 630, alt: "Car Detailing at Accurate Autoworks Stony Plain" }] },
 };
 
