@@ -4,19 +4,20 @@ import { BlogPostClient } from "./client";
 
 export const metadata: Metadata = {
   title:
-    "Window Tinting in Stony Plain & Spruce Grove: Alberta's Complete 2026 Guide | Accurate Autoworks",
+    "Window Tinting Stony Plain & Spruce Grove | Accurate Autoworks",
   description:
-    "Everything Alberta drivers need to know about window tinting — laws, costs, ceramic vs carbon vs dyed. Accurate Autoworks, Stony Plain.",
+    "Window tinting Stony Plain & Spruce Grove: Alberta tint laws, ceramic vs carbon vs dyed, 2026 costs, UV protection, and expert installation.",
   alternates: {
     canonical:
       "https://www.accurateautoworks.ca/blog/window-tinting-stony-plain-spruce-grove/",
   },
   openGraph: {
     title:
-      "Window Tinting in Stony Plain & Spruce Grove: Alberta's Complete 2026 Guide",
+      "Window Tinting Stony Plain & Spruce Grove | Accurate Autoworks",
     description:
       "Alberta tint laws, ceramic vs carbon vs dyed comparisons, real cost breakdowns, and why ceramic tint is worth it for Parkland County drivers.",
     type: "article",
+    url: "https://www.accurateautoworks.ca/blog/window-tinting-stony-plain-spruce-grove/",
     locale: "en_CA",
     siteName: "Accurate Autoworks",
   },
