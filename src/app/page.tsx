@@ -319,6 +319,7 @@ export default function HomePage() {
             sameAs: [
               "https://www.facebook.com/HFDC780",
               "https://www.instagram.com/accurate_autoworks/",
+              "https://share.google/it6xHeQpFwShRskZW",
             ],
             hasOfferCatalog: {
               "@type": "OfferCatalog",
