@@ -612,7 +612,7 @@ function VinylWrapsStonyPlainSpruceGrove() {
   );
 }
 
-export default VinylWrapsStonyPlainSprucheGrove;
+export default VinylWrapsStonyPlainSpruceGrove;
 
 function SectionHeading({ number, highlight, children }: { number: string; highlight: string; children: React.ReactNode }) {
   return (
