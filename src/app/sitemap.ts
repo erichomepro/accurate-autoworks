@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/contact/`, priority: 0.8, changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/blog/`, priority: 0.6, changeFrequency: "weekly" as const },
     { url: `${BASE_URL}/blog/spring-vehicle-maintenance-guide-stony-plain/`, priority: 0.5, changeFrequency: "monthly" as const },
+    { url: `${BASE_URL}/blog/window-tinting-stony-plain-spruce-grove/`, priority: 0.5, changeFrequency: "monthly" as const },
   ];
 
   return staticPages.map((page) => ({
