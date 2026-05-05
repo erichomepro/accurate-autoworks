@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog/paint-protection-film-ppf-stony-plain-alberta/`, priority: 0.5, changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/blog/auto-detailing-stony-plain-spruce-grove/`, priority: 0.5, changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/blog/ceramic-coating-stony-plain-alberta/`, priority: 0.5, changeFrequency: "monthly" as const },
+    { url: `${BASE_URL}/blog/tire-changeover-stony-plain-spruce-grove/`, priority: 0.5, changeFrequency: "monthly" as const },
   ];
 
   return staticPages.map((page) => ({
