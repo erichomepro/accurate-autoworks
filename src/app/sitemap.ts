@@ -28,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog/vehicle-wrap-cost-2026-alberta/`, priority: 0.5, changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/blog/winterizing-vehicle-alberta-stony-plain/`, priority: 0.5, changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/blog/truck-suv-detailing-stony-plain/`, priority: 0.5, changeFrequency: "monthly" as const },
+    { url: `${BASE_URL}/blog/paint-protection-film-cost-alberta-2026/`, priority: 0.5, changeFrequency: "monthly" as const },
   ];
 
   return staticPages.map((page) => ({
