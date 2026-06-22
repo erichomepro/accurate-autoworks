@@ -3,8 +3,8 @@
 @theme inline {
   --color-background: #0a0a0a;
   --color-foreground: #f0f0f0;
-  --color-accent: #22d65f;
-  --color-accent-dim: #1aab4b;
+  --color-accent: #EEFF00;
+  --color-accent-dim: #C8D400;
   --color-surface: #141414;
   --color-surface-light: #1e1e1e;
   --color-border: #2a2a2a;
@@ -35,8 +35,8 @@ body {
 /* Garage texture background — tire treads, wrenches, gears feel */
 .garage-bg {
   background-image:
-    radial-gradient(circle at 20% 50%, rgba(34, 214, 95, 0.03) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(34, 214, 95, 0.02) 0%, transparent 40%),
+    radial-gradient(circle at 20% 50%, rgba(238, 255, 0, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(238, 255, 0, 0.02) 0%, transparent 40%),
     repeating-linear-gradient(
       0deg,
       transparent,
@@ -78,27 +78,27 @@ body {
 /* Accent glow */
 .glow-accent {
   text-shadow:
-    0 0 10px rgba(34, 214, 95, 0.6),
-    0 0 30px rgba(34, 214, 95, 0.4),
-    0 0 60px rgba(34, 214, 95, 0.2),
-    0 0 100px rgba(34, 214, 95, 0.1);
+    0 0 10px rgba(238, 255, 0, 0.6),
+    0 0 30px rgba(238, 255, 0, 0.4),
+    0 0 60px rgba(238, 255, 0, 0.2),
+    0 0 100px rgba(238, 255, 0, 0.1);
   animation: pulseGlow 3s ease-in-out infinite;
 }
 
 @keyframes pulseGlow {
   0%, 100% {
     text-shadow:
-      0 0 10px rgba(34, 214, 95, 0.6),
-      0 0 30px rgba(34, 214, 95, 0.4),
-      0 0 60px rgba(34, 214, 95, 0.2),
-      0 0 100px rgba(34, 214, 95, 0.1);
+      0 0 10px rgba(238, 255, 0, 0.6),
+      0 0 30px rgba(238, 255, 0, 0.4),
+      0 0 60px rgba(238, 255, 0, 0.2),
+      0 0 100px rgba(238, 255, 0, 0.1);
   }
   50% {
     text-shadow:
-      0 0 15px rgba(34, 214, 95, 0.8),
-      0 0 40px rgba(34, 214, 95, 0.5),
-      0 0 80px rgba(34, 214, 95, 0.3),
-      0 0 120px rgba(34, 214, 95, 0.15);
+      0 0 15px rgba(238, 255, 0, 0.8),
+      0 0 40px rgba(238, 255, 0, 0.5),
+      0 0 80px rgba(238, 255, 0, 0.3),
+      0 0 120px rgba(238, 255, 0, 0.15);
   }
 }
 
@@ -191,24 +191,25 @@ body {
   transform: scaleX(1);
 }
 
-/* CTA button */
+/* CTA button — rounded pill with acid-yellow glow (matches brand reference) */
 .btn-primary {
   background: var(--color-accent);
   color: #000;
-  font-weight: 700;
-  padding: 14px 32px;
-  border-radius: 4px;
+  font-weight: 900;
+  padding: 14px 34px;
+  border-radius: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 14px;
   transition: all 0.2s ease;
   display: inline-block;
   text-decoration: none;
+  box-shadow: 0 0 24px rgba(238, 255, 0, 0.25);
 }
 .btn-primary:hover {
-  background: #2ae86d;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 20px rgba(34, 214, 95, 0.3);
+  background: #F5FF5E;
+  transform: translateY(-2px);
+  box-shadow: 0 0 34px rgba(238, 255, 0, 0.5);
 }
 
 .btn-outline {
@@ -216,7 +217,7 @@ body {
   color: var(--color-accent);
   font-weight: 700;
   padding: 12px 32px;
-  border-radius: 4px;
+  border-radius: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 14px;
@@ -228,6 +229,7 @@ body {
 .btn-outline:hover {
   background: var(--color-accent);
   color: #000;
+  box-shadow: 0 0 28px rgba(238, 255, 0, 0.35);
 }
 
 /* Graffiti/spray paint texture overlay */
@@ -240,8 +242,8 @@ body {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse at 10% 90%, rgba(34, 214, 95, 0.08) 0%, transparent 50%),
-    radial-gradient(ellipse at 90% 10%, rgba(34, 214, 95, 0.05) 0%, transparent 40%),
+    radial-gradient(ellipse at 10% 90%, rgba(238, 255, 0, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 90% 10%, rgba(238, 255, 0, 0.05) 0%, transparent 40%),
     linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.85) 100%);
   z-index: 1;
   pointer-events: none;
@@ -254,24 +256,24 @@ body {
 /* Spray paint splatter effect (subtle) */
 .spray-texture {
   background-image:
-    radial-gradient(circle at 15% 25%, rgba(34, 214, 95, 0.04) 0%, transparent 20%),
-    radial-gradient(circle at 85% 75%, rgba(34, 214, 95, 0.03) 0%, transparent 25%),
+    radial-gradient(circle at 15% 25%, rgba(238, 255, 0, 0.04) 0%, transparent 20%),
+    radial-gradient(circle at 85% 75%, rgba(238, 255, 0, 0.03) 0%, transparent 25%),
     radial-gradient(circle at 50% 10%, rgba(255, 255, 255, 0.02) 0%, transparent 15%),
-    radial-gradient(circle at 70% 50%, rgba(34, 214, 95, 0.02) 0%, transparent 30%);
+    radial-gradient(circle at 70% 50%, rgba(238, 255, 0, 0.02) 0%, transparent 30%);
 }
 
 /* Process timeline number */
 .process-number {
   width: 48px;
   height: 48px;
-  border: 2px solid #22d65f;
+  border: 2px solid #EEFF00;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 900;
   font-size: 18px;
-  color: #22d65f;
+  color: #EEFF00;
   flex-shrink: 0;
 }
 

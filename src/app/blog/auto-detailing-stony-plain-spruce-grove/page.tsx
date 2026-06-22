@@ -144,19 +144,19 @@ export default function AutoDetailingStonyPlain() {
 
       {/* Hero Section */}
       <header className="relative pt-24 sm:pt-32 pb-16 sm:pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#22d65f]/5 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#EEFF00]/5 via-transparent to-transparent" />
         <div className="absolute inset-0 hero-stripe opacity-50" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#22d65f]/[0.03] rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#EEFF00]/[0.03] rounded-full blur-3xl" />
 
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full backdrop-blur-sm bg-[#22d65f]/5">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f] animate-pulse" />
+          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full backdrop-blur-sm bg-[#EEFF00]/5">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00] animate-pulse" />
             Auto Detailing Guide
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black uppercase tracking-tight leading-[1.05]">
             Auto Detailing in{" "}
-            <span className="text-[#22d65f] glow-accent">
+            <span className="text-[#EEFF00] glow-accent">
               Stony Plain &amp; Spruce Grove
             </span>
             : Full Menu, Prices &amp; What to Expect
@@ -170,14 +170,14 @@ export default function AutoDetailingStonyPlain() {
 
           <div className="mt-6 flex items-center justify-center gap-6 text-xs text-[#666] uppercase tracking-wider">
             <div className="flex items-center gap-2">
-              <svg className="w-3.5 h-3.5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg className="w-3.5 h-3.5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
               <time dateTime={publishDate}>May 1, 2026</time>
             </div>
             <span className="w-1 h-1 rounded-full bg-[#333]" />
             <div className="flex items-center gap-2">
-              <svg className="w-3.5 h-3.5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg className="w-3.5 h-3.5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <span>15 min read</span>
@@ -185,9 +185,9 @@ export default function AutoDetailingStonyPlain() {
           </div>
 
           <div className="mt-12 flex items-center justify-center gap-3">
-            <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#22d65f]/40" />
-            <div className="w-2 h-2 rotate-45 border border-[#22d65f]/40" />
-            <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#22d65f]/40" />
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#EEFF00]/40" />
+            <div className="w-2 h-2 rotate-45 border border-[#EEFF00]/40" />
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#EEFF00]/40" />
           </div>
         </div>
       </header>
@@ -212,7 +212,7 @@ export default function AutoDetailingStonyPlain() {
             This guide breaks down exactly what a detail is, what each package
             covers, what it costs at a quality shop in this area in 2026, and
             what the process looks like when you bring your vehicle to{" "}
-            <Link href="/detailing/" className="text-[#22d65f] hover:underline">
+            <Link href="/detailing/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks on Boulder Boulevard in Stony Plain
             </Link>
             .
@@ -221,16 +221,16 @@ export default function AutoDetailingStonyPlain() {
 
         {/* Table of Contents */}
         <nav className="mt-12 relative rounded-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#22d65f]/10 via-[#141414] to-[#141414]" />
-          <div className="absolute inset-0 border border-[#22d65f]/20 rounded-2xl" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EEFF00]/10 via-[#141414] to-[#141414]" />
+          <div className="absolute inset-0 border border-[#EEFF00]/20 rounded-2xl" />
           <div className="relative p-6 sm:p-8">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-8 h-8 rounded-lg bg-[#22d65f]/10 flex items-center justify-center">
-                <svg className="w-4 h-4 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <div className="w-8 h-8 rounded-lg bg-[#EEFF00]/10 flex items-center justify-center">
+                <svg className="w-4 h-4 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
                 </svg>
               </div>
-              <h2 className="text-sm font-bold uppercase tracking-widest text-[#22d65f]">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-[#EEFF00]">
                 What We Cover
               </h2>
             </div>
@@ -247,9 +247,9 @@ export default function AutoDetailingStonyPlain() {
                 <li key={item.href}>
                   <a
                     href={item.href}
-                    className="flex items-center gap-3 py-1.5 text-[#999] hover:text-[#22d65f] transition-colors group"
+                    className="flex items-center gap-3 py-1.5 text-[#999] hover:text-[#EEFF00] transition-colors group"
                   >
-                    <span className="flex-shrink-0 w-6 h-6 rounded-md bg-[#22d65f]/10 text-[#22d65f] text-xs font-bold flex items-center justify-center group-hover:bg-[#22d65f]/20 transition-colors">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-md bg-[#EEFF00]/10 text-[#EEFF00] text-xs font-bold flex items-center justify-center group-hover:bg-[#EEFF00]/20 transition-colors">
                       {i + 1}
                     </span>
                     <span>{item.label}</span>
@@ -301,10 +301,10 @@ export default function AutoDetailingStonyPlain() {
               </ul>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden border border-[#22d65f]/30 bg-[#22d65f]/[0.04] p-6">
+            <div className="relative rounded-2xl overflow-hidden border border-[#EEFF00]/30 bg-[#EEFF00]/[0.04] p-6">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-8 h-8 rounded-lg bg-[#22d65f]/10 flex items-center justify-center">
-                  <svg className="w-4 h-4 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <div className="w-8 h-8 rounded-lg bg-[#EEFF00]/10 flex items-center justify-center">
+                  <svg className="w-4 h-4 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
@@ -321,8 +321,8 @@ export default function AutoDetailingStonyPlain() {
                   "4 to 8 hours of skilled labour",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <span className="flex-shrink-0 mt-1 w-4 h-4 rounded-full border border-[#22d65f]/30 flex items-center justify-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f]" />
+                    <span className="flex-shrink-0 mt-1 w-4 h-4 rounded-full border border-[#EEFF00]/30 flex items-center justify-center">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00]" />
                     </span>
                     {item}
                   </li>
@@ -342,7 +342,7 @@ export default function AutoDetailingStonyPlain() {
               href="https://the-ida.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#22d65f] hover:underline"
+              className="text-[#EEFF00] hover:underline"
             >
               International Detailing Association sets professional standards
             </a>{" "}
@@ -365,9 +365,9 @@ export default function AutoDetailingStonyPlain() {
           <div className="mt-8 hidden sm:block rounded-2xl overflow-hidden border border-[#2a2a2a]">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[#22d65f]/[0.06]">
+                <tr className="bg-[#EEFF00]/[0.06]">
                   {["Package", "Price", "Interior", "Exterior", "Clay Bar", "Machine Polish", "Protection"].map((h) => (
-                    <th key={h} className="text-left py-4 px-4 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                    <th key={h} className="text-left py-4 px-4 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                       {h}
                     </th>
                   ))}
@@ -377,14 +377,14 @@ export default function AutoDetailingStonyPlain() {
                 {DETAIL_PACKAGES.map((row, i) => (
                   <tr
                     key={row.name}
-                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#22d65f]/[0.03] ${
-                      row.recommended ? "bg-[#22d65f]/[0.04]" : i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
+                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#EEFF00]/[0.03] ${
+                      row.recommended ? "bg-[#EEFF00]/[0.04]" : i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
                     }`}
                   >
                     <td className="py-4 px-4 font-bold text-white">
                       {row.name}
                       {row.recommended && (
-                        <span className="ml-2 text-[10px] font-bold uppercase tracking-widest text-[#22d65f] px-2 py-0.5 rounded-full bg-[#22d65f]/15">
+                        <span className="ml-2 text-[10px] font-bold uppercase tracking-widest text-[#EEFF00] px-2 py-0.5 rounded-full bg-[#EEFF00]/15">
                           Most Popular
                         </span>
                       )}
@@ -416,16 +416,16 @@ export default function AutoDetailingStonyPlain() {
                 key={row.name}
                 className={`rounded-2xl p-5 border ${
                   row.recommended
-                    ? "border-[#22d65f]/30 bg-[#22d65f]/[0.06]"
+                    ? "border-[#EEFF00]/30 bg-[#EEFF00]/[0.06]"
                     : "card-gradient"
                 }`}
               >
                 <div className="flex items-start justify-between mb-3">
                   <span className="font-bold text-white text-sm">{row.name}</span>
-                  <span className="font-mono font-bold text-[#22d65f] text-sm">{row.price}</span>
+                  <span className="font-mono font-bold text-[#EEFF00] text-sm">{row.price}</span>
                 </div>
                 {row.recommended && (
-                  <div className="mb-3 text-[10px] font-bold uppercase tracking-widest text-[#22d65f]">
+                  <div className="mb-3 text-[10px] font-bold uppercase tracking-widest text-[#EEFF00]">
                     Most Popular
                   </div>
                 )}
@@ -450,11 +450,11 @@ export default function AutoDetailingStonyPlain() {
             If your vehicle hasn&apos;t been properly detailed in over a year, start
             with the Full Detail Combo — it covers everything and gives you a
             fresh baseline. If you are planning to add{" "}
-            <Link href="/ppf/" className="text-[#22d65f] hover:underline">
+            <Link href="/ppf/" className="text-[#EEFF00] hover:underline">
               paint protection film
             </Link>{" "}
             or{" "}
-            <Link href="/tinting/" className="text-[#22d65f] hover:underline">
+            <Link href="/tinting/" className="text-[#EEFF00] hover:underline">
               window tint
             </Link>
             , book those on the same visit after the detail for the best
@@ -478,14 +478,14 @@ export default function AutoDetailingStonyPlain() {
           <div className="mt-8 hidden sm:block rounded-2xl overflow-hidden border border-[#2a2a2a]">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[#22d65f]/[0.06]">
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                <tr className="bg-[#EEFF00]/[0.06]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Service
                   </th>
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Cost Range
                   </th>
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Notes
                   </th>
                 </tr>
@@ -494,7 +494,7 @@ export default function AutoDetailingStonyPlain() {
                 {COST_DATA.map((row, i) => (
                   <tr
                     key={row.service}
-                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#22d65f]/[0.03] ${
+                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#EEFF00]/[0.03] ${
                       i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
                     }`}
                   >
@@ -567,8 +567,8 @@ export default function AutoDetailingStonyPlain() {
 
           <div className="mt-8 space-y-6">
             {/* Interior */}
-            <div className="relative rounded-2xl overflow-hidden border border-[#22d65f]/20 bg-[#22d65f]/[0.03] p-6 sm:p-8">
-              <div className="absolute top-0 right-0 px-3 py-1 bg-[#22d65f]/10 text-[#22d65f] text-[10px] font-bold uppercase tracking-widest rounded-bl-lg border-l border-b border-[#22d65f]/20">
+            <div className="relative rounded-2xl overflow-hidden border border-[#EEFF00]/20 bg-[#EEFF00]/[0.03] p-6 sm:p-8">
+              <div className="absolute top-0 right-0 px-3 py-1 bg-[#EEFF00]/10 text-[#EEFF00] text-[10px] font-bold uppercase tracking-widest rounded-bl-lg border-l border-b border-[#EEFF00]/20">
                 Interior
               </div>
               <h3 className="text-base font-bold text-white mb-4">What Interior Detailing Covers</h3>
@@ -582,8 +582,8 @@ export default function AutoDetailingStonyPlain() {
                   { step: "Interior Glass", desc: "Windows are cleaned from the inside, removing film, fingerprints, and the off-gassing residue from new vehicle plastics that fogs glass over time." },
                 ].map((item) => (
                   <div key={item.step} className="flex gap-3">
-                    <span className="flex-shrink-0 mt-0.5 w-4 h-4 rounded-full bg-[#22d65f]/15 border border-[#22d65f]/30 flex items-center justify-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f]" />
+                    <span className="flex-shrink-0 mt-0.5 w-4 h-4 rounded-full bg-[#EEFF00]/15 border border-[#EEFF00]/30 flex items-center justify-center">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00]" />
                     </span>
                     <div>
                       <p className="text-xs font-bold text-white mb-0.5">{item.step}</p>
@@ -595,8 +595,8 @@ export default function AutoDetailingStonyPlain() {
             </div>
 
             {/* Exterior */}
-            <div className="relative rounded-2xl overflow-hidden border border-[#22d65f]/20 bg-[#22d65f]/[0.03] p-6 sm:p-8">
-              <div className="absolute top-0 right-0 px-3 py-1 bg-[#22d65f]/10 text-[#22d65f] text-[10px] font-bold uppercase tracking-widest rounded-bl-lg border-l border-b border-[#22d65f]/20">
+            <div className="relative rounded-2xl overflow-hidden border border-[#EEFF00]/20 bg-[#EEFF00]/[0.03] p-6 sm:p-8">
+              <div className="absolute top-0 right-0 px-3 py-1 bg-[#EEFF00]/10 text-[#EEFF00] text-[10px] font-bold uppercase tracking-widest rounded-bl-lg border-l border-b border-[#EEFF00]/20">
                 Exterior
               </div>
               <h3 className="text-base font-bold text-white mb-4">What Exterior Detailing Covers</h3>
@@ -610,8 +610,8 @@ export default function AutoDetailingStonyPlain() {
                   { step: "Wax or Sealant", desc: "A protective layer is applied as the final step — carnauba wax for depth of shine, or a synthetic paint sealant for longer-lasting protection in Alberta's climate." },
                 ].map((item) => (
                   <div key={item.step} className="flex gap-3">
-                    <span className="flex-shrink-0 mt-0.5 w-4 h-4 rounded-full bg-[#22d65f]/15 border border-[#22d65f]/30 flex items-center justify-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f]" />
+                    <span className="flex-shrink-0 mt-0.5 w-4 h-4 rounded-full bg-[#EEFF00]/15 border border-[#EEFF00]/30 flex items-center justify-center">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00]" />
                     </span>
                     <div>
                       <p className="text-xs font-bold text-white mb-0.5">{item.step}</p>
@@ -625,11 +625,11 @@ export default function AutoDetailingStonyPlain() {
 
           <Callout variant="info">
             If you are considering{" "}
-            <Link href="/ppf/" className="text-[#22d65f] hover:underline">
+            <Link href="/ppf/" className="text-[#EEFF00] hover:underline">
               paint protection film
             </Link>{" "}
             or a{" "}
-            <Link href="/wraps/" className="text-[#22d65f] hover:underline">
+            <Link href="/wraps/" className="text-[#EEFF00] hover:underline">
               vinyl wrap
             </Link>
             , a full exterior detail and paint decontamination is required
@@ -670,8 +670,8 @@ export default function AutoDetailingStonyPlain() {
               </p>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden border border-[#22d65f]/30 bg-gradient-to-br from-[#22d65f]/[0.06] to-[#141414]">
-              <div className="absolute top-0 right-0 px-3 py-1 bg-[#22d65f] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
+            <div className="relative rounded-2xl overflow-hidden border border-[#EEFF00]/30 bg-gradient-to-br from-[#EEFF00]/[0.06] to-[#141414]">
+              <div className="absolute top-0 right-0 px-3 py-1 bg-[#EEFF00] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
                 High Impact
               </div>
               <div className="p-6 sm:p-8">
@@ -691,7 +691,7 @@ export default function AutoDetailingStonyPlain() {
                     href="https://www.canada.ca/en/health-canada/services/sun-safety.html"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#22d65f] hover:underline"
+                    className="text-[#EEFF00] hover:underline"
                   >
                     Health Canada&apos;s sun safety data confirms Alberta&apos;s elevated UV exposure
                   </a>{" "}
@@ -712,7 +712,7 @@ export default function AutoDetailingStonyPlain() {
                 lower doors within the first season on a new vehicle. Left
                 unaddressed, chips that reach bare metal become rust initiation
                 points. Regular detailing — combined with{" "}
-                <Link href="/ppf/" className="text-[#22d65f] hover:underline">
+                <Link href="/ppf/" className="text-[#EEFF00] hover:underline">
                   paint protection film on the front end
                 </Link>{" "}
                 — is the most effective defence against the cumulative damage
@@ -784,10 +784,10 @@ export default function AutoDetailingStonyPlain() {
               },
             ].map((phase) => (
               <div key={phase.step} className="relative rounded-2xl overflow-hidden">
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#22d65f] to-[#22d65f]/20" />
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#EEFF00] to-[#EEFF00]/20" />
                 <div className="card-gradient rounded-2xl border-l-0 pl-6 pr-6 py-6 sm:pl-8 sm:pr-8 sm:py-8 ml-1">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#22d65f] text-black text-xs font-black flex-shrink-0">
+                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#EEFF00] text-black text-xs font-black flex-shrink-0">
                       {phase.step}
                     </span>
                     <h3 className="text-sm font-bold uppercase tracking-widest text-white">
@@ -805,19 +805,19 @@ export default function AutoDetailingStonyPlain() {
           <Callout variant="tip">
             <strong className="text-white">Maximize the investment:</strong>{" "}
             After a professional detail, a{" "}
-            <Link href="/tinting/" className="text-[#22d65f] hover:underline">
+            <Link href="/tinting/" className="text-[#EEFF00] hover:underline">
               ceramic window tint installation
             </Link>{" "}
             gives you UV protection that slows the rate at which your newly
             conditioned interior degrades. And if you are doing a full exterior
             detail before a{" "}
-            <Link href="/wraps/" className="text-[#22d65f] hover:underline">
+            <Link href="/wraps/" className="text-[#EEFF00] hover:underline">
               vinyl wrap
             </Link>
             , the decontamination step is mandatory for proper adhesion — so
             the detail is not extra work, it is the first step of the wrap
             process. Call{" "}
-            <a href="tel:7808189904" className="text-[#22d65f] hover:underline font-bold">
+            <a href="tel:7808189904" className="text-[#EEFF00] hover:underline font-bold">
               780.818.9904
             </a>{" "}
             to discuss bundling.
@@ -858,14 +858,14 @@ export default function AutoDetailingStonyPlain() {
                 key={faq.q}
                 className="group rounded-2xl overflow-hidden card-gradient"
               >
-                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#22d65f] transition-colors list-none flex items-center gap-4">
-                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#22d65f]/10 text-[#22d65f] text-xs font-bold flex items-center justify-center group-open:bg-[#22d65f] group-open:text-black transition-all">
+                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#EEFF00] transition-colors list-none flex items-center gap-4">
+                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#EEFF00]/10 text-[#EEFF00] text-xs font-bold flex items-center justify-center group-open:bg-[#EEFF00] group-open:text-black transition-all">
                     {i + 1}
                   </span>
                   <span className="flex-1">{faq.q}</span>
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full border border-[#333] flex items-center justify-center group-open:border-[#22d65f] group-open:bg-[#22d65f]/10 transition-all">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full border border-[#333] flex items-center justify-center group-open:border-[#EEFF00] group-open:bg-[#EEFF00]/10 transition-all">
                     <svg
-                      className="w-3 h-3 text-[#22d65f] transition-transform group-open:rotate-180"
+                      className="w-3 h-3 text-[#EEFF00] transition-transform group-open:rotate-180"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -889,17 +889,17 @@ export default function AutoDetailingStonyPlain() {
 
         {/* CTA Section */}
         <section className="mt-16 relative rounded-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#22d65f]/15 via-[#22d65f]/5 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EEFF00]/15 via-[#EEFF00]/5 to-transparent" />
           <div className="absolute inset-0 hero-stripe opacity-30" />
-          <div className="absolute inset-0 border border-[#22d65f]/20 rounded-2xl" />
+          <div className="absolute inset-0 border border-[#EEFF00]/20 rounded-2xl" />
           <div className="relative p-8 sm:p-12 text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f] animate-pulse" />
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00] animate-pulse" />
               Book a Detail
             </div>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight">
               Ready to Reset Your{" "}
-              <span className="text-[#22d65f] glow-accent">Vehicle?</span>
+              <span className="text-[#EEFF00] glow-accent">Vehicle?</span>
             </h2>
             <p className="mt-4 text-[#999] max-w-xl mx-auto leading-relaxed">
               Auto detailing, window tinting, PPF, vinyl wraps — Accurate
@@ -921,15 +921,15 @@ export default function AutoDetailingStonyPlain() {
         {/* Author / Shop Card */}
         <div className="mt-12 card-gradient rounded-2xl p-6 sm:p-8">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
-            <div className="w-14 h-14 rounded-xl bg-[#22d65f]/10 flex items-center justify-center flex-shrink-0">
-              <svg className="w-7 h-7 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <div className="w-14 h-14 rounded-xl bg-[#EEFF00]/10 flex items-center justify-center flex-shrink-0">
+              <svg className="w-7 h-7 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016A3.001 3.001 0 0021 9.349m-18 0A2.989 2.989 0 004.5 9c.956 0 1.813-.44 2.37-1.13M21 9.349A2.989 2.989 0 0019.5 9c-.956 0-1.813-.44-2.37-1.13m0 0A3 3 0 0015 6H9a3 3 0 00-2.13.87m10.26 0A3 3 0 0015 6H9" />
               </svg>
             </div>
             <div className="text-center sm:text-left">
               <p className="text-sm font-bold text-white">
                 Written by the team at{" "}
-                <Link href="/" className="text-[#22d65f] hover:underline">
+                <Link href="/" className="text-[#EEFF00] hover:underline">
                   Accurate Autoworks
                 </Link>
               </p>
@@ -941,14 +941,14 @@ export default function AutoDetailingStonyPlain() {
               <div className="mt-3 flex items-center justify-center sm:justify-start gap-3">
                 <a
                   href="tel:7808189904"
-                  className="text-xs text-[#22d65f] hover:underline font-bold"
+                  className="text-xs text-[#EEFF00] hover:underline font-bold"
                 >
                   780.818.9904
                 </a>
                 <span className="w-1 h-1 rounded-full bg-[#333]" />
                 <Link
                   href="/contact/"
-                  className="text-xs text-[#999] hover:text-[#22d65f] transition-colors"
+                  className="text-xs text-[#999] hover:text-[#EEFF00] transition-colors"
                 >
                   Get in Touch
                 </Link>
@@ -1061,15 +1061,15 @@ function SectionHeading({
 }) {
   return (
     <div className="flex items-start gap-4">
-      <span className="flex-shrink-0 text-xs font-mono font-bold text-[#22d65f]/40 mt-2">
+      <span className="flex-shrink-0 text-xs font-mono font-bold text-[#EEFF00]/40 mt-2">
         {number}
       </span>
       <div>
         <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight leading-tight">
           {children}
-          <span className="text-[#22d65f]">{highlight}</span>
+          <span className="text-[#EEFF00]">{highlight}</span>
         </h2>
-        <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#22d65f] to-transparent" />
+        <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#EEFF00] to-transparent" />
       </div>
     </div>
   );
@@ -1077,7 +1077,7 @@ function SectionHeading({
 
 function PriorityBadge({ level, label }: { level: string; label: string }) {
   const colors: Record<string, string> = {
-    essential: "bg-[#22d65f]/15 text-[#22d65f] border-[#22d65f]/30",
+    essential: "bg-[#EEFF00]/15 text-[#EEFF00] border-[#EEFF00]/30",
     recommended: "bg-white/5 text-white border-white/20",
     optional: "bg-[#666]/10 text-[#999] border-[#666]/20",
   };
@@ -1094,8 +1094,8 @@ function PriorityBadge({ level, label }: { level: string; label: string }) {
 
 function CheckBadge({ value }: { value: boolean }) {
   return value ? (
-    <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#22d65f]/15 border border-[#22d65f]/30">
-      <svg className="w-3 h-3 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+    <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[#EEFF00]/15 border border-[#EEFF00]/30">
+      <svg className="w-3 h-3 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
       </svg>
     </span>
@@ -1117,10 +1117,10 @@ function Callout({
 }) {
   const styles = {
     tip: {
-      border: "border-[#22d65f]/20",
-      bg: "bg-[#22d65f]/[0.04]",
-      icon: "text-[#22d65f]",
-      iconBg: "bg-[#22d65f]/10",
+      border: "border-[#EEFF00]/20",
+      bg: "bg-[#EEFF00]/[0.04]",
+      icon: "text-[#EEFF00]",
+      iconBg: "bg-[#EEFF00]/10",
     },
     info: {
       border: "border-blue-500/20",

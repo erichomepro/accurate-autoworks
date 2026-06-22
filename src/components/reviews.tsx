@@ -51,7 +51,7 @@ export function Reviews() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tight">
-            What People <span className="text-[#22d65f]">Say</span>
+            What People <span className="text-[#EEFF00]">Say</span>
           </h2>
           <div className="mt-4 flex items-center justify-center gap-3">
             <Stars count={Math.round(rating)} />
@@ -80,7 +80,7 @@ export function Reviews() {
             href="https://www.google.com/maps/search/Accurate+Autoworks+15+Boulder+Blvd+Stony+Plain+AB"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-[#22d65f] hover:text-[#2ae86d] font-medium uppercase tracking-wider transition-colors"
+            className="text-sm text-[#EEFF00] hover:text-[#F5FF5E] font-medium uppercase tracking-wider transition-colors"
           >
             See All {totalReviews} Reviews on Google &rarr;
           </a>

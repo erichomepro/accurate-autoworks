@@ -57,7 +57,7 @@ export function InstagramFeed() {
           href={post.permalink}
           target="_blank"
           rel="noopener noreferrer"
-          className="aspect-square rounded-lg overflow-hidden border border-[#2a2a2a] hover:border-[#22d65f] transition-colors group relative"
+          className="aspect-square rounded-lg overflow-hidden border border-[#2a2a2a] hover:border-[#EEFF00] transition-colors group relative"
         >
           <img
             src={post.media_type === "VIDEO" ? post.thumbnail_url || post.media_url : post.media_url}

@@ -108,16 +108,16 @@ export default function PPFCostAlberta2026() {
       <BlogPostClient />
 
       <header className="relative pt-24 sm:pt-32 pb-16 sm:pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#22d65f]/5 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#EEFF00]/5 via-transparent to-transparent" />
         <div className="absolute inset-0 hero-stripe opacity-50" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full backdrop-blur-sm bg-[#22d65f]/5">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f] animate-pulse" />
+          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full backdrop-blur-sm bg-[#EEFF00]/5">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00] animate-pulse" />
             Paint Protection Film Guide
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black uppercase tracking-tight leading-[1.05]">
             Paint Protection Film Cost in{" "}
-            <span className="text-[#22d65f] glow-accent">Alberta 2026</span>:
+            <span className="text-[#EEFF00] glow-accent">Alberta 2026</span>:
             Real Numbers, Honest Answers
           </h1>
           <p className="mt-8 text-lg sm:text-xl text-[#999] max-w-2xl mx-auto leading-relaxed">
@@ -151,7 +151,7 @@ export default function PPFCostAlberta2026() {
             real lifespan in our climate, and an honest answer to the question
             most owners ask: is it worth it on my vehicle? At the end, we
             walk through what to expect when you bring your vehicle into{" "}
-            <Link href="/ppf/" className="text-[#22d65f] hover:underline">
+            <Link href="/ppf/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks for a PPF installation
             </Link>
             .
@@ -160,9 +160,9 @@ export default function PPFCostAlberta2026() {
 
         <section className="mt-16">
           <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight">
-            What PPF Costs in <span className="text-[#22d65f]">Alberta 2026</span>
+            What PPF Costs in <span className="text-[#EEFF00]">Alberta 2026</span>
           </h2>
-          <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#22d65f] to-transparent" />
+          <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#EEFF00] to-transparent" />
           <p className="mt-6 text-[#ccc] leading-relaxed">
             PPF pricing is driven by three things: how much of the vehicle is
             covered, the size and complexity of the vehicle, and the grade of
@@ -172,14 +172,14 @@ export default function PPFCostAlberta2026() {
           <div className="mt-8 rounded-2xl overflow-hidden border border-[#2a2a2a]">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[#22d65f]/[0.06]">
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                <tr className="bg-[#EEFF00]/[0.06]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Package
                   </th>
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Cost
                   </th>
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Coverage
                   </th>
                 </tr>
@@ -208,13 +208,13 @@ export default function PPFCostAlberta2026() {
             trend toward the upper end. Call 780.818.9904 for a vehicle-specific
             quote.
           </p>
-          <div className="mt-6 rounded-xl border border-[#22d65f]/20 bg-[#22d65f]/[0.04] p-5">
+          <div className="mt-6 rounded-xl border border-[#EEFF00]/20 bg-[#EEFF00]/[0.04] p-5">
             <p className="text-sm text-[#999] leading-relaxed">
               <strong className="text-white">The cost-effective sweet spot:</strong>{" "}
               For 80% of Alberta drivers, the partial front package ($1,800 to
               $3,200) covers the highest-impact areas at roughly 1/3 the price
               of a full wrap. Adding{" "}
-              <Link href="/tinting/" className="text-[#22d65f] hover:underline">
+              <Link href="/tinting/" className="text-[#EEFF00] hover:underline">
                 ceramic window tint
               </Link>{" "}
               on the same visit often saves on total labour.
@@ -225,9 +225,9 @@ export default function PPFCostAlberta2026() {
         <section className="mt-16">
           <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight">
             How Long PPF Lasts in the Alberta{" "}
-            <span className="text-[#22d65f]">Climate</span>
+            <span className="text-[#EEFF00]">Climate</span>
           </h2>
-          <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#22d65f] to-transparent" />
+          <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#EEFF00] to-transparent" />
           <p className="mt-6 text-[#ccc] leading-relaxed">
             Quality self-healing PPF lasts 7 to 10 years in Alberta when
             professionally installed. Top-tier ceramic-coated film stretches
@@ -241,7 +241,7 @@ export default function PPFCostAlberta2026() {
               href="https://en.wikipedia.org/wiki/Paint_protection_film"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#22d65f] hover:underline"
+              className="text-[#EEFF00] hover:underline"
             >
               the Wikipedia overview of PPF
             </a>{" "}
@@ -291,9 +291,9 @@ export default function PPFCostAlberta2026() {
         <section className="mt-16">
           <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight">
             Is PPF Worth It on Your{" "}
-            <span className="text-[#22d65f]">Vehicle?</span>
+            <span className="text-[#EEFF00]">Vehicle?</span>
           </h2>
-          <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#22d65f] to-transparent" />
+          <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#EEFF00] to-transparent" />
           <p className="mt-6 text-[#ccc] leading-relaxed">
             The honest answer depends on three variables: what you paid for the
             vehicle, how long you plan to keep it, and how you drive it. Here
@@ -341,9 +341,9 @@ export default function PPFCostAlberta2026() {
         <section className="mt-16">
           <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight">
             What to Expect at Accurate{" "}
-            <span className="text-[#22d65f]">Autoworks</span>
+            <span className="text-[#EEFF00]">Autoworks</span>
           </h2>
-          <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#22d65f] to-transparent" />
+          <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#EEFF00] to-transparent" />
           <p className="mt-6 text-[#ccc] leading-relaxed">
             Here is what the PPF installation process looks like when you bring
             your vehicle into our Stony Plain shop.
@@ -379,10 +379,10 @@ export default function PPFCostAlberta2026() {
                 key={phase.step}
                 className="relative rounded-2xl overflow-hidden"
               >
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#22d65f] to-[#22d65f]/20" />
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#EEFF00] to-[#EEFF00]/20" />
                 <div className="card-gradient rounded-2xl border-l-0 pl-6 pr-6 py-6 sm:pl-8 sm:pr-8 sm:py-8 ml-1">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#22d65f] text-black text-xs font-black flex-shrink-0">
+                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#EEFF00] text-black text-xs font-black flex-shrink-0">
                       {phase.step}
                     </span>
                     <h3 className="text-sm font-bold uppercase tracking-widest text-white">
@@ -396,21 +396,21 @@ export default function PPFCostAlberta2026() {
               </div>
             ))}
           </div>
-          <div className="mt-6 rounded-xl border border-[#22d65f]/20 bg-[#22d65f]/[0.04] p-5">
+          <div className="mt-6 rounded-xl border border-[#EEFF00]/20 bg-[#EEFF00]/[0.04] p-5">
             <p className="text-sm text-[#999] leading-relaxed">
               <strong className="text-white">Pair PPF with our other services:</strong>{" "}
               Combining PPF with{" "}
-              <Link href="/tinting/" className="text-[#22d65f] hover:underline">
+              <Link href="/tinting/" className="text-[#EEFF00] hover:underline">
                 window tinting
               </Link>{" "}
               or{" "}
-              <Link href="/detailing/" className="text-[#22d65f] hover:underline">
+              <Link href="/detailing/" className="text-[#EEFF00] hover:underline">
                 full vehicle detailing
               </Link>{" "}
               on the same booking saves on labour. See our{" "}
               <Link
                 href="/blog/window-tinting-stony-plain-spruce-grove/"
-                className="text-[#22d65f] hover:underline"
+                className="text-[#EEFF00] hover:underline"
               >
                 complete window tinting guide
               </Link>{" "}
@@ -421,17 +421,17 @@ export default function PPFCostAlberta2026() {
 
         <section className="mt-16">
           <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight">
-            Frequently <span className="text-[#22d65f]">Asked</span>
+            Frequently <span className="text-[#EEFF00]">Asked</span>
           </h2>
-          <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#22d65f] to-transparent" />
+          <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#EEFF00] to-transparent" />
           <div className="mt-8 space-y-3">
             {FAQ_DATA.map((faq, i) => (
               <details
                 key={faq.q}
                 className="group rounded-2xl overflow-hidden card-gradient"
               >
-                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#22d65f] transition-colors list-none flex items-center gap-4">
-                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#22d65f]/10 text-[#22d65f] text-xs font-bold flex items-center justify-center group-open:bg-[#22d65f] group-open:text-black transition-all">
+                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#EEFF00] transition-colors list-none flex items-center gap-4">
+                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#EEFF00]/10 text-[#EEFF00] text-xs font-bold flex items-center justify-center group-open:bg-[#EEFF00] group-open:text-black transition-all">
                     {i + 1}
                   </span>
                   <span className="flex-1">{faq.q}</span>
@@ -445,13 +445,13 @@ export default function PPFCostAlberta2026() {
         </section>
 
         <section className="mt-16 relative rounded-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#22d65f]/15 via-[#22d65f]/5 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EEFF00]/15 via-[#EEFF00]/5 to-transparent" />
           <div className="absolute inset-0 hero-stripe opacity-30" />
-          <div className="absolute inset-0 border border-[#22d65f]/20 rounded-2xl" />
+          <div className="absolute inset-0 border border-[#EEFF00]/20 rounded-2xl" />
           <div className="relative p-8 sm:p-12 text-center">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight">
               Ready to Protect Your{" "}
-              <span className="text-[#22d65f] glow-accent">Vehicle?</span>
+              <span className="text-[#EEFF00] glow-accent">Vehicle?</span>
             </h2>
             <p className="mt-4 text-[#999] max-w-xl mx-auto leading-relaxed">
               PPF, ceramic coating, window tint, vinyl wraps, detailing —

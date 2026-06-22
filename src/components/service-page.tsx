@@ -51,11 +51,11 @@ export function ServicePage({
           />
           <div className="absolute inset-0 bg-[#0a0a0a]/85" />
           <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center py-32 sm:py-40">
-            <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full bg-black/60 backdrop-blur-sm">
+            <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full bg-black/60 backdrop-blur-sm">
               {badge}
             </div>
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight leading-[0.95] hero-title-shadow drop-shadow-[0_4px_12px_rgba(0,0,0,1)]">
-              {title} <span className="text-[#22d65f] glow-accent">{titleAccent}</span>
+              {title} <span className="text-[#EEFF00] glow-accent">{titleAccent}</span>
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-[#ccc] max-w-2xl mx-auto leading-relaxed hero-title-shadow">
               {description}
@@ -72,11 +72,11 @@ export function ServicePage({
         </section>
       ) : /* fallback with no hero image */ (
         <section className="pt-24 sm:pt-32 max-w-5xl mx-auto px-4 sm:px-6 text-center mb-16">
-          <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full">
+          <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full">
             {badge}
           </div>
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight leading-[0.95]">
-            {title} <span className="text-[#22d65f] glow-accent">{titleAccent}</span>
+            {title} <span className="text-[#EEFF00] glow-accent">{titleAccent}</span>
           </h1>
           <p className="mt-6 text-lg text-[#999] max-w-2xl mx-auto leading-relaxed">
             {description}
@@ -101,7 +101,7 @@ export function ServicePage({
           <SpraySplatter className="absolute top-[20%] left-0 w-[250px] h-[250px] opacity-80" />
 
           <h2 className="relative z-10 text-2xl sm:text-3xl font-black uppercase tracking-tight text-center mb-12">
-            Why <span className="text-[#22d65f]">{titleAccent}</span>?
+            Why <span className="text-[#EEFF00]">{titleAccent}</span>?
           </h2>
           <div className="relative z-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {benefits.map((benefit) => (
@@ -131,7 +131,7 @@ export function ServicePage({
           <SkullIcon className="absolute bottom-[15%] right-[5%] w-[80px] h-[80px] rotate-6 opacity-40" />
           <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6">
             <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-center mb-14">
-              The <span className="text-[#22d65f]">Process</span>
+              The <span className="text-[#EEFF00]">Process</span>
             </h2>
             <div className="space-y-10">
               {processSteps.map((step, index) => (
@@ -160,12 +160,12 @@ export function ServicePage({
         <CrossBones className="absolute top-10 left-4 w-[110px] h-[75px] rotate-15 opacity-40" />
         <SpraySplatter className="absolute bottom-[10%] right-0 w-[200px] h-[200px] rotate-90 opacity-60" />
         <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-center mb-10">
-          What&apos;s <span className="text-[#22d65f]">Included</span>
+          What&apos;s <span className="text-[#EEFF00]">Included</span>
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature) => (
             <div key={feature} className="card-gradient rounded-xl p-6 flex items-start gap-4">
-              <span className="text-[#22d65f] font-bold text-lg mt-0.5">&#10003;</span>
+              <span className="text-[#EEFF00] font-bold text-lg mt-0.5">&#10003;</span>
               <span className="text-sm text-[#ccc] leading-relaxed">{feature}</span>
             </div>
           ))}
@@ -192,7 +192,7 @@ export function ServicePage({
       {/* FAQ */}
       <section className="max-w-3xl mx-auto px-4 sm:px-6 py-20">
         <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-center mb-10">
-          Frequently <span className="text-[#22d65f]">Asked</span>
+          Frequently <span className="text-[#EEFF00]">Asked</span>
         </h2>
         <div className="space-y-4">
           {faqs.map((faq) => (
@@ -200,9 +200,9 @@ export function ServicePage({
               key={faq.question}
               className="card-gradient rounded-xl group"
             >
-              <summary className="px-6 py-5 cursor-pointer text-sm font-bold uppercase tracking-wide text-white hover:text-[#22d65f] transition-colors list-none flex items-center justify-between">
+              <summary className="px-6 py-5 cursor-pointer text-sm font-bold uppercase tracking-wide text-white hover:text-[#EEFF00] transition-colors list-none flex items-center justify-between">
                 {faq.question}
-                <span className="text-[#22d65f] text-lg group-open:rotate-45 transition-transform">+</span>
+                <span className="text-[#EEFF00] text-lg group-open:rotate-45 transition-transform">+</span>
               </summary>
               <div className="px-6 pb-5 text-sm text-[#999] leading-relaxed">
                 {faq.answer}
@@ -265,14 +265,14 @@ export function ServicePage({
       {relatedServices && relatedServices.length > 0 && (
         <section className="max-w-5xl mx-auto px-4 sm:px-6 pb-20">
           <h2 className="text-xl sm:text-2xl font-black uppercase tracking-tight text-center mb-8">
-            You Might Also <span className="text-[#22d65f]">Like</span>
+            You Might Also <span className="text-[#EEFF00]">Like</span>
           </h2>
           <div className="flex flex-wrap items-center justify-center gap-4">
             {relatedServices.map((service) => (
               <Link
                 key={service.href}
                 href={service.href}
-                className="card-gradient rounded-xl px-6 py-4 text-sm font-bold uppercase tracking-wide text-[#ccc] hover:text-[#22d65f] transition-colors"
+                className="card-gradient rounded-xl px-6 py-4 text-sm font-bold uppercase tracking-wide text-[#ccc] hover:text-[#EEFF00] transition-colors"
               >
                 {service.name}
               </Link>
@@ -287,7 +287,7 @@ export function ServicePage({
         <SprayCanLine className="absolute top-4 left-0 w-full h-[20px] opacity-50" />
         <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight">
-            Ready to <span className="text-[#22d65f]">Go</span>?
+            Ready to <span className="text-[#EEFF00]">Go</span>?
           </h2>
           <p className="mt-4 text-[#888]">
             Accurate Autoworks — Stony Plain&apos;s go-to shop for tint, wraps, detailing, and print.

@@ -27,14 +27,14 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/images/logo-round.png"
-              alt="Accurate Autoworks — Auto Customization Shop in Stony Plain AB"
+              src="/images/aaw-crest.png"
+              alt="Accurate Autoworks, Auto Customization Shop in Stony Plain AB"
               width={56}
               height={56}
-              className="w-11 h-11 sm:w-14 sm:h-14"
+              className="w-11 h-11 sm:w-14 sm:h-14 invert"
             />
             <span className="text-lg sm:text-2xl font-black tracking-tight uppercase">
-              Accurate<span className="text-[#22d65f]"> Autoworks</span>
+              Accurate<span className="text-[#EEFF00]"> Autoworks</span>
             </span>
           </Link>
 
@@ -83,7 +83,7 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="block px-3 py-3 text-sm font-medium text-[#ccc] hover:text-[#22d65f] uppercase tracking-wider"
+                className="block px-3 py-3 text-sm font-medium text-[#ccc] hover:text-[#EEFF00] uppercase tracking-wider"
               >
                 {link.label}
               </Link>

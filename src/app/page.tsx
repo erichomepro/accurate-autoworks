@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
-import { GarageBg } from "@/components/garage-bg";
 import { Reviews } from "@/components/reviews";
 
 export const metadata: Metadata = {
@@ -61,58 +60,75 @@ export default function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-        {/* Graffiti banner background */}
+      <section className="relative min-h-[92vh] flex items-center overflow-hidden bg-[#0a0a0a]">
+        {/* Sticker-bomb texture base */}
         <Image
-          src="/images/hero-main.jpg"
-          alt="Accurate Autoworks shop — window tinting, vinyl wraps, car detailing, PPF and commercial printing in Stony Plain AB"
+          src="/images/sticker-bomb-dark.png"
+          alt="Accurate Autoworks shop, window tinting, vinyl wraps, car detailing, PPF and commercial printing in Stony Plain AB"
           fill
           priority
-          className="object-cover"
+          className="object-cover opacity-60"
           sizes="100vw"
         />
-        {/* Animated garage background on top */}
-        <GarageBg />
-        {/* Darkened overlay so text is readable */}
-        <div className="absolute inset-0 bg-[#0a0a0a]/85" />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/60 via-transparent to-[#0a0a0a]" />
+        {/* Hand-drawn graffiti wordmark, right side */}
+        <div className="absolute inset-y-0 right-0 w-1/2 hidden lg:flex items-center justify-center pointer-events-none">
+          <Image
+            src="/images/graffiti-wordmark.png"
+            alt=""
+            width={780}
+            height={430}
+            className="object-contain opacity-90 mix-blend-screen drop-shadow-[0_0_40px_rgba(0,0,0,0.9)]"
+          />
+        </div>
+        {/* Darkening overlays so text stays readable */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-[#0a0a0a]/85 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/70 via-transparent to-[#0a0a0a]" />
 
-        {/* Diagonal accent line */}
-        <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-[#22d65f]/5 to-transparent skew-x-[-12deg] translate-x-20" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 w-full pt-20">
+          <div className="max-w-2xl">
+            <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full">
+              Stony Plain&apos;s Auto Customization Shop
+            </div>
 
-        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center pt-20">
-          <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full">
-            Stony Plain&apos;s Auto Customization Shop
-          </div>
+            <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black uppercase leading-[0.88] tracking-tighter hero-title-shadow drop-shadow-[0_4px_12px_rgba(0,0,0,1)]">
+              Your Ride.{" "}
+              <span className="text-[#EEFF00] glow-accent">Your Style.</span>
+              <br />
+              Done Right.
+            </h1>
 
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black uppercase leading-[0.95] tracking-tight hero-title-shadow drop-shadow-[0_4px_12px_rgba(0,0,0,1)]">
-            Your Ride.{" "}
-            <span className="text-[#22d65f] glow-accent">Your Style.</span>
-            <br />
-            Done Right.
-          </h1>
+            <p className="mt-6 text-lg sm:text-xl text-[#A1A1AA] max-w-xl leading-relaxed hero-title-shadow">
+              Tint. Wraps. Detail. Print. From a fresh tint job to full commercial
+              fleet wraps, we make it look exactly how you want it.
+            </p>
 
-          <p className="mt-6 text-lg sm:text-xl text-[#999] max-w-2xl mx-auto leading-relaxed hero-title-shadow">
-            Tint. Wraps. Detail. Print. From a fresh tint job to full commercial
-            fleet wraps — we make it look exactly how you want it.
-          </p>
+            {/* Trust chips with acid-yellow dots */}
+            <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-xs font-bold uppercase tracking-widest text-[#888]">
+              {["Est. 2023", "Premium Films Only", "Lifetime Backed"].map((chip) => (
+                <span key={chip} className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00]" />
+                  {chip}
+                </span>
+              ))}
+            </div>
 
-          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/contact" className="btn-primary text-base">
-              Book Your Service
-            </Link>
-            <Link href="/gallery" className="btn-outline text-base">
-              See Our Work
-            </Link>
-          </div>
+            <div className="mt-10 flex flex-col sm:flex-row items-start gap-4">
+              <Link href="/contact" className="btn-primary text-base">
+                Book Your Service
+              </Link>
+              <Link href="/gallery" className="btn-outline text-base">
+                See Our Work
+              </Link>
+            </div>
 
-          <div className="mt-8">
-            <a
-              href="tel:7808189904"
-              className="text-[#aaa] hover:text-[#22d65f] transition-colors text-xl sm:text-2xl font-medium hero-title-shadow"
-            >
-              or call <span className="text-white font-bold">780.818.9904</span>
-            </a>
+            <div className="mt-8">
+              <a
+                href="tel:7808189904"
+                className="text-[#aaa] hover:text-[#EEFF00] transition-colors text-xl sm:text-2xl font-medium hero-title-shadow"
+              >
+                or call <span className="text-white font-bold">780.818.9904</span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -139,7 +155,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tight">
-              What We <span className="text-[#22d65f]">Do</span>
+              What We <span className="text-[#EEFF00]">Do</span>
             </h2>
             <p className="mt-4 text-[#888] max-w-xl mx-auto">
               From daily drivers to commercial fleets. Every service, done with precision.
@@ -154,13 +170,13 @@ export default function HomePage() {
                 className="service-card card-gradient rounded-xl p-8 group"
               >
                 <div className="text-3xl mb-4">{service.icon}</div>
-                <h3 className="text-lg font-bold uppercase tracking-wide group-hover:text-[#22d65f] transition-colors">
+                <h3 className="text-lg font-bold uppercase tracking-wide group-hover:text-[#EEFF00] transition-colors">
                   {service.title}
                 </h3>
                 <p className="mt-3 text-sm text-[#888] leading-relaxed">
                   {service.description}
                 </p>
-                <div className="mt-5 text-xs font-bold text-[#22d65f] uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="mt-5 text-xs font-bold text-[#EEFF00] uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
                   Learn More &rarr;
                 </div>
               </Link>
@@ -171,21 +187,20 @@ export default function HomePage() {
 
       {/* COMMERCIAL PRINT CALLOUT */}
       <section className="py-20 sm:py-28 bg-[#0d0d0d] border-y border-[#1a1a1a] relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-[#22d65f]/5 to-transparent" />
+        <div className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-[#EEFF00]/5 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="text-xs font-bold uppercase tracking-[3px] text-[#22d65f] mb-4">
+              <div className="text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] mb-4">
                 Commercial Services
               </div>
               <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tight leading-tight">
                 If You Can Imagine It,<br />
-                <span className="text-[#22d65f]">We Can Print It.</span>
+                <span className="text-[#EEFF00]">We Can Print It.</span>
               </h2>
               <p className="mt-6 text-[#999] leading-relaxed text-lg">
                 Commercial-grade printing and signage for businesses across Parkland County.
-                Vehicle fleet wraps, storefront signs, banners, decals, custom graphics —
-                whatever your brand needs to stand out.
+                Vehicle fleet wraps, storefront signs, banners, decals, custom graphics,                 whatever your brand needs to stand out.
               </p>
               <ul className="mt-6 space-y-3">
                 {[
@@ -195,7 +210,7 @@ export default function HomePage() {
                   "Large-format commercial printing",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-sm text-[#ccc]">
-                    <span className="text-[#22d65f] font-bold">&#10003;</span>
+                    <span className="text-[#EEFF00] font-bold">&#10003;</span>
                     {item}
                   </li>
                 ))}
@@ -223,7 +238,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tight">
-              Why <span className="text-[#22d65f]">Accurate</span>
+              Why <span className="text-[#EEFF00]">Accurate</span>
             </h2>
           </div>
 
@@ -232,7 +247,7 @@ export default function HomePage() {
               {
                 title: "Precision Work",
                 description:
-                  "Every cut, every edge, every detail — done right the first time. We don't rush and we don't cut corners.",
+                  "Every cut, every edge, every detail, done right the first time. We don't rush and we don't cut corners.",
               },
               {
                 title: "Local & Trusted",
@@ -242,7 +257,7 @@ export default function HomePage() {
               {
                 title: "Full Service Shop",
                 description:
-                  "Tint, wraps, detail, PPF, print, tires — everything under one roof. One shop, one standard of quality.",
+                  "Tint, wraps, detail, PPF, print, tires, everything under one roof. One shop, one standard of quality.",
               },
             ].map((item) => (
               <div key={item.title} className="text-center p-8">
@@ -258,7 +273,7 @@ export default function HomePage() {
       <section className="py-20 sm:py-28 bg-[#0d0d0d] border-t border-[#1a1a1a]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tight">
-            Ready to Get <span className="text-[#22d65f]">Started</span>?
+            Ready to Get <span className="text-[#EEFF00]">Started</span>?
           </h2>
           <p className="mt-4 text-[#999] text-lg">
             Whether it&apos;s a quick tint job or a full commercial fleet wrap, we&apos;re ready when you are.

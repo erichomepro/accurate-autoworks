@@ -11,7 +11,7 @@ export function Footer() {
             <div className="flex items-center gap-3">
               <Image src="/images/logo-round.png" alt="Accurate Autoworks — Auto Customization Shop in Stony Plain AB" width={44} height={44} />
               <h3 className="text-xl font-black uppercase tracking-tight">
-                Accurate<span className="text-[#22d65f]"> Autoworks</span>
+                Accurate<span className="text-[#EEFF00]"> Autoworks</span>
               </h3>
             </div>
             <p className="mt-3 text-sm text-[#888] leading-relaxed">
@@ -22,7 +22,7 @@ export function Footer() {
                 href="https://www.facebook.com/HFDC780"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#666] hover:text-[#22d65f] transition-colors"
+                className="text-[#666] hover:text-[#EEFF00] transition-colors"
                 aria-label="Facebook"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -33,7 +33,7 @@ export function Footer() {
                 href="https://www.instagram.com/accurate_autoworks/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#666] hover:text-[#22d65f] transition-colors"
+                className="text-[#666] hover:text-[#EEFF00] transition-colors"
                 aria-label="Instagram"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -45,7 +45,7 @@ export function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-sm font-bold uppercase tracking-widest text-[#22d65f] mb-4">Services</h4>
+            <h4 className="text-sm font-bold uppercase tracking-widest text-[#EEFF00] mb-4">Services</h4>
             <ul className="space-y-2.5">
               {[
                 { href: "/tinting", label: "Window Tinting" },
@@ -67,7 +67,7 @@ export function Footer() {
 
           {/* Service Areas */}
           <div>
-            <h4 className="text-sm font-bold uppercase tracking-widest text-[#22d65f] mb-4">Service Areas</h4>
+            <h4 className="text-sm font-bold uppercase tracking-widest text-[#EEFF00] mb-4">Service Areas</h4>
             <ul className="space-y-2.5 text-sm text-[#888]">
               <li>Stony Plain, AB</li>
               <li>Spruce Grove, AB</li>
@@ -79,7 +79,7 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-sm font-bold uppercase tracking-widest text-[#22d65f] mb-4">Contact</h4>
+            <h4 className="text-sm font-bold uppercase tracking-widest text-[#EEFF00] mb-4">Contact</h4>
             <ul className="space-y-2.5 text-sm text-[#888]">
               <li>
                 <a href="tel:7808189904" className="hover:text-white transition-colors">
@@ -100,7 +100,7 @@ export function Footer() {
           <p>&copy; {new Date().getFullYear()} Accurate Autoworks. All rights reserved. Est. 2023 | Stony Plain, Alberta</p>
           <p className="mt-2">
             Website by{" "}
-            <a href="https://aiprecisionmarketing.ca/portfolio" target="_blank" rel="noopener noreferrer" className="hover:text-[#22d65f] transition-colors">
+            <a href="https://aiprecisionmarketing.ca/portfolio" target="_blank" rel="noopener noreferrer" className="hover:text-[#EEFF00] transition-colors">
               AI Precision Marketing
             </a>
           </p>

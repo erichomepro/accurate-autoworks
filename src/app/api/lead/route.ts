@@ -92,7 +92,7 @@ export async function POST(req: Request) {
   const html = `
     <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;">
       <div style="background:#0b0b0b;color:#fff;padding:24px;text-align:center;">
-        <h1 style="margin:0;font-size:22px;color:#22d65f;">New Quote Request</h1>
+        <h1 style="margin:0;font-size:22px;color:#EEFF00;">New Quote Request</h1>
         <p style="margin:8px 0 0 0;color:#bbb;font-size:14px;">accurateautoworks.ca</p>
       </div>
       <table style="width:100%;border-collapse:collapse;margin-top:16px;">${rows}</table>

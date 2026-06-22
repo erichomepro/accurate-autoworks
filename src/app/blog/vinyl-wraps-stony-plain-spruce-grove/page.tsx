@@ -118,7 +118,7 @@ function VinylWrapsStonyPlainSpruceGrove() {
         <div className="absolute inset-0 hero-stripe opacity-5" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
           <div className="flex flex-wrap gap-3 mb-6">
-            <span className="inline-flex items-center px-3 py-1 text-xs font-medium bg-[#22d65f]/10 text-[#22d65f] border border-[#22d65f]/20 rounded-full">
+            <span className="inline-flex items-center px-3 py-1 text-xs font-medium bg-[#EEFF00]/10 text-[#EEFF00] border border-[#EEFF00]/20 rounded-full">
               Wraps
             </span>
             <span className="inline-flex items-center px-3 py-1 text-xs font-medium bg-[#1e1e1e] text-[#999] border border-[#2a2a2a] rounded-full">
@@ -148,7 +148,7 @@ function VinylWrapsStonyPlainSpruceGrove() {
         {/* Intro */}
         <div className="prose-section mt-12">
           <p className="text-lg text-[#ccc] leading-relaxed mb-6">
-            Vinyl wraps let you change your vehicle&apos;s colour, protect the factory paint, and reverse the modification whenever you want—without the permanence or cost of a paint job. In Stony Plain and Spruce Grove, vinyl wraps are popular with truck owners who want to black out their F-150s, business owners who need fleet branding for the Acheson industrial corridor, and anyone who wants a custom look that doesn&apos;t kill resale value. A full wrap costs $3,200-$6,500 depending on vehicle size, lasts 5-7 years in Alberta&apos;s climate, and takes 2-4 days to install. This guide covers everything: wrap types, realistic pricing, what works in Alberta winters, and what to expect at <Link href="/detailing/" className="text-[#22d65f] hover:underline">Accurate Autoworks</Link> on Boulder Boulevard.
+            Vinyl wraps let you change your vehicle&apos;s colour, protect the factory paint, and reverse the modification whenever you want—without the permanence or cost of a paint job. In Stony Plain and Spruce Grove, vinyl wraps are popular with truck owners who want to black out their F-150s, business owners who need fleet branding for the Acheson industrial corridor, and anyone who wants a custom look that doesn&apos;t kill resale value. A full wrap costs $3,200-$6,500 depending on vehicle size, lasts 5-7 years in Alberta&apos;s climate, and takes 2-4 days to install. This guide covers everything: wrap types, realistic pricing, what works in Alberta winters, and what to expect at <Link href="/detailing/" className="text-[#EEFF00] hover:underline">Accurate Autoworks</Link> on Boulder Boulevard.
           </p>
           
           <p className="text-lg text-[#ccc] leading-relaxed">
@@ -158,15 +158,15 @@ function VinylWrapsStonyPlainSpruceGrove() {
 
         {/* Table of Contents */}
         <nav className="card-gradient p-6 my-12 border border-[#2a2a2a] rounded-lg">
-          <h2 className="text-sm font-bold text-[#22d65f] uppercase tracking-wider mb-4">Contents</h2>
+          <h2 className="text-sm font-bold text-[#EEFF00] uppercase tracking-wider mb-4">Contents</h2>
           <ol className="space-y-2 text-[#ccc]">
-            <li><a href="#what-are-vinyl-wraps" className="hover:text-[#22d65f] transition-colors">1. What Are Vinyl Wraps?</a></li>
-            <li><a href="#wrap-types" className="hover:text-[#22d65f] transition-colors">2. Types of Vinyl Wraps</a></li>
-            <li><a href="#cost-guide" className="hover:text-[#22d65f] transition-colors">3. Cost Guide: Stony Plain &amp; Spruce Grove Pricing</a></li>
-            <li><a href="#alberta-benefits" className="hover:text-[#22d65f] transition-colors">4. Alberta-Specific Benefits &amp; Considerations</a></li>
-            <li><a href="#process" className="hover:text-[#22d65f] transition-colors">5. How It Works: What to Expect at Accurate Autoworks</a></li>
-            <li><a href="#why-us" className="hover:text-[#22d65f] transition-colors">6. Why Choose Accurate Autoworks</a></li>
-            <li><a href="#faq" className="hover:text-[#22d65f] transition-colors">7. Frequently Asked Questions</a></li>
+            <li><a href="#what-are-vinyl-wraps" className="hover:text-[#EEFF00] transition-colors">1. What Are Vinyl Wraps?</a></li>
+            <li><a href="#wrap-types" className="hover:text-[#EEFF00] transition-colors">2. Types of Vinyl Wraps</a></li>
+            <li><a href="#cost-guide" className="hover:text-[#EEFF00] transition-colors">3. Cost Guide: Stony Plain &amp; Spruce Grove Pricing</a></li>
+            <li><a href="#alberta-benefits" className="hover:text-[#EEFF00] transition-colors">4. Alberta-Specific Benefits &amp; Considerations</a></li>
+            <li><a href="#process" className="hover:text-[#EEFF00] transition-colors">5. How It Works: What to Expect at Accurate Autoworks</a></li>
+            <li><a href="#why-us" className="hover:text-[#EEFF00] transition-colors">6. Why Choose Accurate Autoworks</a></li>
+            <li><a href="#faq" className="hover:text-[#EEFF00] transition-colors">7. Frequently Asked Questions</a></li>
           </ol>
         </nav>
 
@@ -186,7 +186,7 @@ function VinylWrapsStonyPlainSpruceGrove() {
             </p>
 
             <Callout variant="info">
-              Vinyl wraps are measured in mils (thousandths of an inch). Cast vinyl is 2-3 mils thick and conforms to complex curves. Calendered vinyl is 3-4 mils, stiffer, and used for flat surfaces like trailer sides or fleet graphics. All colour-change wraps use cast vinyl. According to <a href="https://www.3m.com/3M/en_US/p/c/automotive-aftermarket/vinyl-vehicle-wraps/" target="_blank" rel="noopener noreferrer" className="text-[#22d65f] hover:underline">3M</a>, cast vinyl maintains its finish and dimensional stability for 5-7+ years outdoors.
+              Vinyl wraps are measured in mils (thousandths of an inch). Cast vinyl is 2-3 mils thick and conforms to complex curves. Calendered vinyl is 3-4 mils, stiffer, and used for flat surfaces like trailer sides or fleet graphics. All colour-change wraps use cast vinyl. According to <a href="https://www.3m.com/3M/en_US/p/c/automotive-aftermarket/vinyl-vehicle-wraps/" target="_blank" rel="noopener noreferrer" className="text-[#EEFF00] hover:underline">3M</a>, cast vinyl maintains its finish and dimensional stability for 5-7+ years outdoors.
             </Callout>
 
             <p className="text-[#ccc] leading-relaxed">
@@ -194,7 +194,7 @@ function VinylWrapsStonyPlainSpruceGrove() {
             </p>
 
             <p className="text-[#ccc] leading-relaxed">
-              Wraps don&apos;t fix bad paint. If your clear coat is peeling, the vinyl won&apos;t hide it—it&apos;ll follow every imperfection. Deep scratches, dents, and rust show through. Minor swirls and light scratches disappear under the vinyl, but anything you can feel with your fingernail will telegraph through. We assess your paint during the quote process and let you know if prep work or <Link href="/ppf/" className="text-[#22d65f] hover:underline">paint correction</Link> is needed before wrapping.
+              Wraps don&apos;t fix bad paint. If your clear coat is peeling, the vinyl won&apos;t hide it—it&apos;ll follow every imperfection. Deep scratches, dents, and rust show through. Minor swirls and light scratches disappear under the vinyl, but anything you can feel with your fingernail will telegraph through. We assess your paint during the quote process and let you know if prep work or <Link href="/ppf/" className="text-[#EEFF00] hover:underline">paint correction</Link> is needed before wrapping.
             </p>
           </div>
         </section>
@@ -221,7 +221,7 @@ function VinylWrapsStonyPlainSpruceGrove() {
                 )}
               </div>,
               <span key={`${type.name}-coverage`} className="text-[#ccc]">{type.coverage}</span>,
-              <span key={`${type.name}-cost`} className="text-[#22d65f] font-medium">{type.costRange}</span>,
+              <span key={`${type.name}-cost`} className="text-[#EEFF00] font-medium">{type.costRange}</span>,
               <span key={`${type.name}-best`} className="text-[#ccc] text-sm">{type.bestFor}</span>,
               <span key={`${type.name}-dur`} className="text-[#999] text-sm">{type.durability}</span>,
             ])}
@@ -241,7 +241,7 @@ function VinylWrapsStonyPlainSpruceGrove() {
             </p>
 
             <Callout variant="tip">
-              If you run a business in the Acheson industrial corridor or anywhere along Highway 16A, fleet wraps turn every work truck into a moving advertisement. A well-designed fleet wrap with your logo, services, and phone number generates hundreds of impressions per day. We handle design, printing, and installation in-house—check out our <Link href="/print/" className="text-[#22d65f] hover:underline">commercial printing services</Link> for more on custom fleet graphics.
+              If you run a business in the Acheson industrial corridor or anywhere along Highway 16A, fleet wraps turn every work truck into a moving advertisement. A well-designed fleet wrap with your logo, services, and phone number generates hundreds of impressions per day. We handle design, printing, and installation in-house—check out our <Link href="/print/" className="text-[#EEFF00] hover:underline">commercial printing services</Link> for more on custom fleet graphics.
             </Callout>
           </div>
         </section>
@@ -262,7 +262,7 @@ function VinylWrapsStonyPlainSpruceGrove() {
             headers={["Service", "Cost", "Details", "Priority"]}
             rows={COST_DATA.map(item => [
               <span key={item.service} className="font-medium text-white">{item.service}</span>,
-              <span key={`${item.service}-cost`} className="text-[#22d65f] font-bold">{item.cost}</span>,
+              <span key={`${item.service}-cost`} className="text-[#EEFF00] font-bold">{item.cost}</span>,
               <span key={`${item.service}-priority`} className="text-[#ccc] text-sm">{item.priority}</span>,
               <PriorityBadge key={`${item.service}-level`} level={item.level} label={item.level} />,
             ])}
@@ -274,7 +274,7 @@ function VinylWrapsStonyPlainSpruceGrove() {
             </p>
 
             <p className="text-[#ccc] leading-relaxed">
-              Vinyl quality matters. Cheap calendered vinyl costs half as much as premium cast vinyl, but it doesn&apos;t conform to curves, shrinks over time, and fails in 2-3 years instead of 5-7. We only use cast vinyl from <a href="https://www.averydennison.com/en/home/products-solutions/graphics-and-reflective-solutions/automotive-solutions.html" target="_blank" rel="noopener noreferrer" className="text-[#22d65f] hover:underline">Avery Dennison</a> or 3M because it holds up in Alberta winters and removes cleanly when it&apos;s time to take it off. Budget vinyl is a false economy—you&apos;ll pay to remove it early and re-wrap sooner.
+              Vinyl quality matters. Cheap calendered vinyl costs half as much as premium cast vinyl, but it doesn&apos;t conform to curves, shrinks over time, and fails in 2-3 years instead of 5-7. We only use cast vinyl from <a href="https://www.averydennison.com/en/home/products-solutions/graphics-and-reflective-solutions/automotive-solutions.html" target="_blank" rel="noopener noreferrer" className="text-[#EEFF00] hover:underline">Avery Dennison</a> or 3M because it holds up in Alberta winters and removes cleanly when it&apos;s time to take it off. Budget vinyl is a false economy—you&apos;ll pay to remove it early and re-wrap sooner.
             </p>
 
             <Callout variant="info">
@@ -315,7 +315,7 @@ function VinylWrapsStonyPlainSpruceGrove() {
             </p>
 
             <p className="text-[#ccc] leading-relaxed">
-              <strong className="text-white">Gravel and rock chips:</strong> Vinyl resists rock chips better than paint, but it&apos;s not invincible. A sharp rock at highway speed can puncture the vinyl. Small chips are easy to patch or ignore—they&apos;re cosmetic, not structural. Large tears need professional repair or panel re-wrap. If you drive gravel roads frequently (common in Parkland County and rural areas west of Stony Plain), consider adding <Link href="/ppf/" className="text-[#22d65f] hover:underline">paint protection film</Link> to high-impact areas like the hood, fenders, and mirrors. PPF is 8-10 mils thick and self-healing, so it stops rock chips that would tear vinyl.
+              <strong className="text-white">Gravel and rock chips:</strong> Vinyl resists rock chips better than paint, but it&apos;s not invincible. A sharp rock at highway speed can puncture the vinyl. Small chips are easy to patch or ignore—they&apos;re cosmetic, not structural. Large tears need professional repair or panel re-wrap. If you drive gravel roads frequently (common in Parkland County and rural areas west of Stony Plain), consider adding <Link href="/ppf/" className="text-[#EEFF00] hover:underline">paint protection film</Link> to high-impact areas like the hood, fenders, and mirrors. PPF is 8-10 mils thick and self-healing, so it stops rock chips that would tear vinyl.
             </p>
 
             <p className="text-[#ccc] leading-relaxed">
@@ -386,28 +386,28 @@ function VinylWrapsStonyPlainSpruceGrove() {
 
             <div className="grid sm:grid-cols-2 gap-6 my-8">
               <div className="bg-[#0f0f0f] border border-[#2a2a2a] rounded-lg p-6">
-                <div className="text-[#22d65f] font-bold text-lg mb-2">Premium Materials Only</div>
+                <div className="text-[#EEFF00] font-bold text-lg mb-2">Premium Materials Only</div>
                 <p className="text-[#ccc] text-sm leading-relaxed">
                   We use 3M and Avery Dennison cast vinyl exclusively—no budget calendered film that shrinks and fails in two years. Every printed wrap gets laminated for UV protection and scratch resistance.
                 </p>
               </div>
 
               <div className="bg-[#0f0f0f] border border-[#2a2a2a] rounded-lg p-6">
-                <div className="text-[#22d65f] font-bold text-lg mb-2">In-House Everything</div>
+                <div className="text-[#EEFF00] font-bold text-lg mb-2">In-House Everything</div>
                 <p className="text-[#ccc] text-sm leading-relaxed">
                   Custom graphics? We design them. Printed wraps? We print and laminate in-house. Installation? Our certified installers handle it in our climate-controlled Stony Plain shop. No outsourcing, no delays.
                 </p>
               </div>
 
               <div className="bg-[#0f0f0f] border border-[#2a2a2a] rounded-lg p-6">
-                <div className="text-[#22d65f] font-bold text-lg mb-2">Alberta Winter Tested</div>
+                <div className="text-[#EEFF00] font-bold text-lg mb-2">Alberta Winter Tested</div>
                 <p className="text-[#ccc] text-sm leading-relaxed">
                   Every wrap we install survives -40°C January cold, spring gravel, summer UV, and fall freeze-thaw cycles. We know what works because we see these vehicles on Parkland County roads every day.
                 </p>
               </div>
 
               <div className="bg-[#0f0f0f] border border-[#2a2a2a] rounded-lg p-6">
-                <div className="text-[#22d65f] font-bold text-lg mb-2">Honest Pricing, No Surprises</div>
+                <div className="text-[#EEFF00] font-bold text-lg mb-2">Honest Pricing, No Surprises</div>
                 <p className="text-[#ccc] text-sm leading-relaxed">
                   We quote the real price upfront—material, labour, prep work. If we find paint issues during prep that affect the install, we call you before proceeding. No surprise charges at pickup.
                 </p>
@@ -419,7 +419,7 @@ function VinylWrapsStonyPlainSpruceGrove() {
             </p>
 
             <Callout variant="info">
-              <Link href="/tinting/" className="text-[#22d65f] hover:underline">Window tinting</Link> is a common add-on to vinyl wraps—customers want the complete blacked-out look. We offer ceramic tint, carbon tint, and dyed tint options, all installed in-house while we&apos;re wrapping your vehicle. Combining services saves time and gets you a cohesive custom look in one shop visit.
+              <Link href="/tinting/" className="text-[#EEFF00] hover:underline">Window tinting</Link> is a common add-on to vinyl wraps—customers want the complete blacked-out look. We offer ceramic tint, carbon tint, and dyed tint options, all installed in-house while we&apos;re wrapping your vehicle. Combining services saves time and gets you a cohesive custom look in one shop visit.
             </Callout>
           </div>
         </section>
@@ -446,18 +446,18 @@ function VinylWrapsStonyPlainSpruceGrove() {
             Ready to Wrap Your Vehicle?
           </h2>
           <p className="text-lg text-[#ccc] mb-8 max-w-2xl mx-auto">
-            Call <a href="tel:7808189904" className="text-[#22d65f] hover:underline font-bold">780.818.9904</a> or visit us on Boulder Boulevard in Stony Plain. We&apos;ll show you vinyl samples, measure your vehicle, and provide a detailed quote—no pressure, no surprises.
+            Call <a href="tel:7808189904" className="text-[#EEFF00] hover:underline font-bold">780.818.9904</a> or visit us on Boulder Boulevard in Stony Plain. We&apos;ll show you vinyl samples, measure your vehicle, and provide a detailed quote—no pressure, no surprises.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="tel:7808189904"
-              className="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-bold bg-[#22d65f] text-black hover:bg-[#1fc952] transition-colors rounded-lg"
+              className="btn-primary inline-flex items-center justify-center px-8 py-4 text-base font-bold bg-[#EEFF00] text-black hover:bg-[#1fc952] transition-colors rounded-lg"
             >
               Call 780.818.9904
             </a>
             <a 
               href="https://www.accurateautoworks.ca/contact/"
-              className="btn-outline inline-flex items-center justify-center px-8 py-4 text-base font-bold border-2 border-[#22d65f] text-[#22d65f] hover:bg-[#22d65f]/10 transition-colors rounded-lg"
+              className="btn-outline inline-flex items-center justify-center px-8 py-4 text-base font-bold border-2 border-[#EEFF00] text-[#EEFF00] hover:bg-[#EEFF00]/10 transition-colors rounded-lg"
             >
               Book Online
             </a>
@@ -468,8 +468,8 @@ function VinylWrapsStonyPlainSpruceGrove() {
         <section className="card-gradient border border-[#2a2a2a] rounded-xl p-8 my-16">
           <div className="flex flex-col sm:flex-row gap-6 items-start">
             <div className="flex-shrink-0">
-              <div className="w-20 h-20 bg-[#22d65f]/10 border-2 border-[#22d65f] rounded-lg flex items-center justify-center">
-                <svg className="w-10 h-10 text-[#22d65f]" fill="currentColor" viewBox="0 0 20 20">
+              <div className="w-20 h-20 bg-[#EEFF00]/10 border-2 border-[#EEFF00] rounded-lg flex items-center justify-center">
+                <svg className="w-10 h-10 text-[#EEFF00]" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
                 </svg>
               </div>
@@ -480,11 +480,11 @@ function VinylWrapsStonyPlainSpruceGrove() {
                 Window tinting, vinyl wraps, paint protection film, detailing, ceramic coating, and commercial printing in Stony Plain. Serving Spruce Grove, Parkland County, Acheson, and Edmonton since 2023.
               </p>
               <div className="flex flex-wrap gap-4 text-sm text-[#999]">
-                <a href="tel:7808189904" className="hover:text-[#22d65f] transition-colors">780.818.9904</a>
+                <a href="tel:7808189904" className="hover:text-[#EEFF00] transition-colors">780.818.9904</a>
                 <span>•</span>
                 <span>Boulder Boulevard, Stony Plain AB</span>
                 <span>•</span>
-                <a href="https://www.accurateautoworks.ca" className="hover:text-[#22d65f] transition-colors">accurateautoworks.ca</a>
+                <a href="https://www.accurateautoworks.ca" className="hover:text-[#EEFF00] transition-colors">accurateautoworks.ca</a>
               </div>
             </div>
           </div>
@@ -618,10 +618,10 @@ function SectionHeading({ number, highlight, children }: { number: string; highl
   return (
     <div className="mb-8">
       <div className="flex items-center gap-3 mb-3">
-        <span className="inline-flex items-center justify-center w-8 h-8 bg-[#22d65f]/10 border border-[#22d65f]/30 rounded text-[#22d65f] text-sm font-bold">
+        <span className="inline-flex items-center justify-center w-8 h-8 bg-[#EEFF00]/10 border border-[#EEFF00]/30 rounded text-[#EEFF00] text-sm font-bold">
           {number}
         </span>
-        <span className="text-xs font-bold text-[#22d65f] uppercase tracking-wider">
+        <span className="text-xs font-bold text-[#EEFF00] uppercase tracking-wider">
           {highlight}
         </span>
       </div>
@@ -634,7 +634,7 @@ function SectionHeading({ number, highlight, children }: { number: string; highl
 
 function PriorityBadge({ level, label }: { level: string; label: string }) {
   const colors = {
-    essential: "bg-[#22d65f]/10 text-[#22d65f] border-[#22d65f]/30",
+    essential: "bg-[#EEFF00]/10 text-[#EEFF00] border-[#EEFF00]/30",
     recommended: "bg-white/10 text-white border-white/30",
     optional: "bg-[#999]/10 text-[#999] border-[#999]/30"
   };
@@ -648,7 +648,7 @@ function PriorityBadge({ level, label }: { level: string; label: string }) {
 
 function RatingBadge({ level, label }: { level: string; label: string }) {
   const colors = {
-    best: "bg-[#22d65f]/10 text-[#22d65f] border-[#22d65f]/30",
+    best: "bg-[#EEFF00]/10 text-[#EEFF00] border-[#EEFF00]/30",
     good: "bg-white/10 text-white border-white/30",
     poor: "bg-red-500/10 text-red-400 border-red-500/30"
   };
@@ -662,7 +662,7 @@ function RatingBadge({ level, label }: { level: string; label: string }) {
 
 function Callout({ variant, children }: { variant: "tip" | "info" | "warning"; children: React.ReactNode }) {
   const styles = {
-    tip: "bg-[#22d65f]/5 border-[#22d65f]/30 text-[#ccc]",
+    tip: "bg-[#EEFF00]/5 border-[#EEFF00]/30 text-[#ccc]",
     info: "bg-blue-500/5 border-blue-500/30 text-[#ccc]",
     warning: "bg-yellow-500/5 border-yellow-500/30 text-[#ccc]"
   };
@@ -694,7 +694,7 @@ function DataTable({ headers, rows }: { headers: string[]; rows: React.ReactNode
           <thead>
             <tr className="border-b border-[#2a2a2a]">
               {headers.map((header, idx) => (
-                <th key={idx} className="text-left py-4 px-4 text-sm font-bold text-[#22d65f] uppercase tracking-wider">
+                <th key={idx} className="text-left py-4 px-4 text-sm font-bold text-[#EEFF00] uppercase tracking-wider">
                   {header}
                 </th>
               ))}
@@ -720,7 +720,7 @@ function DataTable({ headers, rows }: { headers: string[]; rows: React.ReactNode
           <div key={rowIdx} className="bg-[#0f0f0f] border border-[#2a2a2a] rounded-lg p-4 space-y-3">
             {row.map((cell, cellIdx) => (
               <div key={cellIdx}>
-                <div className="text-xs font-bold text-[#22d65f] uppercase tracking-wider mb-1">
+                <div className="text-xs font-bold text-[#EEFF00] uppercase tracking-wider mb-1">
                   {headers[cellIdx]}
                 </div>
                 <div>{cell}</div>
