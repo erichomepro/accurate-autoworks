@@ -24,19 +24,19 @@ export const metadata: Metadata = {
 const FAQ_DATA = [
   {
     q: "What is paint protection film (PPF) and how does it work?",
-    a: "Paint protection film — also called clear bra — is a thick, optically clear thermoplastic urethane film that is bonded directly to your vehicle's painted surfaces. It absorbs rock chips, scratches, road debris, and minor abrasion impacts before they reach the paint. Self-healing PPF uses a topcoat that flows back to its original shape when exposed to heat — either from the sun or warm water — erasing light swirl marks and scuffs. At Accurate Autoworks in Stony Plain, we install professional-grade PPF cut precisely to your vehicle's panels for seamless coverage.",
+    a: "Paint protection film, also called clear bra, is a thick, optically clear thermoplastic urethane film that is bonded directly to your vehicle's painted surfaces. It absorbs rock chips, scratches, road debris, and minor abrasion impacts before they reach the paint. Self-healing PPF uses a topcoat that flows back to its original shape when exposed to heat, either from the sun or warm water, erasing light swirl marks and scuffs. At Accurate Autoworks in Stony Plain, we install professional-grade PPF cut precisely to your vehicle's panels for seamless coverage.",
   },
   {
     q: "Is PPF worth it for Alberta drivers?",
-    a: "For most Alberta drivers, yes — especially if you drive on the Yellowhead Highway, Highway 16A, or any Parkland County gravel road regularly. Alberta roads are notoriously hard on paint: chip seal highway surfaces, gravel shoulders, loose aggregate on rural roads, and sand/salt used for eight months of the year create constant chip hazards. Without PPF, a truck driven in this environment will show front-end chip damage within the first year. Accurate Autoworks installs PPF on everything from brand-new trucks to daily drivers that owners want to keep looking sharp.",
+    a: "For most Alberta drivers, yes, especially if you drive on the Yellowhead Highway, Highway 16A, or any Parkland County gravel road regularly. Alberta roads are notoriously hard on paint: chip seal highway surfaces, gravel shoulders, loose aggregate on rural roads, and sand/salt used for eight months of the year create constant chip hazards. Without PPF, a truck driven in this environment will show front-end chip damage within the first year. Accurate Autoworks installs PPF on everything from brand-new trucks to daily drivers that owners want to keep looking sharp.",
   },
   {
     q: "How much does PPF cost in Stony Plain or Spruce Grove?",
-    a: "PPF pricing in the Stony Plain and Spruce Grove area depends on coverage area and film type. A partial front package (bumper plus leading hood edge) starts around $600 to $900. A full front package — bumper, full hood, fenders, mirrors, and A-pillars — typically runs $1,500 to $2,500 for a truck or SUV. Full-vehicle coverage can reach $5,000 to $9,000+ depending on vehicle size. Call Accurate Autoworks at 780.818.9904 for an exact quote on your vehicle — prices vary by panel count and film grade.",
+    a: "PPF pricing in the Stony Plain and Spruce Grove area depends on coverage area and film type. A partial front package (bumper plus leading hood edge) starts around $600 to $900. A full front package, bumper, full hood, fenders, mirrors, and A-pillars, typically runs $1,500 to $2,500 for a truck or SUV. Full-vehicle coverage can reach $5,000 to $9,000+ depending on vehicle size. Call Accurate Autoworks at 780.818.9904 for an exact quote on your vehicle, prices vary by panel count and film grade.",
   },
   {
     q: "What is the difference between self-healing PPF and standard PPF?",
-    a: "Standard PPF protects your paint from chips and scratches but will retain surface marks permanently once they penetrate the topcoat. Self-healing PPF has a special elastomeric polymer topcoat that, when exposed to heat (sunlight or 60°C water), flows back into its original flat surface — essentially erasing light swirl marks, minor scratches, and scuffs on its own. For Alberta drivers who go through automatic washes in winter or park in tight spots, self-healing film keeps the installation looking like new far longer. Accurate Autoworks recommends self-healing PPF for anyone planning to keep their vehicle three or more years.",
+    a: "Standard PPF protects your paint from chips and scratches but will retain surface marks permanently once they penetrate the topcoat. Self-healing PPF has a special elastomeric polymer topcoat that, when exposed to heat (sunlight or 60°C water), flows back into its original flat surface, essentially erasing light swirl marks, minor scratches, and scuffs on its own. For Alberta drivers who go through automatic washes in winter or park in tight spots, self-healing film keeps the installation looking like new far longer. Accurate Autoworks recommends self-healing PPF for anyone planning to keep their vehicle three or more years.",
   },
   {
     q: "How long does PPF last in Alberta?",
@@ -44,15 +44,15 @@ const FAQ_DATA = [
   },
   {
     q: "Can PPF be removed without damaging my paint?",
-    a: "Yes, when installed by a professional using high-quality film, PPF can be safely removed without damage to the underlying clear coat. The adhesive is designed to release cleanly. The key is using the right removal technique — controlled heat and proper angle — which is why we recommend having it removed by a professional rather than attempting DIY removal. At Accurate Autoworks, we can remove old PPF and either replace it with fresh film or leave the factory paint in the condition it was protected in. Call us at 780.818.9904 to discuss removal and replacement options.",
+    a: "Yes, when installed by a professional using high-quality film, PPF can be safely removed without damage to the underlying clear coat. The adhesive is designed to release cleanly. The key is using the right removal technique, controlled heat and proper angle, which is why we recommend having it removed by a professional rather than attempting DIY removal. At Accurate Autoworks, we can remove old PPF and either replace it with fresh film or leave the factory paint in the condition it was protected in. Call us at 780.818.9904 to discuss removal and replacement options.",
   },
   {
     q: "Does PPF affect the appearance of my vehicle?",
-    a: "When professionally installed, gloss PPF is virtually invisible on the vehicle — maintaining the factory paint colour and shine with no noticeable change in appearance. High-quality film is optically clear and does not yellow significantly over time. Matte PPF, on the other hand, actually transforms a gloss paint job to a satin-matte finish — a popular look on black, white, and grey vehicles. Edges are carefully wrapped around panel edges so there are no visible film lines in normal viewing conditions. The goal at Accurate Autoworks is an installation that protects without announcing itself.",
+    a: "When professionally installed, gloss PPF is virtually invisible on the vehicle, maintaining the factory paint colour and shine with no noticeable change in appearance. High-quality film is optically clear and does not yellow significantly over time. Matte PPF, on the other hand, actually transforms a gloss paint job to a satin-matte finish, a popular look on black, white, and grey vehicles. Edges are carefully wrapped around panel edges so there are no visible film lines in normal viewing conditions. The goal at Accurate Autoworks is an installation that protects without announcing itself.",
   },
   {
     q: "Should I get PPF, ceramic coating, or both?",
-    a: "These two products do different jobs and work best together. PPF provides physical protection from rock chips, scratches, and abrasion. Ceramic coating provides chemical protection and hydrophobic water beading that makes the surface easier to wash and more resistant to contaminants. For maximum protection, Accurate Autoworks recommends PPF on high-impact zones (front bumper, hood, fenders, mirrors) with a ceramic coating applied over the PPF and the rest of the vehicle. This combination gives you the best of both worlds — chip protection on the front, slick easy-clean surface everywhere. Visit our services page at accurateautoworks.ca to learn more.",
+    a: "These two products do different jobs and work best together. PPF provides physical protection from rock chips, scratches, and abrasion. Ceramic coating provides chemical protection and hydrophobic water beading that makes the surface easier to wash and more resistant to contaminants. For maximum protection, Accurate Autoworks recommends PPF on high-impact zones (front bumper, hood, fenders, mirrors) with a ceramic coating applied over the PPF and the rest of the vehicle. This combination gives you the best of both worlds, chip protection on the front, slick easy-clean surface everywhere. Visit our services page at accurateautoworks.ca to learn more.",
   },
 ];
 
@@ -139,7 +139,7 @@ export default function PaintProtectionFilmGuide() {
           </h1>
 
           <p className="mt-8 text-lg sm:text-xl text-[#999] max-w-2xl mx-auto leading-relaxed">
-            Rock chips, gravel roads, road salt, and -40C winters — Alberta
+            Rock chips, gravel roads, road salt, and -40C winters, Alberta
             is one of the harshest environments for vehicle paint on the planet.
             Here is everything you need to know about PPF before you decide.
           </p>
@@ -179,14 +179,14 @@ export default function PaintProtectionFilmGuide() {
             and silver trucks with dozens of tiny stone chips pitting the
             leading edge of the hood, clear coat missing from the front bumper,
             and paint worn down to primer on the A-pillars. This is not
-            neglect — it is just what happens when you drive Alberta roads.
+            neglect, it is just what happens when you drive Alberta roads.
             The chip seal highway surfaces, the gravel shoulders, and the
             Acheson industrial traffic that stirs up loose aggregate combine to
             create a constant chip-impact environment that no wax or paint
             sealant can stop.
           </p>
           <p className="mt-4 text-[#ccc] leading-relaxed text-base sm:text-lg">
-            Paint protection film — PPF, or clear bra — is the only product
+            Paint protection film, PPF, or clear bra, is the only product
             that physically blocks chips and abrasion impacts from reaching
             your paint. This guide covers everything Stony Plain, Spruce Grove,
             and Parkland County drivers need to know: what PPF actually is, the
@@ -249,7 +249,7 @@ export default function PaintProtectionFilmGuide() {
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             Alberta&apos;s road conditions are uniquely brutal for vehicle paint.
             Understanding the specific hazards helps explain why PPF is not a
-            luxury item here — it is practical protection with a real return.
+            luxury item here, it is practical protection with a real return.
           </p>
 
           <div className="mt-8 space-y-4">
@@ -257,7 +257,7 @@ export default function PaintProtectionFilmGuide() {
               {
                 title: "Chip Seal Highway Surfaces",
                 detail:
-                  "A significant portion of Alberta&apos;s highway network — including stretches of Highway 16A west of Stony Plain — uses chip seal (tar and gravel) as a road surfacing method. This surface is designed to be durable and low-cost, but it continuously sheds loose aggregate, especially when freshly laid or after frost heave breaks up the surface in spring. At highway speeds, these stones hit your bumper and hood with enough force to pierce clear coat. According to Alberta Transportation, the province maintains over 31,000 kilometres of highway — much of it chip seal.",
+                  "A significant portion of Alberta&apos;s highway network, including stretches of Highway 16A west of Stony Plain, uses chip seal (tar and gravel) as a road surfacing method. This surface is designed to be durable and low-cost, but it continuously sheds loose aggregate, especially when freshly laid or after frost heave breaks up the surface in spring. At highway speeds, these stones hit your bumper and hood with enough force to pierce clear coat. According to Alberta Transportation, the province maintains over 31,000 kilometres of highway, much of it chip seal.",
                 externalLink: {
                   href: "https://www.alberta.ca/roads-highways-bridges.aspx",
                   label: "Alberta Transportation&apos;s road network",
@@ -273,7 +273,7 @@ export default function PaintProtectionFilmGuide() {
               {
                 title: "Road Salt and Sand: November to April",
                 detail:
-                  "Alberta municipalities use road salt and sand from freeze-up in November through spring thaw in April — roughly five months of corrosive treatment every year. Salt doesn&apos;t just attack the undercarriage; the spray from tires coats the lower third of your vehicle in a corrosive brine. PPF on lower panels and rockers acts as a barrier against this accelerated oxidation, helping preserve the paint in areas that are otherwise nearly impossible to protect with wax or sealant alone.",
+                  "Alberta municipalities use road salt and sand from freeze-up in November through spring thaw in April, roughly five months of corrosive treatment every year. Salt doesn&apos;t just attack the undercarriage; the spray from tires coats the lower third of your vehicle in a corrosive brine. PPF on lower panels and rockers acts as a barrier against this accelerated oxidation, helping preserve the paint in areas that are otherwise nearly impossible to protect with wax or sealant alone.",
                 status: "caution",
               },
               {
@@ -285,7 +285,7 @@ export default function PaintProtectionFilmGuide() {
               {
                 title: "-40&deg;C Winters and Paint Micro-Cracking",
                 detail:
-                  "Extreme cold causes automotive paint to contract rapidly. Over multiple freeze-thaw cycles — especially when temperatures swing from -30&deg;C at night to +5&deg;C on a bright February afternoon — micro-cracking develops in clear coat and paint layers. PPF acts as a flexible buffer that absorbs thermal stress, reducing the rate at which this cracking occurs. For vehicles parked outdoors year-round in Stony Plain, this protection is meaningful.",
+                  "Extreme cold causes automotive paint to contract rapidly. Over multiple freeze-thaw cycles, especially when temperatures swing from -30&deg;C at night to +5&deg;C on a bright February afternoon, micro-cracking develops in clear coat and paint layers. PPF acts as a flexible buffer that absorbs thermal stress, reducing the rate at which this cracking occurs. For vehicles parked outdoors year-round in Stony Plain, this protection is meaningful.",
                 status: "caution",
               },
             ].map((item) => (
@@ -428,7 +428,7 @@ export default function PaintProtectionFilmGuide() {
             realistic breakdown of professional PPF prices in the Stony Plain
             and Spruce Grove area in 2026. These figures reflect quality-shop
             pricing with computer-cut film, proper surface prep, and a warranty
-            — not roll-and-cut budget installations.
+, not roll-and-cut budget installations.
           </p>
 
           {/* Desktop table */}
@@ -494,8 +494,8 @@ export default function PaintProtectionFilmGuide() {
 
           <Callout variant="tip">
             <strong className="text-white">Most popular package for Alberta trucks:</strong>{" "}
-            The full front package — bumper, full hood, both fenders, both
-            mirrors, and A-pillars — covers every high-impact zone that takes
+            The full front package, bumper, full hood, both fenders, both
+            mirrors, and A-pillars, covers every high-impact zone that takes
             rock chip damage on the highway. For most Stony Plain and Spruce
             Grove truck owners, this is the sweet spot between coverage and
             cost. Pair it with{" "}
@@ -515,7 +515,7 @@ export default function PaintProtectionFilmGuide() {
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             Self-healing PPF is the most significant advancement in paint
             protection technology of the last decade. Understanding how it
-            works — and what it can and cannot do — helps you decide whether
+            works, and what it can and cannot do, helps you decide whether
             the premium is worth it for your vehicle and driving habits.
           </p>
 
@@ -529,12 +529,12 @@ export default function PaintProtectionFilmGuide() {
                 impacts well but retains surface marks permanently once the
                 topcoat is scratched. Self-healing PPF adds an elastomeric
                 polymer layer to the topcoat that has shape-memory properties
-                — it &quot;wants&quot; to return to its original flat state. When
+, it &quot;wants&quot; to return to its original flat state. When
                 heat is applied (either from direct sunlight on a warm day, or
                 by pouring 60&deg;C water over the affected area), the polymer
                 flows back into its original form, erasing light surface scratches
                 and swirl marks within minutes. For deeper gouges that penetrate
-                the urethane film itself, self-healing does not apply — but those
+                the urethane film itself, self-healing does not apply, but those
                 impacts would have gone straight through to your paint without
                 the film at all.
               </p>
@@ -550,7 +550,7 @@ export default function PaintProtectionFilmGuide() {
                 </h3>
                 <p className="text-sm text-[#999] leading-relaxed">
                   In Alberta, vehicles go through automated car washes hundreds
-                  of times per year to deal with road salt buildup — and every
+                  of times per year to deal with road salt buildup, and every
                   automated wash leaves micro-swirl marks on surfaces. On
                   standard film, these swirls accumulate over years until the
                   installation looks hazy and worn. On self-healing film, the
@@ -617,8 +617,8 @@ export default function PaintProtectionFilmGuide() {
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             PPF, ceramic coating, and vinyl wraps are the three main vehicle
             protection and customization products offered at Accurate Autoworks.
-            They do different things, and knowing which one — or which
-            combination — fits your situation saves you money and sets the right
+            They do different things, and knowing which one, or which
+            combination, fits your situation saves you money and sets the right
             expectations.
           </p>
 
@@ -703,7 +703,7 @@ export default function PaintProtectionFilmGuide() {
             </Link>{" "}
             if you want a different look, and ceramic coating applied over the
             top of both for easy cleaning. Accurate Autoworks can do all three
-            as a combined package — call 780.818.9904 to discuss your vehicle
+            as a combined package, call 780.818.9904 to discuss your vehicle
             and build a custom protection plan.
           </Callout>
         </section>
@@ -725,13 +725,13 @@ export default function PaintProtectionFilmGuide() {
                 step: "01",
                 title: "Consultation and Coverage Planning",
                 description:
-                  "We start by reviewing your vehicle and your driving habits. Where do you drive regularly? What are your biggest concerns — highway rock chips, parking lot door dings, rocker panel sand blasting? We will walk you through the coverage options, show you sample film types, and recommend the package that makes sense for your budget and how you use the vehicle. There is no pressure — we want you to understand exactly what you are getting.",
+                  "We start by reviewing your vehicle and your driving habits. Where do you drive regularly? What are your biggest concerns, highway rock chips, parking lot door dings, rocker panel sand blasting? We will walk you through the coverage options, show you sample film types, and recommend the package that makes sense for your budget and how you use the vehicle. There is no pressure, we want you to understand exactly what you are getting.",
               },
               {
                 step: "02",
                 title: "Paint Correction and Decontamination",
                 description:
-                  "PPF locks in whatever is under it — permanently. Any swirl marks, water spots, light scratches, or paint contamination that exist before installation will be sealed under the film for the life of the product. For this reason, we perform a thorough decontamination wash and, if needed, a paint correction prior to installation. This step is non-negotiable for a quality result. It adds time and cost, but it is the difference between a film that looks excellent for ten years and one that looks mediocre from day one.",
+                  "PPF locks in whatever is under it, permanently. Any swirl marks, water spots, light scratches, or paint contamination that exist before installation will be sealed under the film for the life of the product. For this reason, we perform a thorough decontamination wash and, if needed, a paint correction prior to installation. This step is non-negotiable for a quality result. It adds time and cost, but it is the difference between a film that looks excellent for ten years and one that looks mediocre from day one.",
               },
               {
                 step: "03",
@@ -743,7 +743,7 @@ export default function PaintProtectionFilmGuide() {
                 step: "04",
                 title: "Cure Period and Quality Inspection",
                 description:
-                  "After installation, the film needs 48 to 72 hours to fully cure and bond to the paint surface. During this period, avoid washing the vehicle and keep it out of direct rain if possible. We perform a final quality inspection before returning your vehicle — checking edge adhesion, clarity, and coverage at every panel. If anything is not right, we fix it before you leave. After the cure period, normal washing is fine; we recommend avoiding high-pressure jets directly at film edges.",
+                  "After installation, the film needs 48 to 72 hours to fully cure and bond to the paint surface. During this period, avoid washing the vehicle and keep it out of direct rain if possible. We perform a final quality inspection before returning your vehicle, checking edge adhesion, clarity, and coverage at every panel. If anything is not right, we fix it before you leave. After the cure period, normal washing is fine; we recommend avoiding high-pressure jets directly at film edges.",
               },
             ].map((phase) => (
               <div key={phase.step} className="relative rounded-2xl overflow-hidden">
@@ -775,8 +775,7 @@ export default function PaintProtectionFilmGuide() {
             <Link href="/ppf/" className="text-[#EEFF00] hover:underline">
               paint protection film service page
             </Link>
-            . Accurate Autoworks is on Boulder Boulevard in Stony Plain —
-            convenient for drivers coming from Spruce Grove, Acheson, and
+            . Accurate Autoworks is on Boulder Boulevard in Stony Plain,             convenient for drivers coming from Spruce Grove, Acheson, and
             Parkland County. We also handle{" "}
             <Link href="/detailing/" className="text-[#EEFF00] hover:underline">
               paint correction and full detailing
@@ -840,7 +839,7 @@ export default function PaintProtectionFilmGuide() {
               <span className="text-[#EEFF00] glow-accent">Paint?</span>
             </h2>
             <p className="mt-4 text-[#999] max-w-xl mx-auto leading-relaxed">
-              PPF, ceramic coating, window tint, vinyl wraps — Accurate
+              PPF, ceramic coating, window tint, vinyl wraps, Accurate
               Autoworks handles complete vehicle protection under one roof in
               Stony Plain. Serving Spruce Grove, Parkland County, Acheson, and
               Edmonton West. Free consultation, no obligation.

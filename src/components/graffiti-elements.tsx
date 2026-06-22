@@ -1,5 +1,5 @@
 /**
- * SVG graffiti decorative elements — spray paint splatters, drips,
+ * SVG graffiti decorative elements, spray paint splatters, drips,
  * skulls, crossbones, paint splashes. Used as background overlays
  * on service pages for the biker/shop aesthetic.
  */

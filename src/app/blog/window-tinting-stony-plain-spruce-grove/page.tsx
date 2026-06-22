@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 const FAQ_DATA = [
   {
     q: "Is window tint legal in Alberta?",
-    a: "Yes, window tint is legal in Alberta with specific restrictions. Front side windows must allow at least 50% visible light transmission (VLT). Rear side windows and the rear window have no VLT minimum — any darkness is permitted. The windshield may only have a non-reflective tint strip along the top (the visor band). Violating these rules can result in fines and a required fix-it order. At Accurate Autoworks, every installation is done to Alberta Traffic Safety Act standards.",
+    a: "Yes, window tint is legal in Alberta with specific restrictions. Front side windows must allow at least 50% visible light transmission (VLT). Rear side windows and the rear window have no VLT minimum, any darkness is permitted. The windshield may only have a non-reflective tint strip along the top (the visor band). Violating these rules can result in fines and a required fix-it order. At Accurate Autoworks, every installation is done to Alberta Traffic Safety Act standards.",
   },
   {
     q: "How long does window tint last in Alberta?",
@@ -34,7 +34,7 @@ const FAQ_DATA = [
   },
   {
     q: "Can I roll my windows down after getting tint installed?",
-    a: "No — not for 3 to 7 days. The adhesive needs time to cure fully to the glass. Rolling windows down too early causes the tint to peel away from the edges, which is not covered under warranty. The cure period is longer in cold weather, so if you get tint installed in spring or fall, plan to leave the windows up for at least a week to be safe.",
+    a: "No, not for 3 to 7 days. The adhesive needs time to cure fully to the glass. Rolling windows down too early causes the tint to peel away from the edges, which is not covered under warranty. The cure period is longer in cold weather, so if you get tint installed in spring or fall, plan to leave the windows up for at least a week to be safe.",
   },
   {
     q: "Does window tint affect my rear defroster?",
@@ -42,11 +42,11 @@ const FAQ_DATA = [
   },
   {
     q: "Does window tint help in winter?",
-    a: "Yes, in several ways. Ceramic tint retains heat inside the cabin more effectively than bare glass, which means less work for your heater on cold mornings. It also reduces glare from low winter sun — a significant safety benefit when driving west on Highway 16A at 4:30 PM in December. The UV block remains active year-round, protecting your dash and upholstery from fading even on sunny winter days.",
+    a: "Yes, in several ways. Ceramic tint retains heat inside the cabin more effectively than bare glass, which means less work for your heater on cold mornings. It also reduces glare from low winter sun, a significant safety benefit when driving west on Highway 16A at 4:30 PM in December. The UV block remains active year-round, protecting your dash and upholstery from fading even on sunny winter days.",
   },
   {
     q: "What VLT percentage should I choose for my windows?",
-    a: "For front side windows, Alberta law requires 50% VLT minimum, so we typically install 50% or 35% (with the understanding that 35% on fronts is technically non-compliant and the customer's risk). For rear windows, 20% and 35% are the most popular choices — dark enough for privacy and heat rejection, light enough to maintain good outward visibility. During your free consultation at Accurate Autoworks, we show you samples so you can see exactly what each shade looks like before committing.",
+    a: "For front side windows, Alberta law requires 50% VLT minimum, so we typically install 50% or 35% (with the understanding that 35% on fronts is technically non-compliant and the customer's risk). For rear windows, 20% and 35% are the most popular choices, dark enough for privacy and heat rejection, light enough to maintain good outward visibility. During your free consultation at Accurate Autoworks, we show you samples so you can see exactly what each shade looks like before committing.",
   },
   {
     q: "How long does the installation take?",
@@ -173,7 +173,7 @@ export default function WindowTintingGuide() {
             driving blind for ten minutes. Add in the scorching summer UV that
             fades your dash in a single season, the lack of privacy when you are
             parked anywhere near the Acheson industrial strip, and the heat that
-            builds in a dark-interior truck on a plus-35 July day — and window
+            builds in a dark-interior truck on a plus-35 July day, and window
             tinting stops being a cosmetic choice and becomes a practical one.
           </p>
           <p className="mt-4 text-[#ccc] leading-relaxed text-base sm:text-lg">
@@ -247,7 +247,7 @@ export default function WindowTintingGuide() {
               Alberta Traffic Safety Act
             </a>{" "}
             and the Vehicle Equipment Regulation. The key measurement is Visible
-            Light Transmission, or VLT — the percentage of visible light that
+            Light Transmission, or VLT, the percentage of visible light that
             passes through the glass and tint combined.
           </p>
 
@@ -262,7 +262,7 @@ export default function WindowTintingGuide() {
               {
                 window: "Rear Side Windows",
                 rule: "No VLT minimum",
-                detail: "You can go as dark as you want — 5%, 20%, 35%, or anything in between. Full limo tint is legal on rear side windows in Alberta.",
+                detail: "You can go as dark as you want, 5%, 20%, 35%, or anything in between. Full limo tint is legal on rear side windows in Alberta.",
                 status: "open",
               },
               {
@@ -308,7 +308,7 @@ export default function WindowTintingGuide() {
             Non-compliant tint can result in a fine and a fix-it order requiring
             you to remove the tint before your next inspection. RCMP and
             municipal police in the Edmonton West area do check tint darkness
-            during traffic stops — especially on front side windows. At{" "}
+            during traffic stops, especially on front side windows. At{" "}
             <Link href="/tinting/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks
             </Link>
@@ -325,7 +325,7 @@ export default function WindowTintingGuide() {
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             Not all window tint is created equal. There are three main
             technologies on the market in 2026, and the differences in
-            performance — especially in an Alberta climate — are dramatic. Here
+            performance, especially in an Alberta climate, are dramatic. Here
             is a direct comparison of all three. For deep context on ceramic
             film technology,{" "}
             <a
@@ -420,8 +420,7 @@ export default function WindowTintingGuide() {
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             Here is a realistic breakdown of window tinting prices at a quality
             shop in the Stony Plain and Spruce Grove area in 2026. These are
-            typical prices for professional installation with warranted film —
-            not the self-stick kits from the auto parts store.
+            typical prices for professional installation with warranted film,             not the self-stick kits from the auto parts store.
           </p>
 
           {/* Desktop table */}
@@ -519,7 +518,7 @@ export default function WindowTintingGuide() {
                 title: "UV Protection",
                 icon: "sun",
                 detail:
-                  "Alberta sits at a high elevation with long summer days and intense solar radiation. According to Health Canada, UV radiation exposure is a leading cause of skin cancer — and you accumulate UV dose during every drive. Ceramic tint blocks 99%+ of UVA and UVB rays. Your passengers, your skin, and your interior materials all benefit year-round.",
+                  "Alberta sits at a high elevation with long summer days and intense solar radiation. According to Health Canada, UV radiation exposure is a leading cause of skin cancer, and you accumulate UV dose during every drive. Ceramic tint blocks 99%+ of UVA and UVB rays. Your passengers, your skin, and your interior materials all benefit year-round.",
                 externalLink: {
                   href: "https://www.canada.ca/en/health-canada/services/sun-safety.html",
                   label: "Health Canada sun safety data",
@@ -603,11 +602,11 @@ export default function WindowTintingGuide() {
               </h3>
               <p className="text-sm text-[#999] leading-relaxed">
                 The dye in low-cost tint film breaks down under UV exposure and
-                extreme temperature swings — exactly the conditions Alberta
+                extreme temperature swings, exactly the conditions Alberta
                 delivers every year. After a couple of winters, you get that
                 unmistakable purple hue on the windows, bubbling at the edges,
                 and peeling around the corners. That means paying for removal
-                (add $100 to $200) and reinstallation — costs that quickly
+                (add $100 to $200) and reinstallation, costs that quickly
                 exceed what you would have spent on ceramic from the start.
               </p>
             </div>
@@ -638,7 +637,7 @@ export default function WindowTintingGuide() {
               <p className="text-sm text-[#999] leading-relaxed">
                 This is the most misunderstood advantage of ceramic tint. A
                 dark dyed film blocks visible light but lets infrared radiation
-                through — the infrared is what you feel as heat. Ceramic film
+                through, the infrared is what you feel as heat. Ceramic film
                 blocks up to 70% of infrared heat even in a relatively light
                 shade, so you can run a 50% VLT-compliant front window tint
                 that still dramatically reduces heat buildup. You stay legal
@@ -648,11 +647,11 @@ export default function WindowTintingGuide() {
 
             <div className="card-gradient rounded-2xl p-6 sm:p-8">
               <h3 className="text-sm font-bold uppercase tracking-wide text-white mb-3">
-                No Signal Interference — GPS, Radio, Toll Tags Work Fine
+                No Signal Interference, GPS, Radio, Toll Tags Work Fine
               </h3>
               <p className="text-sm text-[#999] leading-relaxed">
-                Metalized tint films — popular in the 2000s and still sold at
-                the low end of the market — interfere with GPS signals, radio
+                Metalized tint films, popular in the 2000s and still sold at
+                the low end of the market, interfere with GPS signals, radio
                 reception, and RFID transponders like highway toll tags.
                 Ceramic film has zero metal content, so your GPS locks on
                 normally, your radio sounds the same, and your phone stays
@@ -695,7 +694,7 @@ export default function WindowTintingGuide() {
                 step: "01",
                 title: "Free Consultation",
                 description:
-                  "We start by reviewing your vehicle, discussing Alberta's legal VLT requirements for each window, and showing you our sample boards. You see every shade option in natural light before making a decision. There is no pressure to book on the spot — we want you confident in your choice.",
+                  "We start by reviewing your vehicle, discussing Alberta's legal VLT requirements for each window, and showing you our sample boards. You see every shade option in natural light before making a decision. There is no pressure to book on the spot, we want you confident in your choice.",
               },
               {
                 step: "02",
@@ -713,7 +712,7 @@ export default function WindowTintingGuide() {
                 step: "04",
                 title: "Cure Time: 3 to 7 Days",
                 description:
-                  "After installation you take your vehicle home, but the tint needs time to cure. During this period: do not roll your windows down, do not clean the glass from the inside, and expect to see small water pockets or haze — these are normal and disappear as the adhesive cures. In cold weather (below 10°C), allow the full 7 days.",
+                  "After installation you take your vehicle home, but the tint needs time to cure. During this period: do not roll your windows down, do not clean the glass from the inside, and expect to see small water pockets or haze, these are normal and disappear as the adhesive cures. In cold weather (below 10°C), allow the full 7 days.",
               },
             ].map((phase) => (
               <div key={phase.step} className="relative rounded-2xl overflow-hidden">
@@ -810,7 +809,7 @@ export default function WindowTintingGuide() {
               <span className="text-[#EEFF00] glow-accent">Windows?</span>
             </h2>
             <p className="mt-4 text-[#999] max-w-xl mx-auto leading-relaxed">
-              Window tint, PPF, detailing, wraps — Accurate Autoworks handles
+              Window tint, PPF, detailing, wraps, Accurate Autoworks handles
               it all under one roof in Stony Plain. Serving Spruce Grove,
               Parkland County, Acheson, and Edmonton West. Free consultation,
               no obligation.
@@ -876,7 +875,7 @@ export default function WindowTintingGuide() {
             headline:
               "Window Tinting in Stony Plain & Spruce Grove: Alberta's Complete 2026 Guide",
             description:
-              "Everything Alberta drivers need to know about window tinting — laws, costs, ceramic vs carbon vs dyed. Accurate Autoworks, Stony Plain.",
+              "Everything Alberta drivers need to know about window tinting, laws, costs, ceramic vs carbon vs dyed. Accurate Autoworks, Stony Plain.",
             datePublished: publishDate,
             dateModified: modifiedDate,
             author: {

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const FAQ_DATA = [
   {
     q: "What is the difference between a car wash and a full detail?",
-    a: "A car wash removes loose surface dirt with water and soap — it takes 5 to 15 minutes and leaves contaminants like road tar, iron fallout, tree sap, and embedded grit untouched. A full detail is a multi-hour restoration process: the paint is decontaminated with a clay bar, interior surfaces are deep-cleaned rather than wiped down, leather is conditioned, carpets are shampooed, and a protective wax or sealant is applied. At Accurate Autoworks in Stony Plain, a full detail restores a vehicle to near-showroom condition, not just cosmetically clean.",
+    a: "A car wash removes loose surface dirt with water and soap, it takes 5 to 15 minutes and leaves contaminants like road tar, iron fallout, tree sap, and embedded grit untouched. A full detail is a multi-hour restoration process: the paint is decontaminated with a clay bar, interior surfaces are deep-cleaned rather than wiped down, leather is conditioned, carpets are shampooed, and a protective wax or sealant is applied. At Accurate Autoworks in Stony Plain, a full detail restores a vehicle to near-showroom condition, not just cosmetically clean.",
   },
   {
     q: "How long does a full detail take?",
@@ -32,53 +32,53 @@ const FAQ_DATA = [
   },
   {
     q: "How often should I detail my vehicle in Alberta?",
-    a: "For Alberta drivers, a full detail twice per year — typically once in spring after road salt season and once in fall before winter — is the minimum we recommend. Spring detailing removes the salt, sand, and grime that has worked into every seam and crevice over winter. Fall detailing protects surfaces before they are exposed to another six months of abuse. Monthly quick details or professional washes in between help maintain the condition. Vehicles driven on Parkland County gravel roads or the Acheson industrial area may benefit from quarterly attention.",
+    a: "For Alberta drivers, a full detail twice per year, typically once in spring after road salt season and once in fall before winter, is the minimum we recommend. Spring detailing removes the salt, sand, and grime that has worked into every seam and crevice over winter. Fall detailing protects surfaces before they are exposed to another six months of abuse. Monthly quick details or professional washes in between help maintain the condition. Vehicles driven on Parkland County gravel roads or the Acheson industrial area may benefit from quarterly attention.",
   },
   {
     q: "What is included in an interior detail?",
-    a: "A full interior detail at Accurate Autoworks includes thorough vacuuming of all surfaces (seats, carpets, mats, trunk), carpet and upholstery shampooing, leather seat cleaning and conditioning, dashboard and console cleaning with appropriate protectant, door jamb cleaning, glass cleaning from the inside, air vent cleaning, and odour treatment as needed. Stubborn stains — coffee spills, mud, pet accidents — receive targeted treatment. The goal is a cabin that looks, smells, and feels as clean as it did when the vehicle was new.",
+    a: "A full interior detail at Accurate Autoworks includes thorough vacuuming of all surfaces (seats, carpets, mats, trunk), carpet and upholstery shampooing, leather seat cleaning and conditioning, dashboard and console cleaning with appropriate protectant, door jamb cleaning, glass cleaning from the inside, air vent cleaning, and odour treatment as needed. Stubborn stains, coffee spills, mud, pet accidents, receive targeted treatment. The goal is a cabin that looks, smells, and feels as clean as it did when the vehicle was new.",
   },
   {
     q: "Can detailing remove scratches from my paint?",
-    a: "Light surface scratches and swirl marks in the clear coat can be significantly reduced or eliminated through machine polishing — a paint correction service included in our premium detail package. Scratches that penetrate through the clear coat to the colour coat or primer cannot be removed by detailing and require a body shop respray. At Accurate Autoworks, we assess your paint before recommending a service so you know exactly what to expect. For scratch prevention going forward, pairing a detail with paint protection film or ceramic coating is the smart move.",
+    a: "Light surface scratches and swirl marks in the clear coat can be significantly reduced or eliminated through machine polishing, a paint correction service included in our premium detail package. Scratches that penetrate through the clear coat to the colour coat or primer cannot be removed by detailing and require a body shop respray. At Accurate Autoworks, we assess your paint before recommending a service so you know exactly what to expect. For scratch prevention going forward, pairing a detail with paint protection film or ceramic coating is the smart move.",
   },
   {
     q: "Is detailing worth it before selling my vehicle?",
-    a: "Absolutely. A professionally detailed vehicle consistently commands a higher asking price and sells faster than the same vehicle in poor cosmetic condition. Studies from the automotive remarketing industry consistently show that clean, well-presented vehicles achieve 5 to 15% higher sale prices than identical vehicles that appear neglected. At Accurate Autoworks, we offer pre-sale detail packages specifically designed to maximize your vehicle's visual appeal. Call 780.818.9904 — for what a detail costs, the return on investment when selling is almost always positive.",
+    a: "Absolutely. A professionally detailed vehicle consistently commands a higher asking price and sells faster than the same vehicle in poor cosmetic condition. Studies from the automotive remarketing industry consistently show that clean, well-presented vehicles achieve 5 to 15% higher sale prices than identical vehicles that appear neglected. At Accurate Autoworks, we offer pre-sale detail packages specifically designed to maximize your vehicle's visual appeal. Call 780.818.9904, for what a detail costs, the return on investment when selling is almost always positive.",
   },
   {
     q: "Do you detail trucks and SUVs?",
-    a: "Yes — trucks, SUVs, and vans are some of our most common detailing jobs at Accurate Autoworks. Larger vehicles carry a small premium over standard passenger sedans due to the additional surface area, larger cargo areas, and the fact that trucks typically accumulate more grime in harder-to-reach areas. Extended cabs, crew cabs with rear seat areas, and trucks with bed liners or tool boxes all add time. Give us a call at 780.818.9904 with your vehicle details and we will give you an accurate quote.",
+    a: "Yes, trucks, SUVs, and vans are some of our most common detailing jobs at Accurate Autoworks. Larger vehicles carry a small premium over standard passenger sedans due to the additional surface area, larger cargo areas, and the fact that trucks typically accumulate more grime in harder-to-reach areas. Extended cabs, crew cabs with rear seat areas, and trucks with bed liners or tool boxes all add time. Give us a call at 780.818.9904 with your vehicle details and we will give you an accurate quote.",
   },
   {
     q: "Can I bundle detailing with other services at Accurate Autoworks?",
-    a: "Yes, and this is one of the best ways to maximize your visit. Detailing before a window tint installation ensures clean glass for a flawless tint bond. Detailing before a ceramic coating application is actually mandatory — the paint surface must be fully decontaminated and polished before ceramic goes on. Similarly, detailing after a vinyl wrap removal restores the underlying paint. Accurate Autoworks handles tinting, wraps, PPF, ceramic coating, and detailing under one roof, so bundled appointments are easy to schedule. Ask about combined service pricing when you book.",
+    a: "Yes, and this is one of the best ways to maximize your visit. Detailing before a window tint installation ensures clean glass for a flawless tint bond. Detailing before a ceramic coating application is actually mandatory, the paint surface must be fully decontaminated and polished before ceramic goes on. Similarly, detailing after a vinyl wrap removal restores the underlying paint. Accurate Autoworks handles tinting, wraps, PPF, ceramic coating, and detailing under one roof, so bundled appointments are easy to schedule. Ask about combined service pricing when you book.",
   },
   {
     q: "How do I maintain my vehicle between detail appointments?",
-    a: "Between professional details, wash your vehicle with a pH-neutral car wash soap (not dish soap) using a microfibre wash mitt rather than a brush or sponge, which introduce swirl marks. Rinse thoroughly and dry with a microfibre towel to prevent water spots. Avoid automatic brush washes — the brushes drag contaminants across your paint. In winter, rinse salt accumulation off your undercarriage regularly, particularly around wheel wells. The International Detailing Association recommends monthly hand washing as the baseline for paint preservation in harsh-climate regions.",
+    a: "Between professional details, wash your vehicle with a pH-neutral car wash soap (not dish soap) using a microfibre wash mitt rather than a brush or sponge, which introduce swirl marks. Rinse thoroughly and dry with a microfibre towel to prevent water spots. Avoid automatic brush washes, the brushes drag contaminants across your paint. In winter, rinse salt accumulation off your undercarriage regularly, particularly around wheel wells. The International Detailing Association recommends monthly hand washing as the baseline for paint preservation in harsh-climate regions.",
   },
   {
     q: "Can detailing remove pet hair, smoke odour, or mildew smell from my vehicle?",
-    a: "Yes to all three, though the severity of the issue affects the approach and outcome. Pet hair is removed during the deep vacuuming stage using specialized tools that pull embedded hair from carpet fibres and seat seams. Smoke and mildew odours require ozone treatment or enzyme-based odour eliminators applied to all interior surfaces — simple air fresheners mask odours, they do not eliminate them. Severe mildew (from flooding or a persistent leak) may require removal of carpeting and treatment of the subfloor. Accurate Autoworks will assess the situation honestly before booking so you know what level of service is needed.",
+    a: "Yes to all three, though the severity of the issue affects the approach and outcome. Pet hair is removed during the deep vacuuming stage using specialized tools that pull embedded hair from carpet fibres and seat seams. Smoke and mildew odours require ozone treatment or enzyme-based odour eliminators applied to all interior surfaces, simple air fresheners mask odours, they do not eliminate them. Severe mildew (from flooding or a persistent leak) may require removal of carpeting and treatment of the subfloor. Accurate Autoworks will assess the situation honestly before booking so you know what level of service is needed.",
   },
 ];
 
 const COST_DATA = [
-  { service: "Express wash & dry", cost: "$50 – $80", priority: "Entry Level", level: "optional" },
-  { service: "Exterior detail — sedan", cost: "$150 – $250", priority: "Popular", level: "recommended" },
-  { service: "Exterior detail — truck / SUV", cost: "$200 – $300", priority: "Popular", level: "recommended" },
-  { service: "Interior detail only", cost: "$150 – $250", priority: "Popular", level: "recommended" },
-  { service: "Full detail combo — sedan", cost: "$250 – $400", priority: "Best Value", level: "essential" },
-  { service: "Full detail combo — truck / SUV", cost: "$300 – $500", priority: "Best Value", level: "essential" },
-  { service: "Premium detail + machine polish", cost: "$400 – $700", priority: "Pre-Ceramic / Pre-Sale", level: "recommended" },
-  { service: "Engine bay clean (add-on)", cost: "$75 – $150", priority: "Add-on", level: "optional" },
+  { service: "Express wash & dry", cost: "$50, $80", priority: "Entry Level", level: "optional" },
+  { service: "Exterior detail, sedan", cost: "$150, $250", priority: "Popular", level: "recommended" },
+  { service: "Exterior detail, truck / SUV", cost: "$200, $300", priority: "Popular", level: "recommended" },
+  { service: "Interior detail only", cost: "$150, $250", priority: "Popular", level: "recommended" },
+  { service: "Full detail combo, sedan", cost: "$250, $400", priority: "Best Value", level: "essential" },
+  { service: "Full detail combo, truck / SUV", cost: "$300, $500", priority: "Best Value", level: "essential" },
+  { service: "Premium detail + machine polish", cost: "$400, $700", priority: "Pre-Ceramic / Pre-Sale", level: "recommended" },
+  { service: "Engine bay clean (add-on)", cost: "$75, $150", priority: "Add-on", level: "optional" },
 ];
 
 const DETAIL_PACKAGES = [
   {
     name: "Express Wash & Dry",
-    price: "$50 – $80",
+    price: "$50, $80",
     interior: false,
     exterior: true,
     clayBar: false,
@@ -89,7 +89,7 @@ const DETAIL_PACKAGES = [
   },
   {
     name: "Exterior Detail",
-    price: "$150 – $250",
+    price: "$150, $250",
     interior: false,
     exterior: true,
     clayBar: true,
@@ -100,7 +100,7 @@ const DETAIL_PACKAGES = [
   },
   {
     name: "Interior Detail",
-    price: "$150 – $250",
+    price: "$150, $250",
     interior: true,
     exterior: false,
     clayBar: false,
@@ -111,19 +111,19 @@ const DETAIL_PACKAGES = [
   },
   {
     name: "Full Detail (Combo)",
-    price: "$250 – $400",
+    price: "$250, $400",
     interior: true,
     exterior: true,
     clayBar: true,
     machinePolish: false,
     protection: "Hand wax or sealant",
-    bestFor: "Complete refresh — most popular choice",
+    bestFor: "Complete refresh, most popular choice",
     level: "recommended",
     recommended: true,
   },
   {
     name: "Premium Detail + Machine Polish",
-    price: "$400 – $700",
+    price: "$400, $700",
     interior: true,
     exterior: true,
     clayBar: true,
@@ -163,7 +163,7 @@ export default function AutoDetailingStonyPlain() {
           </h1>
 
           <p className="mt-8 text-lg sm:text-xl text-[#999] max-w-2xl mx-auto leading-relaxed">
-            Everything Parkland County drivers need to know — what a real detail
+            Everything Parkland County drivers need to know, what a real detail
             includes, how much it costs in 2026, and why Alberta roads make
             professional detailing a necessity, not a luxury.
           </p>
@@ -239,7 +239,7 @@ export default function AutoDetailingStonyPlain() {
                 { href: "#wash-vs-detail", label: "Car Wash vs. Professional Detail" },
                 { href: "#packages", label: "Full Detailing Menu & Packages" },
                 { href: "#cost-guide", label: "Detailing Costs in Stony Plain (2026)" },
-                { href: "#interior-exterior", label: "Interior vs. Exterior — What Each Covers" },
+                { href: "#interior-exterior", label: "Interior vs. Exterior, What Each Covers" },
                 { href: "#alberta-reasons", label: "Why Alberta Vehicles Need It" },
                 { href: "#what-to-expect", label: "What to Expect at Accurate Autoworks" },
                 { href: "#faq", label: "Frequently Asked Questions" },
@@ -448,7 +448,7 @@ export default function AutoDetailingStonyPlain() {
           <Callout variant="tip">
             <strong className="text-white">Which package is right for you?</strong>{" "}
             If your vehicle hasn&apos;t been properly detailed in over a year, start
-            with the Full Detail Combo — it covers everything and gives you a
+            with the Full Detail Combo, it covers everything and gives you a
             fresh baseline. If you are planning to add{" "}
             <Link href="/ppf/" className="text-[#EEFF00] hover:underline">
               paint protection film
@@ -470,7 +470,7 @@ export default function AutoDetailingStonyPlain() {
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             Here is a realistic breakdown of professional auto detailing prices
             in the Stony Plain and Spruce Grove area for 2026. These reflect
-            proper detail shop pricing — not a guy with a pressure washer in a
+            proper detail shop pricing, not a guy with a pressure washer in a
             parking lot.
           </p>
 
@@ -558,7 +558,7 @@ export default function AutoDetailingStonyPlain() {
         {/* Section 4: Interior vs Exterior */}
         <section id="interior-exterior" className="mt-16 scroll-mt-24">
           <SectionHeading number="04" highlight="Covered">
-            Interior vs. Exterior — What&apos;s{" "}
+            Interior vs. Exterior, What&apos;s{" "}
           </SectionHeading>
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             The full detail combo covers both sides of the vehicle, but it helps
@@ -578,7 +578,7 @@ export default function AutoDetailingStonyPlain() {
                   { step: "Carpet & Mat Shampooing", desc: "Hot water extraction or steam cleaning lifts ingrained stains and odours from carpet fibres. Mats are removed and cleaned separately." },
                   { step: "Seat Cleaning", desc: "Cloth seats are shampooed and extracted. Leather seats are cleaned with appropriate leather cleaner and conditioned to prevent cracking and fading." },
                   { step: "Dashboard & Console", desc: "All hard surfaces are cleaned with appropriate products and dressed with UV-protective dressing to prevent cracking from Alberta's intense sun." },
-                  { step: "Door Panels & Jambs", desc: "Door panels, arm rests, and door jambs — the dirty edges everyone forgets — are cleaned and dressed. Door jambs collect road grime on every trip." },
+                  { step: "Door Panels & Jambs", desc: "Door panels, arm rests, and door jambs, the dirty edges everyone forgets, are cleaned and dressed. Door jambs collect road grime on every trip." },
                   { step: "Interior Glass", desc: "Windows are cleaned from the inside, removing film, fingerprints, and the off-gassing residue from new vehicle plastics that fogs glass over time." },
                 ].map((item) => (
                   <div key={item.step} className="flex gap-3">
@@ -603,11 +603,11 @@ export default function AutoDetailingStonyPlain() {
               <div className="grid sm:grid-cols-2 gap-3">
                 {[
                   { step: "Pre-Rinse & Foam", desc: "A high-pressure pre-rinse removes bulk dirt, followed by a foam pre-soak that softens and loosens bonded contaminants before any physical contact." },
-                  { step: "Hand Wash", desc: "Two-bucket hand wash with pH-neutral automotive soap and microfibre mitts — no brushes, no swirl marks. Wheels and wheel wells receive separate attention." },
+                  { step: "Hand Wash", desc: "Two-bucket hand wash with pH-neutral automotive soap and microfibre mitts, no brushes, no swirl marks. Wheels and wheel wells receive separate attention." },
                   { step: "Clay Bar Decontamination", desc: "A clay bar pulls out embedded road tar, industrial fallout, tree sap, and brake dust that washing cannot remove. This is what makes paint feel glassy smooth." },
-                  { step: "Iron Fallout Removal", desc: "Chemical iron decontamination dissolves ferrous particles embedded in the paint — a key step for vehicles driven near railways or heavy industry in the Acheson corridor." },
+                  { step: "Iron Fallout Removal", desc: "Chemical iron decontamination dissolves ferrous particles embedded in the paint, a key step for vehicles driven near railways or heavy industry in the Acheson corridor." },
                   { step: "Paint Correction (Premium)", desc: "Machine polishing with a dual-action polisher removes swirl marks, light oxidation, and fine scratches from the clear coat. Available in the premium package." },
-                  { step: "Wax or Sealant", desc: "A protective layer is applied as the final step — carnauba wax for depth of shine, or a synthetic paint sealant for longer-lasting protection in Alberta's climate." },
+                  { step: "Wax or Sealant", desc: "A protective layer is applied as the final step, carnauba wax for depth of shine, or a synthetic paint sealant for longer-lasting protection in Alberta's climate." },
                 ].map((item) => (
                   <div key={item.step} className="flex gap-3">
                     <span className="flex-shrink-0 mt-0.5 w-4 h-4 rounded-full bg-[#EEFF00]/15 border border-[#EEFF00]/30 flex items-center justify-center">
@@ -633,7 +633,7 @@ export default function AutoDetailingStonyPlain() {
               vinyl wrap
             </Link>
             , a full exterior detail and paint decontamination is required
-            beforehand — film and wrap adhesives need a perfectly clean,
+            beforehand, film and wrap adhesives need a perfectly clean,
             contaminant-free surface to bond properly. Book the detail first,
             then the wrap or PPF on the same visit or the next day.
           </Callout>
@@ -659,7 +659,7 @@ export default function AutoDetailingStonyPlain() {
               </h3>
               <p className="text-sm text-[#999] leading-relaxed">
                 Alberta municipalities apply road salt and sand from October
-                through April — and some years into May. Salt accelerates rust
+                through April, and some years into May. Salt accelerates rust
                 formation on any unprotected metal surface and works into every
                 seam, panel gap, and undercarriage crevice. Sand abrades paint
                 where it accumulates around wheel arches and lower door edges.
@@ -680,7 +680,7 @@ export default function AutoDetailingStonyPlain() {
                 </h3>
                 <p className="text-sm text-[#999] leading-relaxed">
                   Alberta sits at a higher elevation than most of Canada, which
-                  means greater UV intensity — and summer days run up to 17
+                  means greater UV intensity, and summer days run up to 17
                   hours of daylight. The combined effect on vehicle interiors is
                   severe: dashboard plastics crack and fade, leather dries and
                   splits without regular conditioning, and cloth upholstery
@@ -695,7 +695,7 @@ export default function AutoDetailingStonyPlain() {
                   >
                     Health Canada&apos;s sun safety data confirms Alberta&apos;s elevated UV exposure
                   </a>{" "}
-                  — what damages your skin on every drive damages your vehicle&apos;s
+, what damages your skin on every drive damages your vehicle&apos;s
                   interior at the same time.
                 </p>
               </div>
@@ -711,11 +711,11 @@ export default function AutoDetailingStonyPlain() {
                 aggregate. Rock chips accumulate on the front bumper, hood, and
                 lower doors within the first season on a new vehicle. Left
                 unaddressed, chips that reach bare metal become rust initiation
-                points. Regular detailing — combined with{" "}
+                points. Regular detailing, combined with{" "}
                 <Link href="/ppf/" className="text-[#EEFF00] hover:underline">
                   paint protection film on the front end
                 </Link>{" "}
-                — is the most effective defence against the cumulative damage
+, is the most effective defence against the cumulative damage
                 from Parkland County roads.
               </p>
             </div>
@@ -732,7 +732,7 @@ export default function AutoDetailingStonyPlain() {
                 heavy transport operations. These microscopic iron particles
                 embed in the clear coat and, if left in place, cause rust
                 blooms in the paint. Iron fallout removal with a chemical
-                decontaminator — standard at Accurate Autoworks — is the only
+                decontaminator, standard at Accurate Autoworks, is the only
                 way to remove them without damaging the paint surface.
               </p>
             </div>
@@ -762,13 +762,13 @@ export default function AutoDetailingStonyPlain() {
                 step: "02",
                 title: "Interior First",
                 description:
-                  "We start inside. Mats come out and are treated separately. Seats are vacuumed and treated based on material — cloth upholstery gets shampooed, leather gets cleaned and conditioned. Carpets are hot-water extracted. Hard surfaces are cleaned, air vents are cleared of dust, door jambs are scrubbed, and glass is cleaned from the inside. Odour treatment is applied at this stage if needed.",
+                  "We start inside. Mats come out and are treated separately. Seats are vacuumed and treated based on material, cloth upholstery gets shampooed, leather gets cleaned and conditioned. Carpets are hot-water extracted. Hard surfaces are cleaned, air vents are cleared of dust, door jambs are scrubbed, and glass is cleaned from the inside. Odour treatment is applied at this stage if needed.",
               },
               {
                 step: "03",
                 title: "Exterior Decontamination",
                 description:
-                  "After the interior, the exterior gets a full two-stage decontamination: first a chemical iron fallout removal to dissolve embedded ferrous particles, followed by a thorough hand wash. A clay bar is then worked across all painted surfaces to pull out any remaining bonded contaminants. The result is paint that feels completely smooth under your fingertips — the baseline for proper paint protection.",
+                  "After the interior, the exterior gets a full two-stage decontamination: first a chemical iron fallout removal to dissolve embedded ferrous particles, followed by a thorough hand wash. A clay bar is then worked across all painted surfaces to pull out any remaining bonded contaminants. The result is paint that feels completely smooth under your fingertips, the baseline for proper paint protection.",
               },
               {
                 step: "04",
@@ -814,7 +814,7 @@ export default function AutoDetailingStonyPlain() {
             <Link href="/wraps/" className="text-[#EEFF00] hover:underline">
               vinyl wrap
             </Link>
-            , the decontamination step is mandatory for proper adhesion — so
+            , the decontamination step is mandatory for proper adhesion, so
             the detail is not extra work, it is the first step of the wrap
             process. Call{" "}
             <a href="tel:7808189904" className="text-[#EEFF00] hover:underline font-bold">
@@ -833,7 +833,7 @@ export default function AutoDetailingStonyPlain() {
             </p>
             <div className="grid sm:grid-cols-2 gap-4 text-sm">
               {[
-                { title: "Hand wash only", desc: "pH-neutral soap, two-bucket method, microfibre mitts. Avoid automatic brush washes — they undo your paint correction." },
+                { title: "Hand wash only", desc: "pH-neutral soap, two-bucket method, microfibre mitts. Avoid automatic brush washes, they undo your paint correction." },
                 { title: "Dry with microfibre", desc: "Terry cloths and chamois leave swirl marks. A large, plush microfibre drying towel protects the paint on every wash." },
                 { title: "Rinse salt regularly", desc: "In winter, a quick rinse of the undercarriage and lower panels after every salted-road drive slows corrosion accumulation dramatically." },
                 { title: "Interior quick wipe", desc: "A microfibre cloth on the dash weekly and a quick vacuum of the floor mats monthly keeps the cabin from accumulating the grime that takes hours to remove in a deep clean." },
@@ -902,7 +902,7 @@ export default function AutoDetailingStonyPlain() {
               <span className="text-[#EEFF00] glow-accent">Vehicle?</span>
             </h2>
             <p className="mt-4 text-[#999] max-w-xl mx-auto leading-relaxed">
-              Auto detailing, window tinting, PPF, vinyl wraps — Accurate
+              Auto detailing, window tinting, PPF, vinyl wraps, Accurate
               Autoworks handles it all under one roof in Stony Plain. Serving
               Spruce Grove, Parkland County, Acheson, and Edmonton West. Call
               for a quote or book online.

@@ -16,7 +16,9 @@ export default function PrintPage() {
       title="Print &"
       titleAccent="Signage"
       heroImage="/images/hero-print.jpg"
-      description="If you can imagine it, we can print it. Commercial-grade equipment on-site means we handle everything from design to finished product — fleet wraps, storefront signs, banners, decals, and custom graphics for businesses across Parkland County. At Accurate Autoworks in Stony Plain, we&apos;ve built our print and signage operation to serve local businesses who want quality work without Edmonton prices or Edmonton wait times. Everything is produced in-house so we control the quality from start to finish."
+      heroVideo="/videos/print.mp4"
+      heroPoster="/images/service-posters/print.jpg"
+      description="If you can imagine it, we can print it. Commercial-grade equipment on-site means we handle everything from design to finished product, fleet wraps, storefront signs, banners, decals, and custom graphics for businesses across Parkland County. At Accurate Autoworks in Stony Plain, we&apos;ve built our print and signage operation to serve local businesses who want quality work without Edmonton prices or Edmonton wait times. Everything is produced in-house so we control the quality from start to finish."
       benefits={[
         {
           title: "Mobile Advertising That Works",
@@ -48,7 +50,7 @@ export default function PrintPage() {
           step: 1,
           title: "Tell Us What You Need",
           description:
-            "Call 780.818.9904 or come by the shop. Whether it&apos;s fleet wraps for your trucks, a storefront sign, event banners, or vehicle decals — tell us the scope and we&apos;ll put together a plan and quote.",
+            "Call 780.818.9904 or come by the shop. Whether it&apos;s fleet wraps for your trucks, a storefront sign, event banners, or vehicle decals, tell us the scope and we&apos;ll put together a plan and quote.",
         },
         {
           step: 2,
@@ -60,7 +62,7 @@ export default function PrintPage() {
           step: 3,
           title: "Print and Production",
           description:
-            "Once approved, we print on our large-format commercial printer and cut on our precision plotter. Everything is produced in-house at our Stony Plain shop — no shipping delays, no third-party quality issues.",
+            "Once approved, we print on our large-format commercial printer and cut on our precision plotter. Everything is produced in-house at our Stony Plain shop, no shipping delays, no third-party quality issues.",
         },
         {
           step: 4,
@@ -70,23 +72,23 @@ export default function PrintPage() {
         },
       ]}
       features={[
-        "Fleet vehicle wraps — brand every truck, van, and car in your fleet",
+        "Fleet vehicle wraps, brand every truck, van, and car in your fleet",
         "Storefront signs and window graphics",
-        "Banners — indoor and outdoor, any size",
+        "Banners, indoor and outdoor, any size",
         "Vinyl decals and lettering for vehicles and walls",
         "Custom graphics and logo printing",
         "Large-format commercial printing on-site",
         "Full plotter for precision cuts and contour graphics",
-        "Design services available — bring us your logo, we&apos;ll do the rest",
+        "Design services available, bring us your logo, we&apos;ll do the rest",
         "Bulk and fleet pricing for commercial clients",
         "Serving businesses in Acheson industrial area",
-        "Quick turnaround — most jobs done within the week",
+        "Quick turnaround, most jobs done within the week",
         "Durable materials built for Alberta weather",
       ]}
       whySection={{
         title: "Why Local Print and Signage Matters",
         content:
-          "When you order signs or wraps online, you get a box shipped to you and you figure out the install yourself. When you work with a local shop like Accurate Autoworks in Stony Plain, you get the full experience — consultation, design, production, and professional installation, all under one roof. We know the local market because we&apos;re part of it. We work with contractors in Acheson, retailers in Spruce Grove, service companies across Parkland County, and trades businesses that need their fleet to look professional and generate leads. Our commercial-grade equipment produces output that looks better and lasts longer than anything you&apos;ll find from an online print shop. And when you need changes, reprints, or new vehicles added to your fleet, we&apos;re right here — not behind a ticket system in another province.",
+          "When you order signs or wraps online, you get a box shipped to you and you figure out the install yourself. When you work with a local shop like Accurate Autoworks in Stony Plain, you get the full experience, consultation, design, production, and professional installation, all under one roof. We know the local market because we&apos;re part of it. We work with contractors in Acheson, retailers in Spruce Grove, service companies across Parkland County, and trades businesses that need their fleet to look professional and generate leads. Our commercial-grade equipment produces output that looks better and lasts longer than anything you&apos;ll find from an online print shop. And when you need changes, reprints, or new vehicles added to your fleet, we&apos;re right here, not behind a ticket system in another province.",
       }}
       faqs={[
         {
@@ -98,18 +100,18 @@ export default function PrintPage() {
         {
           question: "Can you wrap our entire company fleet?",
           answer:
-            "Yes — fleet wraps are one of our specialties. We work with businesses across Stony Plain, Spruce Grove, Acheson, and Parkland County to brand their vehicles with professional wraps and graphics. We offer volume pricing for fleets and can handle everything from design to installation. Turn every vehicle into a mobile advertisement for your business.",
+            "Yes, fleet wraps are one of our specialties. We work with businesses across Stony Plain, Spruce Grove, Acheson, and Parkland County to brand their vehicles with professional wraps and graphics. We offer volume pricing for fleets and can handle everything from design to installation. Turn every vehicle into a mobile advertisement for your business.",
         },
         {
           question: "How much do commercial vehicle wraps cost?",
           answer:
-            "Commercial vehicle wraps range from $500-$1,500 for partial wraps and lettering to $2,500-$5,000+ for full wraps depending on vehicle size and design complexity. Fleet pricing is available for multiple vehicles. We provide free quotes — call 780.818.9904 or submit a request through our contact form.",
+            "Commercial vehicle wraps range from $500-$1,500 for partial wraps and lettering to $2,500-$5,000+ for full wraps depending on vehicle size and design complexity. Fleet pricing is available for multiple vehicles. We provide free quotes, call 780.818.9904 or submit a request through our contact form.",
         },
         {
           question:
             "Do you design the graphics or do I need to provide them?",
           answer:
-            "Both. If you have existing brand assets (logo, colours, design files), we&apos;ll work with them. If you need design help, we can create custom graphics for your wrap, sign, or banner. Just bring us your logo and tell us what you&apos;re going for — we&apos;ll handle the creative.",
+            "Both. If you have existing brand assets (logo, colours, design files), we&apos;ll work with them. If you need design help, we can create custom graphics for your wrap, sign, or banner. Just bring us your logo and tell us what you&apos;re going for, we&apos;ll handle the creative.",
         },
         {
           question:
@@ -127,13 +129,13 @@ export default function PrintPage() {
           question:
             "How much does a storefront sign cost in Stony Plain?",
           answer:
-            "Storefront signage varies based on size, materials, and complexity. Simple vinyl window lettering starts around $200-$500. Larger printed signs and dimensional lettering range from $500-$2,000+. We offer free on-site consultations for storefront projects — call 780.818.9904 and we&apos;ll come take a look at your space.",
+            "Storefront signage varies based on size, materials, and complexity. Simple vinyl window lettering starts around $200-$500. Larger printed signs and dimensional lettering range from $500-$2,000+. We offer free on-site consultations for storefront projects, call 780.818.9904 and we&apos;ll come take a look at your space.",
         },
         {
           question:
             "Can you do event banners and trade show displays?",
           answer:
-            "Yes. We print banners in any size for indoor or outdoor use — trade shows, grand openings, promotions, community events. Retractable banner stands, hanging banners, table wraps — whatever you need to make your business stand out. Fast turnaround too, usually within a few business days.",
+            "Yes. We print banners in any size for indoor or outdoor use, trade shows, grand openings, promotions, community events. Retractable banner stands, hanging banners, table wraps, whatever you need to make your business stand out. Fast turnaround too, usually within a few business days.",
         },
       ]}
       relatedServices={[

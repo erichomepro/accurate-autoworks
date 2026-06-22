@@ -232,9 +232,9 @@ export default function PPFCostAlberta2026() {
             Quality self-healing PPF lasts 7 to 10 years in Alberta when
             professionally installed. Top-tier ceramic-coated film stretches
             that to 12+ years. The Alberta climate is one of the harder tests
-            for PPF anywhere on the continent — high UV at elevation, gravel
+            for PPF anywhere on the continent, high UV at elevation, gravel
             exposure on every highway, road salt for 5 months a year, and
-            freeze-thaw cycles that flex every panel — but modern urethane
+            freeze-thaw cycles that flex every panel, but modern urethane
             films are engineered for exactly this environment. For more on the
             underlying technology,{" "}
             <a
@@ -332,7 +332,7 @@ export default function PPFCostAlberta2026() {
               $70,000 truck purchased new and kept 5 years typically loses
               $4,000 to $7,000 in resale value due to front-end rock chips,
               hood damage, and gravel pitting. A $4,800 partial-front PPF
-              installation eliminates almost all of that — net positive ROI by
+              installation eliminates almost all of that, net positive ROI by
               year 3, every dollar after that is upside.
             </p>
           </div>
@@ -354,7 +354,7 @@ export default function PPFCostAlberta2026() {
                 step: "01",
                 title: "Free Consultation and Quote",
                 description:
-                  "We review your vehicle, recommend a coverage package based on your usage and budget, show you film samples, and provide a written quote on the spot. No pressure to book today — most clients take 24 to 48 hours to decide.",
+                  "We review your vehicle, recommend a coverage package based on your usage and budget, show you film samples, and provide a written quote on the spot. No pressure to book today, most clients take 24 to 48 hours to decide.",
               },
               {
                 step: "02",
@@ -454,8 +454,7 @@ export default function PPFCostAlberta2026() {
               <span className="text-[#EEFF00] glow-accent">Vehicle?</span>
             </h2>
             <p className="mt-4 text-[#999] max-w-xl mx-auto leading-relaxed">
-              PPF, ceramic coating, window tint, vinyl wraps, detailing —
-              Accurate Autoworks handles it all in one Stony Plain shop.
+              PPF, ceramic coating, window tint, vinyl wraps, detailing,               Accurate Autoworks handles it all in one Stony Plain shop.
               Serving Spruce Grove, Parkland County, Acheson, and Edmonton West.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">

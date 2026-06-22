@@ -21,7 +21,7 @@ export default function ContactPage() {
             Get In <span className="text-[#EEFF00]">Touch</span>
           </h1>
           <p className="mt-4 text-[#888] max-w-lg mx-auto">
-            Tell us what you need and we&apos;ll get back to you fast. Or just call — we pick up.
+            Tell us what you need and we&apos;ll get back to you fast. Or just call, we pick up.
           </p>
         </div>
 

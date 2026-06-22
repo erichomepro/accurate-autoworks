@@ -13,6 +13,8 @@ interface ServicePageProps {
   titleAccent: string;
   description: string;
   heroImage?: string;
+  heroVideo?: string;
+  heroPoster?: string;
   benefits?: { title: string; description: string; icon: string }[];
   processSteps?: { step: number; title: string; description: string }[];
   features: string[];
@@ -28,6 +30,8 @@ export function ServicePage({
   titleAccent,
   description,
   heroImage,
+  heroVideo,
+  heroPoster,
   benefits,
   processSteps,
   features,
@@ -38,29 +42,47 @@ export function ServicePage({
 }: ServicePageProps) {
   return (
     <div className="pb-20">
-      {/* Hero */}
-      {heroImage ? (
-        <section className="graffiti-hero min-h-[60vh] flex items-center justify-center relative overflow-hidden">
+      {/* Hero: clean, readable. Video (or image) background, title and CTA only.
+          The full service detail lives in its own readable section directly below. */}
+      <section className="relative min-h-[64vh] flex items-center overflow-hidden bg-[#0a0a0a]">
+        {heroVideo ? (
+          <video
+            className="absolute inset-0 w-full h-full object-cover motion-reduce:hidden"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            poster={heroPoster || heroImage}
+            aria-hidden="true"
+          >
+            <source src={heroVideo} type="video/mp4" />
+          </video>
+        ) : null}
+        {/* Poster/image: used when there is no video, or when the user prefers reduced motion */}
+        {(heroPoster || heroImage) && (
           <Image
-            src={heroImage}
+            src={(heroPoster || heroImage)!}
             alt={`${badge} at Accurate Autoworks in Stony Plain AB`}
             fill
             priority
-            className="object-cover"
+            className={`object-cover ${heroVideo ? "motion-safe:hidden" : ""}`}
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-[#0a0a0a]/85" />
-          <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center py-32 sm:py-40">
-            <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full bg-black/60 backdrop-blur-sm">
+        )}
+        {/* Contrast scrims so the headline always reads cleanly over the footage */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-[#0a0a0a]/85 to-[#0a0a0a]/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-[#0a0a0a]/60" />
+
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 w-full py-28 sm:py-36">
+          <div className="max-w-2xl">
+            <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/40 rounded-full bg-black/50 backdrop-blur-sm">
               {badge}
             </div>
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight leading-[0.95] hero-title-shadow drop-shadow-[0_4px_12px_rgba(0,0,0,1)]">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-[0.9] hero-title-shadow drop-shadow-[0_4px_12px_rgba(0,0,0,1)]">
               {title} <span className="text-[#EEFF00] glow-accent">{titleAccent}</span>
             </h1>
-            <p className="mt-6 text-lg sm:text-xl text-[#ccc] max-w-2xl mx-auto leading-relaxed hero-title-shadow">
-              {description}
-            </p>
-            <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div className="mt-8 flex flex-col sm:flex-row items-start gap-4">
               <Link href="/contact" className="btn-primary text-base sm:text-lg !py-4 !px-10">
                 {ctaText}
               </Link>
@@ -69,28 +91,17 @@ export function ServicePage({
               </a>
             </div>
           </div>
-        </section>
-      ) : /* fallback with no hero image */ (
-        <section className="pt-24 sm:pt-32 max-w-5xl mx-auto px-4 sm:px-6 text-center mb-16">
-          <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full">
-            {badge}
-          </div>
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight leading-[0.95]">
-            {title} <span className="text-[#EEFF00] glow-accent">{titleAccent}</span>
-          </h1>
-          <p className="mt-6 text-lg text-[#999] max-w-2xl mx-auto leading-relaxed">
+        </div>
+      </section>
+
+      {/* Intro: the service detail, moved out of the hero so it is fully readable */}
+      <section className="bg-[#0a0a0a] border-b border-[#1a1a1a]">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-16 sm:py-20">
+          <p className="text-lg sm:text-xl text-[#ccc] leading-relaxed">
             {description}
           </p>
-          <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/contact" className="btn-primary">
-              {ctaText}
-            </Link>
-            <a href="tel:7808189904" className="btn-outline">
-              Call 780.818.9904
-            </a>
-          </div>
-        </section>
-      )}
+        </div>
+      </section>
 
       {/* Benefits Section */}
       {benefits && benefits.length > 0 && (
@@ -290,7 +301,7 @@ export function ServicePage({
             Ready to <span className="text-[#EEFF00]">Go</span>?
           </h2>
           <p className="mt-4 text-[#888]">
-            Accurate Autoworks — Stony Plain&apos;s go-to shop for tint, wraps, detailing, and print.
+            Accurate Autoworks. Stony Plain&apos;s go-to shop for tint, wraps, detailing, and print.
             Serving Spruce Grove, Parkland County, and Acheson.
           </p>
           <div className="mt-8">

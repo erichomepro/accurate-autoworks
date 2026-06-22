@@ -5,7 +5,7 @@ import { InstagramFeed } from "@/components/instagram-feed";
 export const metadata: Metadata = {
   title: "Tint, Wrap & Detail Gallery | Stony Plain",
   description:
-    "See our work — window tinting, vinyl wraps, car detailing, PPF & commercial printing at Accurate Autoworks in Stony Plain, AB. Real results.",
+    "See our work, window tinting, vinyl wraps, car detailing, PPF & commercial printing at Accurate Autoworks in Stony Plain, AB. Real results.",
   alternates: { canonical: "/gallery/" },
 };
 
@@ -28,7 +28,7 @@ export default function GalleryPage() {
         {/* Live Instagram Feed */}
         <InstagramFeed />
 
-        {/* Fallback Gallery grid — shows if Instagram feed is not connected */}
+        {/* Fallback Gallery grid, shows if Instagram feed is not connected */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 mt-8">
           {[
             { label: "Full Wrap", category: "Wraps" },

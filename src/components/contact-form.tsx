@@ -4,15 +4,15 @@ import { useState } from "react";
 
 const SERVICES = [
   "Window Tinting",
-  "Vinyl Wrap — Full",
-  "Vinyl Wrap — Partial",
-  "Car Detailing — Interior",
-  "Car Detailing — Exterior",
-  "Car Detailing — Full",
+  "Vinyl Wrap, Full",
+  "Vinyl Wrap, Partial",
+  "Car Detailing, Interior",
+  "Car Detailing, Exterior",
+  "Car Detailing, Full",
   "Paint Protection Film (PPF)",
   "Commercial Print / Signage",
   "Fleet Wrap / Branding",
-  "Tires — Mount & Balance",
+  "Tires, Mount & Balance",
   "Other",
 ];
 

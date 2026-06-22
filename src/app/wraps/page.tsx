@@ -16,24 +16,26 @@ export default function WrapsPage() {
       title="Vinyl"
       titleAccent="Wraps"
       heroImage="/images/hero-wraps.jpg"
-      description="Change the entire look of your vehicle without touching the paint. Full wraps, partial wraps, color changes, racing stripes, commercial branding — we do it all with premium cast vinyl that lasts. At Accurate Autoworks, we use only 3M and Avery Dennison materials because they hold up to Alberta&apos;s weather and remove cleanly when you&apos;re ready for something new. Whether you want to make your personal ride stand out or turn your work trucks into rolling billboards, this is where it happens."
+      heroVideo="/videos/wraps.mp4"
+      heroPoster="/images/service-posters/wraps.jpg"
+      description="Change the entire look of your vehicle without touching the paint. Full wraps, partial wraps, color changes, racing stripes, commercial branding, we do it all with premium cast vinyl that lasts. At Accurate Autoworks, we use only 3M and Avery Dennison materials because they hold up to Alberta&apos;s weather and remove cleanly when you&apos;re ready for something new. Whether you want to make your personal ride stand out or turn your work trucks into rolling billboards, this is where it happens."
       benefits={[
         {
           title: "Total Transformation",
           description:
-            "Go from factory white to matte black, satin blue, or chrome gold — whatever you want. A full wrap completely changes how your vehicle looks without any permanent modification. When you&apos;re ready to sell or switch it up, the wrap comes off and the original paint is perfect underneath.",
+            "Go from factory white to matte black, satin blue, or chrome gold, whatever you want. A full wrap completely changes how your vehicle looks without any permanent modification. When you&apos;re ready to sell or switch it up, the wrap comes off and the original paint is perfect underneath.",
           icon: "🎨",
         },
         {
           title: "Protect Your Paint",
           description:
-            "Vinyl wrap acts as a shield against rock chips, minor scratches, and UV fading. It&apos;s like PPF with style. Especially useful if you drive gravel roads around Parkland County — your paint stays mint under the wrap.",
+            "Vinyl wrap acts as a shield against rock chips, minor scratches, and UV fading. It&apos;s like PPF with style. Especially useful if you drive gravel roads around Parkland County, your paint stays mint under the wrap.",
           icon: "🛡️",
         },
         {
           title: "Brand Your Business",
           description:
-            "Every vehicle in your fleet is advertising space you&apos;re not using. A professional wrap turns your trucks and vans into 24/7 billboards that generate leads while you drive, park, and work. Businesses in Acheson and Spruce Grove are already doing this — don&apos;t get left behind.",
+            "Every vehicle in your fleet is advertising space you&apos;re not using. A professional wrap turns your trucks and vans into 24/7 billboards that generate leads while you drive, park, and work. Businesses in Acheson and Spruce Grove are already doing this, don&apos;t get left behind.",
           icon: "📈",
         },
         {
@@ -48,19 +50,19 @@ export default function WrapsPage() {
           step: 1,
           title: "Consultation and Quote",
           description:
-            "Tell us what you&apos;re going for — color change, custom design, commercial branding, whatever it is. We&apos;ll measure your vehicle, recommend the right material, and give you an honest quote. No surprises, no hidden fees.",
+            "Tell us what you&apos;re going for, color change, custom design, commercial branding, whatever it is. We&apos;ll measure your vehicle, recommend the right material, and give you an honest quote. No surprises, no hidden fees.",
         },
         {
           step: 2,
           title: "Design and Material Selection",
           description:
-            "For custom wraps, we&apos;ll work with you on the design until it&apos;s exactly what you want. For color changes, you pick from hundreds of options — matte, gloss, satin, metallic, chrome, textured. We order the vinyl and schedule your install.",
+            "For custom wraps, we&apos;ll work with you on the design until it&apos;s exactly what you want. For color changes, you pick from hundreds of options, matte, gloss, satin, metallic, chrome, textured. We order the vinyl and schedule your install.",
         },
         {
           step: 3,
           title: "Prep and Install",
           description:
-            "Your vehicle gets a thorough wash and decontamination before any vinyl touches the surface. Then our installers take their time — proper heat, proper stretch, proper tuck into every panel gap and edge. No shortcuts.",
+            "Your vehicle gets a thorough wash and decontamination before any vinyl touches the surface. Then our installers take their time, proper heat, proper stretch, proper tuck into every panel gap and edge. No shortcuts.",
         },
         {
           step: 4,
@@ -70,20 +72,20 @@ export default function WrapsPage() {
         },
       ]}
       features={[
-        "Full vehicle wraps — complete color change or custom design",
-        "Partial wraps — accents, hoods, roofs, mirrors, trim",
-        "Color change wraps — matte, gloss, satin, metallic, chrome",
-        "Commercial fleet wraps — brand every vehicle in your fleet",
-        "Custom graphics and designs — your vision, printed and applied",
+        "Full vehicle wraps, complete color change or custom design",
+        "Partial wraps, accents, hoods, roofs, mirrors, trim",
+        "Color change wraps, matte, gloss, satin, metallic, chrome",
+        "Commercial fleet wraps, brand every vehicle in your fleet",
+        "Custom graphics and designs, your vision, printed and applied",
         "3M and Avery Dennison premium vinyl materials",
-        "Paint-safe removal — protects the original finish underneath",
+        "Paint-safe removal, protects the original finish underneath",
         "Race stripes, decals, and accent packages",
         "Serving businesses in Acheson, Parkland County, and Spruce Grove",
       ]}
       whySection={{
         title: "Why Wrap Your Vehicle in Alberta",
         content:
-          "Alberta is tough on vehicles. Between the gravel highways, road salt, UV exposure in summer, and harsh winter conditions, your paint takes a beating every single day. A vinyl wrap gives you a fresh look while also protecting the factory finish underneath. At Accurate Autoworks in Stony Plain, we&apos;ve wrapped everything from personal trucks and sports cars to full commercial fleets for businesses across Spruce Grove, Acheson, and Parkland County. We only use premium cast vinyl from 3M and Avery Dennison — materials designed to handle our climate without peeling, cracking, or fading. Whether you want your ride to turn heads on Highway 16A or you want every vehicle in your company fleet to advertise your brand, we make it happen. The best part? When the wrap reaches the end of its life in 5-7 years, it comes off clean and your original paint is in better shape than the day you wrapped it.",
+          "Alberta is tough on vehicles. Between the gravel highways, road salt, UV exposure in summer, and harsh winter conditions, your paint takes a beating every single day. A vinyl wrap gives you a fresh look while also protecting the factory finish underneath. At Accurate Autoworks in Stony Plain, we&apos;ve wrapped everything from personal trucks and sports cars to full commercial fleets for businesses across Spruce Grove, Acheson, and Parkland County. We only use premium cast vinyl from 3M and Avery Dennison, materials designed to handle our climate without peeling, cracking, or fading. Whether you want your ride to turn heads on Highway 16A or you want every vehicle in your company fleet to advertise your brand, we make it happen. The best part? When the wrap reaches the end of its life in 5-7 years, it comes off clean and your original paint is in better shape than the day you wrapped it.",
       }}
       faqs={[
         {
@@ -99,12 +101,12 @@ export default function WrapsPage() {
         {
           question: "Will a wrap damage my paint?",
           answer:
-            "No — in fact, wraps protect your paint. When removed by a professional, the original paint underneath is preserved and often in better condition than unwrapped areas. This can actually increase resale value. We use heat-removal techniques that are safe for factory paint.",
+            "No, in fact, wraps protect your paint. When removed by a professional, the original paint underneath is preserved and often in better condition than unwrapped areas. This can actually increase resale value. We use heat-removal techniques that are safe for factory paint.",
         },
         {
           question: "Can you wrap my work truck or commercial fleet?",
           answer:
-            "Absolutely. We specialize in commercial fleet wraps for businesses in Stony Plain, Spruce Grove, Acheson, and Parkland County. Turn every vehicle into a rolling billboard. We handle design, printing, and installation — start to finish, all in-house.",
+            "Absolutely. We specialize in commercial fleet wraps for businesses in Stony Plain, Spruce Grove, Acheson, and Parkland County. Turn every vehicle into a rolling billboard. We handle design, printing, and installation, start to finish, all in-house.",
         },
         {
           question: "How long does it take to wrap a vehicle?",
@@ -115,7 +117,7 @@ export default function WrapsPage() {
           question:
             "Where can I get a vehicle wrap done near Spruce Grove?",
           answer:
-            "Accurate Autoworks in Stony Plain is your closest professional wrap shop. We&apos;re just a few minutes from Spruce Grove, right off Highway 16A. We handle everything in-house — design, printing, and installation — so you don&apos;t have to deal with multiple vendors.",
+            "Accurate Autoworks in Stony Plain is your closest professional wrap shop. We&apos;re just a few minutes from Spruce Grove, right off Highway 16A. We handle everything in-house, design, printing, and installation, so you don&apos;t have to deal with multiple vendors.",
         },
         {
           question:

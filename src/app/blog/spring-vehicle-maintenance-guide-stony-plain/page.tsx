@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 const FAQ_DATA = [
   {
     q: "When should I switch from winter tires to summer tires in Stony Plain?",
-    a: "Once daytime temperatures consistently stay above 7 degrees Celsius, it is time to swap. In the Stony Plain and Spruce Grove area, that is typically mid to late April. Running winters past mid-April wears the rubber fast and actually increases stopping distance on dry roads. Book early at Accurate Autoworks — call 780.818.9904.",
+    a: "Once daytime temperatures consistently stay above 7 degrees Celsius, it is time to swap. In the Stony Plain and Spruce Grove area, that is typically mid to late April. Running winters past mid-April wears the rubber fast and actually increases stopping distance on dry roads. Book early at Accurate Autoworks, call 780.818.9904.",
   },
   {
     q: "How much does spring car detailing cost near Spruce Grove?",
@@ -750,7 +750,7 @@ export default function SpringMaintenanceGuidePage() {
               <span className="text-[#EEFF00] glow-accent">Spring Ready</span>
             </h2>
             <p className="mt-4 text-[#999] max-w-xl mx-auto leading-relaxed">
-              Tire changeover, spring detail, tint, PPF — Accurate Autoworks
+              Tire changeover, spring detail, tint, PPF, Accurate Autoworks
               handles it all under one roof in Stony Plain. Serving Spruce Grove,
               Parkland County, Acheson, and Edmonton West.
             </p>

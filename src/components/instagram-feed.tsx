@@ -24,7 +24,7 @@ export function InstagramFeed() {
           setPosts(data.posts || []);
         }
       } catch {
-        // Silently fail — gallery placeholders will show
+        // Silently fail, gallery placeholders will show
       } finally {
         setLoading(false);
       }
@@ -61,7 +61,7 @@ export function InstagramFeed() {
         >
           <img
             src={post.media_type === "VIDEO" ? post.thumbnail_url || post.media_url : post.media_url}
-            alt={post.caption?.slice(0, 100) || "Accurate Autoworks — window tinting, wraps, detailing and print in Stony Plain AB"}
+            alt={post.caption?.slice(0, 100) || "Accurate Autoworks, window tinting, wraps, detailing and print in Stony Plain AB"}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             loading="lazy"
           />

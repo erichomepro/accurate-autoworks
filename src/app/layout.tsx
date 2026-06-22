@@ -34,7 +34,7 @@ export const metadata: Metadata = {
         url: "/images/logo-banner.png",
         width: 1200,
         height: 630,
-        alt: "Accurate Autoworks — Tint, Wraps, Detailing & Print in Stony Plain AB",
+        alt: "Accurate Autoworks, Tint, Wraps, Detailing & Print in Stony Plain AB",
       },
     ],
   },
