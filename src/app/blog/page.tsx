@@ -21,6 +21,15 @@ const POSTS = [
     featured: true,
   },
   {
+    slug: "window-tinting-cost-alberta-2026",
+    title: "How Much Does Window Tinting Cost in Alberta? (2026)",
+    excerpt:
+      "Real 2026 Alberta window tint pricing: dyed vs carbon vs ceramic, what drives the cost, the legal tint limits in Alberta, and how to spot a cheap job that will fail.",
+    date: "June 23, 2026",
+    readTime: "12 min read",
+    tag: "Window Tinting",
+  },
+  {
     slug: "winterizing-vehicle-alberta-stony-plain",
     title: "Winterizing Your Vehicle in Alberta",
     excerpt:
