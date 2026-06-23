@@ -70,14 +70,14 @@ export default function HomePage() {
           loop
           playsInline
           preload="metadata"
-          poster="/images/service-posters/home.jpg"
+          poster="/images/service-posters/home-smash.jpg"
           aria-hidden="true"
         >
-          <source src="/videos/home.mp4" type="video/mp4" />
+          <source src="/videos/home-smash.mp4" type="video/mp4" />
         </video>
         {/* Poster / reduced-motion + no-JS fallback */}
         <Image
-          src="/images/service-posters/home.jpg"
+          src="/images/service-posters/home-smash.jpg"
           alt="Accurate Autoworks shop, window tinting, vinyl wraps, car detailing, PPF and commercial printing in Stony Plain AB"
           fill
           priority
