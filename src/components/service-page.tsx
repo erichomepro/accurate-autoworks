@@ -253,9 +253,11 @@ export function ServicePage({
                 "@type": "AutoRepair",
                 name: "Accurate Autoworks",
                 telephone: "+1-780-818-9904",
+                email: "Cody@accurateautoworksinc.com",
                 url: "https://www.accurateautoworks.ca",
                 address: {
                   "@type": "PostalAddress",
+                  streetAddress: "15 Boulder Blvd",
                   addressLocality: "Stony Plain",
                   addressRegion: "AB",
                   addressCountry: "CA",

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { Reviews } from "@/components/reviews";
+import { LatestFromInstagram } from "@/components/latest-from-instagram";
 
 export const metadata: Metadata = {
   title: "Accurate Autoworks | Tint, Wraps, Detailing & Print | Stony Plain AB",
@@ -61,13 +62,26 @@ export default function HomePage() {
     <>
       {/* HERO */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden bg-[#0a0a0a]">
-        {/* Sticker-bomb texture base */}
+        {/* Animated graffiti-garage hero video (motion). Poster image is the fallback. */}
+        <video
+          className="absolute inset-0 w-full h-full object-cover motion-reduce:hidden"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster="/images/service-posters/home.jpg"
+          aria-hidden="true"
+        >
+          <source src="/videos/home.mp4" type="video/mp4" />
+        </video>
+        {/* Poster / reduced-motion + no-JS fallback */}
         <Image
-          src="/images/sticker-bomb-dark.png"
+          src="/images/service-posters/home.jpg"
           alt="Accurate Autoworks shop, window tinting, vinyl wraps, car detailing, PPF and commercial printing in Stony Plain AB"
           fill
           priority
-          className="object-cover opacity-60"
+          className="object-cover motion-safe:hidden"
           sizes="100vw"
         />
         {/* Hand-drawn graffiti wordmark, right side */}
@@ -146,6 +160,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* LATEST FROM INSTAGRAM */}
+      <LatestFromInstagram />
 
       {/* GOOGLE REVIEWS */}
       <Reviews />
@@ -302,9 +319,11 @@ export default function HomePage() {
             description:
               "Stony Plain's premier auto customization shop offering window tinting, vinyl wraps, car detailing, PPF, commercial printing and signage.",
             telephone: "+1-780-818-9904",
+            email: "Cody@accurateautoworksinc.com",
             priceRange: "$$",
             address: {
               "@type": "PostalAddress",
+              streetAddress: "15 Boulder Blvd",
               addressLocality: "Stony Plain",
               addressRegion: "AB",
               postalCode: "T7Z",

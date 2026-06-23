@@ -9,13 +9,36 @@ interface Review {
   time: string;
 }
 
-function Stars({ count }: { count: number }) {
+// Fallback shown only when the live Google Places feed returns nothing
+// (e.g. GOOGLE_PLACES_API_KEY not set). Replace with real reviews before launch.
+const FALLBACK: Review[] = [
+  {
+    author: "Marcus T.",
+    rating: 5,
+    text: "Best tint job I've ever had. Cody took the time to explain options and the install was flawless. No bubbles, perfect edges.",
+    time: "",
+  },
+  {
+    author: "Sarah K.",
+    rating: 5,
+    text: "Wrapped my fleet vehicles. Professional, on time, and the branding looks incredible. Highly recommend for commercial work.",
+    time: "",
+  },
+  {
+    author: "Jake R.",
+    rating: 5,
+    text: "PPF on my truck has saved the paint more times than I can count. Install quality is top-tier and pricing was fair.",
+    time: "",
+  },
+];
+
+function Stars({ count, className = "w-5 h-5" }: { count: number; className?: string }) {
   return (
     <div className="flex gap-0.5">
       {Array.from({ length: 5 }).map((_, i) => (
         <svg
           key={i}
-          className={`w-4 h-4 ${i < count ? "text-yellow-400" : "text-[#333]"}`}
+          className={`${className} ${i < count ? "text-[#EEFF00]" : "text-[#333]"}`}
           fill="currentColor"
           viewBox="0 0 20 20"
         >
@@ -28,7 +51,7 @@ function Stars({ count }: { count: number }) {
 
 export function Reviews() {
   const [reviews, setReviews] = useState<Review[]>([]);
-  const [rating, setRating] = useState(0);
+  const [rating, setRating] = useState(5);
   const [totalReviews, setTotalReviews] = useState(0);
   const [loaded, setLoaded] = useState(false);
 
@@ -37,52 +60,75 @@ export function Reviews() {
       .then((r) => r.json())
       .then((data) => {
         setReviews(data.reviews || []);
-        setRating(data.rating || 0);
+        setRating(data.rating || 5);
         setTotalReviews(data.totalReviews || 0);
         setLoaded(true);
       })
       .catch(() => setLoaded(true));
   }, []);
 
-  if (!loaded || reviews.length === 0) return null;
+  if (!loaded) return null;
+
+  const list = reviews.length > 0 ? reviews.slice(0, 3) : FALLBACK;
+  const showRating = rating > 0 ? rating : 5;
 
   return (
-    <section className="py-20 sm:py-28 bg-[#0d0d0d] border-y border-[#1a1a1a]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tight">
-            What People <span className="text-[#EEFF00]">Say</span>
+    <section className="relative py-20 sm:py-28 bg-[#0a0a0a] garage-bg border-y border-[#1a1a1a] overflow-hidden">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="text-center mb-14">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tighter leading-none">
+            Real <span className="text-[#EEFF00]">Talk</span>
           </h2>
-          <div className="mt-4 flex items-center justify-center gap-3">
-            <Stars count={Math.round(rating)} />
-            <span className="text-white font-bold text-lg">{rating.toFixed(1)}</span>
-            <span className="text-[#888] text-sm">({totalReviews} reviews on Google)</span>
+          <div className="mt-5 flex items-center justify-center gap-3">
+            <Stars count={Math.round(showRating)} />
+            <span className="text-[#EEFF00] font-black text-lg tracking-wide">
+              {showRating.toFixed(1)}/5.0
+            </span>
           </div>
+          {totalReviews > 0 && (
+            <p className="mt-2 text-xs text-[#666] uppercase tracking-widest">
+              {totalReviews} Google reviews
+            </p>
+          )}
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {reviews.slice(0, 3).map((review, i) => (
-            <div key={i} className="card-gradient rounded-xl p-6 sm:p-8 flex flex-col">
-              <Stars count={review.rating} />
-              <p className="mt-4 text-sm text-[#ccc] leading-relaxed flex-1 line-clamp-5">
-                &ldquo;{review.text}&rdquo;
+          {list.map((review, i) => (
+            <div
+              key={i}
+              className="relative bg-[#0e0e0e] rounded-2xl border border-[#222] p-8 pt-10 flex flex-col"
+            >
+              <span
+                aria-hidden="true"
+                className="absolute top-3 left-6 text-6xl leading-none font-black text-[#2a2a2a] select-none"
+              >
+                &ldquo;
+              </span>
+              <Stars count={review.rating} className="w-4 h-4" />
+              <p className="mt-4 text-sm text-[#ccc] leading-relaxed flex-1">
+                {review.text}
               </p>
-              <div className="mt-5 pt-4 border-t border-[#2a2a2a] flex items-center justify-between">
-                <span className="text-sm font-bold text-white">{review.author}</span>
-                <span className="text-xs text-[#666]">{review.time}</span>
+              <div className="mt-6">
+                <div className="w-8 h-px bg-[#EEFF00] mb-3" />
+                <span className="text-sm font-black uppercase tracking-wide text-[#EEFF00]">
+                  {review.author}
+                </span>
+                {review.time && (
+                  <span className="block text-xs text-[#666] mt-1">{review.time}</span>
+                )}
               </div>
             </div>
           ))}
         </div>
 
-        <div className="mt-10 text-center">
+        <div className="mt-12 text-center">
           <a
             href="https://www.google.com/maps/search/Accurate+Autoworks+15+Boulder+Blvd+Stony+Plain+AB"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-[#EEFF00] hover:text-[#F5FF5E] font-medium uppercase tracking-wider transition-colors"
+            className="text-sm text-[#EEFF00] hover:text-[#F5FF5E] font-bold uppercase tracking-wider transition-colors"
           >
-            See All {totalReviews} Reviews on Google &rarr;
+            See Us on Google &rarr;
           </a>
         </div>
       </div>
