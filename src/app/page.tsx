@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { Reviews } from "@/components/reviews";
 import { LatestFromInstagram } from "@/components/latest-from-instagram";
+import { HeroVideo } from "@/components/hero-video";
 
 export const metadata: Metadata = {
   title: "Accurate Autoworks | Tint, Wraps, Detailing & Print | Stony Plain AB",
@@ -62,18 +63,13 @@ export default function HomePage() {
     <>
       {/* HERO */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden bg-[#0a0a0a]">
-        {/* Animated graffiti-garage hero video (motion). Poster image is the fallback. */}
-        <video
-          className="absolute inset-0 w-full h-full object-cover motion-reduce:hidden"
-          autoPlay
-          muted
-          playsInline
-          preload="metadata"
+        {/* Hero video: plays the punch-through, holds 5s, then replays. Poster is the fallback. */}
+        <HeroVideo
+          src="/videos/home-biker.mp4"
           poster="/images/service-posters/home-biker.jpg"
-          aria-hidden="true"
-        >
-          <source src="/videos/home-biker.mp4" type="video/mp4" />
-        </video>
+          delayMs={5000}
+          className="absolute inset-0 w-full h-full object-cover motion-reduce:hidden"
+        />
         {/* Poster / reduced-motion + no-JS fallback */}
         <Image
           src="/images/service-posters/home-biker.jpg"
