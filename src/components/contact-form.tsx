@@ -4,15 +4,15 @@ import { useState } from "react";
 
 const SERVICES = [
   "Window Tinting",
-  "Vinyl Wrap — Full",
-  "Vinyl Wrap — Partial",
-  "Car Detailing — Interior",
-  "Car Detailing — Exterior",
-  "Car Detailing — Full",
+  "Vinyl Wrap, Full",
+  "Vinyl Wrap, Partial",
+  "Car Detailing, Interior",
+  "Car Detailing, Exterior",
+  "Car Detailing, Full",
   "Paint Protection Film (PPF)",
   "Commercial Print / Signage",
   "Fleet Wrap / Branding",
-  "Tires — Mount & Balance",
+  "Tires, Mount & Balance",
   "Other",
 ];
 
@@ -90,7 +90,7 @@ export function ContactForm() {
                 required
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors"
+                className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#EEFF00] focus:outline-none transition-colors"
                 placeholder="Your name"
               />
             </div>
@@ -105,7 +105,7 @@ export function ContactForm() {
                 required
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
-                className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors"
+                className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#EEFF00] focus:outline-none transition-colors"
                 placeholder="780-000-0000"
               />
             </div>
@@ -121,7 +121,7 @@ export function ContactForm() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors"
+              className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#EEFF00] focus:outline-none transition-colors"
               placeholder="you@email.com"
             />
           </div>
@@ -136,7 +136,7 @@ export function ContactForm() {
               required
               value={service}
               onChange={(e) => setService(e.target.value)}
-              className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors"
+              className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#EEFF00] focus:outline-none transition-colors"
             >
               <option value="" disabled>
                 Choose a service...
@@ -160,7 +160,7 @@ export function ContactForm() {
                 type="text"
                 value={vehicle}
                 onChange={(e) => setVehicle(e.target.value)}
-                className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors"
+                className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#EEFF00] focus:outline-none transition-colors"
                 placeholder="e.g. 2024 Ford F-150"
               />
             </div>
@@ -174,7 +174,7 @@ export function ContactForm() {
                 type="date"
                 value={preferredDate}
                 onChange={(e) => setPreferredDate(e.target.value)}
-                className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors"
+                className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#EEFF00] focus:outline-none transition-colors"
               />
             </div>
           </div>
@@ -189,7 +189,7 @@ export function ContactForm() {
               rows={4}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#22d65f] focus:outline-none transition-colors resize-none"
+              className="w-full bg-[#0a0a0a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white text-sm focus:border-[#EEFF00] focus:outline-none transition-colors resize-none"
               placeholder="Any details about what you're looking for..."
             />
           </div>

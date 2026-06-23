@@ -1,10 +1,10 @@
 /**
- * SVG graffiti decorative elements — spray paint splatters, drips,
+ * SVG graffiti decorative elements, spray paint splatters, drips,
  * skulls, crossbones, paint splashes. Used as background overlays
  * on service pages for the biker/shop aesthetic.
  */
 
-export function SpraySplatter({ className = "", color = "#22d65f" }: { className?: string; color?: string }) {
+export function SpraySplatter({ className = "", color = "#EEFF00" }: { className?: string; color?: string }) {
   return (
     <svg className={className} viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
       {/* Main splatter blob */}
@@ -27,7 +27,7 @@ export function SpraySplatter({ className = "", color = "#22d65f" }: { className
   );
 }
 
-export function PaintDrips({ className = "", color = "#22d65f" }: { className?: string; color?: string }) {
+export function PaintDrips({ className = "", color = "#EEFF00" }: { className?: string; color?: string }) {
   return (
     <svg className={className} viewBox="0 0 1200 200" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
       {/* Paint drips hanging down from top edge */}
@@ -41,7 +41,7 @@ export function PaintDrips({ className = "", color = "#22d65f" }: { className?: 
   );
 }
 
-export function SkullIcon({ className = "", color = "#22d65f" }: { className?: string; color?: string }) {
+export function SkullIcon({ className = "", color = "#EEFF00" }: { className?: string; color?: string }) {
   return (
     <svg className={className} viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
       {/* Skull */}
@@ -55,7 +55,7 @@ export function SkullIcon({ className = "", color = "#22d65f" }: { className?: s
   );
 }
 
-export function CrossBones({ className = "", color = "#22d65f" }: { className?: string; color?: string }) {
+export function CrossBones({ className = "", color = "#EEFF00" }: { className?: string; color?: string }) {
   return (
     <svg className={className} viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
       {/* Bone 1 */}
@@ -66,7 +66,7 @@ export function CrossBones({ className = "", color = "#22d65f" }: { className?: 
   );
 }
 
-export function SprayCanLine({ className = "", color = "#22d65f" }: { className?: string; color?: string }) {
+export function SprayCanLine({ className = "", color = "#EEFF00" }: { className?: string; color?: string }) {
   return (
     <svg className={className} viewBox="0 0 800 20" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
       {/* Rough spray paint line */}

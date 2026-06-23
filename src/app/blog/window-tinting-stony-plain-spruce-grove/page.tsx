@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 const FAQ_DATA = [
   {
     q: "Is window tint legal in Alberta?",
-    a: "Yes, window tint is legal in Alberta with specific restrictions. Front side windows must allow at least 50% visible light transmission (VLT). Rear side windows and the rear window have no VLT minimum — any darkness is permitted. The windshield may only have a non-reflective tint strip along the top (the visor band). Violating these rules can result in fines and a required fix-it order. At Accurate Autoworks, every installation is done to Alberta Traffic Safety Act standards.",
+    a: "Yes, window tint is legal in Alberta with specific restrictions. Front side windows must allow at least 50% visible light transmission (VLT). Rear side windows and the rear window have no VLT minimum, any darkness is permitted. The windshield may only have a non-reflective tint strip along the top (the visor band). Violating these rules can result in fines and a required fix-it order. At Accurate Autoworks, every installation is done to Alberta Traffic Safety Act standards.",
   },
   {
     q: "How long does window tint last in Alberta?",
@@ -34,7 +34,7 @@ const FAQ_DATA = [
   },
   {
     q: "Can I roll my windows down after getting tint installed?",
-    a: "No — not for 3 to 7 days. The adhesive needs time to cure fully to the glass. Rolling windows down too early causes the tint to peel away from the edges, which is not covered under warranty. The cure period is longer in cold weather, so if you get tint installed in spring or fall, plan to leave the windows up for at least a week to be safe.",
+    a: "No, not for 3 to 7 days. The adhesive needs time to cure fully to the glass. Rolling windows down too early causes the tint to peel away from the edges, which is not covered under warranty. The cure period is longer in cold weather, so if you get tint installed in spring or fall, plan to leave the windows up for at least a week to be safe.",
   },
   {
     q: "Does window tint affect my rear defroster?",
@@ -42,11 +42,11 @@ const FAQ_DATA = [
   },
   {
     q: "Does window tint help in winter?",
-    a: "Yes, in several ways. Ceramic tint retains heat inside the cabin more effectively than bare glass, which means less work for your heater on cold mornings. It also reduces glare from low winter sun — a significant safety benefit when driving west on Highway 16A at 4:30 PM in December. The UV block remains active year-round, protecting your dash and upholstery from fading even on sunny winter days.",
+    a: "Yes, in several ways. Ceramic tint retains heat inside the cabin more effectively than bare glass, which means less work for your heater on cold mornings. It also reduces glare from low winter sun, a significant safety benefit when driving west on Highway 16A at 4:30 PM in December. The UV block remains active year-round, protecting your dash and upholstery from fading even on sunny winter days.",
   },
   {
     q: "What VLT percentage should I choose for my windows?",
-    a: "For front side windows, Alberta law requires 50% VLT minimum, so we typically install 50% or 35% (with the understanding that 35% on fronts is technically non-compliant and the customer's risk). For rear windows, 20% and 35% are the most popular choices — dark enough for privacy and heat rejection, light enough to maintain good outward visibility. During your free consultation at Accurate Autoworks, we show you samples so you can see exactly what each shade looks like before committing.",
+    a: "For front side windows, Alberta law requires 50% VLT minimum, so we typically install 50% or 35% (with the understanding that 35% on fronts is technically non-compliant and the customer's risk). For rear windows, 20% and 35% are the most popular choices, dark enough for privacy and heat rejection, light enough to maintain good outward visibility. During your free consultation at Accurate Autoworks, we show you samples so you can see exactly what each shade looks like before committing.",
   },
   {
     q: "How long does the installation take?",
@@ -112,19 +112,19 @@ export default function WindowTintingGuide() {
       {/* Hero Section */}
       <header className="relative pt-24 sm:pt-32 pb-16 sm:pb-20 overflow-hidden">
         {/* Background effects */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#22d65f]/5 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#EEFF00]/5 via-transparent to-transparent" />
         <div className="absolute inset-0 hero-stripe opacity-50" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#22d65f]/[0.03] rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#EEFF00]/[0.03] rounded-full blur-3xl" />
 
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full backdrop-blur-sm bg-[#22d65f]/5">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f] animate-pulse" />
+          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full backdrop-blur-sm bg-[#EEFF00]/5">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00] animate-pulse" />
             Window Tinting Guide
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black uppercase tracking-tight leading-[1.05]">
             Window Tinting in{" "}
-            <span className="text-[#22d65f] glow-accent">
+            <span className="text-[#EEFF00] glow-accent">
               Stony Plain &amp; Spruce Grove
             </span>
             : Alberta&apos;s Complete 2026 Guide
@@ -138,14 +138,14 @@ export default function WindowTintingGuide() {
 
           <div className="mt-6 flex items-center justify-center gap-6 text-xs text-[#666] uppercase tracking-wider">
             <div className="flex items-center gap-2">
-              <svg className="w-3.5 h-3.5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg className="w-3.5 h-3.5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
               <time dateTime={publishDate}>April 2, 2026</time>
             </div>
             <span className="w-1 h-1 rounded-full bg-[#333]" />
             <div className="flex items-center gap-2">
-              <svg className="w-3.5 h-3.5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg className="w-3.5 h-3.5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <span>14 min read</span>
@@ -154,9 +154,9 @@ export default function WindowTintingGuide() {
 
           {/* Decorative bottom line */}
           <div className="mt-12 flex items-center justify-center gap-3">
-            <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#22d65f]/40" />
-            <div className="w-2 h-2 rotate-45 border border-[#22d65f]/40" />
-            <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#22d65f]/40" />
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#EEFF00]/40" />
+            <div className="w-2 h-2 rotate-45 border border-[#EEFF00]/40" />
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#EEFF00]/40" />
           </div>
         </div>
       </header>
@@ -173,7 +173,7 @@ export default function WindowTintingGuide() {
             driving blind for ten minutes. Add in the scorching summer UV that
             fades your dash in a single season, the lack of privacy when you are
             parked anywhere near the Acheson industrial strip, and the heat that
-            builds in a dark-interior truck on a plus-35 July day — and window
+            builds in a dark-interior truck on a plus-35 July day, and window
             tinting stops being a cosmetic choice and becomes a practical one.
           </p>
           <p className="mt-4 text-[#ccc] leading-relaxed text-base sm:text-lg">
@@ -182,7 +182,7 @@ export default function WindowTintingGuide() {
             differences between dyed, carbon, and ceramic tint, what it costs at
             a local shop in 2026, and what the process looks like when you bring
             your vehicle into{" "}
-            <Link href="/tinting/" className="text-[#22d65f] hover:underline">
+            <Link href="/tinting/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks for a professional window tint
             </Link>
             .
@@ -191,16 +191,16 @@ export default function WindowTintingGuide() {
 
         {/* Table of Contents */}
         <nav className="mt-12 relative rounded-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#22d65f]/10 via-[#141414] to-[#141414]" />
-          <div className="absolute inset-0 border border-[#22d65f]/20 rounded-2xl" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EEFF00]/10 via-[#141414] to-[#141414]" />
+          <div className="absolute inset-0 border border-[#EEFF00]/20 rounded-2xl" />
           <div className="relative p-6 sm:p-8">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-8 h-8 rounded-lg bg-[#22d65f]/10 flex items-center justify-center">
-                <svg className="w-4 h-4 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <div className="w-8 h-8 rounded-lg bg-[#EEFF00]/10 flex items-center justify-center">
+                <svg className="w-4 h-4 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
                 </svg>
               </div>
-              <h2 className="text-sm font-bold uppercase tracking-widest text-[#22d65f]">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-[#EEFF00]">
                 What We Cover
               </h2>
             </div>
@@ -217,9 +217,9 @@ export default function WindowTintingGuide() {
                 <li key={item.href}>
                   <a
                     href={item.href}
-                    className="flex items-center gap-3 py-1.5 text-[#999] hover:text-[#22d65f] transition-colors group"
+                    className="flex items-center gap-3 py-1.5 text-[#999] hover:text-[#EEFF00] transition-colors group"
                   >
-                    <span className="flex-shrink-0 w-6 h-6 rounded-md bg-[#22d65f]/10 text-[#22d65f] text-xs font-bold flex items-center justify-center group-hover:bg-[#22d65f]/20 transition-colors">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-md bg-[#EEFF00]/10 text-[#EEFF00] text-xs font-bold flex items-center justify-center group-hover:bg-[#EEFF00]/20 transition-colors">
                       {i + 1}
                     </span>
                     <span>{item.label}</span>
@@ -242,12 +242,12 @@ export default function WindowTintingGuide() {
               href="https://www.alberta.ca/traffic-safety-act"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#22d65f] hover:underline"
+              className="text-[#EEFF00] hover:underline"
             >
               Alberta Traffic Safety Act
             </a>{" "}
             and the Vehicle Equipment Regulation. The key measurement is Visible
-            Light Transmission, or VLT — the percentage of visible light that
+            Light Transmission, or VLT, the percentage of visible light that
             passes through the glass and tint combined.
           </p>
 
@@ -262,7 +262,7 @@ export default function WindowTintingGuide() {
               {
                 window: "Rear Side Windows",
                 rule: "No VLT minimum",
-                detail: "You can go as dark as you want — 5%, 20%, 35%, or anything in between. Full limo tint is legal on rear side windows in Alberta.",
+                detail: "You can go as dark as you want, 5%, 20%, 35%, or anything in between. Full limo tint is legal on rear side windows in Alberta.",
                 status: "open",
               },
               {
@@ -292,7 +292,7 @@ export default function WindowTintingGuide() {
                     className={`flex-shrink-0 text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full border ${
                       item.status === "restricted"
                         ? "text-amber-400 border-amber-500/30 bg-amber-500/10"
-                        : "text-[#22d65f] border-[#22d65f]/30 bg-[#22d65f]/10"
+                        : "text-[#EEFF00] border-[#EEFF00]/30 bg-[#EEFF00]/10"
                     }`}
                   >
                     {item.rule}
@@ -308,8 +308,8 @@ export default function WindowTintingGuide() {
             Non-compliant tint can result in a fine and a fix-it order requiring
             you to remove the tint before your next inspection. RCMP and
             municipal police in the Edmonton West area do check tint darkness
-            during traffic stops — especially on front side windows. At{" "}
-            <Link href="/tinting/" className="text-[#22d65f] hover:underline">
+            during traffic stops, especially on front side windows. At{" "}
+            <Link href="/tinting/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks
             </Link>
             , every installation is measured and confirmed compliant before we
@@ -325,14 +325,14 @@ export default function WindowTintingGuide() {
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             Not all window tint is created equal. There are three main
             technologies on the market in 2026, and the differences in
-            performance — especially in an Alberta climate — are dramatic. Here
+            performance, especially in an Alberta climate, are dramatic. Here
             is a direct comparison of all three. For deep context on ceramic
             film technology,{" "}
             <a
               href="https://www.consumerreports.org/cars/car-maintenance/window-tint-guide/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#22d65f] hover:underline"
+              className="text-[#EEFF00] hover:underline"
             >
               Consumer Reports has a useful overview of ceramic film performance
             </a>
@@ -343,9 +343,9 @@ export default function WindowTintingGuide() {
           <div className="mt-8 hidden sm:block rounded-2xl overflow-hidden border border-[#2a2a2a]">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[#22d65f]/[0.06]">
+                <tr className="bg-[#EEFF00]/[0.06]">
                   {["Type", "Cost", "Heat Rejection", "UV Block", "Lifespan", "Alberta Rating"].map((h) => (
-                    <th key={h} className="text-left py-4 px-5 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                    <th key={h} className="text-left py-4 px-5 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                       {h}
                     </th>
                   ))}
@@ -355,14 +355,14 @@ export default function WindowTintingGuide() {
                 {TINT_TYPES.map((row, i) => (
                   <tr
                     key={row.name}
-                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#22d65f]/[0.03] ${
-                      row.recommended ? "bg-[#22d65f]/[0.04]" : i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
+                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#EEFF00]/[0.03] ${
+                      row.recommended ? "bg-[#EEFF00]/[0.04]" : i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
                     }`}
                   >
                     <td className="py-4 px-5 font-bold text-white">
                       {row.name}
                       {row.recommended && (
-                        <span className="ml-2 text-[10px] font-bold uppercase tracking-widest text-[#22d65f] px-2 py-0.5 rounded-full bg-[#22d65f]/15">
+                        <span className="ml-2 text-[10px] font-bold uppercase tracking-widest text-[#EEFF00] px-2 py-0.5 rounded-full bg-[#EEFF00]/15">
                           Recommended
                         </span>
                       )}
@@ -387,7 +387,7 @@ export default function WindowTintingGuide() {
                 key={row.name}
                 className={`rounded-2xl p-5 border ${
                   row.recommended
-                    ? "border-[#22d65f]/30 bg-[#22d65f]/[0.06]"
+                    ? "border-[#EEFF00]/30 bg-[#EEFF00]/[0.06]"
                     : "card-gradient"
                 }`}
               >
@@ -396,7 +396,7 @@ export default function WindowTintingGuide() {
                   <TintRatingBadge level={row.ratingLevel} label={row.albertaRating} />
                 </div>
                 {row.recommended && (
-                  <div className="mb-3 text-[10px] font-bold uppercase tracking-widest text-[#22d65f]">
+                  <div className="mb-3 text-[10px] font-bold uppercase tracking-widest text-[#EEFF00]">
                     Our Recommendation
                   </div>
                 )}
@@ -420,22 +420,21 @@ export default function WindowTintingGuide() {
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             Here is a realistic breakdown of window tinting prices at a quality
             shop in the Stony Plain and Spruce Grove area in 2026. These are
-            typical prices for professional installation with warranted film —
-            not the self-stick kits from the auto parts store.
+            typical prices for professional installation with warranted film,             not the self-stick kits from the auto parts store.
           </p>
 
           {/* Desktop table */}
           <div className="mt-8 hidden sm:block rounded-2xl overflow-hidden border border-[#2a2a2a]">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[#22d65f]/[0.06]">
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                <tr className="bg-[#EEFF00]/[0.06]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Service
                   </th>
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Cost Range
                   </th>
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Notes
                   </th>
                 </tr>
@@ -444,7 +443,7 @@ export default function WindowTintingGuide() {
                 {COST_DATA.map((row, i) => (
                   <tr
                     key={row.service}
-                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#22d65f]/[0.03] ${
+                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#EEFF00]/[0.03] ${
                       i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
                     }`}
                   >
@@ -487,16 +486,16 @@ export default function WindowTintingGuide() {
           <Callout variant="tip">
             <strong className="text-white">Getting the most value:</strong> If
             you are already coming in for{" "}
-            <Link href="/detailing/" className="text-[#22d65f] hover:underline">
+            <Link href="/detailing/" className="text-[#EEFF00] hover:underline">
               a detail
             </Link>{" "}
             or{" "}
-            <Link href="/ppf/" className="text-[#22d65f] hover:underline">
+            <Link href="/ppf/" className="text-[#EEFF00] hover:underline">
               paint protection film
             </Link>
             , bundling window tint on the same visit often saves you on labour.
             Ask about combined booking discounts when you call{" "}
-            <Link href="/tinting/" className="text-[#22d65f] hover:underline">
+            <Link href="/tinting/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks
             </Link>
             .
@@ -519,7 +518,7 @@ export default function WindowTintingGuide() {
                 title: "UV Protection",
                 icon: "sun",
                 detail:
-                  "Alberta sits at a high elevation with long summer days and intense solar radiation. According to Health Canada, UV radiation exposure is a leading cause of skin cancer — and you accumulate UV dose during every drive. Ceramic tint blocks 99%+ of UVA and UVB rays. Your passengers, your skin, and your interior materials all benefit year-round.",
+                  "Alberta sits at a high elevation with long summer days and intense solar radiation. According to Health Canada, UV radiation exposure is a leading cause of skin cancer, and you accumulate UV dose during every drive. Ceramic tint blocks 99%+ of UVA and UVB rays. Your passengers, your skin, and your interior materials all benefit year-round.",
                 externalLink: {
                   href: "https://www.canada.ca/en/health-canada/services/sun-safety.html",
                   label: "Health Canada sun safety data",
@@ -546,10 +545,10 @@ export default function WindowTintingGuide() {
             ].map((benefit) => (
               <div
                 key={benefit.title}
-                className="card-gradient rounded-2xl p-6 group hover:border-[#22d65f]/50 transition-all duration-300"
+                className="card-gradient rounded-2xl p-6 group hover:border-[#EEFF00]/50 transition-all duration-300"
               >
-                <div className="w-10 h-10 rounded-xl bg-[#22d65f]/10 flex items-center justify-center mb-4 group-hover:bg-[#22d65f]/20 transition-colors">
-                  <svg className="w-5 h-5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <div className="w-10 h-10 rounded-xl bg-[#EEFF00]/10 flex items-center justify-center mb-4 group-hover:bg-[#EEFF00]/20 transition-colors">
+                  <svg className="w-5 h-5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     {benefit.icon === "sun" && (
                       <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l.707.707M6.343 6.343l.707.707M12 7a5 5 0 100 10 5 5 0 000-10z" />
                     )}
@@ -575,7 +574,7 @@ export default function WindowTintingGuide() {
                     href={benefit.externalLink.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-3 inline-block text-xs text-[#22d65f] hover:underline"
+                    className="mt-3 inline-block text-xs text-[#EEFF00] hover:underline"
                   >
                     {benefit.externalLink.label} &rarr;
                   </a>
@@ -603,17 +602,17 @@ export default function WindowTintingGuide() {
               </h3>
               <p className="text-sm text-[#999] leading-relaxed">
                 The dye in low-cost tint film breaks down under UV exposure and
-                extreme temperature swings — exactly the conditions Alberta
+                extreme temperature swings, exactly the conditions Alberta
                 delivers every year. After a couple of winters, you get that
                 unmistakable purple hue on the windows, bubbling at the edges,
                 and peeling around the corners. That means paying for removal
-                (add $100 to $200) and reinstallation — costs that quickly
+                (add $100 to $200) and reinstallation, costs that quickly
                 exceed what you would have spent on ceramic from the start.
               </p>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden border border-[#22d65f]/30 bg-gradient-to-br from-[#22d65f]/[0.06] to-[#141414]">
-              <div className="absolute top-0 right-0 px-3 py-1 bg-[#22d65f] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
+            <div className="relative rounded-2xl overflow-hidden border border-[#EEFF00]/30 bg-gradient-to-br from-[#EEFF00]/[0.06] to-[#141414]">
+              <div className="absolute top-0 right-0 px-3 py-1 bg-[#EEFF00] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
                 Key Advantage
               </div>
               <div className="p-6 sm:p-8">
@@ -638,7 +637,7 @@ export default function WindowTintingGuide() {
               <p className="text-sm text-[#999] leading-relaxed">
                 This is the most misunderstood advantage of ceramic tint. A
                 dark dyed film blocks visible light but lets infrared radiation
-                through — the infrared is what you feel as heat. Ceramic film
+                through, the infrared is what you feel as heat. Ceramic film
                 blocks up to 70% of infrared heat even in a relatively light
                 shade, so you can run a 50% VLT-compliant front window tint
                 that still dramatically reduces heat buildup. You stay legal
@@ -648,11 +647,11 @@ export default function WindowTintingGuide() {
 
             <div className="card-gradient rounded-2xl p-6 sm:p-8">
               <h3 className="text-sm font-bold uppercase tracking-wide text-white mb-3">
-                No Signal Interference — GPS, Radio, Toll Tags Work Fine
+                No Signal Interference, GPS, Radio, Toll Tags Work Fine
               </h3>
               <p className="text-sm text-[#999] leading-relaxed">
-                Metalized tint films — popular in the 2000s and still sold at
-                the low end of the market — interfere with GPS signals, radio
+                Metalized tint films, popular in the 2000s and still sold at
+                the low end of the market, interfere with GPS signals, radio
                 reception, and RFID transponders like highway toll tags.
                 Ceramic film has zero metal content, so your GPS locks on
                 normally, your radio sounds the same, and your phone stays
@@ -664,14 +663,14 @@ export default function WindowTintingGuide() {
 
           <Callout variant="info">
             Want to see and feel the difference? At{" "}
-            <Link href="/tinting/" className="text-[#22d65f] hover:underline">
+            <Link href="/tinting/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks
             </Link>
             , we have sample boards of every shade and type so you can hold the
             film up to light, feel the heat difference, and choose your shade
             with full confidence before we touch your vehicle. No surprises.
             Pair your tint with{" "}
-            <Link href="/ppf/" className="text-[#22d65f] hover:underline">
+            <Link href="/ppf/" className="text-[#EEFF00] hover:underline">
               paint protection film on the front end
             </Link>{" "}
             for complete coverage from both UV and physical damage.
@@ -695,7 +694,7 @@ export default function WindowTintingGuide() {
                 step: "01",
                 title: "Free Consultation",
                 description:
-                  "We start by reviewing your vehicle, discussing Alberta's legal VLT requirements for each window, and showing you our sample boards. You see every shade option in natural light before making a decision. There is no pressure to book on the spot — we want you confident in your choice.",
+                  "We start by reviewing your vehicle, discussing Alberta's legal VLT requirements for each window, and showing you our sample boards. You see every shade option in natural light before making a decision. There is no pressure to book on the spot, we want you confident in your choice.",
               },
               {
                 step: "02",
@@ -713,14 +712,14 @@ export default function WindowTintingGuide() {
                 step: "04",
                 title: "Cure Time: 3 to 7 Days",
                 description:
-                  "After installation you take your vehicle home, but the tint needs time to cure. During this period: do not roll your windows down, do not clean the glass from the inside, and expect to see small water pockets or haze — these are normal and disappear as the adhesive cures. In cold weather (below 10°C), allow the full 7 days.",
+                  "After installation you take your vehicle home, but the tint needs time to cure. During this period: do not roll your windows down, do not clean the glass from the inside, and expect to see small water pockets or haze, these are normal and disappear as the adhesive cures. In cold weather (below 10°C), allow the full 7 days.",
               },
             ].map((phase) => (
               <div key={phase.step} className="relative rounded-2xl overflow-hidden">
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#22d65f] to-[#22d65f]/20" />
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#EEFF00] to-[#EEFF00]/20" />
                 <div className="card-gradient rounded-2xl border-l-0 pl-6 pr-6 py-6 sm:pl-8 sm:pr-8 sm:py-8 ml-1">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#22d65f] text-black text-xs font-black flex-shrink-0">
+                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#EEFF00] text-black text-xs font-black flex-shrink-0">
                       {phase.step}
                     </span>
                     <h3 className="text-sm font-bold uppercase tracking-widest text-white">
@@ -738,17 +737,17 @@ export default function WindowTintingGuide() {
           <Callout variant="tip">
             <strong className="text-white">Book your free consultation:</strong>{" "}
             Call{" "}
-            <a href="tel:7808189904" className="text-[#22d65f] hover:underline font-bold">
+            <a href="tel:7808189904" className="text-[#EEFF00] hover:underline font-bold">
               780.818.9904
             </a>{" "}
             or{" "}
-            <Link href="/contact/" className="text-[#22d65f] hover:underline">
+            <Link href="/contact/" className="text-[#EEFF00] hover:underline">
               submit a request online
             </Link>
             . Accurate Autoworks is on Boulder Boulevard in Stony Plain, a
             short drive from Spruce Grove, Acheson, and the Yellowhead corridor.
             We also handle{" "}
-            <Link href="/detailing/" className="text-[#22d65f] hover:underline">
+            <Link href="/detailing/" className="text-[#EEFF00] hover:underline">
               full vehicle detailing
             </Link>{" "}
             if you want to arrive with perfectly clean glass.
@@ -766,14 +765,14 @@ export default function WindowTintingGuide() {
                 key={faq.q}
                 className="group rounded-2xl overflow-hidden card-gradient"
               >
-                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#22d65f] transition-colors list-none flex items-center gap-4">
-                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#22d65f]/10 text-[#22d65f] text-xs font-bold flex items-center justify-center group-open:bg-[#22d65f] group-open:text-black transition-all">
+                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#EEFF00] transition-colors list-none flex items-center gap-4">
+                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#EEFF00]/10 text-[#EEFF00] text-xs font-bold flex items-center justify-center group-open:bg-[#EEFF00] group-open:text-black transition-all">
                     {i + 1}
                   </span>
                   <span className="flex-1">{faq.q}</span>
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full border border-[#333] flex items-center justify-center group-open:border-[#22d65f] group-open:bg-[#22d65f]/10 transition-all">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full border border-[#333] flex items-center justify-center group-open:border-[#EEFF00] group-open:bg-[#EEFF00]/10 transition-all">
                     <svg
-                      className="w-3 h-3 text-[#22d65f] transition-transform group-open:rotate-180"
+                      className="w-3 h-3 text-[#EEFF00] transition-transform group-open:rotate-180"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -797,20 +796,20 @@ export default function WindowTintingGuide() {
 
         {/* CTA Section */}
         <section className="mt-16 relative rounded-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#22d65f]/15 via-[#22d65f]/5 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EEFF00]/15 via-[#EEFF00]/5 to-transparent" />
           <div className="absolute inset-0 hero-stripe opacity-30" />
-          <div className="absolute inset-0 border border-[#22d65f]/20 rounded-2xl" />
+          <div className="absolute inset-0 border border-[#EEFF00]/20 rounded-2xl" />
           <div className="relative p-8 sm:p-12 text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f] animate-pulse" />
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00] animate-pulse" />
               Free Consultation
             </div>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight">
               Ready to Tint Your{" "}
-              <span className="text-[#22d65f] glow-accent">Windows?</span>
+              <span className="text-[#EEFF00] glow-accent">Windows?</span>
             </h2>
             <p className="mt-4 text-[#999] max-w-xl mx-auto leading-relaxed">
-              Window tint, PPF, detailing, wraps — Accurate Autoworks handles
+              Window tint, PPF, detailing, wraps, Accurate Autoworks handles
               it all under one roof in Stony Plain. Serving Spruce Grove,
               Parkland County, Acheson, and Edmonton West. Free consultation,
               no obligation.
@@ -829,15 +828,15 @@ export default function WindowTintingGuide() {
         {/* Author / Shop Card */}
         <div className="mt-12 card-gradient rounded-2xl p-6 sm:p-8">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
-            <div className="w-14 h-14 rounded-xl bg-[#22d65f]/10 flex items-center justify-center flex-shrink-0">
-              <svg className="w-7 h-7 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <div className="w-14 h-14 rounded-xl bg-[#EEFF00]/10 flex items-center justify-center flex-shrink-0">
+              <svg className="w-7 h-7 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016A3.001 3.001 0 0021 9.349m-18 0A2.989 2.989 0 004.5 9c.956 0 1.813-.44 2.37-1.13M21 9.349A2.989 2.989 0 0019.5 9c-.956 0-1.813-.44-2.37-1.13m0 0A3 3 0 0015 6H9a3 3 0 00-2.13.87m10.26 0A3 3 0 0015 6H9" />
               </svg>
             </div>
             <div className="text-center sm:text-left">
               <p className="text-sm font-bold text-white">
                 Written by the team at{" "}
-                <Link href="/" className="text-[#22d65f] hover:underline">
+                <Link href="/" className="text-[#EEFF00] hover:underline">
                   Accurate Autoworks
                 </Link>
               </p>
@@ -849,14 +848,14 @@ export default function WindowTintingGuide() {
               <div className="mt-3 flex items-center justify-center sm:justify-start gap-3">
                 <a
                   href="tel:7808189904"
-                  className="text-xs text-[#22d65f] hover:underline font-bold"
+                  className="text-xs text-[#EEFF00] hover:underline font-bold"
                 >
                   780.818.9904
                 </a>
                 <span className="w-1 h-1 rounded-full bg-[#333]" />
                 <Link
                   href="/contact/"
-                  className="text-xs text-[#999] hover:text-[#22d65f] transition-colors"
+                  className="text-xs text-[#999] hover:text-[#EEFF00] transition-colors"
                 >
                   Get in Touch
                 </Link>
@@ -876,7 +875,7 @@ export default function WindowTintingGuide() {
             headline:
               "Window Tinting in Stony Plain & Spruce Grove: Alberta's Complete 2026 Guide",
             description:
-              "Everything Alberta drivers need to know about window tinting — laws, costs, ceramic vs carbon vs dyed. Accurate Autoworks, Stony Plain.",
+              "Everything Alberta drivers need to know about window tinting, laws, costs, ceramic vs carbon vs dyed. Accurate Autoworks, Stony Plain.",
             datePublished: publishDate,
             dateModified: modifiedDate,
             author: {
@@ -969,15 +968,15 @@ function SectionHeading({
 }) {
   return (
     <div className="flex items-start gap-4">
-      <span className="flex-shrink-0 text-xs font-mono font-bold text-[#22d65f]/40 mt-2">
+      <span className="flex-shrink-0 text-xs font-mono font-bold text-[#EEFF00]/40 mt-2">
         {number}
       </span>
       <div>
         <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight leading-tight">
           {children}
-          <span className="text-[#22d65f]">{highlight}</span>
+          <span className="text-[#EEFF00]">{highlight}</span>
         </h2>
-        <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#22d65f] to-transparent" />
+        <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#EEFF00] to-transparent" />
       </div>
     </div>
   );
@@ -986,7 +985,7 @@ function SectionHeading({
 function PriorityBadge({ level, label }: { level: string; label: string }) {
   const colors: Record<string, string> = {
     essential:
-      "bg-[#22d65f]/15 text-[#22d65f] border-[#22d65f]/30",
+      "bg-[#EEFF00]/15 text-[#EEFF00] border-[#EEFF00]/30",
     recommended:
       "bg-white/5 text-white border-white/20",
     optional:
@@ -1005,7 +1004,7 @@ function PriorityBadge({ level, label }: { level: string; label: string }) {
 
 function TintRatingBadge({ level, label }: { level: string; label: string }) {
   const colors: Record<string, string> = {
-    best: "bg-[#22d65f]/15 text-[#22d65f] border-[#22d65f]/30",
+    best: "bg-[#EEFF00]/15 text-[#EEFF00] border-[#EEFF00]/30",
     good: "bg-white/5 text-white border-white/20",
     poor: "bg-red-500/10 text-red-400 border-red-500/20",
   };
@@ -1029,10 +1028,10 @@ function Callout({
 }) {
   const styles = {
     tip: {
-      border: "border-[#22d65f]/20",
-      bg: "bg-[#22d65f]/[0.04]",
-      icon: "text-[#22d65f]",
-      iconBg: "bg-[#22d65f]/10",
+      border: "border-[#EEFF00]/20",
+      bg: "bg-[#EEFF00]/[0.04]",
+      icon: "text-[#EEFF00]",
+      iconBg: "bg-[#EEFF00]/10",
     },
     info: {
       border: "border-blue-500/20",

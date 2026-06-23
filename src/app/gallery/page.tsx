@@ -5,7 +5,7 @@ import { InstagramFeed } from "@/components/instagram-feed";
 export const metadata: Metadata = {
   title: "Tint, Wrap & Detail Gallery | Stony Plain",
   description:
-    "See our work — window tinting, vinyl wraps, car detailing, PPF & commercial printing at Accurate Autoworks in Stony Plain, AB. Real results.",
+    "See our work, window tinting, vinyl wraps, car detailing, PPF & commercial printing at Accurate Autoworks in Stony Plain, AB. Real results.",
   alternates: { canonical: "/gallery/" },
 };
 
@@ -14,11 +14,11 @@ export default function GalleryPage() {
     <div className="pt-24 sm:pt-32 pb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-14">
-          <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full">
+          <div className="inline-block px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full">
             Our Work
           </div>
           <h1 className="text-3xl sm:text-5xl font-black uppercase tracking-tight">
-            The <span className="text-[#22d65f]">Gallery</span>
+            The <span className="text-[#EEFF00]">Gallery</span>
           </h1>
           <p className="mt-4 text-[#888] max-w-lg mx-auto">
             Real work. Real results. Check out our latest tints, wraps, details, and prints.
@@ -28,7 +28,7 @@ export default function GalleryPage() {
         {/* Live Instagram Feed */}
         <InstagramFeed />
 
-        {/* Fallback Gallery grid — shows if Instagram feed is not connected */}
+        {/* Fallback Gallery grid, shows if Instagram feed is not connected */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 mt-8">
           {[
             { label: "Full Wrap", category: "Wraps" },
@@ -46,7 +46,7 @@ export default function GalleryPage() {
           ].map((item, i) => (
             <div
               key={i}
-              className="aspect-square bg-[#141414] border border-[#2a2a2a] rounded-lg flex flex-col items-center justify-center text-center p-4 hover:border-[#22d65f] transition-colors group"
+              className="aspect-square bg-[#141414] border border-[#2a2a2a] rounded-lg flex flex-col items-center justify-center text-center p-4 hover:border-[#EEFF00] transition-colors group"
             >
               <div className="text-3xl mb-3 opacity-30 group-hover:opacity-60 transition-opacity">
                 {item.category === "Wraps" ? "🎨" : item.category === "Tinting" ? "🔲" : item.category === "Detailing" ? "✨" : item.category === "PPF" ? "🛡️" : "🖨️"}
@@ -54,7 +54,7 @@ export default function GalleryPage() {
               <div className="text-xs font-bold uppercase tracking-wider text-[#666] group-hover:text-[#999] transition-colors">
                 {item.label}
               </div>
-              <div className="text-[10px] uppercase tracking-widest text-[#22d65f]/50 mt-1">{item.category}</div>
+              <div className="text-[10px] uppercase tracking-widest text-[#EEFF00]/50 mt-1">{item.category}</div>
             </div>
           ))}
         </div>
@@ -86,7 +86,7 @@ export default function GalleryPage() {
         {/* CTA */}
         <div className="mt-20 text-center">
           <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight">
-            Like What You <span className="text-[#22d65f]">See</span>?
+            Like What You <span className="text-[#EEFF00]">See</span>?
           </h2>
           <p className="mt-3 text-[#888]">Let&apos;s make your ride the next one in the gallery.</p>
           <div className="mt-6">
