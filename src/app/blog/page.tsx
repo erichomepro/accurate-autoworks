@@ -20,6 +20,114 @@ const POSTS = [
     tag: "Auto Care Guide",
     featured: true,
   },
+  {
+    slug: "winterizing-vehicle-alberta-stony-plain",
+    title: "Winterizing Your Vehicle in Alberta",
+    excerpt:
+      "Complete Alberta vehicle winterizing guide: winter tires, PPF, window tint, detailing, and ceramic coating. What Stony Plain and Spruce Grove drivers need before the cold hits.",
+    date: "June 22, 2026",
+    readTime: "11 min read",
+    tag: "Auto Care Guide",
+  },
+  {
+    slug: "truck-suv-detailing-stony-plain",
+    title: "Truck & SUV Detailing in Stony Plain",
+    excerpt:
+      "Truck and SUV detailing in Stony Plain & Spruce Grove: what's different, 2026 Alberta pricing, packages, and what to expect at Accurate Autoworks.",
+    date: "June 21, 2026",
+    readTime: "9 min read",
+    tag: "Detailing",
+  },
+  {
+    slug: "vehicle-wrap-cost-2026-alberta",
+    title: "Vehicle Wrap Cost 2026: Alberta Pricing Guide",
+    excerpt:
+      "How much does a vehicle wrap cost in Alberta in 2026? Full colour change, partial wraps, and commercial fleet pricing, with real numbers from Stony Plain.",
+    date: "June 20, 2026",
+    readTime: "10 min read",
+    tag: "Vinyl Wraps",
+  },
+  {
+    slug: "ppf-vs-vinyl-wrap-alberta-guide",
+    title: "PPF vs Vinyl Wrap: Which Does Your Vehicle Actually Need?",
+    excerpt:
+      "Rock chips or a new colour? Alberta's complete 2026 guide to PPF vs vinyl wrap: costs, lifespan, protection levels, and which one your vehicle actually needs.",
+    date: "June 19, 2026",
+    readTime: "10 min read",
+    tag: "PPF vs Wrap",
+  },
+  {
+    slug: "commercial-signs-vehicle-wraps-stony-plain",
+    title: "Commercial Signs & Fleet Wraps in Stony Plain",
+    excerpt:
+      "Fleet vehicle wraps, storefront signs, banners, and decals for Stony Plain & Spruce Grove businesses. Design, print, and install all in-house at Accurate Autoworks.",
+    date: "June 18, 2026",
+    readTime: "9 min read",
+    tag: "Commercial",
+  },
+  {
+    slug: "tire-changeover-stony-plain-spruce-grove",
+    title: "Tire Changeover in Stony Plain & Spruce Grove",
+    excerpt:
+      "Seasonal tire changeover in Stony Plain & Spruce Grove: when to switch, winter vs all-weather vs all-season, 2026 costs, and what's included.",
+    date: "June 17, 2026",
+    readTime: "8 min read",
+    tag: "Tires",
+  },
+  {
+    slug: "ceramic-coating-stony-plain-alberta",
+    title: "Ceramic Coating in Stony Plain: How It Works & Is It Worth It?",
+    excerpt:
+      "Ceramic coating in Stony Plain: how it works, 2026 Alberta costs, how long it lasts, and whether it's worth it for your truck or SUV.",
+    date: "June 16, 2026",
+    readTime: "10 min read",
+    tag: "Ceramic Coating",
+  },
+  {
+    slug: "paint-protection-film-cost-alberta-2026",
+    title: "Paint Protection Film Cost in Alberta (2026)",
+    excerpt:
+      "Paint protection film cost in Alberta in 2026: full PPF, partial coverage, lifespan, types, the install process, and an honest answer on whether PPF is worth it.",
+    date: "June 15, 2026",
+    readTime: "11 min read",
+    tag: "PPF",
+  },
+  {
+    slug: "window-tinting-stony-plain-spruce-grove",
+    title: "Window Tinting in Stony Plain & Spruce Grove",
+    excerpt:
+      "Window tinting in Stony Plain & Spruce Grove: Alberta tint laws, ceramic vs carbon vs dyed, 2026 costs, UV protection, and expert installation.",
+    date: "May 2, 2026",
+    readTime: "10 min read",
+    tag: "Window Tinting",
+  },
+  {
+    slug: "vinyl-wraps-stony-plain-spruce-grove",
+    title: "Vinyl Wraps in Stony Plain & Spruce Grove",
+    excerpt:
+      "Vinyl wraps and colour-change wraps in Stony Plain: the types, Alberta pricing, how long they last, and what to expect.",
+    date: "April 28, 2026",
+    readTime: "9 min read",
+    tag: "Vinyl Wraps",
+  },
+  {
+    slug: "auto-detailing-stony-plain-spruce-grove",
+    title: "Auto Detailing in Stony Plain & Spruce Grove",
+    excerpt:
+      "Auto detailing in Stony Plain & Spruce Grove: the full menu, 2026 Alberta pricing, interior vs exterior explained, and what to expect.",
+    date: "April 20, 2026",
+    readTime: "9 min read",
+    tag: "Detailing",
+  },
+  {
+    slug: "paint-protection-film-ppf-stony-plain-alberta",
+    title: "Paint Protection Film in Stony Plain",
+    excerpt:
+      "PPF in Stony Plain & Spruce Grove: rock chip protection, self-healing film, 2026 Alberta costs, and whether a clear bra is worth it for your vehicle.",
+    date: "April 12, 2026",
+    readTime: "9 min read",
+    tag: "PPF",
+  },
 ];
 
 export default function BlogPage() {
