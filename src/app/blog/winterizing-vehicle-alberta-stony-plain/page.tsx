@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title:
       "Winterizing Your Vehicle in Alberta | Accurate Autoworks",
     description:
-      "Winter tires, PPF, window tint, detailing — everything Stony Plain and Spruce Grove drivers need to protect their vehicles from Alberta winters.",
+      "Winter tires, PPF, window tint, detailing, everything Stony Plain and Spruce Grove drivers need to protect their vehicles from Alberta winters.",
     type: "article",
     url: "https://www.accurateautoworks.ca/blog/winterizing-vehicle-alberta-stony-plain/",
     locale: "en_CA",
@@ -26,23 +26,23 @@ export const metadata: Metadata = {
 const FAQ_DATA = [
   {
     q: "When should I start winterizing my vehicle in Alberta?",
-    a: "October is the right time for most Stony Plain and Spruce Grove drivers. Daytime temperatures in Parkland County typically drop below 7°C in late October, which is the threshold at which all-season tires start losing grip. Getting your winter tires on, your detail done, and your PPF inspected in October means you are not rushing when the first major snowfall hits. Accurate Autoworks books up fast every fall — calling 780.818.9904 in early October to reserve your spot is the right move.",
+    a: "October is the right time for most Stony Plain and Spruce Grove drivers. Daytime temperatures in Parkland County typically drop below 7°C in late October, which is the threshold at which all-season tires start losing grip. Getting your winter tires on, your detail done, and your PPF inspected in October means you are not rushing when the first major snowfall hits. Accurate Autoworks books up fast every fall, calling 780.818.9904 in early October to reserve your spot is the right move.",
   },
   {
     q: "Is paint protection film worth it specifically for Alberta winters?",
-    a: "Absolutely. Alberta roads are some of the hardest on paint in the country. Parkland County and the Acheson corridor are heavily salted from October through April, and gravel kicked up by plows on secondary highways like Highway 16A creates constant rock chip exposure. PPF acts as a sacrificial barrier that takes the chips and scratches so your paint doesn't. Self-healing PPF recovers minor surface scuffs with heat, and the salt corrosion resistance is genuinely excellent. Most drivers who install PPF in the fall notice a dramatic difference by spring — paint that looks like it just came off the lot. Ask Accurate Autoworks about PPF options at 780.818.9904.",
+    a: "Absolutely. Alberta roads are some of the hardest on paint in the country. Parkland County and the Acheson corridor are heavily salted from October through April, and gravel kicked up by plows on secondary highways like Highway 16A creates constant rock chip exposure. PPF acts as a sacrificial barrier that takes the chips and scratches so your paint doesn't. Self-healing PPF recovers minor surface scuffs with heat, and the salt corrosion resistance is genuinely excellent. Most drivers who install PPF in the fall notice a dramatic difference by spring, paint that looks like it just came off the lot. Ask Accurate Autoworks about PPF options at 780.818.9904.",
   },
   {
     q: "Does window tint actually help in Alberta winters?",
-    a: "Yes, in ways most drivers don't expect. Ceramic window tint retains cabin heat more effectively than bare glass, reducing the load on your heater on cold mornings. It also cuts the blinding low-angle glare from winter sun — driving west on Highway 16A in December at 4:30 PM is genuinely dangerous without glare management. UV rejection remains active year-round, protecting your dash and upholstery even on bright winter days. The film itself is unaffected by cold temperatures once fully cured.",
+    a: "Yes, in ways most drivers don't expect. Ceramic window tint retains cabin heat more effectively than bare glass, reducing the load on your heater on cold mornings. It also cuts the blinding low-angle glare from winter sun, driving west on Highway 16A in December at 4:30 PM is genuinely dangerous without glare management. UV rejection remains active year-round, protecting your dash and upholstery even on bright winter days. The film itself is unaffected by cold temperatures once fully cured.",
   },
   {
     q: "Should I detail my vehicle before or after winter?",
-    a: "Both, if you can — but if you have to pick one, do it before winter. A proper fall detail includes a thorough paint decontamination that removes brake dust, rail dust, and embedded road grime that accelerates corrosion under salt exposure. Applying a ceramic coating or quality sealant before winter creates a protective layer that makes salt and slush bead off rather than bonding to the paint. A spring detail then removes the winter salt residue before it can cause long-term damage. Accurate Autoworks offers both seasonal detail packages.",
+    a: "Both, if you can, but if you have to pick one, do it before winter. A proper fall detail includes a thorough paint decontamination that removes brake dust, rail dust, and embedded road grime that accelerates corrosion under salt exposure. Applying a ceramic coating or quality sealant before winter creates a protective layer that makes salt and slush bead off rather than bonding to the paint. A spring detail then removes the winter salt residue before it can cause long-term damage. Accurate Autoworks offers both seasonal detail packages.",
   },
   {
     q: "What is the difference between winter tires and all-weather tires for Alberta?",
-    a: "Winter tires use a soft rubber compound optimized specifically for below-7°C performance, with deep tread blocks and sipes for maximum ice and snow grip. All-weather tires are a compromise — they carry the mountain snowflake symbol and outperform all-seasons in winter conditions, but they do not match dedicated winter tires on hard-pack snow or black ice. For Parkland County, where temperatures regularly hit -25°C and roads freeze hard, dedicated winter tires are the better choice if you want the best possible safety margin. All-weather tires are a reasonable option if you do very little driving in severe conditions.",
+    a: "Winter tires use a soft rubber compound optimized specifically for below-7°C performance, with deep tread blocks and sipes for maximum ice and snow grip. All-weather tires are a compromise, they carry the mountain snowflake symbol and outperform all-seasons in winter conditions, but they do not match dedicated winter tires on hard-pack snow or black ice. For Parkland County, where temperatures regularly hit -25°C and roads freeze hard, dedicated winter tires are the better choice if you want the best possible safety margin. All-weather tires are a reasonable option if you do very little driving in severe conditions.",
   },
   {
     q: "How much does full vehicle winterizing cost at Accurate Autoworks?",
@@ -50,11 +50,11 @@ const FAQ_DATA = [
   },
   {
     q: "Does ceramic coating protect against Alberta road salt?",
-    a: "Yes — ceramic coating creates a hydrophobic surface that causes water, salt, and slush to bead and roll off rather than sitting on the paint. Salt that can't stick can't corrode. That said, ceramic coating is not impervious to rock chips, so combining ceramic coating on the painted surfaces with PPF on the high-impact areas like the hood and front bumper gives you the most complete protection. Accurate Autoworks can walk you through which combination makes sense for your vehicle and typical driving routes.",
+    a: "Yes, ceramic coating creates a hydrophobic surface that causes water, salt, and slush to bead and roll off rather than sitting on the paint. Salt that can't stick can't corrode. That said, ceramic coating is not impervious to rock chips, so combining ceramic coating on the painted surfaces with PPF on the high-impact areas like the hood and front bumper gives you the most complete protection. Accurate Autoworks can walk you through which combination makes sense for your vehicle and typical driving routes.",
   },
   {
     q: "How long does a seasonal winterizing appointment take?",
-    a: "That depends on the services. A tire changeover alone takes 45 to 90 minutes. A full detail is 4 to 8 hours. PPF installation on the front end is typically a full day. If you are combining services — detail plus tire swap, for example — we can often structure the appointment so both happen the same day, reducing the number of trips. Contact Accurate Autoworks at 780.818.9904 to discuss scheduling, and we will find the most efficient way to get everything done.",
+    a: "That depends on the services. A tire changeover alone takes 45 to 90 minutes. A full detail is 4 to 8 hours. PPF installation on the front end is typically a full day. If you are combining services, detail plus tire swap, for example, we can often structure the appointment so both happen the same day, reducing the number of trips. Contact Accurate Autoworks at 780.818.9904 to discuss scheduling, and we will find the most efficient way to get everything done.",
   },
 ];
 
@@ -92,7 +92,7 @@ const WINTER_SERVICES = [
     urgency: "Medium",
     urgencyLevel: "medium",
     protects: "Cabin from glare, heat loss, UV",
-    timing: "Any time — 3-7 day cure before cold",
+    timing: "Any time, 3-7 day cure before cold",
     lifespan: "10+ years (ceramic)",
     notes: "Reduces low-sun glare, helps retain cabin heat, UV-active year-round. Best done before cold weather cure concerns.",
   },
@@ -110,7 +110,7 @@ const WINTER_SERVICES = [
     urgency: "High",
     urgencyLevel: "high",
     protects: "Paint, interior from embedded contamination",
-    timing: "October — before first serious snowfall",
+    timing: "October, before first serious snowfall",
     lifespan: "Seasonal",
     notes: "Decontamination removes brake dust and rail dust that corrode under salt. Interior protection prevents moisture damage.",
   },
@@ -126,39 +126,39 @@ export default function WinterizingVehicleAlberta() {
 
       {/* Hero Section */}
       <header className="relative pt-24 sm:pt-32 pb-16 sm:pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#22d65f]/5 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#EEFF00]/5 via-transparent to-transparent" />
         <div className="absolute inset-0 hero-stripe opacity-50" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#22d65f]/[0.03] rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#EEFF00]/[0.03] rounded-full blur-3xl" />
 
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full backdrop-blur-sm bg-[#22d65f]/5">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f] animate-pulse" />
+          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full backdrop-blur-sm bg-[#EEFF00]/5">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00] animate-pulse" />
             Winter Prep Guide
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black uppercase tracking-tight leading-[1.05]">
             Winterizing Your Vehicle in{" "}
-            <span className="text-[#22d65f] glow-accent">Alberta</span>
+            <span className="text-[#EEFF00] glow-accent">Alberta</span>
             : Tires, PPF, Tint &amp; Detailing Guide
           </h1>
 
           <p className="mt-8 text-lg sm:text-xl text-[#999] max-w-2xl mx-auto leading-relaxed">
             Alberta winters hit hard. Rock chips from plow trucks, road salt
-            that eats paint, black ice that demands proper rubber — this guide
+            that eats paint, black ice that demands proper rubber, this guide
             covers every protection service that actually matters for Stony
             Plain, Spruce Grove, and Parkland County drivers.
           </p>
 
           <div className="mt-6 flex items-center justify-center gap-6 text-xs text-[#666] uppercase tracking-wider">
             <div className="flex items-center gap-2">
-              <svg className="w-3.5 h-3.5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg className="w-3.5 h-3.5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
               <time dateTime={publishDate}>May 13, 2026</time>
             </div>
             <span className="w-1 h-1 rounded-full bg-[#333]" />
             <div className="flex items-center gap-2">
-              <svg className="w-3.5 h-3.5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg className="w-3.5 h-3.5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <span>15 min read</span>
@@ -166,9 +166,9 @@ export default function WinterizingVehicleAlberta() {
           </div>
 
           <div className="mt-12 flex items-center justify-center gap-3">
-            <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#22d65f]/40" />
-            <div className="w-2 h-2 rotate-45 border border-[#22d65f]/40" />
-            <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#22d65f]/40" />
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#EEFF00]/40" />
+            <div className="w-2 h-2 rotate-45 border border-[#EEFF00]/40" />
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#EEFF00]/40" />
           </div>
         </div>
       </header>
@@ -185,17 +185,17 @@ export default function WinterizingVehicleAlberta() {
             hours, and a relentless diet of sand and salt that attacks every
             exposed surface on your vehicle. By the time the snow melts in
             April, an unprotected truck or SUV can look three years older than
-            it is — rock-chipped hood, salt-etched paint, a stiff interior
+            it is, rock-chipped hood, salt-etched paint, a stiff interior
             that smells like wet dog, and tires that wore out two seasons too
             early because they were the wrong rubber for the temperatures.
           </p>
           <p className="mt-4 text-[#ccc] leading-relaxed text-base sm:text-lg">
             The good news: every one of those outcomes is preventable with the
             right preparation in October. This guide covers the five services
-            that matter most — winter tires, paint protection film, window
-            tinting, ceramic coating, and a proper fall detail — what each one
+            that matter most, winter tires, paint protection film, window
+            tinting, ceramic coating, and a proper fall detail, what each one
             does, what it costs in 2026, and when to book them at{" "}
-            <Link href="/tinting/" className="text-[#22d65f] hover:underline">
+            <Link href="/tinting/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks in Stony Plain
             </Link>
             .
@@ -204,16 +204,16 @@ export default function WinterizingVehicleAlberta() {
 
         {/* Table of Contents */}
         <nav className="mt-12 relative rounded-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#22d65f]/10 via-[#141414] to-[#141414]" />
-          <div className="absolute inset-0 border border-[#22d65f]/20 rounded-2xl" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EEFF00]/10 via-[#141414] to-[#141414]" />
+          <div className="absolute inset-0 border border-[#EEFF00]/20 rounded-2xl" />
           <div className="relative p-6 sm:p-8">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-8 h-8 rounded-lg bg-[#22d65f]/10 flex items-center justify-center">
-                <svg className="w-4 h-4 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <div className="w-8 h-8 rounded-lg bg-[#EEFF00]/10 flex items-center justify-center">
+                <svg className="w-4 h-4 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
                 </svg>
               </div>
-              <h2 className="text-sm font-bold uppercase tracking-widest text-[#22d65f]">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-[#EEFF00]">
                 What We Cover
               </h2>
             </div>
@@ -232,9 +232,9 @@ export default function WinterizingVehicleAlberta() {
                 <li key={item.href}>
                   <a
                     href={item.href}
-                    className="flex items-center gap-3 py-1.5 text-[#999] hover:text-[#22d65f] transition-colors group"
+                    className="flex items-center gap-3 py-1.5 text-[#999] hover:text-[#EEFF00] transition-colors group"
                   >
-                    <span className="flex-shrink-0 w-6 h-6 rounded-md bg-[#22d65f]/10 text-[#22d65f] text-xs font-bold flex items-center justify-center group-hover:bg-[#22d65f]/20 transition-colors">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-md bg-[#EEFF00]/10 text-[#EEFF00] text-xs font-bold flex items-center justify-center group-hover:bg-[#EEFF00]/20 transition-colors">
                       {i + 1}
                     </span>
                     <span>{item.label}</span>
@@ -262,7 +262,7 @@ export default function WinterizingVehicleAlberta() {
               {
                 title: "Extreme Temperature Swings",
                 detail:
-                  "Parkland County regularly sees -30°C nights followed by plus-5°C afternoons a few days later. These freeze-thaw cycles are brutal on paint adhesion, tire rubber, and anything installed with adhesive (like poorly applied PPF). Quality materials and professional installation matter enormously — bargain-grade film or tint installed without proper surface prep will fail when Alberta's temperature swings hit.",
+                  "Parkland County regularly sees -30°C nights followed by plus-5°C afternoons a few days later. These freeze-thaw cycles are brutal on paint adhesion, tire rubber, and anything installed with adhesive (like poorly applied PPF). Quality materials and professional installation matter enormously, bargain-grade film or tint installed without proper surface prep will fail when Alberta's temperature swings hit.",
                 icon: "temp",
               },
               {
@@ -274,7 +274,7 @@ export default function WinterizingVehicleAlberta() {
               {
                 title: "Plow Debris and Rock Chips",
                 detail:
-                  "Gravel plows pick up and throw road debris continuously, especially on secondary highways like Highway 779 and the Yellowhead connector routes used by Stony Plain and Spruce Grove commuters. If you drive more than 30 minutes from home in winter, you are driving through debris fields that chip paint. PPF on your hood and front bumper is not a luxury in Alberta — it is a practical investment in your vehicle's resale value.",
+                  "Gravel plows pick up and throw road debris continuously, especially on secondary highways like Highway 779 and the Yellowhead connector routes used by Stony Plain and Spruce Grove commuters. If you drive more than 30 minutes from home in winter, you are driving through debris fields that chip paint. PPF on your hood and front bumper is not a luxury in Alberta, it is a practical investment in your vehicle's resale value.",
                 icon: "chip",
               },
               {
@@ -286,8 +286,8 @@ export default function WinterizingVehicleAlberta() {
             ].map((item) => (
               <div key={item.title} className="card-gradient rounded-2xl p-6 sm:p-7">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-[#22d65f]/10 flex items-center justify-center">
-                    <svg className="w-5 h-5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-[#EEFF00]/10 flex items-center justify-center">
+                    <svg className="w-5 h-5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       {item.icon === "temp" && (
                         <path strokeLinecap="round" strokeLinejoin="round" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
                       )}
@@ -334,12 +334,12 @@ export default function WinterizingVehicleAlberta() {
                 flexible at temperatures above 7°C. Below that threshold, the
                 compound hardens. A hardened tire has significantly less
                 contact with the road surface, less grip, and longer braking
-                distances — on dry pavement, not just on snow or ice.{" "}
+                distances, on dry pavement, not just on snow or ice.{" "}
                 <a
                   href="https://www.tc.gc.ca/en/services/road/winter-driving.html"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#22d65f] hover:underline"
+                  className="text-[#EEFF00] hover:underline"
                 >
                   Transport Canada testing
                 </a>{" "}
@@ -351,8 +351,8 @@ export default function WinterizingVehicleAlberta() {
               </p>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden border border-[#22d65f]/30 bg-gradient-to-br from-[#22d65f]/[0.06] to-[#141414]">
-              <div className="absolute top-0 right-0 px-3 py-1 bg-[#22d65f] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
+            <div className="relative rounded-2xl overflow-hidden border border-[#EEFF00]/30 bg-gradient-to-br from-[#EEFF00]/[0.06] to-[#141414]">
+              <div className="absolute top-0 right-0 px-3 py-1 bg-[#EEFF00] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
                 Key Timing
               </div>
               <div className="p-6 sm:p-8">
@@ -368,10 +368,10 @@ export default function WinterizingVehicleAlberta() {
                   two weeks of October means shorter wait times, more scheduling
                   flexibility, and you have your winters on before the roads get
                   genuinely dangerous.{" "}
-                  <Link href="/tires/" className="text-[#22d65f] hover:underline">
+                  <Link href="/tires/" className="text-[#EEFF00] hover:underline">
                     Accurate Autoworks handles seasonal tire changeovers
                   </Link>{" "}
-                  — call ahead to reserve your slot.
+, call ahead to reserve your slot.
                 </p>
               </div>
             </div>
@@ -397,7 +397,7 @@ export default function WinterizingVehicleAlberta() {
                     name: "All-Weather Tires",
                     score: "Good",
                     scoreLevel: "good",
-                    detail: "Three-peak mountain snowflake rated. Better than all-seasons in winter, worse than dedicated winters on ice. Year-round convenience — no seasonal swap needed.",
+                    detail: "Three-peak mountain snowflake rated. Better than all-seasons in winter, worse than dedicated winters on ice. Year-round convenience, no seasonal swap needed.",
                   },
                   {
                     name: "All-Season Tires",
@@ -425,7 +425,7 @@ export default function WinterizingVehicleAlberta() {
             from a mount-and-balance (which takes more time) to a simple
             wheel swap. You protect your alloys from road salt, and the total
             cost over three seasons is less than repeated mount-and-balance fees.{" "}
-            <Link href="/tires/" className="text-[#22d65f] hover:underline">
+            <Link href="/tires/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks can advise on the right fitment
             </Link>{" "}
             for your vehicle.
@@ -447,7 +447,7 @@ export default function WinterizingVehicleAlberta() {
               href="https://www.3m.com/3M/en_US/p/c/paint-protection-film/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#22d65f] hover:underline"
+              className="text-[#EEFF00] hover:underline"
             >
               3M&apos;s paint protection film overview
             </a>{" "}
@@ -463,14 +463,14 @@ export default function WinterizingVehicleAlberta() {
               </h3>
               <p className="text-sm text-[#999] leading-relaxed">
                 Plow trucks operating on provincial highways don&apos;t just clear
-                snow — they kick up the aggregate that is embedded in winter
+                snow, they kick up the aggregate that is embedded in winter
                 road surfaces and throw it sideways at highway speed. Secondary
                 roads around Stony Plain, the Yellowhead connector, Highway 16A,
                 and the Acheson ring roads are all heavily graveled in winter.
                 Every commute on these roads without PPF on your hood is a
                 chip lottery. One season of Alberta commuting can leave a
                 truck hood looking like it was sandblasted. PPF absorbs those
-                impacts — the film chips, not your paint.
+                impacts, the film chips, not your paint.
               </p>
             </div>
 
@@ -480,9 +480,9 @@ export default function WinterizingVehicleAlberta() {
               </h3>
               <p className="text-sm text-[#999] leading-relaxed">
                 Modern self-healing PPF uses a polyurethane topcoat with
-                elastic memory properties. Light surface scratches — the kind
+                elastic memory properties. Light surface scratches, the kind
                 you get from brushing snow off the hood, or from fine grit in
-                a winter car wash — disappear when the film is exposed to heat.
+                a winter car wash, disappear when the film is exposed to heat.
                 Park in the sun or pour warm water over the area and the
                 scratches literally vanish as the topcoat relaxes back to its
                 original shape. For Alberta, where fine road grit constantly
@@ -500,7 +500,7 @@ export default function WinterizingVehicleAlberta() {
                 Paint protection film is not just about impact resistance. A
                 properly installed PPF wrap creates a continuous barrier between
                 road salt, magnesium chloride, and your paint. The film is
-                non-porous and hydrophobic — salt water beads off rather than
+                non-porous and hydrophobic, salt water beads off rather than
                 sitting on the surface and beginning the corrosion process. On
                 the leading edge of the hood, mirror housings, and door edge
                 cups where clearcoat gets the most salt exposure, PPF is
@@ -511,11 +511,11 @@ export default function WinterizingVehicleAlberta() {
             </div>
 
             <Callout variant="info">
-              <Link href="/ppf/" className="text-[#22d65f] hover:underline">
+              <Link href="/ppf/" className="text-[#EEFF00] hover:underline">
                 Accurate Autoworks installs PPF
               </Link>{" "}
               on full vehicles, front ends, and high-impact zones. We use
-              computer-cut templates specific to your vehicle — no hand-cutting
+              computer-cut templates specific to your vehicle, no hand-cutting
               guesswork. Book before the first snowfall for the best results,
               as PPF requires a clean, warm surface for optimal adhesion.
               Installation typically takes one to two full days depending on
@@ -530,7 +530,7 @@ export default function WinterizingVehicleAlberta() {
             Window Tinting{" "}
           </SectionHeading>
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
-            Window tinting is often thought of as a summer service — block the
+            Window tinting is often thought of as a summer service, block the
             heat, add privacy. But Alberta drivers benefit from window tint in
             winter in several concrete ways that most people underestimate
             before they experience it.
@@ -541,7 +541,7 @@ export default function WinterizingVehicleAlberta() {
               {
                 title: "Low-Sun Glare Elimination",
                 detail:
-                  "Alberta's winter sun never climbs high. From November through February, it sits near the horizon for the entire driving day. Driving west in the afternoon on Highway 16A or toward Spruce Grove along Century Road means driving directly into that flat, blinding light. Ceramic window tint reduces glare without compromising night visibility — the science is that it cuts polarized and scattered light while maintaining good VLT for safe driving conditions. Visor strips do not solve this problem. Tint does.",
+                  "Alberta's winter sun never climbs high. From November through February, it sits near the horizon for the entire driving day. Driving west in the afternoon on Highway 16A or toward Spruce Grove along Century Road means driving directly into that flat, blinding light. Ceramic window tint reduces glare without compromising night visibility, the science is that it cuts polarized and scattered light while maintaining good VLT for safe driving conditions. Visor strips do not solve this problem. Tint does.",
               },
               {
                 title: "Cabin Heat Retention",
@@ -551,20 +551,20 @@ export default function WinterizingVehicleAlberta() {
               {
                 title: "Year-Round UV Protection",
                 detail:
-                  "UV radiation in Alberta is significant even in winter — especially when it reflects off snow, which amplifies solar intensity considerably. Ceramic tint blocks 99%+ of UV year-round. Your dashboard, leather seats, and upholstery are protected from fading even on bright winter days with high-angle sun bouncing off a fresh snowpack.",
+                  "UV radiation in Alberta is significant even in winter, especially when it reflects off snow, which amplifies solar intensity considerably. Ceramic tint blocks 99%+ of UV year-round. Your dashboard, leather seats, and upholstery are protected from fading even on bright winter days with high-angle sun bouncing off a fresh snowpack.",
               },
               {
                 title: "Privacy and Security",
                 detail:
-                  "Dark rear windows are as effective in winter as in summer for keeping gear out of sight. Parkland County and the Acheson industrial area see higher-than-average vehicle break-in rates — tools, electronics, and bags left visible in trucks are targets. Window tint removes the visual invitation year-round.",
+                  "Dark rear windows are as effective in winter as in summer for keeping gear out of sight. Parkland County and the Acheson industrial area see higher-than-average vehicle break-in rates, tools, electronics, and bags left visible in trucks are targets. Window tint removes the visual invitation year-round.",
               },
             ].map((benefit) => (
               <div
                 key={benefit.title}
-                className="card-gradient rounded-2xl p-6 group hover:border-[#22d65f]/50 transition-all duration-300"
+                className="card-gradient rounded-2xl p-6 group hover:border-[#EEFF00]/50 transition-all duration-300"
               >
-                <div className="w-10 h-10 rounded-xl bg-[#22d65f]/10 flex items-center justify-center mb-4 group-hover:bg-[#22d65f]/20 transition-colors">
-                  <svg className="w-5 h-5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <div className="w-10 h-10 rounded-xl bg-[#EEFF00]/10 flex items-center justify-center mb-4 group-hover:bg-[#EEFF00]/20 transition-colors">
+                  <svg className="w-5 h-5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                 </div>
@@ -581,9 +581,9 @@ export default function WinterizingVehicleAlberta() {
             in September or early October before temperatures drop below 5°C
             consistently. Late-fall installations still work, but expect a
             longer cure period and keep the windows up for a full week. During
-            cure, small water pockets and haze are normal — they disappear as
+            cure, small water pockets and haze are normal, they disappear as
             the adhesive sets. Visit our{" "}
-            <Link href="/tinting/" className="text-[#22d65f] hover:underline">
+            <Link href="/tinting/" className="text-[#EEFF00] hover:underline">
               window tinting page
             </Link>{" "}
             for full details.
@@ -611,7 +611,7 @@ export default function WinterizingVehicleAlberta() {
                 A ceramic coating bonds at the molecular level to your
                 clearcoat, creating a semi-permanent hydrophobic surface with
                 a contact angle typically above 100 degrees. In practical terms,
-                this means water — and salty, mineral-laden road spray — beads
+                this means water, and salty, mineral-laden road spray, beads
                 into droplets and rolls off rather than sitting on the paint
                 surface. Salt that cannot stay in contact with the paint cannot
                 begin the oxidation and corrosion cycle. After a winter storm,
@@ -622,8 +622,8 @@ export default function WinterizingVehicleAlberta() {
               </p>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden border border-[#22d65f]/30 bg-gradient-to-br from-[#22d65f]/[0.06] to-[#141414]">
-              <div className="absolute top-0 right-0 px-3 py-1 bg-[#22d65f] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
+            <div className="relative rounded-2xl overflow-hidden border border-[#EEFF00]/30 bg-gradient-to-br from-[#EEFF00]/[0.06] to-[#141414]">
+              <div className="absolute top-0 right-0 px-3 py-1 bg-[#EEFF00] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
                 Best Combined
               </div>
               <div className="p-6 sm:p-8">
@@ -632,8 +632,8 @@ export default function WinterizingVehicleAlberta() {
                 </h3>
                 <p className="text-sm text-[#999] leading-relaxed">
                   The optimal setup for an Alberta winter is PPF on the
-                  high-impact zones — hood, front bumper, mirrors, fender
-                  leading edges — and ceramic coating on the remaining painted
+                  high-impact zones, hood, front bumper, mirrors, fender
+                  leading edges, and ceramic coating on the remaining painted
                   surfaces. PPF handles the physical rock chip impacts that
                   ceramic cannot. Ceramic handles the salt, bird drops, and UV
                   on the areas not covered by film. Together they leave no
@@ -660,7 +660,7 @@ export default function WinterizingVehicleAlberta() {
                 November arrives. Applying in December when it&apos;s -20°C is
                 significantly harder on the installer and the product, and
                 results are less predictable. Book your{" "}
-                <Link href="/detailing/" className="text-[#22d65f] hover:underline">
+                <Link href="/detailing/" className="text-[#EEFF00] hover:underline">
                   ceramic coating appointment with Accurate Autoworks
                 </Link>{" "}
                 in September or October for best results.
@@ -687,32 +687,32 @@ export default function WinterizingVehicleAlberta() {
                 step: "01",
                 title: "Decontamination Wash",
                 description:
-                  "A proper fall detail starts with an iron decontamination treatment — a chemical that reacts with and dissolves ferrous particles embedded in the paint. Brake dust, rail dust from train crossings, and airborne industrial particles from the Acheson industrial area are all ferrous. Left in the paint under a winter of salt exposure, they accelerate corrosion. Removing them in October before the salt season starts gives your paint a clean baseline.",
+                  "A proper fall detail starts with an iron decontamination treatment, a chemical that reacts with and dissolves ferrous particles embedded in the paint. Brake dust, rail dust from train crossings, and airborne industrial particles from the Acheson industrial area are all ferrous. Left in the paint under a winter of salt exposure, they accelerate corrosion. Removing them in October before the salt season starts gives your paint a clean baseline.",
               },
               {
                 step: "02",
                 title: "Clay Bar Treatment",
                 description:
-                  "After the chemical decon, a clay bar removes bonded contamination that the chemicals loosened. This step gets the paint to a truly smooth, contamination-free surface — the same surface you need if you are applying a ceramic coating or wax on top. Running your hand across a properly clay-barred hood feels like glass. This preparation step is what separates a professional fall detail from a car wash.",
+                  "After the chemical decon, a clay bar removes bonded contamination that the chemicals loosened. This step gets the paint to a truly smooth, contamination-free surface, the same surface you need if you are applying a ceramic coating or wax on top. Running your hand across a properly clay-barred hood feels like glass. This preparation step is what separates a professional fall detail from a car wash.",
               },
               {
                 step: "03",
                 title: "Interior Deep Clean",
                 description:
-                  "Alberta winters are wet — boots track in snow melt, sand, and salt residue from parking lots and sidewalks. If your carpets and floor mats are not cleaned and protected before winter hits, they spend five months saturated with salt-laden moisture. Salt-soaked carpet backing deteriorates, odours set in, and the moisture under the mats can cause corrosion in the vehicle floor. A fall interior detail extracts embedded dirt and applies a fabric protector that slows re-contamination.",
+                  "Alberta winters are wet, boots track in snow melt, sand, and salt residue from parking lots and sidewalks. If your carpets and floor mats are not cleaned and protected before winter hits, they spend five months saturated with salt-laden moisture. Salt-soaked carpet backing deteriorates, odours set in, and the moisture under the mats can cause corrosion in the vehicle floor. A fall interior detail extracts embedded dirt and applies a fabric protector that slows re-contamination.",
               },
               {
                 step: "04",
                 title: "Protective Sealant or Wax",
                 description:
-                  "After the paint is fully decontaminated, applying a quality carnauba wax or synthetic sealant gives the surface a sacrificial hydrophobic layer before the salt arrives. This is the budget alternative to ceramic coating. It won't last as long — typically one season versus two to five years for ceramic — but it is significantly better than going into winter with bare clearcoat. A sealant applied in October holds through approximately March in typical Alberta use.",
+                  "After the paint is fully decontaminated, applying a quality carnauba wax or synthetic sealant gives the surface a sacrificial hydrophobic layer before the salt arrives. This is the budget alternative to ceramic coating. It won't last as long, typically one season versus two to five years for ceramic, but it is significantly better than going into winter with bare clearcoat. A sealant applied in October holds through approximately March in typical Alberta use.",
               },
             ].map((phase) => (
               <div key={phase.step} className="relative rounded-2xl overflow-hidden">
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#22d65f] to-[#22d65f]/20" />
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#EEFF00] to-[#EEFF00]/20" />
                 <div className="card-gradient rounded-2xl border-l-0 pl-6 pr-6 py-6 sm:pl-8 sm:pr-8 sm:py-8 ml-1">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#22d65f] text-black text-xs font-black flex-shrink-0">
+                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#EEFF00] text-black text-xs font-black flex-shrink-0">
                       {phase.step}
                     </span>
                     <h3 className="text-sm font-bold uppercase tracking-widest text-white">
@@ -733,7 +733,7 @@ export default function WinterizingVehicleAlberta() {
             decontamination after the salt season ends. Road salt left on
             paint and in wheel wells continues to corrode even after spring
             thaws. A{" "}
-            <Link href="/detailing/" className="text-[#22d65f] hover:underline">
+            <Link href="/detailing/" className="text-[#EEFF00] hover:underline">
               thorough spring detail at Accurate Autoworks
             </Link>{" "}
             removes the winter&apos;s salt accumulation before it causes
@@ -748,7 +748,7 @@ export default function WinterizingVehicleAlberta() {
             Complete Winter Prep{" "}
           </SectionHeading>
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
-            Here is every key winterizing service compared side by side — what
+            Here is every key winterizing service compared side by side, what
             it protects, when to book it, and how long it lasts.
           </p>
 
@@ -756,9 +756,9 @@ export default function WinterizingVehicleAlberta() {
           <div className="mt-8 hidden sm:block rounded-2xl overflow-hidden border border-[#2a2a2a]">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[#22d65f]/[0.06]">
+                <tr className="bg-[#EEFF00]/[0.06]">
                   {["Service", "Urgency", "Protects Against", "Best Timing", "Lifespan"].map((h) => (
-                    <th key={h} className="text-left py-4 px-5 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                    <th key={h} className="text-left py-4 px-5 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                       {h}
                     </th>
                   ))}
@@ -768,7 +768,7 @@ export default function WinterizingVehicleAlberta() {
                 {WINTER_SERVICES.map((row, i) => (
                   <tr
                     key={row.name}
-                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#22d65f]/[0.03] ${
+                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#EEFF00]/[0.03] ${
                       i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
                     }`}
                   >
@@ -818,22 +818,21 @@ export default function WinterizingVehicleAlberta() {
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             Here is what each winterizing service costs at a quality shop in
             the Stony Plain and Spruce Grove area in 2026. These are realistic
-            price ranges for professional work with warranted products —
-            not self-install kits or budget-chain shop pricing.
+            price ranges for professional work with warranted products,             not self-install kits or budget-chain shop pricing.
           </p>
 
           {/* Desktop table */}
           <div className="mt-8 hidden sm:block rounded-2xl overflow-hidden border border-[#2a2a2a]">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[#22d65f]/[0.06]">
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                <tr className="bg-[#EEFF00]/[0.06]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Service
                   </th>
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Cost Range
                   </th>
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Priority
                   </th>
                 </tr>
@@ -842,7 +841,7 @@ export default function WinterizingVehicleAlberta() {
                 {COST_DATA.map((row, i) => (
                   <tr
                     key={row.service}
-                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#22d65f]/[0.03] ${
+                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#EEFF00]/[0.03] ${
                       i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
                     }`}
                   >
@@ -888,7 +887,7 @@ export default function WinterizingVehicleAlberta() {
             saves labour time and a return trip. If you are adding PPF or
             ceramic coating, coordinating all services in a single multi-day
             booking with{" "}
-            <Link href="/detailing/" className="text-[#22d65f] hover:underline">
+            <Link href="/detailing/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks
             </Link>{" "}
             often results in package pricing that is lower than booking each
@@ -908,14 +907,14 @@ export default function WinterizingVehicleAlberta() {
                 key={faq.q}
                 className="group rounded-2xl overflow-hidden card-gradient"
               >
-                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#22d65f] transition-colors list-none flex items-center gap-4">
-                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#22d65f]/10 text-[#22d65f] text-xs font-bold flex items-center justify-center group-open:bg-[#22d65f] group-open:text-black transition-all">
+                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#EEFF00] transition-colors list-none flex items-center gap-4">
+                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#EEFF00]/10 text-[#EEFF00] text-xs font-bold flex items-center justify-center group-open:bg-[#EEFF00] group-open:text-black transition-all">
                     {i + 1}
                   </span>
                   <span className="flex-1">{faq.q}</span>
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full border border-[#333] flex items-center justify-center group-open:border-[#22d65f] group-open:bg-[#22d65f]/10 transition-all">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full border border-[#333] flex items-center justify-center group-open:border-[#EEFF00] group-open:bg-[#EEFF00]/10 transition-all">
                     <svg
-                      className="w-3 h-3 text-[#22d65f] transition-transform group-open:rotate-180"
+                      className="w-3 h-3 text-[#EEFF00] transition-transform group-open:rotate-180"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -939,21 +938,21 @@ export default function WinterizingVehicleAlberta() {
 
         {/* CTA Section */}
         <section className="mt-16 relative rounded-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#22d65f]/15 via-[#22d65f]/5 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EEFF00]/15 via-[#EEFF00]/5 to-transparent" />
           <div className="absolute inset-0 hero-stripe opacity-30" />
-          <div className="absolute inset-0 border border-[#22d65f]/20 rounded-2xl" />
+          <div className="absolute inset-0 border border-[#EEFF00]/20 rounded-2xl" />
           <div className="relative p-8 sm:p-12 text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f] animate-pulse" />
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00] animate-pulse" />
               Book Before October
             </div>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight">
               Get Your Vehicle Ready for{" "}
-              <span className="text-[#22d65f] glow-accent">Alberta Winter</span>
+              <span className="text-[#EEFF00] glow-accent">Alberta Winter</span>
             </h2>
             <p className="mt-4 text-[#999] max-w-xl mx-auto leading-relaxed">
               Winter tires, PPF, ceramic coating, window tint, and full
-              detailing — Accurate Autoworks handles all of it under one roof
+              detailing, Accurate Autoworks handles all of it under one roof
               in Stony Plain. Serving Spruce Grove, Parkland County, Acheson,
               and Edmonton West. Book early and beat the October rush.
             </p>
@@ -971,15 +970,15 @@ export default function WinterizingVehicleAlberta() {
         {/* Author / Shop Card */}
         <div className="mt-12 card-gradient rounded-2xl p-6 sm:p-8">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
-            <div className="w-14 h-14 rounded-xl bg-[#22d65f]/10 flex items-center justify-center flex-shrink-0">
-              <svg className="w-7 h-7 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <div className="w-14 h-14 rounded-xl bg-[#EEFF00]/10 flex items-center justify-center flex-shrink-0">
+              <svg className="w-7 h-7 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016A3.001 3.001 0 0021 9.349m-18 0A2.989 2.989 0 004.5 9c.956 0 1.813-.44 2.37-1.13M21 9.349A2.989 2.989 0 0019.5 9c-.956 0-1.813-.44-2.37-1.13m0 0A3 3 0 0015 6H9a3 3 0 00-2.13.87m10.26 0A3 3 0 0015 6H9" />
               </svg>
             </div>
             <div className="text-center sm:text-left">
               <p className="text-sm font-bold text-white">
                 Written by the team at{" "}
-                <Link href="/" className="text-[#22d65f] hover:underline">
+                <Link href="/" className="text-[#EEFF00] hover:underline">
                   Accurate Autoworks
                 </Link>
               </p>
@@ -991,14 +990,14 @@ export default function WinterizingVehicleAlberta() {
               <div className="mt-3 flex items-center justify-center sm:justify-start gap-3">
                 <a
                   href="tel:7808189904"
-                  className="text-xs text-[#22d65f] hover:underline font-bold"
+                  className="text-xs text-[#EEFF00] hover:underline font-bold"
                 >
                   780.818.9904
                 </a>
                 <span className="w-1 h-1 rounded-full bg-[#333]" />
                 <Link
                   href="/contact/"
-                  className="text-xs text-[#999] hover:text-[#22d65f] transition-colors"
+                  className="text-xs text-[#999] hover:text-[#EEFF00] transition-colors"
                 >
                   Get in Touch
                 </Link>
@@ -1018,7 +1017,7 @@ export default function WinterizingVehicleAlberta() {
             headline:
               "Winterizing Your Vehicle in Alberta: Tires, PPF, Tint & Detailing Guide",
             description:
-              "Complete guide to winterizing your vehicle in Alberta — winter tires, PPF, window tint, ceramic coating, and fall detailing for Stony Plain and Spruce Grove drivers.",
+              "Complete guide to winterizing your vehicle in Alberta, winter tires, PPF, window tint, ceramic coating, and fall detailing for Stony Plain and Spruce Grove drivers.",
             datePublished: publishDate,
             dateModified: modifiedDate,
             author: {
@@ -1111,15 +1110,15 @@ function SectionHeading({
 }) {
   return (
     <div className="flex items-start gap-4">
-      <span className="flex-shrink-0 text-xs font-mono font-bold text-[#22d65f]/40 mt-2">
+      <span className="flex-shrink-0 text-xs font-mono font-bold text-[#EEFF00]/40 mt-2">
         {number}
       </span>
       <div>
         <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight leading-tight">
           {children}
-          <span className="text-[#22d65f]">{highlight}</span>
+          <span className="text-[#EEFF00]">{highlight}</span>
         </h2>
-        <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#22d65f] to-transparent" />
+        <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#EEFF00] to-transparent" />
       </div>
     </div>
   );
@@ -1128,7 +1127,7 @@ function SectionHeading({
 function PriorityBadge({ level, label }: { level: string; label: string }) {
   const colors: Record<string, string> = {
     essential:
-      "bg-[#22d65f]/15 text-[#22d65f] border-[#22d65f]/30",
+      "bg-[#EEFF00]/15 text-[#EEFF00] border-[#EEFF00]/30",
     recommended:
       "bg-white/5 text-white border-white/20",
     optional:
@@ -1147,7 +1146,7 @@ function PriorityBadge({ level, label }: { level: string; label: string }) {
 
 function TintRatingBadge({ level, label }: { level: string; label: string }) {
   const colors: Record<string, string> = {
-    best: "bg-[#22d65f]/15 text-[#22d65f] border-[#22d65f]/30",
+    best: "bg-[#EEFF00]/15 text-[#EEFF00] border-[#EEFF00]/30",
     good: "bg-white/5 text-white border-white/20",
     poor: "bg-red-500/10 text-red-400 border-red-500/20",
   };
@@ -1171,10 +1170,10 @@ function Callout({
 }) {
   const styles = {
     tip: {
-      border: "border-[#22d65f]/20",
-      bg: "bg-[#22d65f]/[0.04]",
-      icon: "text-[#22d65f]",
-      iconBg: "bg-[#22d65f]/10",
+      border: "border-[#EEFF00]/20",
+      bg: "bg-[#EEFF00]/[0.04]",
+      icon: "text-[#EEFF00]",
+      iconBg: "bg-[#EEFF00]/10",
     },
     info: {
       border: "border-blue-500/20",

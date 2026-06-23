@@ -5,7 +5,7 @@ import { BlogPostClient } from "./client";
 export const metadata: Metadata = {
   title: "Vehicle Wrap Cost 2026: Alberta Pricing Guide | Accurate Autoworks",
   description:
-    "How much does a vehicle wrap cost in Alberta in 2026? Full-colour change, partial wraps, commercial fleet pricing — real numbers from Stony Plain.",
+    "How much does a vehicle wrap cost in Alberta in 2026? Full-colour change, partial wraps, commercial fleet pricing, real numbers from Stony Plain.",
   alternates: {
     canonical:
       "https://www.accurateautoworks.ca/blog/vehicle-wrap-cost-2026-alberta/",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Vehicle Wrap Cost 2026: Alberta Pricing Guide | Accurate Autoworks",
     description:
-      "Real 2026 pricing for car wraps in Alberta. Full colour change, partial, chrome delete, fleet — plus what drives costs up or down.",
+      "Real 2026 pricing for car wraps in Alberta. Full colour change, partial, chrome delete, fleet, plus what drives costs up or down.",
     type: "article",
     url: "https://www.accurateautoworks.ca/blog/vehicle-wrap-cost-2026-alberta/",
     locale: "en_CA",
@@ -24,23 +24,23 @@ export const metadata: Metadata = {
 const FAQ_DATA = [
   {
     q: "How much does a full vehicle wrap cost in Alberta in 2026?",
-    a: "A full colour-change wrap on a standard sedan runs $2,500 to $4,000 at a quality Alberta shop in 2026. Trucks and SUVs cost more — typically $3,500 to $6,000 depending on size and complexity. Specialty films like chrome, colour-shift, or satin metallic push prices higher. At Accurate Autoworks in Stony Plain, we give you a firm quote before any work begins — call 780.818.9904 to get yours.",
+    a: "A full colour-change wrap on a standard sedan runs $2,500 to $4,000 at a quality Alberta shop in 2026. Trucks and SUVs cost more, typically $3,500 to $6,000 depending on size and complexity. Specialty films like chrome, colour-shift, or satin metallic push prices higher. At Accurate Autoworks in Stony Plain, we give you a firm quote before any work begins, call 780.818.9904 to get yours.",
   },
   {
     q: "Why are vinyl wraps so expensive?",
-    a: "The material cost alone for a quality cast vinyl film from a brand like 3M or Avery Dennison runs $500 to $1,500 for a full vehicle. The rest is skilled labour — proper wraps require disassembling trim, doors, and bumpers, cutting and stretching film precisely around every curve and recess, and finishing edges so they can't lift. A rushed or low-cost wrap will bubble, peel, and damage your paint. The price reflects the time, skill, and materials needed to do it right.",
+    a: "The material cost alone for a quality cast vinyl film from a brand like 3M or Avery Dennison runs $500 to $1,500 for a full vehicle. The rest is skilled labour, proper wraps require disassembling trim, doors, and bumpers, cutting and stretching film precisely around every curve and recess, and finishing edges so they can't lift. A rushed or low-cost wrap will bubble, peel, and damage your paint. The price reflects the time, skill, and materials needed to do it right.",
   },
   {
     q: "How long does a vehicle wrap last in Alberta's climate?",
-    a: "A professionally installed cast vinyl wrap using quality film lasts 5 to 7 years in Alberta conditions when properly cared for. The freeze-thaw cycles, road salt, and intense summer UV we get in the Edmonton area accelerate wear on cheap calendered vinyl, which may only last 2 to 3 years. At Accurate Autoworks, we use premium cast films rated for Alberta's climate — the investment holds.",
+    a: "A professionally installed cast vinyl wrap using quality film lasts 5 to 7 years in Alberta conditions when properly cared for. The freeze-thaw cycles, road salt, and intense summer UV we get in the Edmonton area accelerate wear on cheap calendered vinyl, which may only last 2 to 3 years. At Accurate Autoworks, we use premium cast films rated for Alberta's climate, the investment holds.",
   },
   {
     q: "Is a partial wrap cheaper than a full wrap?",
-    a: "Significantly cheaper. A hood and roof wrap runs $400 to $800. A half-wrap (typically the lower body or the rear half of the vehicle) runs $1,200 to $2,500 depending on design complexity. Partial wraps are a great way to add visual impact — colour accents, racing stripes, or a contrasting roof — without the cost of a full colour change. Accurate Autoworks can design a partial wrap that looks intentional and sharp.",
+    a: "Significantly cheaper. A hood and roof wrap runs $400 to $800. A half-wrap (typically the lower body or the rear half of the vehicle) runs $1,200 to $2,500 depending on design complexity. Partial wraps are a great way to add visual impact, colour accents, racing stripes, or a contrasting roof, without the cost of a full colour change. Accurate Autoworks can design a partial wrap that looks intentional and sharp.",
   },
   {
     q: "Does a vehicle wrap protect the paint underneath?",
-    a: "Yes — quality vinyl wrap acts as a physical shield against rock chips, UV fading, minor abrasions, and bird droppings. This is actually one of the top reasons drivers wrap rather than paint: the factory paint stays pristine under the film. When the wrap is eventually removed (properly), the paint underneath looks like new. If maximum paint protection is your priority, pair the wrap with PPF on high-impact zones — ask Accurate Autoworks about combo installs.",
+    a: "Yes, quality vinyl wrap acts as a physical shield against rock chips, UV fading, minor abrasions, and bird droppings. This is actually one of the top reasons drivers wrap rather than paint: the factory paint stays pristine under the film. When the wrap is eventually removed (properly), the paint underneath looks like new. If maximum paint protection is your priority, pair the wrap with PPF on high-impact zones, ask Accurate Autoworks about combo installs.",
   },
   {
     q: "Can a vehicle wrap be removed without damaging paint?",
@@ -48,19 +48,19 @@ const FAQ_DATA = [
   },
   {
     q: "How much does a commercial fleet wrap cost per vehicle?",
-    a: "Fleet wraps for commercial vehicles — vans, service trucks, box trucks — typically run $2,500 to $5,000 per vehicle for a full branded wrap including design. Partial wraps (cab area, rear panel, door graphics) start around $800 to $1,500 per vehicle. Multi-vehicle fleet orders at Accurate Autoworks often come with volume pricing — call 780.818.9904 to discuss your fleet. We also handle storefront signs and banners through our commercial print division.",
+    a: "Fleet wraps for commercial vehicles, vans, service trucks, box trucks, typically run $2,500 to $5,000 per vehicle for a full branded wrap including design. Partial wraps (cab area, rear panel, door graphics) start around $800 to $1,500 per vehicle. Multi-vehicle fleet orders at Accurate Autoworks often come with volume pricing, call 780.818.9904 to discuss your fleet. We also handle storefront signs and banners through our commercial print division.",
   },
   {
     q: "What's the difference between cast and calendered vinyl?",
-    a: "Cast vinyl is made through a precision process that produces a thinner, more conformable film with better longevity (5 to 7 years). It stretches cleanly around curves, recesses, and complex body lines without distortion. Calendered vinyl is cheaper but thicker, less conformable, and tends to shrink over time — especially in Alberta's cold winters — causing lifting edges and eventual peeling. Accurate Autoworks uses cast vinyl exclusively for all full vehicle wrap installations.",
+    a: "Cast vinyl is made through a precision process that produces a thinner, more conformable film with better longevity (5 to 7 years). It stretches cleanly around curves, recesses, and complex body lines without distortion. Calendered vinyl is cheaper but thicker, less conformable, and tends to shrink over time, especially in Alberta's cold winters, causing lifting edges and eventual peeling. Accurate Autoworks uses cast vinyl exclusively for all full vehicle wrap installations.",
   },
   {
     q: "Does colour affect the price of a wrap?",
-    a: "Standard solid colours — matte black, gloss white, satin grey — are the most cost-effective. Specialty finishes like chrome, colour-shift (also called chameleon or flip), brushed metal, or carbon fibre texture films carry a premium of $500 to $1,500 over a standard colour due to higher material cost and the extra skill required to install them without distorting the effect. If you want chrome or colour-shift, expect the total to be at the higher end of the pricing range.",
+    a: "Standard solid colours, matte black, gloss white, satin grey, are the most cost-effective. Specialty finishes like chrome, colour-shift (also called chameleon or flip), brushed metal, or carbon fibre texture films carry a premium of $500 to $1,500 over a standard colour due to higher material cost and the extra skill required to install them without distorting the effect. If you want chrome or colour-shift, expect the total to be at the higher end of the pricing range.",
   },
   {
     q: "How do I keep a vehicle wrap looking new in Alberta?",
-    a: "Hand wash with a gentle automotive soap — never use automated car washes with stiff brushes, which will lift wrap edges. Keep the vehicle out of prolonged UV exposure when parked (a garage or covered space helps enormously in Alberta summers). Avoid harsh solvents near seams. For matte or satin wraps, a dedicated wrap sealant product keeps the finish looking clean. Accurate Autoworks provides care instructions with every wrap installation and is happy to answer questions — just call 780.818.9904.",
+    a: "Hand wash with a gentle automotive soap, never use automated car washes with stiff brushes, which will lift wrap edges. Keep the vehicle out of prolonged UV exposure when parked (a garage or covered space helps enormously in Alberta summers). Avoid harsh solvents near seams. For matte or satin wraps, a dedicated wrap sealant product keeps the finish looking clean. Accurate Autoworks provides care instructions with every wrap installation and is happy to answer questions, just call 780.818.9904.",
   },
 ];
 
@@ -68,9 +68,9 @@ const COST_DATA = [
   { service: "Partial wrap (hood only)", cost: "$300 - $600", priority: "Budget-Friendly", level: "optional" },
   { service: "Partial wrap (hood + roof)", cost: "$500 - $900", priority: "Popular", level: "optional" },
   { service: "Half-wrap (lower body or rear)", cost: "$1,200 - $2,500", priority: "Popular", level: "recommended" },
-  { service: "Full wrap — sedan / coupe", cost: "$2,500 - $4,000", priority: "Most Common", level: "essential" },
-  { service: "Full wrap — truck / SUV", cost: "$3,500 - $6,000", priority: "Most Common", level: "essential" },
-  { service: "Full wrap — van / cargo van", cost: "$3,000 - $5,500", priority: "Fleet", level: "essential" },
+  { service: "Full wrap, sedan / coupe", cost: "$2,500 - $4,000", priority: "Most Common", level: "essential" },
+  { service: "Full wrap, truck / SUV", cost: "$3,500 - $6,000", priority: "Most Common", level: "essential" },
+  { service: "Full wrap, van / cargo van", cost: "$3,000 - $5,500", priority: "Fleet", level: "essential" },
   { service: "Specialty film (chrome / colour-shift)", cost: "+$500 - $1,500", priority: "Premium Add-on", level: "recommended" },
   { service: "Chrome delete package", cost: "$400 - $900", priority: "Popular", level: "recommended" },
 ];
@@ -135,7 +135,7 @@ const WRAP_FILM_TYPES = [
     bestFor: "Commercial trucks, industrial look",
     rating: "premium",
     ratingLabel: "Premium",
-    notes: "Directional finish — alignment critical. Popular on commercial and fleet vehicles.",
+    notes: "Directional finish, alignment critical. Popular on commercial and fleet vehicles.",
   },
 ];
 
@@ -149,38 +149,38 @@ export default function VehicleWrapCostAlberta2026() {
 
       {/* Hero Section */}
       <header className="relative pt-24 sm:pt-32 pb-16 sm:pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#22d65f]/5 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#EEFF00]/5 via-transparent to-transparent" />
         <div className="absolute inset-0 hero-stripe opacity-50" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#22d65f]/[0.03] rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#EEFF00]/[0.03] rounded-full blur-3xl" />
 
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full backdrop-blur-sm bg-[#22d65f]/5">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f] animate-pulse" />
+          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full backdrop-blur-sm bg-[#EEFF00]/5">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00] animate-pulse" />
             Alberta Pricing Guide 2026
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black uppercase tracking-tight leading-[1.05]">
             How Much Does a{" "}
-            <span className="text-[#22d65f] glow-accent">Vehicle Wrap</span>{" "}
+            <span className="text-[#EEFF00] glow-accent">Vehicle Wrap</span>{" "}
             Cost in 2026?
           </h1>
 
           <p className="mt-8 text-lg sm:text-xl text-[#999] max-w-2xl mx-auto leading-relaxed">
             Real Alberta pricing for full wraps, partial wraps, chrome deletes,
-            and commercial fleet graphics — plus exactly what drives costs up
+            and commercial fleet graphics, plus exactly what drives costs up
             or down.
           </p>
 
           <div className="mt-6 flex items-center justify-center gap-6 text-xs text-[#666] uppercase tracking-wider">
             <div className="flex items-center gap-2">
-              <svg className="w-3.5 h-3.5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg className="w-3.5 h-3.5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
               <time dateTime={publishDate}>May 11, 2026</time>
             </div>
             <span className="w-1 h-1 rounded-full bg-[#333]" />
             <div className="flex items-center gap-2">
-              <svg className="w-3.5 h-3.5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg className="w-3.5 h-3.5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <span>15 min read</span>
@@ -188,9 +188,9 @@ export default function VehicleWrapCostAlberta2026() {
           </div>
 
           <div className="mt-12 flex items-center justify-center gap-3">
-            <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#22d65f]/40" />
-            <div className="w-2 h-2 rotate-45 border border-[#22d65f]/40" />
-            <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#22d65f]/40" />
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#EEFF00]/40" />
+            <div className="w-2 h-2 rotate-45 border border-[#EEFF00]/40" />
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#EEFF00]/40" />
           </div>
         </div>
       </header>
@@ -202,13 +202,13 @@ export default function VehicleWrapCostAlberta2026() {
         <div className="prose-section">
           <p className="text-[#ccc] leading-relaxed text-base sm:text-lg">
             The most common question we get at{" "}
-            <Link href="/wraps/" className="text-[#22d65f] hover:underline">
+            <Link href="/wraps/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks
             </Link>{" "}
-            is some version of: &ldquo;I want to wrap my truck — what&apos;s it
+            is some version of: &ldquo;I want to wrap my truck, what&apos;s it
             going to cost me?&rdquo; The honest answer is that it depends on
             several variables, but there is a predictable range once you know
-            what drives the price. This guide breaks it all down — not the
+            what drives the price. This guide breaks it all down, not the
             vague numbers you find on national sites, but real 2026 Alberta
             pricing reflective of actual material and labour costs in the Stony
             Plain, Spruce Grove, and Edmonton area.
@@ -225,16 +225,16 @@ export default function VehicleWrapCostAlberta2026() {
 
         {/* Table of Contents */}
         <nav className="mt-12 relative rounded-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#22d65f]/10 via-[#141414] to-[#141414]" />
-          <div className="absolute inset-0 border border-[#22d65f]/20 rounded-2xl" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EEFF00]/10 via-[#141414] to-[#141414]" />
+          <div className="absolute inset-0 border border-[#EEFF00]/20 rounded-2xl" />
           <div className="relative p-6 sm:p-8">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-8 h-8 rounded-lg bg-[#22d65f]/10 flex items-center justify-center">
-                <svg className="w-4 h-4 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <div className="w-8 h-8 rounded-lg bg-[#EEFF00]/10 flex items-center justify-center">
+                <svg className="w-4 h-4 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
                 </svg>
               </div>
-              <h2 className="text-sm font-bold uppercase tracking-widest text-[#22d65f]">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-[#EEFF00]">
                 What We Cover
               </h2>
             </div>
@@ -252,9 +252,9 @@ export default function VehicleWrapCostAlberta2026() {
                 <li key={item.href}>
                   <a
                     href={item.href}
-                    className="flex items-center gap-3 py-1.5 text-[#999] hover:text-[#22d65f] transition-colors group"
+                    className="flex items-center gap-3 py-1.5 text-[#999] hover:text-[#EEFF00] transition-colors group"
                   >
-                    <span className="flex-shrink-0 w-6 h-6 rounded-md bg-[#22d65f]/10 text-[#22d65f] text-xs font-bold flex items-center justify-center group-hover:bg-[#22d65f]/20 transition-colors">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-md bg-[#EEFF00]/10 text-[#EEFF00] text-xs font-bold flex items-center justify-center group-hover:bg-[#EEFF00]/20 transition-colors">
                       {i + 1}
                     </span>
                     <span>{item.label}</span>
@@ -274,7 +274,7 @@ export default function VehicleWrapCostAlberta2026() {
             These are real-world prices from a quality professional shop in
             Alberta in 2026. They assume premium cast vinyl film, proper surface
             prep, panel removal where required, and a warranted installation.
-            Budget installs using cheap calendered film will be lower — and so
+            Budget installs using cheap calendered film will be lower, and so
             will the result.
           </p>
 
@@ -282,9 +282,9 @@ export default function VehicleWrapCostAlberta2026() {
           <div className="mt-8 hidden sm:block rounded-2xl overflow-hidden border border-[#2a2a2a]">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[#22d65f]/[0.06]">
+                <tr className="bg-[#EEFF00]/[0.06]">
                   {["Service", "Cost Range (CAD)", "Notes"].map((h) => (
-                    <th key={h} className="text-left py-4 px-5 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                    <th key={h} className="text-left py-4 px-5 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                       {h}
                     </th>
                   ))}
@@ -294,7 +294,7 @@ export default function VehicleWrapCostAlberta2026() {
                 {COST_DATA.map((row, i) => (
                   <tr
                     key={row.service}
-                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#22d65f]/[0.03] ${
+                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#EEFF00]/[0.03] ${
                       i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
                     }`}
                   >
@@ -335,8 +335,8 @@ export default function VehicleWrapCostAlberta2026() {
             When getting quotes, ask every shop what film brand and grade they
             use. A quote using 3M Series 1080 or Avery Dennison Supreme
             Wrapping Film is not the same product as a house-brand import
-            film — and the difference shows up within a year or two. At{" "}
-            <Link href="/wraps/" className="text-[#22d65f] hover:underline">
+            film, and the difference shows up within a year or two. At{" "}
+            <Link href="/wraps/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks
             </Link>
             , we are transparent about exactly what goes on your vehicle.
@@ -358,8 +358,8 @@ export default function VehicleWrapCostAlberta2026() {
           <div className="mt-8 space-y-5">
             <div className="card-gradient rounded-2xl p-6 sm:p-8">
               <div className="flex items-center gap-3 mb-3">
-                <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#22d65f]/10 flex items-center justify-center">
-                  <span className="text-[#22d65f] text-xs font-black">01</span>
+                <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#EEFF00]/10 flex items-center justify-center">
+                  <span className="text-[#EEFF00] text-xs font-black">01</span>
                 </div>
                 <h3 className="text-sm font-bold uppercase tracking-wide text-white">
                   Vehicle Size &amp; Body Complexity
@@ -369,7 +369,7 @@ export default function VehicleWrapCostAlberta2026() {
                 A two-door coupe has far less surface area than a crew-cab
                 long-box pickup. More square footage means more film, more
                 labour, and more time. Beyond raw size, body complexity
-                matters enormously — a vehicle with deep character lines,
+                matters enormously, a vehicle with deep character lines,
                 aggressive curves, hood scoops, large bumper recesses, or
                 intricate trim panels takes significantly longer to wrap
                 cleanly than a flat-sided panel van. Labour is the largest
@@ -380,8 +380,8 @@ export default function VehicleWrapCostAlberta2026() {
 
             <div className="card-gradient rounded-2xl p-6 sm:p-8">
               <div className="flex items-center gap-3 mb-3">
-                <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#22d65f]/10 flex items-center justify-center">
-                  <span className="text-[#22d65f] text-xs font-black">02</span>
+                <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#EEFF00]/10 flex items-center justify-center">
+                  <span className="text-[#EEFF00] text-xs font-black">02</span>
                 </div>
                 <h3 className="text-sm font-bold uppercase tracking-wide text-white">
                   Film Type &amp; Finish
@@ -391,8 +391,7 @@ export default function VehicleWrapCostAlberta2026() {
                 Standard gloss or satin colour-change vinyl is the most
                 cost-effective film option. Step up to colour-shift or
                 chameleon film and material costs roughly double. Chrome
-                vinyl is the most expensive and most difficult to install —
-                requiring near-perfect panel prep and extremely slow,
+                vinyl is the most expensive and most difficult to install,                 requiring near-perfect panel prep and extremely slow,
                 meticulous work to avoid finger marks and distortion. The
                 film you choose can shift the total cost by $1,000 to
                 $2,000 on a full wrap, independent of labour.
@@ -401,15 +400,15 @@ export default function VehicleWrapCostAlberta2026() {
 
             <div className="card-gradient rounded-2xl p-6 sm:p-8">
               <div className="flex items-center gap-3 mb-3">
-                <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#22d65f]/10 flex items-center justify-center">
-                  <span className="text-[#22d65f] text-xs font-black">03</span>
+                <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#EEFF00]/10 flex items-center justify-center">
+                  <span className="text-[#EEFF00] text-xs font-black">03</span>
                 </div>
                 <h3 className="text-sm font-bold uppercase tracking-wide text-white">
                   Surface Prep Condition
                 </h3>
               </div>
               <p className="text-sm text-[#999] leading-relaxed">
-                Vinyl does not hide problems — it amplifies them. Scratches,
+                Vinyl does not hide problems, it amplifies them. Scratches,
                 rock chips, rust bubbles, or peeling factory clear coat all
                 telegraph through the film and create lift points where
                 moisture can get underneath. Before any wrap, the vehicle
@@ -417,7 +416,7 @@ export default function VehicleWrapCostAlberta2026() {
                 surface defects addressed. Vehicles arriving in poor
                 condition require more prep time, which adds to cost. A
                 vehicle that has been{" "}
-                <Link href="/detailing/" className="text-[#22d65f] hover:underline">
+                <Link href="/detailing/" className="text-[#EEFF00] hover:underline">
                   professionally detailed
                 </Link>{" "}
                 before the wrap appointment saves prep time and produces a
@@ -427,8 +426,8 @@ export default function VehicleWrapCostAlberta2026() {
 
             <div className="card-gradient rounded-2xl p-6 sm:p-8">
               <div className="flex items-center gap-3 mb-3">
-                <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#22d65f]/10 flex items-center justify-center">
-                  <span className="text-[#22d65f] text-xs font-black">04</span>
+                <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#EEFF00]/10 flex items-center justify-center">
+                  <span className="text-[#EEFF00] text-xs font-black">04</span>
                 </div>
                 <h3 className="text-sm font-bold uppercase tracking-wide text-white">
                   Disassembly Requirements
@@ -437,7 +436,7 @@ export default function VehicleWrapCostAlberta2026() {
               <p className="text-sm text-[#999] leading-relaxed">
                 Professional wraps require removing mirrors, door handles,
                 trim pieces, bumpers, and sometimes door panels to get film
-                underneath and behind components — so the wrap looks clean
+                underneath and behind components, so the wrap looks clean
                 rather than just surface-applied. Shops that skip
                 disassembly deliver wraps with visible cut lines at every
                 edge, and those edges lift first. The disassembly and
@@ -448,8 +447,8 @@ export default function VehicleWrapCostAlberta2026() {
 
             <div className="card-gradient rounded-2xl p-6 sm:p-8">
               <div className="flex items-center gap-3 mb-3">
-                <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#22d65f]/10 flex items-center justify-center">
-                  <span className="text-[#22d65f] text-xs font-black">05</span>
+                <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#EEFF00]/10 flex items-center justify-center">
+                  <span className="text-[#EEFF00] text-xs font-black">05</span>
                 </div>
                 <h3 className="text-sm font-bold uppercase tracking-wide text-white">
                   Partial vs Full Coverage
@@ -457,7 +456,7 @@ export default function VehicleWrapCostAlberta2026() {
               </div>
               <p className="text-sm text-[#999] leading-relaxed">
                 The difference between a partial and full wrap is not just
-                proportional — partial wraps require careful edge management
+                proportional, partial wraps require careful edge management
                 and design work to make the wrap look intentional rather
                 than incomplete. A clean partial wrap is harder to design
                 than a full wrap and requires more planning, but uses far
@@ -466,14 +465,14 @@ export default function VehicleWrapCostAlberta2026() {
               </p>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden border border-[#22d65f]/30 bg-gradient-to-br from-[#22d65f]/[0.06] to-[#141414]">
-              <div className="absolute top-0 right-0 px-3 py-1 bg-[#22d65f] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
+            <div className="relative rounded-2xl overflow-hidden border border-[#EEFF00]/30 bg-gradient-to-br from-[#EEFF00]/[0.06] to-[#141414]">
+              <div className="absolute top-0 right-0 px-3 py-1 bg-[#EEFF00] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
                 Most Overlooked
               </div>
               <div className="p-6 sm:p-8">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#22d65f]/10 flex items-center justify-center">
-                    <span className="text-[#22d65f] text-xs font-black">06</span>
+                  <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#EEFF00]/10 flex items-center justify-center">
+                    <span className="text-[#EEFF00] text-xs font-black">06</span>
                   </div>
                   <h3 className="text-sm font-bold uppercase tracking-wide text-white">
                     Shop Overhead &amp; Installer Experience
@@ -493,7 +492,7 @@ export default function VehicleWrapCostAlberta2026() {
                     href="https://pda.org"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#22d65f] hover:underline"
+                    className="text-[#EEFF00] hover:underline"
                   >
                     Professional Detailing Association
                   </a>
@@ -520,7 +519,7 @@ export default function VehicleWrapCostAlberta2026() {
               href="https://www.3m.com/3M/en_US/graphics-us/resources/products/vinyl-wrap/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#22d65f] hover:underline"
+              className="text-[#EEFF00] hover:underline"
             >
               3M&apos;s wrap film overview
             </a>{" "}
@@ -532,9 +531,9 @@ export default function VehicleWrapCostAlberta2026() {
           <div className="mt-8 hidden sm:block rounded-2xl overflow-hidden border border-[#2a2a2a]">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[#22d65f]/[0.06]">
+                <tr className="bg-[#EEFF00]/[0.06]">
                   {["Film Type", "Cost", "Durability", "Complexity", "Best For", "Rating"].map((h) => (
-                    <th key={h} className="text-left py-4 px-4 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                    <th key={h} className="text-left py-4 px-4 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                       {h}
                     </th>
                   ))}
@@ -544,14 +543,14 @@ export default function VehicleWrapCostAlberta2026() {
                 {WRAP_FILM_TYPES.map((row, i) => (
                   <tr
                     key={row.name}
-                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#22d65f]/[0.03] ${
-                      row.recommended ? "bg-[#22d65f]/[0.04]" : i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
+                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#EEFF00]/[0.03] ${
+                      row.recommended ? "bg-[#EEFF00]/[0.04]" : i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
                     }`}
                   >
                     <td className="py-4 px-4 font-bold text-white">
                       {row.name}
                       {row.recommended && (
-                        <span className="ml-2 text-[10px] font-bold uppercase tracking-widest text-[#22d65f] px-2 py-0.5 rounded-full bg-[#22d65f]/15">
+                        <span className="ml-2 text-[10px] font-bold uppercase tracking-widest text-[#EEFF00] px-2 py-0.5 rounded-full bg-[#EEFF00]/15">
                           Popular
                         </span>
                       )}
@@ -576,7 +575,7 @@ export default function VehicleWrapCostAlberta2026() {
                 key={row.name}
                 className={`rounded-2xl p-5 border ${
                   row.recommended
-                    ? "border-[#22d65f]/30 bg-[#22d65f]/[0.06]"
+                    ? "border-[#EEFF00]/30 bg-[#EEFF00]/[0.06]"
                     : "card-gradient"
                 }`}
               >
@@ -602,7 +601,7 @@ export default function VehicleWrapCostAlberta2026() {
           </SectionHeading>
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             This distinction is the single most important technical factor
-            in vehicle wrap quality — and most people shopping for a wrap have
+            in vehicle wrap quality, and most people shopping for a wrap have
             no idea it exists. Understanding it explains why two quotes for
             &ldquo;a wrap&rdquo; can be separated by $1,500 or more.
           </p>
@@ -615,8 +614,8 @@ export default function VehicleWrapCostAlberta2026() {
               </div>
               <ul className="space-y-3 text-sm text-[#999]">
                 {[
-                  "Cheaper to produce — lower material cost",
-                  "Thicker, stiffer film — harder to conform around curves",
+                  "Cheaper to produce, lower material cost",
+                  "Thicker, stiffer film, harder to conform around curves",
                   "Shrinks in cold Alberta winters, lifting edges",
                   "2 to 4 year lifespan before visible deterioration",
                   "Distorts on complex body lines and deep recesses",
@@ -633,26 +632,26 @@ export default function VehicleWrapCostAlberta2026() {
               </ul>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden border border-[#22d65f]/30 bg-[#22d65f]/[0.04]">
-              <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-[#22d65f] to-[#22d65f]/20" />
+            <div className="relative rounded-2xl overflow-hidden border border-[#EEFF00]/30 bg-[#EEFF00]/[0.04]">
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-[#EEFF00] to-[#EEFF00]/20" />
               <div className="p-6">
                 <div className="mb-4">
-                  <span className="text-xs font-bold uppercase tracking-widest text-[#22d65f]">Professional Standard</span>
+                  <span className="text-xs font-bold uppercase tracking-widest text-[#EEFF00]">Professional Standard</span>
                   <h3 className="text-base font-black text-white mt-1">Cast Vinyl</h3>
                 </div>
                 <ul className="space-y-3 text-sm text-[#999]">
                   {[
-                    "Higher material cost — precision manufacturing process",
-                    "Thin, flexible film — conforms cleanly to any curve",
-                    "Dimensionally stable in cold and heat — stays put",
+                    "Higher material cost, precision manufacturing process",
+                    "Thin, flexible film, conforms cleanly to any curve",
+                    "Dimensionally stable in cold and heat, stays put",
                     "5 to 7 year lifespan with proper care",
                     "Stretches without distorting the colour or finish",
                     "Designed specifically for complex vehicle surfaces",
                     "What Accurate Autoworks uses on every full wrap",
                   ].map((point) => (
                     <li key={point} className="flex items-start gap-2">
-                      <span className="flex-shrink-0 w-4 h-4 rounded-full bg-[#22d65f]/10 border border-[#22d65f]/30 flex items-center justify-center mt-0.5">
-                        <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f]" />
+                      <span className="flex-shrink-0 w-4 h-4 rounded-full bg-[#EEFF00]/10 border border-[#EEFF00]/30 flex items-center justify-center mt-0.5">
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00]" />
                       </span>
                       <span>{point}</span>
                     </li>
@@ -685,7 +684,7 @@ export default function VehicleWrapCostAlberta2026() {
 
           <div className="mt-8 space-y-6">
             <div className="card-gradient rounded-2xl p-6 sm:p-8">
-              <h3 className="text-sm font-bold uppercase tracking-widest text-[#22d65f] mb-4">
+              <h3 className="text-sm font-bold uppercase tracking-widest text-[#EEFF00] mb-4">
                 When a Partial Wrap Makes Sense
               </h3>
               <div className="grid sm:grid-cols-2 gap-6">
@@ -705,14 +704,14 @@ export default function VehicleWrapCostAlberta2026() {
                       "Mirror caps in a contrasting colour",
                     ].map((item) => (
                       <li key={item} className="flex items-center gap-2">
-                        <span className="w-1 h-1 rounded-full bg-[#22d65f] flex-shrink-0" />
+                        <span className="w-1 h-1 rounded-full bg-[#EEFF00] flex-shrink-0" />
                         <span>{item}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
-                <div className="bg-[#22d65f]/[0.04] rounded-xl p-4 border border-[#22d65f]/20">
-                  <p className="text-xs font-bold uppercase tracking-widest text-[#22d65f] mb-3">
+                <div className="bg-[#EEFF00]/[0.04] rounded-xl p-4 border border-[#EEFF00]/20">
+                  <p className="text-xs font-bold uppercase tracking-widest text-[#EEFF00] mb-3">
                     Partial Wrap Budget
                   </p>
                   <div className="space-y-2 text-sm">
@@ -742,14 +741,14 @@ export default function VehicleWrapCostAlberta2026() {
             </div>
 
             <div className="card-gradient rounded-2xl p-6 sm:p-8">
-              <h3 className="text-sm font-bold uppercase tracking-widest text-[#22d65f] mb-4">
+              <h3 className="text-sm font-bold uppercase tracking-widest text-[#EEFF00] mb-4">
                 When a Full Wrap Makes Sense
               </h3>
               <p className="text-sm text-[#999] leading-relaxed mb-4">
                 A full wrap makes sense when you want to completely transform
                 the vehicle&apos;s colour, protect the entire paint surface, or build
                 a branded commercial vehicle. It is also the right choice when
-                the factory colour is one you dislike — a full wrap lets you
+                the factory colour is one you dislike, a full wrap lets you
                 change the vehicle&apos;s look without committing to an expensive
                 respray that permanently alters the vehicle&apos;s value and
                 originality. When the wrap eventually comes off, your factory
@@ -759,10 +758,10 @@ export default function VehicleWrapCostAlberta2026() {
                 For Parkland County and Acheson-area workers who use their
                 trucks as business tools, a full-wrap brand identity on a
                 crew cab is one of the most cost-effective marketing
-                investments available — your truck becomes a moving billboard
+                investments available, your truck becomes a moving billboard
                 that reaches thousands of local impressions every week.
                 Check our{" "}
-                <Link href="/wraps/" className="text-[#22d65f] hover:underline">
+                <Link href="/wraps/" className="text-[#EEFF00] hover:underline">
                   wraps service page
                 </Link>{" "}
                 for examples of full vehicle transformations.
@@ -772,13 +771,13 @@ export default function VehicleWrapCostAlberta2026() {
 
           <Callout variant="info">
             Considering wrap alongside{" "}
-            <Link href="/ppf/" className="text-[#22d65f] hover:underline">
+            <Link href="/ppf/" className="text-[#EEFF00] hover:underline">
               paint protection film
             </Link>
             ? A popular combo for trucks and SUVs is full PPF on the front
             end (hood, fenders, bumper, mirrors) and a colour-change wrap
             on the rest of the body. You get rock chip protection where
-            you need it most, plus the colour transformation — and neither
+            you need it most, plus the colour transformation, and neither
             product interferes with the other.
           </Callout>
         </section>
@@ -796,12 +795,12 @@ export default function VehicleWrapCostAlberta2026() {
               href="https://www.oaaa.org/resources/research/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#22d65f] hover:underline"
+              className="text-[#EEFF00] hover:underline"
             >
               Outdoor Advertising Association of America
             </a>
             , vehicle wraps generate between 30,000 and 70,000 daily
-            impressions — more than virtually any other local advertising
+            impressions, more than virtually any other local advertising
             channel at the same cost. For a Stony Plain or Spruce Grove
             service business operating trucks in and around the Edmonton
             corridor, that reach is significant.
@@ -813,7 +812,7 @@ export default function VehicleWrapCostAlberta2026() {
                 title: "Service Van / Cargo Van",
                 price: "$2,500 - $4,500",
                 description:
-                  "A full branded wrap on a cargo van — including design, print, and installation — reaches every neighbourhood your team works in. For plumbers, electricians, HVAC, and landscaping companies operating out of Stony Plain and Spruce Grove, this is your most visible marketing asset.",
+                  "A full branded wrap on a cargo van, including design, print, and installation, reaches every neighbourhood your team works in. For plumbers, electricians, HVAC, and landscaping companies operating out of Stony Plain and Spruce Grove, this is your most visible marketing asset.",
               },
               {
                 title: "Pickup Truck (Full Wrap)",
@@ -825,7 +824,7 @@ export default function VehicleWrapCostAlberta2026() {
                 title: "Box Truck / Cube Van",
                 price: "$4,000 - $8,000",
                 description:
-                  "The large flat panels of a box truck or cube van are ideal for bold graphics and messaging. These vehicles function as mobile billboards — high visibility at highway speed on the Yellowhead and through Acheson industrial makes every delivery a brand touchpoint.",
+                  "The large flat panels of a box truck or cube van are ideal for bold graphics and messaging. These vehicles function as mobile billboards, high visibility at highway speed on the Yellowhead and through Acheson industrial makes every delivery a brand touchpoint.",
               },
               {
                 title: "Fleet Volume Pricing",
@@ -834,9 +833,9 @@ export default function VehicleWrapCostAlberta2026() {
                   "Multi-vehicle fleet orders at Accurate Autoworks are priced per project. We handle design, production, and installation in-house, which means consistent results across your fleet without coordinating multiple vendors. Call 780.818.9904 to discuss your fleet size and timeline.",
               },
             ].map((item) => (
-              <div key={item.title} className="card-gradient rounded-2xl p-6 group hover:border-[#22d65f]/50 transition-all duration-300">
+              <div key={item.title} className="card-gradient rounded-2xl p-6 group hover:border-[#EEFF00]/50 transition-all duration-300">
                 <h3 className="text-sm font-bold text-white mb-1">{item.title}</h3>
-                <p className="font-mono text-[#22d65f] font-bold text-base mb-3">{item.price}</p>
+                <p className="font-mono text-[#EEFF00] font-bold text-base mb-3">{item.price}</p>
                 <p className="text-xs text-[#999] leading-relaxed">{item.description}</p>
               </div>
             ))}
@@ -845,13 +844,13 @@ export default function VehicleWrapCostAlberta2026() {
           <Callout variant="tip">
             <strong className="text-white">One roof, full service:</strong>{" "}
             Accurate Autoworks handles commercial vehicle wraps and{" "}
-            <Link href="/print/" className="text-[#22d65f] hover:underline">
+            <Link href="/print/" className="text-[#EEFF00] hover:underline">
               commercial printing and signage
             </Link>{" "}
             under one roof. That means your storefront banner, your fleet
             wrap, and your A-frame signs all carry the same design, printed
             to the same standard. No vendor juggling. Call{" "}
-            <a href="tel:7808189904" className="text-[#22d65f] hover:underline font-bold">
+            <a href="tel:7808189904" className="text-[#EEFF00] hover:underline font-bold">
               780.818.9904
             </a>{" "}
             to discuss your business branding needs.
@@ -876,7 +875,7 @@ export default function VehicleWrapCostAlberta2026() {
               {
                 flag: "No mention of the film brand or grade",
                 detail:
-                  "Any professional installer can tell you exactly what film they use — brand, product line, and grade. If a shop can't or won't answer this question, they are almost certainly using off-brand import film that won't perform in Alberta conditions.",
+                  "Any professional installer can tell you exactly what film they use, brand, product line, and grade. If a shop can't or won't answer this question, they are almost certainly using off-brand import film that won't perform in Alberta conditions.",
                 severity: "critical",
               },
               {
@@ -943,14 +942,14 @@ export default function VehicleWrapCostAlberta2026() {
                 key={faq.q}
                 className="group rounded-2xl overflow-hidden card-gradient"
               >
-                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#22d65f] transition-colors list-none flex items-center gap-4">
-                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#22d65f]/10 text-[#22d65f] text-xs font-bold flex items-center justify-center group-open:bg-[#22d65f] group-open:text-black transition-all">
+                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#EEFF00] transition-colors list-none flex items-center gap-4">
+                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#EEFF00]/10 text-[#EEFF00] text-xs font-bold flex items-center justify-center group-open:bg-[#EEFF00] group-open:text-black transition-all">
                     {i + 1}
                   </span>
                   <span className="flex-1">{faq.q}</span>
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full border border-[#333] flex items-center justify-center group-open:border-[#22d65f] group-open:bg-[#22d65f]/10 transition-all">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full border border-[#333] flex items-center justify-center group-open:border-[#EEFF00] group-open:bg-[#EEFF00]/10 transition-all">
                     <svg
-                      className="w-3 h-3 text-[#22d65f] transition-transform group-open:rotate-180"
+                      className="w-3 h-3 text-[#EEFF00] transition-transform group-open:rotate-180"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -974,21 +973,21 @@ export default function VehicleWrapCostAlberta2026() {
 
         {/* CTA Section */}
         <section className="mt-16 relative rounded-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#22d65f]/15 via-[#22d65f]/5 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EEFF00]/15 via-[#EEFF00]/5 to-transparent" />
           <div className="absolute inset-0 hero-stripe opacity-30" />
-          <div className="absolute inset-0 border border-[#22d65f]/20 rounded-2xl" />
+          <div className="absolute inset-0 border border-[#EEFF00]/20 rounded-2xl" />
           <div className="relative p-8 sm:p-12 text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f] animate-pulse" />
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00] animate-pulse" />
               Free Quote
             </div>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight">
               Ready to Wrap Your{" "}
-              <span className="text-[#22d65f] glow-accent">Vehicle?</span>
+              <span className="text-[#EEFF00] glow-accent">Vehicle?</span>
             </h2>
             <p className="mt-4 text-[#999] max-w-xl mx-auto leading-relaxed">
               Accurate Autoworks wraps cars, trucks, SUVs, vans, and commercial
-              fleets — in Stony Plain and serving Spruce Grove, Parkland County,
+              fleets, in Stony Plain and serving Spruce Grove, Parkland County,
               Acheson, and Edmonton. Premium cast vinyl, professional
               installation, real results. Free consultation, no pressure.
             </p>
@@ -1006,15 +1005,15 @@ export default function VehicleWrapCostAlberta2026() {
         {/* Author / Shop Card */}
         <div className="mt-12 card-gradient rounded-2xl p-6 sm:p-8">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
-            <div className="w-14 h-14 rounded-xl bg-[#22d65f]/10 flex items-center justify-center flex-shrink-0">
-              <svg className="w-7 h-7 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <div className="w-14 h-14 rounded-xl bg-[#EEFF00]/10 flex items-center justify-center flex-shrink-0">
+              <svg className="w-7 h-7 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016A3.001 3.001 0 0021 9.349m-18 0A2.989 2.989 0 004.5 9c.956 0 1.813-.44 2.37-1.13M21 9.349A2.989 2.989 0 0019.5 9c-.956 0-1.813-.44-2.37-1.13m0 0A3 3 0 0015 6H9a3 3 0 00-2.13.87m10.26 0A3 3 0 0015 6H9" />
               </svg>
             </div>
             <div className="text-center sm:text-left">
               <p className="text-sm font-bold text-white">
                 Written by the team at{" "}
-                <Link href="/" className="text-[#22d65f] hover:underline">
+                <Link href="/" className="text-[#EEFF00] hover:underline">
                   Accurate Autoworks
                 </Link>
               </p>
@@ -1026,14 +1025,14 @@ export default function VehicleWrapCostAlberta2026() {
               <div className="mt-3 flex items-center justify-center sm:justify-start gap-3">
                 <a
                   href="tel:7808189904"
-                  className="text-xs text-[#22d65f] hover:underline font-bold"
+                  className="text-xs text-[#EEFF00] hover:underline font-bold"
                 >
                   780.818.9904
                 </a>
                 <span className="w-1 h-1 rounded-full bg-[#333]" />
                 <Link
                   href="/contact/"
-                  className="text-xs text-[#999] hover:text-[#22d65f] transition-colors"
+                  className="text-xs text-[#999] hover:text-[#EEFF00] transition-colors"
                 >
                   Get in Touch
                 </Link>
@@ -1053,7 +1052,7 @@ export default function VehicleWrapCostAlberta2026() {
             headline:
               "How Much Does a Vehicle Wrap Cost in 2026? Alberta Pricing Guide",
             description:
-              "Real 2026 Alberta pricing for car wraps — full colour change, partial wraps, commercial fleet graphics, and what drives costs up or down.",
+              "Real 2026 Alberta pricing for car wraps, full colour change, partial wraps, commercial fleet graphics, and what drives costs up or down.",
             datePublished: publishDate,
             dateModified: modifiedDate,
             author: {
@@ -1086,7 +1085,7 @@ export default function VehicleWrapCostAlberta2026() {
             "@type": "AutoRepair",
             name: "Accurate Autoworks",
             description:
-              "Stony Plain auto customization shop — vinyl wraps, window tinting, PPF, detailing, and commercial signs.",
+              "Stony Plain auto customization shop, vinyl wraps, window tinting, PPF, detailing, and commercial signs.",
             telephone: "+1-780-818-9904",
             address: {
               "@type": "PostalAddress",
@@ -1146,15 +1145,15 @@ function SectionHeading({
 }) {
   return (
     <div className="flex items-start gap-4">
-      <span className="flex-shrink-0 text-xs font-mono font-bold text-[#22d65f]/40 mt-2">
+      <span className="flex-shrink-0 text-xs font-mono font-bold text-[#EEFF00]/40 mt-2">
         {number}
       </span>
       <div>
         <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight leading-tight">
           {children}
-          <span className="text-[#22d65f]">{highlight}</span>
+          <span className="text-[#EEFF00]">{highlight}</span>
         </h2>
-        <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#22d65f] to-transparent" />
+        <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#EEFF00] to-transparent" />
       </div>
     </div>
   );
@@ -1162,7 +1161,7 @@ function SectionHeading({
 
 function PriorityBadge({ level, label }: { level: string; label: string }) {
   const colors: Record<string, string> = {
-    essential: "bg-[#22d65f]/15 text-[#22d65f] border-[#22d65f]/30",
+    essential: "bg-[#EEFF00]/15 text-[#EEFF00] border-[#EEFF00]/30",
     recommended: "bg-white/5 text-white border-white/20",
     optional: "bg-[#666]/10 text-[#999] border-[#666]/20",
   };
@@ -1179,7 +1178,7 @@ function PriorityBadge({ level, label }: { level: string; label: string }) {
 
 function RatingBadge({ level, label }: { level: string; label: string }) {
   const colors: Record<string, string> = {
-    premium: "bg-[#22d65f]/15 text-[#22d65f] border-[#22d65f]/30",
+    premium: "bg-[#EEFF00]/15 text-[#EEFF00] border-[#EEFF00]/30",
     great: "bg-white/5 text-white border-white/20",
     standard: "bg-[#666]/10 text-[#999] border-[#666]/20",
   };
@@ -1203,10 +1202,10 @@ function Callout({
 }) {
   const styles = {
     tip: {
-      border: "border-[#22d65f]/20",
-      bg: "bg-[#22d65f]/[0.04]",
-      icon: "text-[#22d65f]",
-      iconBg: "bg-[#22d65f]/10",
+      border: "border-[#EEFF00]/20",
+      bg: "bg-[#EEFF00]/[0.04]",
+      icon: "text-[#EEFF00]",
+      iconBg: "bg-[#EEFF00]/10",
     },
     info: {
       border: "border-blue-500/20",

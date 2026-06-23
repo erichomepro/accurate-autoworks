@@ -30,7 +30,7 @@ const FAQ_DATA = [
   },
   {
     q: "How much does a fleet vehicle wrap cost in Alberta?",
-    a: "Fleet wrap pricing in Alberta depends on vehicle size and wrap coverage. A full wrap on a half-ton pickup typically runs $2,500 to $4,000, while a full cargo van wrap runs $3,500 to $5,500. Partial wraps — covering doors, tailgates, and key panels — start around $800 to $2,000. Vinyl lettering-only packages are the most budget-friendly option at $200 to $600 per vehicle. At Accurate Autoworks, we provide detailed quotes based on your fleet size and design requirements.",
+    a: "Fleet wrap pricing in Alberta depends on vehicle size and wrap coverage. A full wrap on a half-ton pickup typically runs $2,500 to $4,000, while a full cargo van wrap runs $3,500 to $5,500. Partial wraps, covering doors, tailgates, and key panels, start around $800 to $2,000. Vinyl lettering-only packages are the most budget-friendly option at $200 to $600 per vehicle. At Accurate Autoworks, we provide detailed quotes based on your fleet size and design requirements.",
   },
   {
     q: "How long does a commercial vehicle wrap last?",
@@ -42,7 +42,7 @@ const FAQ_DATA = [
   },
   {
     q: "Do vehicle wraps damage the paint underneath?",
-    a: "No — in fact, a quality vinyl wrap protects the paint underneath from UV exposure, minor abrasion, and debris. The vinyl adheres to the paint's clear coat and removes cleanly when done by a trained installer. The condition of the paint does matter: chips, rust, or peeling clear coat can cause adhesion problems, so we inspect and address any paint issues before wrapping. Accurate Autoworks also offers PPF as an alternative when paint protection — rather than full branding — is the primary goal.",
+    a: "No, in fact, a quality vinyl wrap protects the paint underneath from UV exposure, minor abrasion, and debris. The vinyl adheres to the paint's clear coat and removes cleanly when done by a trained installer. The condition of the paint does matter: chips, rust, or peeling clear coat can cause adhesion problems, so we inspect and address any paint issues before wrapping. Accurate Autoworks also offers PPF as an alternative when paint protection, rather than full branding, is the primary goal.",
   },
   {
     q: "What types of storefront signs can you produce?",
@@ -50,7 +50,7 @@ const FAQ_DATA = [
   },
   {
     q: "Do I need to provide print-ready artwork or can you design it?",
-    a: "Both options work. If you have existing brand guidelines, logos, and artwork, we can use those files and set up the print layout in-house. If you need design from scratch, Accurate Autoworks can create the graphics as part of the project — just come in with your logo (or a description of what you want) and your colour preferences. We produce a proof for your approval before anything goes to print, so you see exactly what you are getting.",
+    a: "Both options work. If you have existing brand guidelines, logos, and artwork, we can use those files and set up the print layout in-house. If you need design from scratch, Accurate Autoworks can create the graphics as part of the project, just come in with your logo (or a description of what you want) and your colour preferences. We produce a proof for your approval before anything goes to print, so you see exactly what you are getting.",
   },
   {
     q: "How long does it take to produce and install commercial signs or a fleet wrap?",
@@ -58,7 +58,7 @@ const FAQ_DATA = [
   },
   {
     q: "How do I maintain a wrapped fleet vehicle?",
-    a: "Wrapped vehicles should be hand-washed or run through touchless automatic washes — brush-type washes can lift wrap edges over time. Avoid high-pressure spray directly at panel edges and seams. Use a mild, non-abrasive soap and rinse thoroughly. Do not wax over a printed wrap; instead, use a vinyl-safe detailer. Wrapped vehicles should not sit under direct sun for extended periods if avoidable. Following these basics, a quality fleet wrap installed by Accurate Autoworks will easily last its full rated lifespan.",
+    a: "Wrapped vehicles should be hand-washed or run through touchless automatic washes, brush-type washes can lift wrap edges over time. Avoid high-pressure spray directly at panel edges and seams. Use a mild, non-abrasive soap and rinse thoroughly. Do not wax over a printed wrap; instead, use a vinyl-safe detailer. Wrapped vehicles should not sit under direct sun for extended periods if avoidable. Following these basics, a quality fleet wrap installed by Accurate Autoworks will easily last its full rated lifespan.",
   },
   {
     q: "Can wraps and signs be updated when my business info changes?",
@@ -67,9 +67,9 @@ const FAQ_DATA = [
 ];
 
 const COST_DATA = [
-  { service: "Full fleet wrap — half-ton / pickup", cost: "$2,500 - $4,000", priority: "Most Popular", level: "essential" },
-  { service: "Full fleet wrap — cargo van", cost: "$3,500 - $5,500", priority: "Most Popular", level: "essential" },
-  { service: "Full fleet wrap — cube truck / box truck", cost: "$5,000 - $8,000", priority: "Large Format", level: "recommended" },
+  { service: "Full fleet wrap, half-ton / pickup", cost: "$2,500 - $4,000", priority: "Most Popular", level: "essential" },
+  { service: "Full fleet wrap, cargo van", cost: "$3,500 - $5,500", priority: "Most Popular", level: "essential" },
+  { service: "Full fleet wrap, cube truck / box truck", cost: "$5,000 - $8,000", priority: "Large Format", level: "recommended" },
   { service: "Partial wrap + cut vinyl decals", cost: "$800 - $2,000", priority: "Best Value", level: "recommended" },
   { service: "Vinyl lettering package (per vehicle)", cost: "$200 - $600", priority: "Budget Option", level: "optional" },
   { service: "Storefront aluminum panel sign", cost: "$300 - $1,200", priority: "Varies by size", level: "recommended" },
@@ -81,9 +81,9 @@ const SIGN_TYPES = [
   {
     type: "Full Fleet Vehicle Wrap",
     visibility: "Highest",
-    durability: "5–7 years",
+    durability: "5, 7 years",
     bestFor: "Any commercial vehicle",
-    impressions: "30,000–70,000/day",
+    impressions: "30,000, 70,000/day",
     rating: "Top Pick",
     ratingLevel: "best",
     recommended: true,
@@ -92,27 +92,27 @@ const SIGN_TYPES = [
   {
     type: "Partial Wrap + Decals",
     visibility: "High",
-    durability: "5–7 years",
+    durability: "5, 7 years",
     bestFor: "Budget-conscious fleets",
-    impressions: "15,000–40,000/day",
+    impressions: "15,000, 40,000/day",
     rating: "Great Value",
     ratingLevel: "good",
-    notes: "40–60% of full wrap cost with strong visual impact. Popular for trade service trucks.",
+    notes: "40, 60% of full wrap cost with strong visual impact. Popular for trade service trucks.",
   },
   {
     type: "Vinyl Lettering Only",
     visibility: "Moderate",
-    durability: "3–5 years",
+    durability: "3, 5 years",
     bestFor: "Minimal branding needs",
-    impressions: "10,000–25,000/day",
+    impressions: "10,000, 25,000/day",
     rating: "Solid",
     ratingLevel: "good",
     notes: "Most affordable per-vehicle option. Works well alongside door magnets for part-time branding.",
   },
   {
     type: "Storefront Signs (aluminum/ACM)",
-    visibility: "High — local foot traffic",
-    durability: "7–10+ years",
+    visibility: "High, local foot traffic",
+    durability: "7, 10+ years",
     bestFor: "Retail & office locations",
     impressions: "Foot & drive-by traffic",
     rating: "Long-Term",
@@ -121,8 +121,8 @@ const SIGN_TYPES = [
   },
   {
     type: "Window Graphics / Frosting",
-    visibility: "High — storefront only",
-    durability: "3–5 years",
+    visibility: "High, storefront only",
+    durability: "3, 5 years",
     bestFor: "Storefronts, privacy, branding",
     impressions: "Walk-in & street traffic",
     rating: "Solid",
@@ -131,8 +131,8 @@ const SIGN_TYPES = [
   },
   {
     type: "Vinyl Banners",
-    visibility: "High — event/seasonal",
-    durability: "1–3 years",
+    visibility: "High, event/seasonal",
+    durability: "1, 3 years",
     bestFor: "Sales, openings, events",
     impressions: "Variable by placement",
     rating: "Seasonal",
@@ -141,10 +141,10 @@ const SIGN_TYPES = [
   },
   {
     type: "Magnetic Vehicle Signs",
-    visibility: "Low–Moderate",
-    durability: "2–3 years",
+    visibility: "Low, Moderate",
+    durability: "2, 3 years",
     bestFor: "Part-time commercial use",
-    impressions: "5,000–15,000/day",
+    impressions: "5,000, 15,000/day",
     rating: "Limited",
     ratingLevel: "poor",
     notes: "Convenient but low visual impact vs. wrap. Magnets can scratch paint if debris gets underneath.",
@@ -161,19 +161,19 @@ export default function CommercialSignsGuide() {
 
       {/* Hero Section */}
       <header className="relative pt-24 sm:pt-32 pb-16 sm:pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#22d65f]/5 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#EEFF00]/5 via-transparent to-transparent" />
         <div className="absolute inset-0 hero-stripe opacity-50" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#22d65f]/[0.03] rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#EEFF00]/[0.03] rounded-full blur-3xl" />
 
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full backdrop-blur-sm bg-[#22d65f]/5">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f] animate-pulse" />
+          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full backdrop-blur-sm bg-[#EEFF00]/5">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00] animate-pulse" />
             Commercial Signs &amp; Fleet Wraps
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black uppercase tracking-tight leading-[1.05]">
             Commercial Signs &amp; Vehicle Wraps in{" "}
-            <span className="text-[#22d65f] glow-accent">
+            <span className="text-[#EEFF00] glow-accent">
               Stony Plain
             </span>
             : Fleet, Storefront &amp; Banners
@@ -181,20 +181,20 @@ export default function CommercialSignsGuide() {
 
           <p className="mt-8 text-lg sm:text-xl text-[#999] max-w-2xl mx-auto leading-relaxed">
             How Parkland County businesses use fleet wraps, storefront signs,
-            and commercial print to build brand visibility — and what it costs
+            and commercial print to build brand visibility, and what it costs
             to get it done right in 2026.
           </p>
 
           <div className="mt-6 flex items-center justify-center gap-6 text-xs text-[#666] uppercase tracking-wider">
             <div className="flex items-center gap-2">
-              <svg className="w-3.5 h-3.5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg className="w-3.5 h-3.5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
               <time dateTime={publishDate}>May 7, 2026</time>
             </div>
             <span className="w-1 h-1 rounded-full bg-[#333]" />
             <div className="flex items-center gap-2">
-              <svg className="w-3.5 h-3.5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg className="w-3.5 h-3.5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <span>16 min read</span>
@@ -202,9 +202,9 @@ export default function CommercialSignsGuide() {
           </div>
 
           <div className="mt-12 flex items-center justify-center gap-3">
-            <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#22d65f]/40" />
-            <div className="w-2 h-2 rotate-45 border border-[#22d65f]/40" />
-            <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#22d65f]/40" />
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#EEFF00]/40" />
+            <div className="w-2 h-2 rotate-45 border border-[#EEFF00]/40" />
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#EEFF00]/40" />
           </div>
         </div>
       </header>
@@ -221,7 +221,7 @@ export default function CommercialSignsGuide() {
             around Parkland County doing absolutely nothing for the business
             that owns it. That is money being left on the table every single
             day. A wrapped fleet vehicle is one of the most cost-effective
-            forms of advertising available to a local business — it reaches
+            forms of advertising available to a local business, it reaches
             tens of thousands of people per day, it runs 24 hours a day, and
             it costs a fraction of a comparable digital or print ad budget
             spread over five years.
@@ -232,7 +232,7 @@ export default function CommercialSignsGuide() {
             how a business shows up in Stony Plain, Spruce Grove, and the
             surrounding Parkland County market. This guide covers the full
             range of commercial print and signage services available at{" "}
-            <Link href="/print/" className="text-[#22d65f] hover:underline">
+            <Link href="/print/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks
             </Link>
             , how each product performs, what it realistically costs in 2026,
@@ -242,16 +242,16 @@ export default function CommercialSignsGuide() {
 
         {/* Table of Contents */}
         <nav className="mt-12 relative rounded-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#22d65f]/10 via-[#141414] to-[#141414]" />
-          <div className="absolute inset-0 border border-[#22d65f]/20 rounded-2xl" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EEFF00]/10 via-[#141414] to-[#141414]" />
+          <div className="absolute inset-0 border border-[#EEFF00]/20 rounded-2xl" />
           <div className="relative p-6 sm:p-8">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-8 h-8 rounded-lg bg-[#22d65f]/10 flex items-center justify-center">
-                <svg className="w-4 h-4 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <div className="w-8 h-8 rounded-lg bg-[#EEFF00]/10 flex items-center justify-center">
+                <svg className="w-4 h-4 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
                 </svg>
               </div>
-              <h2 className="text-sm font-bold uppercase tracking-widest text-[#22d65f]">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-[#EEFF00]">
                 What We Cover
               </h2>
             </div>
@@ -268,9 +268,9 @@ export default function CommercialSignsGuide() {
                 <li key={item.href}>
                   <a
                     href={item.href}
-                    className="flex items-center gap-3 py-1.5 text-[#999] hover:text-[#22d65f] transition-colors group"
+                    className="flex items-center gap-3 py-1.5 text-[#999] hover:text-[#EEFF00] transition-colors group"
                   >
-                    <span className="flex-shrink-0 w-6 h-6 rounded-md bg-[#22d65f]/10 text-[#22d65f] text-xs font-bold flex items-center justify-center group-hover:bg-[#22d65f]/20 transition-colors">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-md bg-[#EEFF00]/10 text-[#EEFF00] text-xs font-bold flex items-center justify-center group-hover:bg-[#EEFF00]/20 transition-colors">
                       {i + 1}
                     </span>
                     <span>{item.label}</span>
@@ -287,7 +287,7 @@ export default function CommercialSignsGuide() {
             What Accurate Autoworks{" "}
           </SectionHeading>
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
-            Accurate Autoworks is not just an auto shop — it is a full-service
+            Accurate Autoworks is not just an auto shop, it is a full-service
             commercial print and vehicle graphics operation based on Boulder
             Boulevard in Stony Plain. From a single vinyl decal to a ten-truck
             fleet wrap, from a storefront sign to a building-side banner, the
@@ -306,7 +306,7 @@ export default function CommercialSignsGuide() {
                 title: "Fleet Vehicle Wraps",
                 icon: "truck",
                 detail:
-                  "Full and partial wraps for any commercial vehicle — half-tons, cargo vans, cube trucks, trailers, and heavy equipment. Cast vinyl only. Installed in our climate-controlled bay.",
+                  "Full and partial wraps for any commercial vehicle, half-tons, cargo vans, cube trucks, trailers, and heavy equipment. Cast vinyl only. Installed in our climate-controlled bay.",
               },
               {
                 title: "Storefront Signs",
@@ -341,10 +341,10 @@ export default function CommercialSignsGuide() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="card-gradient rounded-2xl p-6 group hover:border-[#22d65f]/50 transition-all duration-300"
+                className="card-gradient rounded-2xl p-6 group hover:border-[#EEFF00]/50 transition-all duration-300"
               >
-                <div className="w-10 h-10 rounded-xl bg-[#22d65f]/10 flex items-center justify-center mb-4 group-hover:bg-[#22d65f]/20 transition-colors">
-                  <svg className="w-5 h-5 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <div className="w-10 h-10 rounded-xl bg-[#EEFF00]/10 flex items-center justify-center mb-4 group-hover:bg-[#EEFF00]/20 transition-colors">
+                  <svg className="w-5 h-5 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     {item.icon === "truck" && (
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" />
                     )}
@@ -389,12 +389,12 @@ export default function CommercialSignsGuide() {
               href="https://www.signassociation.ca"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#22d65f] hover:underline"
+              className="text-[#EEFF00] hover:underline"
             >
               Canadian Sign Association
             </a>
             , vehicle-mounted advertising generates more impressions per
-            dollar than virtually any other format — including billboards,
+            dollar than virtually any other format, including billboards,
             digital ads, and radio. A single wrapped truck driving regular
             routes in the Stony Plain, Spruce Grove, and Acheson corridor
             can generate 30,000 to 70,000 brand impressions per day.
@@ -403,7 +403,7 @@ export default function CommercialSignsGuide() {
             The math is straightforward. A full fleet wrap on a pickup costs
             roughly $2,500 to $4,000 and lasts 5 to 7 years. Spread that over
             the wrap&apos;s lifespan, and you are paying pennies per thousand
-            impressions — a fraction of what equivalent digital advertising
+            impressions, a fraction of what equivalent digital advertising
             would cost. And unlike a social media ad, your wrap is working
             every time the truck moves, parks on a job site, or sits in a
             Tim Hortons drive-through.
@@ -416,7 +416,7 @@ export default function CommercialSignsGuide() {
               </h3>
               <p className="text-sm text-[#999] leading-relaxed">
                 A full vehicle wrap covers every painted surface of the vehicle
-                — hood, roof, doors, tailgate, fenders, bumpers, and mirrors.
+, hood, roof, doors, tailgate, fenders, bumpers, and mirrors.
                 The result is a rolling billboard that is impossible to miss.
                 Full wraps work especially well for businesses with strong
                 visual identities and those serving broad geographic areas
@@ -428,15 +428,15 @@ export default function CommercialSignsGuide() {
               <p className="mt-3 text-sm text-[#999] leading-relaxed">
                 At Accurate Autoworks, full wraps are produced on a large-format
                 printer using UV-resistant ink, then installed by hand in our
-                climate-controlled bay. We use cast vinyl — not the cheaper
-                calendered film — because cast vinyl conforms properly to
+                climate-controlled bay. We use cast vinyl, not the cheaper
+                calendered film, because cast vinyl conforms properly to
                 compound curves, door handles, and body contours without
                 lifting edges over time. Every seam is heat-set for durability.
               </p>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden border border-[#22d65f]/30 bg-gradient-to-br from-[#22d65f]/[0.06] to-[#141414]">
-              <div className="absolute top-0 right-0 px-3 py-1 bg-[#22d65f] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
+            <div className="relative rounded-2xl overflow-hidden border border-[#EEFF00]/30 bg-gradient-to-br from-[#EEFF00]/[0.06] to-[#141414]">
+              <div className="absolute top-0 right-0 px-3 py-1 bg-[#EEFF00] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
                 Popular Option
               </div>
               <div className="p-6 sm:p-8">
@@ -456,7 +456,7 @@ export default function CommercialSignsGuide() {
                   Partial wraps typically run 40 to 60% of a full wrap cost
                   and are especially effective on darker base-colour vehicles
                   where the original paint can be incorporated into the design
-                  — black or dark grey trucks work particularly well. Accurate
+, black or dark grey trucks work particularly well. Accurate
                   Autoworks can mock up both partial and full wrap concepts
                   side by side so you can see the visual difference before
                   making a decision.
@@ -471,10 +471,10 @@ export default function CommercialSignsGuide() {
               <p className="text-sm text-[#999] leading-relaxed">
                 Not all wrap vinyl is equal, and in Alberta&apos;s climate the
                 difference matters enormously. Cast vinyl is manufactured by
-                casting liquid PVC onto a moving belt — the result is a thin,
+                casting liquid PVC onto a moving belt, the result is a thin,
                 dimensionally stable film that conforms to complex curves and
                 handles extreme temperature swings without shrinking. Calendered
-                vinyl is pressed between rollers and has memory — it wants to
+                vinyl is pressed between rollers and has memory, it wants to
                 return to its flat shape, which causes lift at edges and seams
                 over time, especially through freeze-thaw cycles.
               </p>
@@ -492,7 +492,7 @@ export default function CommercialSignsGuide() {
 
           <Callout variant="tip">
             If you are considering{" "}
-            <Link href="/wraps/" className="text-[#22d65f] hover:underline">
+            <Link href="/wraps/" className="text-[#EEFF00] hover:underline">
               a vehicle wrap for your personal vehicle
             </Link>{" "}
             alongside your fleet work, the process and materials are identical.
@@ -523,32 +523,32 @@ export default function CommercialSignsGuide() {
                 step: "01",
                 title: "Aluminum Composite (ACM) Panel Signs",
                 description:
-                  "ACM — commonly known by the brand name Dibond — is the industry standard for exterior business signage. Two thin aluminum sheets bonded to a polyethylene core, it is rigid, weather-resistant, lightweight, and takes print graphics exceptionally well. ACM signs are the right choice for fascia-mounted business signage, directional signs, and any application where permanence and professional appearance matter. They handle Alberta winters, UV exposure, and highway wind without warping or fading.",
+                  "ACM, commonly known by the brand name Dibond, is the industry standard for exterior business signage. Two thin aluminum sheets bonded to a polyethylene core, it is rigid, weather-resistant, lightweight, and takes print graphics exceptionally well. ACM signs are the right choice for fascia-mounted business signage, directional signs, and any application where permanence and professional appearance matter. They handle Alberta winters, UV exposure, and highway wind without warping or fading.",
               },
               {
                 step: "02",
                 title: "Corrugated Plastic (Coroplast) Signs",
                 description:
-                  "Coroplast signs are the workhorse of real estate, contracting, and event signage — inexpensive, lightweight, and easy to install with wire H-stakes. For businesses running seasonal campaigns or needing high quantities (25+ signs for a real estate campaign, for example), Coroplast is the clear choice on cost. They are not meant for permanent exterior mounting, but for yard-sign and temporary applications they are reliable and produce sharp graphics.",
+                  "Coroplast signs are the workhorse of real estate, contracting, and event signage, inexpensive, lightweight, and easy to install with wire H-stakes. For businesses running seasonal campaigns or needing high quantities (25+ signs for a real estate campaign, for example), Coroplast is the clear choice on cost. They are not meant for permanent exterior mounting, but for yard-sign and temporary applications they are reliable and produce sharp graphics.",
               },
               {
                 step: "03",
                 title: "Window Graphics & Frosted Vinyl",
                 description:
-                  "Window graphics serve two purposes simultaneously: branding and privacy. Perforated see-through vinyl applied to large storefront windows lets you display bold graphics visible from the street while maintaining a clear interior view from inside. Frosted vinyl creates a premium sandblasted-glass look on office partitions, conference room glass, and storefront windows — a popular choice for professional services firms, medical offices, and retail boutiques in the Spruce Grove and Stony Plain commercial areas.",
+                  "Window graphics serve two purposes simultaneously: branding and privacy. Perforated see-through vinyl applied to large storefront windows lets you display bold graphics visible from the street while maintaining a clear interior view from inside. Frosted vinyl creates a premium sandblasted-glass look on office partitions, conference room glass, and storefront windows, a popular choice for professional services firms, medical offices, and retail boutiques in the Spruce Grove and Stony Plain commercial areas.",
               },
               {
                 step: "04",
                 title: "Vinyl Banners",
                 description:
-                  "Heavy-duty 13-ounce vinyl banners with reinforced perimeter hems and brass grommets are the fastest, most cost-effective way to deploy high-visibility signage for a specific period. Grand openings, seasonal sales, contractor site identification, and trade shows are all common uses. Accurate Autoworks produces banners in any custom size with full-colour print, and they are ready quickly — often within 2 to 5 business days of artwork approval.",
+                  "Heavy-duty 13-ounce vinyl banners with reinforced perimeter hems and brass grommets are the fastest, most cost-effective way to deploy high-visibility signage for a specific period. Grand openings, seasonal sales, contractor site identification, and trade shows are all common uses. Accurate Autoworks produces banners in any custom size with full-colour print, and they are ready quickly, often within 2 to 5 business days of artwork approval.",
               },
             ].map((phase) => (
               <div key={phase.step} className="relative rounded-2xl overflow-hidden">
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#22d65f] to-[#22d65f]/20" />
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#EEFF00] to-[#EEFF00]/20" />
                 <div className="card-gradient rounded-2xl border-l-0 pl-6 pr-6 py-6 sm:pl-8 sm:pr-8 sm:py-8 ml-1">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#22d65f] text-black text-xs font-black flex-shrink-0">
+                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#EEFF00] text-black text-xs font-black flex-shrink-0">
                       {phase.step}
                     </span>
                     <h3 className="text-sm font-bold uppercase tracking-widest text-white">
@@ -570,7 +570,7 @@ export default function CommercialSignsGuide() {
             are consistent across all outputs, and you deal with a single
             shop instead of coordinating between a signage company and a wrap
             installer. Call{" "}
-            <a href="tel:7808189904" className="text-[#22d65f] hover:underline font-bold">
+            <a href="tel:7808189904" className="text-[#EEFF00] hover:underline font-bold">
               780.818.9904
             </a>{" "}
             to discuss a combined project.
@@ -593,9 +593,9 @@ export default function CommercialSignsGuide() {
           <div className="mt-8 hidden sm:block rounded-2xl overflow-hidden border border-[#2a2a2a]">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[#22d65f]/[0.06]">
+                <tr className="bg-[#EEFF00]/[0.06]">
                   {["Type", "Visibility", "Durability", "Best For", "Impressions", "Rating"].map((h) => (
-                    <th key={h} className="text-left py-4 px-4 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                    <th key={h} className="text-left py-4 px-4 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                       {h}
                     </th>
                   ))}
@@ -605,14 +605,14 @@ export default function CommercialSignsGuide() {
                 {SIGN_TYPES.map((row, i) => (
                   <tr
                     key={row.type}
-                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#22d65f]/[0.03] ${
-                      row.recommended ? "bg-[#22d65f]/[0.04]" : i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
+                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#EEFF00]/[0.03] ${
+                      row.recommended ? "bg-[#EEFF00]/[0.04]" : i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
                     }`}
                   >
                     <td className="py-4 px-4 font-bold text-white">
                       {row.type}
                       {row.recommended && (
-                        <span className="ml-2 text-[10px] font-bold uppercase tracking-widest text-[#22d65f] px-2 py-0.5 rounded-full bg-[#22d65f]/15">
+                        <span className="ml-2 text-[10px] font-bold uppercase tracking-widest text-[#EEFF00] px-2 py-0.5 rounded-full bg-[#EEFF00]/15">
                           Recommended
                         </span>
                       )}
@@ -637,7 +637,7 @@ export default function CommercialSignsGuide() {
                 key={row.type}
                 className={`rounded-2xl p-5 border ${
                   row.recommended
-                    ? "border-[#22d65f]/30 bg-[#22d65f]/[0.06]"
+                    ? "border-[#EEFF00]/30 bg-[#EEFF00]/[0.06]"
                     : "card-gradient"
                 }`}
               >
@@ -646,7 +646,7 @@ export default function CommercialSignsGuide() {
                   <SignRatingBadge level={row.ratingLevel} label={row.rating} />
                 </div>
                 {row.recommended && (
-                  <div className="mb-3 text-[10px] font-bold uppercase tracking-widest text-[#22d65f]">
+                  <div className="mb-3 text-[10px] font-bold uppercase tracking-widest text-[#EEFF00]">
                     Our Recommendation
                   </div>
                 )}
@@ -665,11 +665,11 @@ export default function CommercialSignsGuide() {
             <strong className="text-white">A note on magnetic signs:</strong>{" "}
             Magnetic vehicle signs show up frequently as a &ldquo;budget-friendly&rdquo;
             alternative to wraps. In practice, they are the worst of both worlds
-            — lower visibility than a wrap, risk of paint scratching if dirt or
+, lower visibility than a wrap, risk of paint scratching if dirt or
             debris gets underneath, and they get stolen or blow off at highway
             speeds. For a business making a professional impression in
             Parkland County, invest in vinyl lettering at minimum. Call{" "}
-            <Link href="/print/" className="text-[#22d65f] hover:underline">
+            <Link href="/print/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks
             </Link>{" "}
             to compare options at your actual budget.
@@ -684,7 +684,7 @@ export default function CommercialSignsGuide() {
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             Here is a realistic breakdown of commercial sign and fleet wrap
             pricing at Accurate Autoworks in Stony Plain for 2026. Prices
-            reflect professional-grade materials and installation — not
+            reflect professional-grade materials and installation, not
             DIY kits or online-print commodity signs. Final pricing depends
             on artwork complexity, quantity, and vehicle size.
           </p>
@@ -693,14 +693,14 @@ export default function CommercialSignsGuide() {
           <div className="mt-8 hidden sm:block rounded-2xl overflow-hidden border border-[#2a2a2a]">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[#22d65f]/[0.06]">
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                <tr className="bg-[#EEFF00]/[0.06]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Service
                   </th>
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Cost Range
                   </th>
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Notes
                   </th>
                 </tr>
@@ -709,7 +709,7 @@ export default function CommercialSignsGuide() {
                 {COST_DATA.map((row, i) => (
                   <tr
                     key={row.service}
-                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#22d65f]/[0.03] ${
+                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#EEFF00]/[0.03] ${
                       i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
                     }`}
                   >
@@ -758,7 +758,7 @@ export default function CommercialSignsGuide() {
                 Three factors move the price of a fleet wrap more than anything
                 else: vehicle size, design complexity, and material grade.
                 A cargo van has significantly more surface area than a
-                half-ton — more material, more installation time, more
+                half-ton, more material, more installation time, more
                 seams to manage. A complex multi-layer design with gradients
                 and photo elements takes longer to produce and install than
                 a clean two-colour logo on a white field. And cast vinyl
@@ -770,7 +770,7 @@ export default function CommercialSignsGuide() {
                 is more efficient than five different vehicles because the
                 print setup and installation process can be optimized.
                 Accurate Autoworks offers fleet pricing for multi-vehicle
-                projects — call us to discuss a quote for your specific fleet.
+                projects, call us to discuss a quote for your specific fleet.
               </p>
             </div>
 
@@ -783,15 +783,14 @@ export default function CommercialSignsGuide() {
                 lifespan costs roughly $583 per year, or about $1.60 per
                 day. If that vehicle generates even 20,000 impressions per
                 day in the Stony Plain and Spruce Grove market, your cost
-                per thousand impressions (CPM) is approximately $0.08 —
-                significantly below local radio, digital display, or print
+                per thousand impressions (CPM) is approximately $0.08,                 significantly below local radio, digital display, or print
                 advertising in the same market. According to research cited
                 by the{" "}
                 <a
                   href="https://www.signassociation.ca/research"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#22d65f] hover:underline"
+                  className="text-[#EEFF00] hover:underline"
                 >
                   Canadian Sign Association
                 </a>
@@ -804,17 +803,17 @@ export default function CommercialSignsGuide() {
           <Callout variant="tip">
             <strong className="text-white">Bundle and save:</strong> If your
             vehicles need{" "}
-            <Link href="/detailing/" className="text-[#22d65f] hover:underline">
+            <Link href="/detailing/" className="text-[#EEFF00] hover:underline">
               detailing
             </Link>{" "}
             or{" "}
-            <Link href="/ppf/" className="text-[#22d65f] hover:underline">
+            <Link href="/ppf/" className="text-[#EEFF00] hover:underline">
               paint protection film
             </Link>{" "}
             before wrapping, doing it all in one visit at Accurate Autoworks
             saves on vehicle drop-off logistics and often reduces combined
             labour time. Ask about package pricing when you call{" "}
-            <a href="tel:7808189904" className="text-[#22d65f] hover:underline font-bold">
+            <a href="tel:7808189904" className="text-[#EEFF00] hover:underline font-bold">
               780.818.9904
             </a>
             .
@@ -837,7 +836,7 @@ export default function CommercialSignsGuide() {
                 step: "01",
                 title: "Project Consultation",
                 description:
-                  "Everything starts with a conversation. Bring in your vehicles, describe your storefront, and tell us what you are trying to achieve — brand awareness across the Yellowhead corridor, specific service promotion in the Acheson industrial park, a professional storefront on the Stony Plain commercial strip. We will walk through the product options, realistic budget ranges, and a timeline. No pressure, no quota. Just a straight conversation about what makes sense for your business.",
+                  "Everything starts with a conversation. Bring in your vehicles, describe your storefront, and tell us what you are trying to achieve, brand awareness across the Yellowhead corridor, specific service promotion in the Acheson industrial park, a professional storefront on the Stony Plain commercial strip. We will walk through the product options, realistic budget ranges, and a timeline. No pressure, no quota. Just a straight conversation about what makes sense for your business.",
               },
               {
                 step: "02",
@@ -849,26 +848,26 @@ export default function CommercialSignsGuide() {
                 step: "03",
                 title: "Print Production",
                 description:
-                  "Approved artwork goes to our large-format printer. Fleet wrap graphics are printed on cast vinyl with UV-resistant ink, laminated for scratch and abrasion protection, then cut and paneled for efficient installation. Signs and banners are printed on the appropriate substrate — ACM, Coroplast, or heavy banner vinyl — and finished with grommets, hems, or mounting hardware as required.",
+                  "Approved artwork goes to our large-format printer. Fleet wrap graphics are printed on cast vinyl with UV-resistant ink, laminated for scratch and abrasion protection, then cut and paneled for efficient installation. Signs and banners are printed on the appropriate substrate, ACM, Coroplast, or heavy banner vinyl, and finished with grommets, hems, or mounting hardware as required.",
               },
               {
                 step: "04",
                 title: "Installation",
                 description:
-                  "Fleet wraps are installed in our climate-controlled bay. The vehicle is cleaned and decontaminated first — any embedded grit, wax, or silicone residue will prevent proper adhesion, so surface prep is non-negotiable. Each panel is applied by a trained installer, heat-set for conformity over body curves, and finished at edges and seams. Post-installation, we inspect the entire vehicle in full light to catch any bubbles or lift points before you drive away. Typical installation time is 1 to 2 days per vehicle.",
+                  "Fleet wraps are installed in our climate-controlled bay. The vehicle is cleaned and decontaminated first, any embedded grit, wax, or silicone residue will prevent proper adhesion, so surface prep is non-negotiable. Each panel is applied by a trained installer, heat-set for conformity over body curves, and finished at edges and seams. Post-installation, we inspect the entire vehicle in full light to catch any bubbles or lift points before you drive away. Typical installation time is 1 to 2 days per vehicle.",
               },
               {
                 step: "05",
                 title: "Care Instructions & Warranty",
                 description:
-                  "After installation you receive clear care instructions covering washing, chemical exposure, and long-term maintenance. Accurate Autoworks warranties the installation — if a seam lifts or a panel fails under normal use within the warranty period, we fix it. We document the vehicle condition before and after wrapping so there are no disputes if the wrap is ever removed.",
+                  "After installation you receive clear care instructions covering washing, chemical exposure, and long-term maintenance. Accurate Autoworks warranties the installation, if a seam lifts or a panel fails under normal use within the warranty period, we fix it. We document the vehicle condition before and after wrapping so there are no disputes if the wrap is ever removed.",
               },
             ].map((phase) => (
               <div key={phase.step} className="relative rounded-2xl overflow-hidden">
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#22d65f] to-[#22d65f]/20" />
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#EEFF00] to-[#EEFF00]/20" />
                 <div className="card-gradient rounded-2xl border-l-0 pl-6 pr-6 py-6 sm:pl-8 sm:pr-8 sm:py-8 ml-1">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#22d65f] text-black text-xs font-black flex-shrink-0">
+                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#EEFF00] text-black text-xs font-black flex-shrink-0">
                       {phase.step}
                     </span>
                     <h3 className="text-sm font-bold uppercase tracking-widest text-white">
@@ -886,11 +885,11 @@ export default function CommercialSignsGuide() {
           <Callout variant="tip">
             <strong className="text-white">Ready to start your project?</strong>{" "}
             Call{" "}
-            <a href="tel:7808189904" className="text-[#22d65f] hover:underline font-bold">
+            <a href="tel:7808189904" className="text-[#EEFF00] hover:underline font-bold">
               780.818.9904
             </a>{" "}
             or{" "}
-            <Link href="/contact/" className="text-[#22d65f] hover:underline">
+            <Link href="/contact/" className="text-[#EEFF00] hover:underline">
               submit a project inquiry online
             </Link>
             . Accurate Autoworks is on Boulder Boulevard in Stony Plain, serving
@@ -919,7 +918,7 @@ export default function CommercialSignsGuide() {
               colour looks off on the proof, we adjust it before it runs.
               If a storefront sign needs a bracket adjusted on install day,
               we handle it on the spot. Local accountability is worth the
-              difference in price — especially for your business&apos;s
+              difference in price, especially for your business&apos;s
               public-facing brand.
             </p>
           </div>
@@ -936,14 +935,14 @@ export default function CommercialSignsGuide() {
                 key={faq.q}
                 className="group rounded-2xl overflow-hidden card-gradient"
               >
-                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#22d65f] transition-colors list-none flex items-center gap-4">
-                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#22d65f]/10 text-[#22d65f] text-xs font-bold flex items-center justify-center group-open:bg-[#22d65f] group-open:text-black transition-all">
+                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#EEFF00] transition-colors list-none flex items-center gap-4">
+                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#EEFF00]/10 text-[#EEFF00] text-xs font-bold flex items-center justify-center group-open:bg-[#EEFF00] group-open:text-black transition-all">
                     {i + 1}
                   </span>
                   <span className="flex-1">{faq.q}</span>
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full border border-[#333] flex items-center justify-center group-open:border-[#22d65f] group-open:bg-[#22d65f]/10 transition-all">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full border border-[#333] flex items-center justify-center group-open:border-[#EEFF00] group-open:bg-[#EEFF00]/10 transition-all">
                     <svg
-                      className="w-3 h-3 text-[#22d65f] transition-transform group-open:rotate-180"
+                      className="w-3 h-3 text-[#EEFF00] transition-transform group-open:rotate-180"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -967,20 +966,20 @@ export default function CommercialSignsGuide() {
 
         {/* CTA Section */}
         <section className="mt-16 relative rounded-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#22d65f]/15 via-[#22d65f]/5 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EEFF00]/15 via-[#EEFF00]/5 to-transparent" />
           <div className="absolute inset-0 hero-stripe opacity-30" />
-          <div className="absolute inset-0 border border-[#22d65f]/20 rounded-2xl" />
+          <div className="absolute inset-0 border border-[#EEFF00]/20 rounded-2xl" />
           <div className="relative p-8 sm:p-12 text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f] animate-pulse" />
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00] animate-pulse" />
               Free Project Consultation
             </div>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight">
               Ready to Brand Your{" "}
-              <span className="text-[#22d65f] glow-accent">Fleet?</span>
+              <span className="text-[#EEFF00] glow-accent">Fleet?</span>
             </h2>
             <p className="mt-4 text-[#999] max-w-xl mx-auto leading-relaxed">
-              Fleet wraps, storefront signs, banners, and decals — Accurate
+              Fleet wraps, storefront signs, banners, and decals, Accurate
               Autoworks handles design, print, and installation under one roof
               in Stony Plain. Serving Spruce Grove, Acheson, Parkland County,
               and Edmonton West.
@@ -999,15 +998,15 @@ export default function CommercialSignsGuide() {
         {/* Author / Shop Card */}
         <div className="mt-12 card-gradient rounded-2xl p-6 sm:p-8">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
-            <div className="w-14 h-14 rounded-xl bg-[#22d65f]/10 flex items-center justify-center flex-shrink-0">
-              <svg className="w-7 h-7 text-[#22d65f]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <div className="w-14 h-14 rounded-xl bg-[#EEFF00]/10 flex items-center justify-center flex-shrink-0">
+              <svg className="w-7 h-7 text-[#EEFF00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016A3.001 3.001 0 0021 9.349m-18 0A2.989 2.989 0 004.5 9c.956 0 1.813-.44 2.37-1.13M21 9.349A2.989 2.989 0 0019.5 9c-.956 0-1.813-.44-2.37-1.13m0 0A3 3 0 0015 6H9a3 3 0 00-2.13.87m10.26 0A3 3 0 0015 6H9" />
               </svg>
             </div>
             <div className="text-center sm:text-left">
               <p className="text-sm font-bold text-white">
                 Written by the team at{" "}
-                <Link href="/" className="text-[#22d65f] hover:underline">
+                <Link href="/" className="text-[#EEFF00] hover:underline">
                   Accurate Autoworks
                 </Link>
               </p>
@@ -1019,14 +1018,14 @@ export default function CommercialSignsGuide() {
               <div className="mt-3 flex items-center justify-center sm:justify-start gap-3">
                 <a
                   href="tel:7808189904"
-                  className="text-xs text-[#22d65f] hover:underline font-bold"
+                  className="text-xs text-[#EEFF00] hover:underline font-bold"
                 >
                   780.818.9904
                 </a>
                 <span className="w-1 h-1 rounded-full bg-[#333]" />
                 <Link
                   href="/contact/"
-                  className="text-xs text-[#999] hover:text-[#22d65f] transition-colors"
+                  className="text-xs text-[#999] hover:text-[#EEFF00] transition-colors"
                 >
                   Get in Touch
                 </Link>
@@ -1139,15 +1138,15 @@ function SectionHeading({
 }) {
   return (
     <div className="flex items-start gap-4">
-      <span className="flex-shrink-0 text-xs font-mono font-bold text-[#22d65f]/40 mt-2">
+      <span className="flex-shrink-0 text-xs font-mono font-bold text-[#EEFF00]/40 mt-2">
         {number}
       </span>
       <div>
         <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight leading-tight">
           {children}
-          <span className="text-[#22d65f]">{highlight}</span>
+          <span className="text-[#EEFF00]">{highlight}</span>
         </h2>
-        <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#22d65f] to-transparent" />
+        <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#EEFF00] to-transparent" />
       </div>
     </div>
   );
@@ -1155,7 +1154,7 @@ function SectionHeading({
 
 function PriorityBadge({ level, label }: { level: string; label: string }) {
   const colors: Record<string, string> = {
-    essential: "bg-[#22d65f]/15 text-[#22d65f] border-[#22d65f]/30",
+    essential: "bg-[#EEFF00]/15 text-[#EEFF00] border-[#EEFF00]/30",
     recommended: "bg-white/5 text-white border-white/20",
     optional: "bg-[#666]/10 text-[#999] border-[#666]/20",
   };
@@ -1172,7 +1171,7 @@ function PriorityBadge({ level, label }: { level: string; label: string }) {
 
 function SignRatingBadge({ level, label }: { level: string; label: string }) {
   const colors: Record<string, string> = {
-    best: "bg-[#22d65f]/15 text-[#22d65f] border-[#22d65f]/30",
+    best: "bg-[#EEFF00]/15 text-[#EEFF00] border-[#EEFF00]/30",
     good: "bg-white/5 text-white border-white/20",
     ok: "bg-amber-500/10 text-amber-400 border-amber-500/20",
     poor: "bg-red-500/10 text-red-400 border-red-500/20",
@@ -1197,10 +1196,10 @@ function Callout({
 }) {
   const styles = {
     tip: {
-      border: "border-[#22d65f]/20",
-      bg: "bg-[#22d65f]/[0.04]",
-      icon: "text-[#22d65f]",
-      iconBg: "bg-[#22d65f]/10",
+      border: "border-[#EEFF00]/20",
+      bg: "bg-[#EEFF00]/[0.04]",
+      icon: "text-[#EEFF00]",
+      iconBg: "bg-[#EEFF00]/10",
     },
     info: {
       border: "border-blue-500/20",

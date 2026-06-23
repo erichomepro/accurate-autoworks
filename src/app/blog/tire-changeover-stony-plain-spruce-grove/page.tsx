@@ -26,43 +26,43 @@ export const metadata: Metadata = {
 const FAQ_DATA = [
   {
     q: "When should I switch to winter tires in Alberta?",
-    a: "The general rule in Alberta is to switch when daytime temperatures consistently fall below 7°C — typically in late October or early November for Stony Plain and Spruce Grove. At that threshold, the rubber compound in all-season tires begins to harden and lose grip, even on dry pavement. Most Parkland County drivers book their changeover in the last two weeks of October to beat the rush. Accurate Autoworks sees a surge in bookings every year around that window, so calling ahead to 780.818.9904 and reserving your spot early is strongly recommended.",
+    a: "The general rule in Alberta is to switch when daytime temperatures consistently fall below 7°C, typically in late October or early November for Stony Plain and Spruce Grove. At that threshold, the rubber compound in all-season tires begins to harden and lose grip, even on dry pavement. Most Parkland County drivers book their changeover in the last two weeks of October to beat the rush. Accurate Autoworks sees a surge in bookings every year around that window, so calling ahead to 780.818.9904 and reserving your spot early is strongly recommended.",
   },
   {
     q: "What is the difference between all-season and winter tires?",
-    a: "All-season tires are engineered to perform acceptably across a broad range of conditions — dry summer pavement, rain, and light snow — but they are a compromise in every category. Winter tires use a softer rubber compound that stays pliable below 7°C, combined with deeper tread blocks and sipes (tiny slits) that bite into snow and ice. In Transport Canada braking tests, dedicated winter tires stop up to 25% shorter on ice than all-season tires at the same speed. For Alberta winters with freeze-thaw cycles, black ice, and hard-pack snow from November through March, the performance gap is meaningful.",
+    a: "All-season tires are engineered to perform acceptably across a broad range of conditions, dry summer pavement, rain, and light snow, but they are a compromise in every category. Winter tires use a softer rubber compound that stays pliable below 7°C, combined with deeper tread blocks and sipes (tiny slits) that bite into snow and ice. In Transport Canada braking tests, dedicated winter tires stop up to 25% shorter on ice than all-season tires at the same speed. For Alberta winters with freeze-thaw cycles, black ice, and hard-pack snow from November through March, the performance gap is meaningful.",
   },
   {
     q: "How much does a seasonal tire changeover cost in Stony Plain?",
-    a: "A standard swap — swapping your mounted winter wheels onto the vehicle and storing your summer set — runs $80 to $120 at a quality shop in the Stony Plain and Spruce Grove area in 2026. If you need tires mounted and balanced onto rims (loose tires, not pre-mounted), add $100 to $180 for the full set. TPMS sensor programming, if required, adds $30 to $60. Call Accurate Autoworks at 780.818.9904 for a quote specific to your vehicle — prices vary slightly for trucks, SUVs, and oversized tires.",
+    a: "A standard swap, swapping your mounted winter wheels onto the vehicle and storing your summer set, runs $80 to $120 at a quality shop in the Stony Plain and Spruce Grove area in 2026. If you need tires mounted and balanced onto rims (loose tires, not pre-mounted), add $100 to $180 for the full set. TPMS sensor programming, if required, adds $30 to $60. Call Accurate Autoworks at 780.818.9904 for a quote specific to your vehicle, prices vary slightly for trucks, SUVs, and oversized tires.",
   },
   {
     q: "Do my tires need to be balanced at every changeover?",
-    a: "Not necessarily every time, but it depends. If your tires are already mounted on dedicated rims and have not been disturbed since last season, a basic swap (off the car, on the car) does not require re-balancing. However, if tires are being dismounted from rims and remounted, or if you notice vibration at highway speeds after the swap, balancing is needed. At Accurate Autoworks, we inspect each tire during changeover and will flag if weights have shifted or if re-balancing is warranted — we won't push a service you don't need.",
+    a: "Not necessarily every time, but it depends. If your tires are already mounted on dedicated rims and have not been disturbed since last season, a basic swap (off the car, on the car) does not require re-balancing. However, if tires are being dismounted from rims and remounted, or if you notice vibration at highway speeds after the swap, balancing is needed. At Accurate Autoworks, we inspect each tire during changeover and will flag if weights have shifted or if re-balancing is warranted, we won't push a service you don't need.",
   },
   {
     q: "What are TPMS sensors and do I need to worry about them during changeover?",
-    a: "Tire Pressure Monitoring System sensors are small battery-powered transmitters inside the wheel that send real-time pressure data to your dashboard. Many 2012-and-newer vehicles have them, and all new vehicles sold in Canada since 2013 are required to. When you swap between winter and summer wheel sets, the TPMS computer needs to re-learn which sensor is at which position. Without a reset, your dash warning light may stay on. At Accurate Autoworks, we include TPMS sensor checks with changeover service and perform resets as needed. If a sensor battery is dead — typically after 7 to 10 years — we can replace it.",
+    a: "Tire Pressure Monitoring System sensors are small battery-powered transmitters inside the wheel that send real-time pressure data to your dashboard. Many 2012-and-newer vehicles have them, and all new vehicles sold in Canada since 2013 are required to. When you swap between winter and summer wheel sets, the TPMS computer needs to re-learn which sensor is at which position. Without a reset, your dash warning light may stay on. At Accurate Autoworks, we include TPMS sensor checks with changeover service and perform resets as needed. If a sensor battery is dead, typically after 7 to 10 years, we can replace it.",
   },
   {
     q: "Should I buy dedicated winter wheels or run winters on my regular rims?",
-    a: "Dedicated steel or alloy winter wheels are almost always worth the investment if you plan to do seasonal changeovers for more than two years. The mounting and balancing fees each spring and fall add up quickly. With dedicated rims, your changeover is a simple swap — no mount-and-balance, lower labour cost, faster appointment. Steel wheels are the most popular choice for winters: they are cheaper, more dent-resistant in potholes, and corrosion from road salt does not damage a wheel you care about. Call 780.818.9904 and Accurate Autoworks can advise on the right fitment for your specific vehicle.",
+    a: "Dedicated steel or alloy winter wheels are almost always worth the investment if you plan to do seasonal changeovers for more than two years. The mounting and balancing fees each spring and fall add up quickly. With dedicated rims, your changeover is a simple swap, no mount-and-balance, lower labour cost, faster appointment. Steel wheels are the most popular choice for winters: they are cheaper, more dent-resistant in potholes, and corrosion from road salt does not damage a wheel you care about. Call 780.818.9904 and Accurate Autoworks can advise on the right fitment for your specific vehicle.",
   },
   {
     q: "Are all-weather tires good enough for Alberta winters?",
-    a: "All-weather tires — those carrying both the M+S (mud and snow) rating and the Three-Peak Mountain Snowflake (3PMSF) symbol — are a legitimate option for Alberta drivers who want year-round convenience. They perform meaningfully better than plain all-season tires in cold temperatures and moderate snow. However, in severe Alberta winter conditions — hard-pack, deep snow, or ice-covered roads after a freeze-thaw cycle — dedicated winter tires still have a grip advantage. All-weather tires are the right call for vehicles that see occasional winter use; for daily driving through a full Parkland County winter, dedicated winters give you the best margin of safety.",
+    a: "All-weather tires, those carrying both the M+S (mud and snow) rating and the Three-Peak Mountain Snowflake (3PMSF) symbol, are a legitimate option for Alberta drivers who want year-round convenience. They perform meaningfully better than plain all-season tires in cold temperatures and moderate snow. However, in severe Alberta winter conditions, hard-pack, deep snow, or ice-covered roads after a freeze-thaw cycle, dedicated winter tires still have a grip advantage. All-weather tires are the right call for vehicles that see occasional winter use; for daily driving through a full Parkland County winter, dedicated winters give you the best margin of safety.",
   },
   {
     q: "How long does a tire changeover take at Accurate Autoworks?",
-    a: "A straightforward seasonal wheel swap on a standard passenger vehicle or half-ton truck typically takes 45 minutes to 1.5 hours, depending on volume. If mount-and-balance is included, allow 1.5 to 2.5 hours. During peak changeover season — late October and early November, and again in April — wait times can be longer if you walk in without an appointment. Booking ahead at 780.818.9904 means we have your vehicle in and out on your schedule.",
+    a: "A straightforward seasonal wheel swap on a standard passenger vehicle or half-ton truck typically takes 45 minutes to 1.5 hours, depending on volume. If mount-and-balance is included, allow 1.5 to 2.5 hours. During peak changeover season, late October and early November, and again in April, wait times can be longer if you walk in without an appointment. Booking ahead at 780.818.9904 means we have your vehicle in and out on your schedule.",
   },
   {
     q: "Can Accurate Autoworks store my tires between seasons?",
-    a: "Yes. Accurate Autoworks offers seasonal tire storage for customers who don't have space at home for a second set of wheels and tires. Your tires are stored properly — off the floor, away from ozone sources, and in climate-controlled conditions that prevent premature cracking or sidewall degradation. Ask about our storage packages when you call to book your changeover.",
+    a: "Yes. Accurate Autoworks offers seasonal tire storage for customers who don't have space at home for a second set of wheels and tires. Your tires are stored properly, off the floor, away from ozone sources, and in climate-controlled conditions that prevent premature cracking or sidewall degradation. Ask about our storage packages when you call to book your changeover.",
   },
   {
     q: "How do I know when my winter tires are worn out?",
-    a: "Winter tires have a minimum effective tread depth of 4/32 inch — double the 2/32 inch legal minimum for all-season tires. Below 4/32 inch, winter tire performance drops sharply because the sipes and block edges that bite into snow are worn away. Most winter tires have wear indicator bars at 2/32 inch (the legal limit) but you should be replacing them well before that point. During your changeover at Accurate Autoworks, we measure tread depth on every tire and flag any that are approaching the replacement threshold so you can plan ahead.",
+    a: "Winter tires have a minimum effective tread depth of 4/32 inch, double the 2/32 inch legal minimum for all-season tires. Below 4/32 inch, winter tire performance drops sharply because the sipes and block edges that bite into snow are worn away. Most winter tires have wear indicator bars at 2/32 inch (the legal limit) but you should be replacing them well before that point. During your changeover at Accurate Autoworks, we measure tread depth on every tire and flag any that are approaching the replacement threshold so you can plan ahead.",
   },
 ];
 
@@ -74,13 +74,13 @@ const COST_DATA = [
     level: "essential",
   },
   {
-    service: "Mount & balance — 4 tires (steel wheels)",
+    service: "Mount & balance, 4 tires (steel wheels)",
     cost: "$100 - $150",
     priority: "Popular",
     level: "essential",
   },
   {
-    service: "Mount & balance — 4 tires (alloy wheels)",
+    service: "Mount & balance, 4 tires (alloy wheels)",
     cost: "$120 - $180",
     priority: "Popular",
     level: "essential",
@@ -164,19 +164,19 @@ export default function TireChangeoverGuide() {
 
       {/* Hero Section */}
       <header className="relative pt-24 sm:pt-32 pb-16 sm:pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#22d65f]/5 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#EEFF00]/5 via-transparent to-transparent" />
         <div className="absolute inset-0 hero-stripe opacity-50" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#22d65f]/[0.03] rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#EEFF00]/[0.03] rounded-full blur-3xl" />
 
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full backdrop-blur-sm bg-[#22d65f]/5">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f] animate-pulse" />
+          <div className="inline-flex items-center gap-3 px-5 py-2 mb-8 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full backdrop-blur-sm bg-[#EEFF00]/5">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00] animate-pulse" />
             Tire Changeover Guide
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black uppercase tracking-tight leading-[1.05]">
             Tire Changeover in{" "}
-            <span className="text-[#22d65f] glow-accent">
+            <span className="text-[#EEFF00] glow-accent">
               Stony Plain &amp; Spruce Grove
             </span>
             : When to Switch, What It Costs &amp; Where to Go
@@ -192,7 +192,7 @@ export default function TireChangeoverGuide() {
           <div className="mt-6 flex items-center justify-center gap-6 text-xs text-[#666] uppercase tracking-wider">
             <div className="flex items-center gap-2">
               <svg
-                className="w-3.5 h-3.5 text-[#22d65f]"
+                className="w-3.5 h-3.5 text-[#EEFF00]"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -209,7 +209,7 @@ export default function TireChangeoverGuide() {
             <span className="w-1 h-1 rounded-full bg-[#333]" />
             <div className="flex items-center gap-2">
               <svg
-                className="w-3.5 h-3.5 text-[#22d65f]"
+                className="w-3.5 h-3.5 text-[#EEFF00]"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -226,9 +226,9 @@ export default function TireChangeoverGuide() {
           </div>
 
           <div className="mt-12 flex items-center justify-center gap-3">
-            <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#22d65f]/40" />
-            <div className="w-2 h-2 rotate-45 border border-[#22d65f]/40" />
-            <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#22d65f]/40" />
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#EEFF00]/40" />
+            <div className="w-2 h-2 rotate-45 border border-[#EEFF00]/40" />
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#EEFF00]/40" />
           </div>
         </div>
       </header>
@@ -242,8 +242,7 @@ export default function TireChangeoverGuide() {
             Every fall it happens the same way. The first hard frost hits the
             Parkland County lowlands, the highway shoulders turn white, and
             every tire shop in Stony Plain and Spruce Grove books solid for the
-            next three weeks. The drivers who waited are now scrambling —
-            booking the first available slot, sometimes a week out, driving on
+            next three weeks. The drivers who waited are now scrambling,             booking the first available slot, sometimes a week out, driving on
             all-seasons over frozen roads in the meantime because they didn't
             get ahead of it.
           </p>
@@ -256,7 +255,7 @@ export default function TireChangeoverGuide() {
             actually compare, what a changeover costs at a quality shop in
             2026, and what the process looks like when you bring your vehicle
             into{" "}
-            <Link href="/tires/" className="text-[#22d65f] hover:underline">
+            <Link href="/tires/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks for a seasonal tire changeover
             </Link>
             .
@@ -265,13 +264,13 @@ export default function TireChangeoverGuide() {
 
         {/* Table of Contents */}
         <nav className="mt-12 relative rounded-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#22d65f]/10 via-[#141414] to-[#141414]" />
-          <div className="absolute inset-0 border border-[#22d65f]/20 rounded-2xl" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EEFF00]/10 via-[#141414] to-[#141414]" />
+          <div className="absolute inset-0 border border-[#EEFF00]/20 rounded-2xl" />
           <div className="relative p-6 sm:p-8">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-8 h-8 rounded-lg bg-[#22d65f]/10 flex items-center justify-center">
+              <div className="w-8 h-8 rounded-lg bg-[#EEFF00]/10 flex items-center justify-center">
                 <svg
-                  className="w-4 h-4 text-[#22d65f]"
+                  className="w-4 h-4 text-[#EEFF00]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -284,7 +283,7 @@ export default function TireChangeoverGuide() {
                   />
                 </svg>
               </div>
-              <h2 className="text-sm font-bold uppercase tracking-widest text-[#22d65f]">
+              <h2 className="text-sm font-bold uppercase tracking-widest text-[#EEFF00]">
                 What We Cover
               </h2>
             </div>
@@ -301,9 +300,9 @@ export default function TireChangeoverGuide() {
                 <li key={item.href}>
                   <a
                     href={item.href}
-                    className="flex items-center gap-3 py-1.5 text-[#999] hover:text-[#22d65f] transition-colors group"
+                    className="flex items-center gap-3 py-1.5 text-[#999] hover:text-[#EEFF00] transition-colors group"
                   >
-                    <span className="flex-shrink-0 w-6 h-6 rounded-md bg-[#22d65f]/10 text-[#22d65f] text-xs font-bold flex items-center justify-center group-hover:bg-[#22d65f]/20 transition-colors">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-md bg-[#EEFF00]/10 text-[#EEFF00] text-xs font-bold flex items-center justify-center group-hover:bg-[#EEFF00]/20 transition-colors">
                       {i + 1}
                     </span>
                     <span>{item.label}</span>
@@ -321,7 +320,7 @@ export default function TireChangeoverGuide() {
           </SectionHeading>
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             The most important thing to understand about seasonal tire timing is
-            that it is not about snow on the ground — it is about air
+            that it is not about snow on the ground, it is about air
             temperature. The rubber compound in all-season tires is formulated
             to perform optimally above 7°C. When ambient temperatures fall
             below that threshold, the compound stiffens and loses grip. This
@@ -330,7 +329,7 @@ export default function TireChangeoverGuide() {
               href="https://www.tiresafety.ca/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#22d65f] hover:underline"
+              className="text-[#EEFF00] hover:underline"
             >
               Tire Safety Council of Canada
             </a>{" "}
@@ -343,16 +342,16 @@ export default function TireChangeoverGuide() {
             {[
               {
                 season: "Fall Changeover",
-                window: "Late October — Mid November",
+                window: "Late October, Mid November",
                 trigger: "Consistent daytime temps below 7°C",
-                tip: "Book by mid-October. Every tire shop in Stony Plain and Spruce Grove fills up fast during the last two weeks of October. If you wait until there's snow in the forecast, you're booking into a 1–2 week wait.",
+                tip: "Book by mid-October. Every tire shop in Stony Plain and Spruce Grove fills up fast during the last two weeks of October. If you wait until there's snow in the forecast, you're booking into a 1, 2 week wait.",
                 variant: "winter",
               },
               {
                 season: "Spring Changeover",
-                window: "Mid April — Early May",
+                window: "Mid April, Early May",
                 trigger: "Consistent temps staying above 7°C",
-                tip: "Don't rush the spring swap. April nights still drop below freezing in Parkland County. Wait until overnight lows are reliably above 0°C before switching back to summer tires — typically around mid-April to late April.",
+                tip: "Don't rush the spring swap. April nights still drop below freezing in Parkland County. Wait until overnight lows are reliably above 0°C before switching back to summer tires, typically around mid-April to late April.",
                 variant: "summer",
               },
             ].map((item) => (
@@ -361,7 +360,7 @@ export default function TireChangeoverGuide() {
                 className={`relative rounded-2xl overflow-hidden p-6 sm:p-7 ${
                   item.variant === "winter"
                     ? "bg-blue-500/[0.04] border border-blue-500/20"
-                    : "bg-[#22d65f]/[0.04] border border-[#22d65f]/20"
+                    : "bg-[#EEFF00]/[0.04] border border-[#EEFF00]/20"
                 }`}
               >
                 <div className="flex items-start justify-between gap-4 mb-3">
@@ -370,7 +369,7 @@ export default function TireChangeoverGuide() {
                     className={`flex-shrink-0 text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full border ${
                       item.variant === "winter"
                         ? "text-blue-400 border-blue-500/30 bg-blue-500/10"
-                        : "text-[#22d65f] border-[#22d65f]/30 bg-[#22d65f]/10"
+                        : "text-[#EEFF00] border-[#EEFF00]/30 bg-[#EEFF00]/10"
                     }`}
                   >
                     {item.window}
@@ -386,13 +385,13 @@ export default function TireChangeoverGuide() {
 
           <Callout variant="warning">
             <strong className="text-white">Alberta has no mandatory winter tire law</strong>{" "}
-            — unlike British Columbia, which requires winter tires on most highways.
+, unlike British Columbia, which requires winter tires on most highways.
             But the{" "}
             <a
               href="https://www.alberta.ca/traffic-safety-act"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#22d65f] hover:underline"
+              className="text-[#EEFF00] hover:underline"
             >
               Alberta Traffic Safety Act
             </a>{" "}
@@ -400,7 +399,7 @@ export default function TireChangeoverGuide() {
             are involved in a collision while driving on inadequate tires for
             the conditions, you can be found at fault and your insurance
             coverage may be affected. In Alberta, winter tires are effectively
-            a financial and safety decision — the law just lets you make the
+            a financial and safety decision, the law just lets you make the
             wrong one.
           </Callout>
 
@@ -409,8 +408,8 @@ export default function TireChangeoverGuide() {
             arrives hard and early. The Yellowhead corridor, Highway 16A, and
             the Acheson industrial roads are all plowed regularly but can still
             carry packed snow, ice, and freezing fog well into April. Vehicles
-            operating in these conditions — especially half-tons and SUVs
-            running loads — need proper tires, not compromises.
+            operating in these conditions, especially half-tons and SUVs
+            running loads, need proper tires, not compromises.
           </p>
         </section>
 
@@ -421,8 +420,7 @@ export default function TireChangeoverGuide() {
           </SectionHeading>
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             There are three categories of tire relevant to Alberta drivers.
-            Understanding the difference between the symbols on the sidewall —
-            and what they actually mean for grip in cold conditions — is the
+            Understanding the difference between the symbols on the sidewall,             and what they actually mean for grip in cold conditions, is the
             most important step in making the right choice for your vehicle.
           </p>
 
@@ -430,7 +428,7 @@ export default function TireChangeoverGuide() {
           <div className="mt-8 hidden sm:block rounded-2xl overflow-hidden border border-[#2a2a2a]">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[#22d65f]/[0.06]">
+                <tr className="bg-[#EEFF00]/[0.06]">
                   {[
                     "Type",
                     "Sidewall Symbol",
@@ -442,7 +440,7 @@ export default function TireChangeoverGuide() {
                   ].map((h) => (
                     <th
                       key={h}
-                      className="text-left py-4 px-4 text-xs font-bold uppercase tracking-widest text-[#22d65f]"
+                      className="text-left py-4 px-4 text-xs font-bold uppercase tracking-widest text-[#EEFF00]"
                     >
                       {h}
                     </th>
@@ -453,9 +451,9 @@ export default function TireChangeoverGuide() {
                 {TIRE_TYPES.map((row, i) => (
                   <tr
                     key={row.name}
-                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#22d65f]/[0.03] ${
+                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#EEFF00]/[0.03] ${
                       row.recommended
-                        ? "bg-[#22d65f]/[0.04]"
+                        ? "bg-[#EEFF00]/[0.04]"
                         : i % 2 === 0
                         ? "bg-[#141414]"
                         : "bg-[#0f0f0f]"
@@ -464,7 +462,7 @@ export default function TireChangeoverGuide() {
                     <td className="py-4 px-4 font-bold text-white">
                       {row.name}
                       {row.recommended && (
-                        <span className="ml-2 text-[10px] font-bold uppercase tracking-widest text-[#22d65f] px-2 py-0.5 rounded-full bg-[#22d65f]/15">
+                        <span className="ml-2 text-[10px] font-bold uppercase tracking-widest text-[#EEFF00] px-2 py-0.5 rounded-full bg-[#EEFF00]/15">
                           Recommended
                         </span>
                       )}
@@ -495,7 +493,7 @@ export default function TireChangeoverGuide() {
                 key={row.name}
                 className={`rounded-2xl p-5 border ${
                   row.recommended
-                    ? "border-[#22d65f]/30 bg-[#22d65f]/[0.06]"
+                    ? "border-[#EEFF00]/30 bg-[#EEFF00]/[0.06]"
                     : "card-gradient"
                 }`}
               >
@@ -507,7 +505,7 @@ export default function TireChangeoverGuide() {
                   />
                 </div>
                 {row.recommended && (
-                  <div className="mb-3 text-[10px] font-bold uppercase tracking-widest text-[#22d65f]">
+                  <div className="mb-3 text-[10px] font-bold uppercase tracking-widest text-[#EEFF00]">
                     Our Recommendation for Alberta
                   </div>
                 )}
@@ -541,8 +539,8 @@ export default function TireChangeoverGuide() {
                 What the Three-Peak Mountain Snowflake Symbol Actually Means
               </h3>
               <p className="text-sm text-[#999] leading-relaxed">
-                The Three-Peak Mountain Snowflake (3PMSF) symbol — a
-                mountain outline with a snowflake inside it — is the only
+                The Three-Peak Mountain Snowflake (3PMSF) symbol, a
+                mountain outline with a snowflake inside it, is the only
                 certification that guarantees a tire has been tested and
                 confirmed to meet winter traction performance standards. It
                 appears on both dedicated winter tires and qualifying
@@ -555,8 +553,8 @@ export default function TireChangeoverGuide() {
               </p>
             </div>
 
-            <div className="relative rounded-2xl overflow-hidden border border-[#22d65f]/30 bg-gradient-to-br from-[#22d65f]/[0.06] to-[#141414]">
-              <div className="absolute top-0 right-0 px-3 py-1 bg-[#22d65f] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
+            <div className="relative rounded-2xl overflow-hidden border border-[#EEFF00]/30 bg-gradient-to-br from-[#EEFF00]/[0.06] to-[#141414]">
+              <div className="absolute top-0 right-0 px-3 py-1 bg-[#EEFF00] text-black text-[10px] font-bold uppercase tracking-widest rounded-bl-lg">
                 Key Fact
               </div>
               <div className="p-6 sm:p-8">
@@ -571,7 +569,7 @@ export default function TireChangeoverGuide() {
                   is the difference between a controlled stop and a
                   collision. On the black ice patches that form regularly on
                   Highway 16A and the overpass ramps through Acheson, that
-                  margin is not hypothetical — it is the margin between a
+                  margin is not hypothetical, it is the margin between a
                   close call and an insurance claim.
                 </p>
               </div>
@@ -583,15 +581,15 @@ export default function TireChangeoverGuide() {
               </h3>
               <p className="text-sm text-[#999] leading-relaxed">
                 All-weather tires with the 3PMSF snowflake rating are a
-                legitimate year-round option — particularly for drivers who
+                legitimate year-round option, particularly for drivers who
                 use a second vehicle only occasionally in winter, or for
                 families who want to avoid the changeover hassle entirely.
                 The newest generation of all-weather tires from brands like
                 Michelin CrossClimate, Continental AllSeasonContact, and
                 Nokian Seasonproof perform genuinely well in Alberta winter
-                conditions. The tradeoff: in a hard winter event — deep
+                conditions. The tradeoff: in a hard winter event, deep
                 snow on a rural Parkland County road, or freezing rain on
-                a busy morning — dedicated winters still give you a
+                a busy morning, dedicated winters still give you a
                 measurable grip advantage. All-weather tires are excellent.
                 Dedicated winters are better.
               </p>
@@ -600,12 +598,12 @@ export default function TireChangeoverGuide() {
 
           <Callout variant="info">
             Unsure whether your current tires have the snowflake symbol? Look
-            at the outer sidewall near the rim — the 3PMSF symbol is always
+            at the outer sidewall near the rim, the 3PMSF symbol is always
             molded directly into the rubber. If you see a mountain outline with
             a snowflake inside, you have a qualifying tire. If you see only
             &ldquo;M+S&rdquo; or &ldquo;All Season,&rdquo; those are not winter-rated. Bring your
             vehicle into{" "}
-            <Link href="/tires/" className="text-[#22d65f] hover:underline">
+            <Link href="/tires/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks
             </Link>{" "}
             and we will assess your current tires and advise on whether a
@@ -621,8 +619,7 @@ export default function TireChangeoverGuide() {
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             Here is a realistic cost breakdown for seasonal tire services at
             a quality shop in the Stony Plain and Spruce Grove area in 2026.
-            Prices reflect professional labour with proper equipment —
-            not a buddy with a hand torque wrench in a driveway. Properly
+            Prices reflect professional labour with proper equipment,             not a buddy with a hand torque wrench in a driveway. Properly
             torqued lug nuts and balanced tires matter for both safety and
             the life of your wheel bearings.
           </p>
@@ -631,14 +628,14 @@ export default function TireChangeoverGuide() {
           <div className="mt-8 hidden sm:block rounded-2xl overflow-hidden border border-[#2a2a2a]">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[#22d65f]/[0.06]">
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                <tr className="bg-[#EEFF00]/[0.06]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Service
                   </th>
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Cost Range
                   </th>
-                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#22d65f]">
+                  <th className="text-left py-4 px-6 text-xs font-bold uppercase tracking-widest text-[#EEFF00]">
                     Notes
                   </th>
                 </tr>
@@ -647,7 +644,7 @@ export default function TireChangeoverGuide() {
                 {COST_DATA.map((row, i) => (
                   <tr
                     key={row.service}
-                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#22d65f]/[0.03] ${
+                    className={`border-t border-[#1e1e1e] transition-colors hover:bg-[#EEFF00]/[0.03] ${
                       i % 2 === 0 ? "bg-[#141414]" : "bg-[#0f0f0f]"
                     }`}
                   >
@@ -691,17 +688,17 @@ export default function TireChangeoverGuide() {
           <Callout variant="tip">
             <strong className="text-white">Bundling saves money:</strong> If
             your vehicle is already coming in for{" "}
-            <Link href="/detailing/" className="text-[#22d65f] hover:underline">
+            <Link href="/detailing/" className="text-[#EEFF00] hover:underline">
               a seasonal detail
             </Link>{" "}
             or you want{" "}
-            <Link href="/ppf/" className="text-[#22d65f] hover:underline">
+            <Link href="/ppf/" className="text-[#EEFF00] hover:underline">
               paint protection film
             </Link>{" "}
             applied before winter, combining services on a single visit
             saves on drop-off time and can reduce total labour. Ask about
             combined booking when you call{" "}
-            <Link href="/tires/" className="text-[#22d65f] hover:underline">
+            <Link href="/tires/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks
             </Link>{" "}
             to schedule your changeover.
@@ -713,8 +710,7 @@ export default function TireChangeoverGuide() {
                 Why Professional Torquing and Balancing Matter
               </h3>
               <p className="text-sm text-[#999] leading-relaxed">
-                Lug nuts need to be torqued to manufacturer specification —
-                typically between 80 and 140 ft-lb depending on the vehicle.
+                Lug nuts need to be torqued to manufacturer specification,                 typically between 80 and 140 ft-lb depending on the vehicle.
                 Under-torqued nuts can loosen on the highway; over-torqued
                 nuts stretch the wheel studs and make future removal
                 dangerous. Tire balance affects ride quality, steering
@@ -722,7 +718,7 @@ export default function TireChangeoverGuide() {
                 highway speeds create vibration that accelerates wear on
                 wheel bearings, tie rods, and suspension components. A
                 properly executed changeover at a shop with calibrated
-                equipment is not a cost — it is maintenance insurance.
+                equipment is not a cost, it is maintenance insurance.
               </p>
             </div>
 
@@ -738,7 +734,7 @@ export default function TireChangeoverGuide() {
                 rise after an at-fault claim. A quality set of winter tires
                 on steel wheels, amortized over 6 to 8 seasons, costs less
                 per year than a single mid-winter collision repair. The
-                changeover fee — $80 to $120 twice a year — is the least
+                changeover fee, $80 to $120 twice a year, is the least
                 expensive part of the equation.
               </p>
             </div>
@@ -752,7 +748,7 @@ export default function TireChangeoverGuide() {
           </SectionHeading>
           <p className="mt-6 text-[#ccc] leading-relaxed text-base">
             The single best upgrade for any driver doing annual seasonal
-            changeovers is a dedicated set of winter rims — steel wheels
+            changeovers is a dedicated set of winter rims, steel wheels
             with your winter tires mounted and balanced, ready to swap
             straight onto the vehicle each fall.
           </p>
@@ -762,7 +758,7 @@ export default function TireChangeoverGuide() {
               {
                 title: "No Mount & Balance Fees",
                 detail:
-                  "When winters are on their own rims, the fall and spring changeovers are simple swaps — remove the summer set, install the winter set, torque the lugs. No mount-and-balance needed. That alone saves $100 to $180 per changeover, and over five seasons it more than covers the cost of the steel wheels.",
+                  "When winters are on their own rims, the fall and spring changeovers are simple swaps, remove the summer set, install the winter set, torque the lugs. No mount-and-balance needed. That alone saves $100 to $180 per changeover, and over five seasons it more than covers the cost of the steel wheels.",
               },
               {
                 title: "Faster Appointments",
@@ -772,21 +768,21 @@ export default function TireChangeoverGuide() {
               {
                 title: "Protects Your Summer Wheels",
                 detail:
-                  "Winter roads in Alberta are hard on wheels. Salt spray, -30°C thermal cycles, pothole-ridden roads — all of this is rough on alloy wheels. Running winters on cheap steel rims means your summer alloys stay in a warm garage all winter, protected from corrosion and damage.",
+                  "Winter roads in Alberta are hard on wheels. Salt spray, -30°C thermal cycles, pothole-ridden roads, all of this is rough on alloy wheels. Running winters on cheap steel rims means your summer alloys stay in a warm garage all winter, protected from corrosion and damage.",
               },
               {
                 title: "Easy to Transfer on Vehicle Sale",
                 detail:
-                  "A complete second set of wheels and tires is a real selling point when you list your truck or SUV. Buyers in Alberta know exactly what a dedicated winter wheel set means — it is a vehicle that has been maintained properly and is ready to drive year-round without an immediate additional expense.",
+                  "A complete second set of wheels and tires is a real selling point when you list your truck or SUV. Buyers in Alberta know exactly what a dedicated winter wheel set means, it is a vehicle that has been maintained properly and is ready to drive year-round without an immediate additional expense.",
               },
             ].map((item) => (
               <div
                 key={item.title}
-                className="card-gradient rounded-2xl p-6 group hover:border-[#22d65f]/50 transition-all duration-300"
+                className="card-gradient rounded-2xl p-6 group hover:border-[#EEFF00]/50 transition-all duration-300"
               >
-                <div className="w-10 h-10 rounded-xl bg-[#22d65f]/10 flex items-center justify-center mb-4 group-hover:bg-[#22d65f]/20 transition-colors">
+                <div className="w-10 h-10 rounded-xl bg-[#EEFF00]/10 flex items-center justify-center mb-4 group-hover:bg-[#EEFF00]/20 transition-colors">
                   <svg
-                    className="w-5 h-5 text-[#22d65f]"
+                    className="w-5 h-5 text-[#EEFF00]"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -809,12 +805,12 @@ export default function TireChangeoverGuide() {
             Steel winter wheels are the most practical and durable choice for
             most Parkland County drivers. They are cheaper than alloy, handle
             salt and potholes without complaint, and any cosmetic damage does
-            not matter — they spend half the year in storage. Ask the team at{" "}
-            <Link href="/tires/" className="text-[#22d65f] hover:underline">
+            not matter, they spend half the year in storage. Ask the team at{" "}
+            <Link href="/tires/" className="text-[#EEFF00] hover:underline">
               Accurate Autoworks
             </Link>{" "}
             about fitment and pricing for your specific vehicle when you call{" "}
-            <a href="tel:7808189904" className="text-[#22d65f] hover:underline font-bold">
+            <a href="tel:7808189904" className="text-[#EEFF00] hover:underline font-bold">
               780.818.9904
             </a>
             .
@@ -842,24 +838,24 @@ export default function TireChangeoverGuide() {
               {
                 title: "Why Changeovers Trigger TPMS Issues",
                 description:
-                  "When you swap between summer and winter wheel sets, the vehicle's computer needs to re-learn which sensor is at which corner of the vehicle. If it doesn't, the TPMS warning light may stay on or display incorrect wheel positions. This is not a malfunction — it is a reset requirement. Some vehicles auto-learn after driving a few kilometres at speed; others require a scan tool reset. At Accurate Autoworks, we handle TPMS re-registration as part of the changeover service.",
+                  "When you swap between summer and winter wheel sets, the vehicle's computer needs to re-learn which sensor is at which corner of the vehicle. If it doesn't, the TPMS warning light may stay on or display incorrect wheel positions. This is not a malfunction, it is a reset requirement. Some vehicles auto-learn after driving a few kilometres at speed; others require a scan tool reset. At Accurate Autoworks, we handle TPMS re-registration as part of the changeover service.",
               },
               {
                 title: "Sensor Lifespan and Battery Replacement",
                 description:
-                  "TPMS sensor batteries are not replaceable on most designs — when the battery dies, the entire sensor is replaced. Typical battery life is 7 to 10 years. If your vehicle is in that age range and your TPMS light comes on after a changeover despite proper pressure, a dead sensor is the likely cause. Sensor replacement at Accurate Autoworks runs $50 to $90 per sensor, including programming.",
+                  "TPMS sensor batteries are not replaceable on most designs, when the battery dies, the entire sensor is replaced. Typical battery life is 7 to 10 years. If your vehicle is in that age range and your TPMS light comes on after a changeover despite proper pressure, a dead sensor is the likely cause. Sensor replacement at Accurate Autoworks runs $50 to $90 per sensor, including programming.",
               },
               {
                 title: "Running Winter Wheels Without TPMS Sensors",
                 description:
-                  "It is common for drivers to run winter tires on steel wheels without TPMS sensors installed. This is legal in Alberta — it is not illegal to have an inactive or non-equipped TPMS system, though your dashboard warning light will be on throughout winter. If you want sensors on your winter wheels, we can supply and install them. If you are comfortable manually checking pressure (recommended monthly in winter, since cold air contracts and pressure drops noticeably between +5°C and -20°C), running winters without sensors is a reasonable choice.",
+                  "It is common for drivers to run winter tires on steel wheels without TPMS sensors installed. This is legal in Alberta, it is not illegal to have an inactive or non-equipped TPMS system, though your dashboard warning light will be on throughout winter. If you want sensors on your winter wheels, we can supply and install them. If you are comfortable manually checking pressure (recommended monthly in winter, since cold air contracts and pressure drops noticeably between +5°C and -20°C), running winters without sensors is a reasonable choice.",
               },
             ].map((item, i) => (
               <div key={item.title} className="relative rounded-2xl overflow-hidden">
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#22d65f] to-[#22d65f]/20" />
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#EEFF00] to-[#EEFF00]/20" />
                 <div className="card-gradient rounded-2xl border-l-0 pl-6 pr-6 py-6 sm:pl-8 sm:pr-8 sm:py-8 ml-1">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#22d65f] text-black text-xs font-black flex-shrink-0">
+                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#EEFF00] text-black text-xs font-black flex-shrink-0">
                       {String(i + 1).padStart(2, "0")}
                     </span>
                     <h3 className="text-sm font-bold uppercase tracking-widest text-white">
@@ -890,7 +886,7 @@ export default function TireChangeoverGuide() {
                 step: "01",
                 title: "Book Your Appointment",
                 description:
-                  "Call 780.818.9904 or contact us online to book. During peak changeover season in October and again in April, slots fill quickly — booking at least one to two weeks ahead is strongly recommended. Tell us your vehicle type, whether you have a pre-mounted wheel set or loose tires, and whether you have TPMS sensors on either set.",
+                  "Call 780.818.9904 or contact us online to book. During peak changeover season in October and again in April, slots fill quickly, booking at least one to two weeks ahead is strongly recommended. Tell us your vehicle type, whether you have a pre-mounted wheel set or loose tires, and whether you have TPMS sensors on either set.",
               },
               {
                 step: "02",
@@ -902,13 +898,13 @@ export default function TireChangeoverGuide() {
                 step: "03",
                 title: "Changeover, Torque, and Balance",
                 description:
-                  "For pre-mounted wheel sets, we swap the wheels on and off, torque lug nuts to manufacturer specification, and re-check after installation. For loose tires, we mount each tire on the appropriate rim, balance to within factory spec, and then install. All lug nuts are torqued with a calibrated torque wrench — not just an impact gun.",
+                  "For pre-mounted wheel sets, we swap the wheels on and off, torque lug nuts to manufacturer specification, and re-check after installation. For loose tires, we mount each tire on the appropriate rim, balance to within factory spec, and then install. All lug nuts are torqued with a calibrated torque wrench, not just an impact gun.",
               },
               {
                 step: "04",
                 title: "TPMS Reset if Required",
                 description:
-                  "If your vehicle has TPMS and requires a sensor re-registration after the wheel swap, we handle that before the vehicle leaves the shop. You drive out with a clean dashboard — no warning lights, no unfinished business.",
+                  "If your vehicle has TPMS and requires a sensor re-registration after the wheel swap, we handle that before the vehicle leaves the shop. You drive out with a clean dashboard, no warning lights, no unfinished business.",
               },
               {
                 step: "05",
@@ -918,10 +914,10 @@ export default function TireChangeoverGuide() {
               },
             ].map((phase) => (
               <div key={phase.step} className="relative rounded-2xl overflow-hidden">
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#22d65f] to-[#22d65f]/20" />
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#EEFF00] to-[#EEFF00]/20" />
                 <div className="card-gradient rounded-2xl border-l-0 pl-6 pr-6 py-6 sm:pl-8 sm:pr-8 sm:py-8 ml-1">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#22d65f] text-black text-xs font-black flex-shrink-0">
+                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-[#EEFF00] text-black text-xs font-black flex-shrink-0">
                       {phase.step}
                     </span>
                     <h3 className="text-sm font-bold uppercase tracking-widest text-white">
@@ -940,20 +936,20 @@ export default function TireChangeoverGuide() {
             <strong className="text-white">While you&apos;re in:</strong> A lot
             of Accurate Autoworks customers combine their fall tire changeover
             with a{" "}
-            <Link href="/detailing/" className="text-[#22d65f] hover:underline">
+            <Link href="/detailing/" className="text-[#EEFF00] hover:underline">
               full vehicle detail
             </Link>{" "}
             or a{" "}
-            <Link href="/tinting/" className="text-[#22d65f] hover:underline">
+            <Link href="/tinting/" className="text-[#EEFF00] hover:underline">
               window tint installation
             </Link>{" "}
-            — getting everything done in a single visit before winter sets in.
+, getting everything done in a single visit before winter sets in.
             If you run a commercial vehicle or fleet, we also handle{" "}
-            <Link href="/print/" className="text-[#22d65f] hover:underline">
+            <Link href="/print/" className="text-[#EEFF00] hover:underline">
               vehicle graphics and signage
             </Link>
             . Call us at{" "}
-            <a href="tel:7808189904" className="text-[#22d65f] hover:underline font-bold">
+            <a href="tel:7808189904" className="text-[#EEFF00] hover:underline font-bold">
               780.818.9904
             </a>{" "}
             to coordinate.
@@ -968,11 +964,11 @@ export default function TireChangeoverGuide() {
                 Tire pressure drops roughly 1 PSI for every 5°C drop in
                 ambient temperature. Between a mild November day at +5°C
                 and a hard January cold snap at -25°C, that is a 6°C
-                swing of about 6 PSI — enough to noticeably affect handling,
+                swing of about 6 PSI, enough to noticeably affect handling,
                 fuel economy, and tire wear. Winter tires are not exempt from
                 this physics. Check pressure monthly and always check after
                 a significant temperature swing. The recommended pressure is
-                printed on the door jamb placard for your vehicle — use that
+                printed on the door jamb placard for your vehicle, use that
                 number, not the maximum pressure embossed on the tire
                 sidewall.
               </p>
@@ -986,7 +982,7 @@ export default function TireChangeoverGuide() {
                 If your winter tires are approaching 4/32 inch of remaining
                 tread depth, this season&apos;s changeover is the right time to
                 replace them rather than reinstall. Tread depth below 4/32
-                inch dramatically reduces winter tire performance — the sipes
+                inch dramatically reduces winter tire performance, the sipes
                 and block edges are too worn down to channel snow and water.
                 The legal minimum in Canada is 2/32 inch, but winter tire
                 manufacturers and Transport Canada both recommend replacing
@@ -1009,14 +1005,14 @@ export default function TireChangeoverGuide() {
                 key={faq.q}
                 className="group rounded-2xl overflow-hidden card-gradient"
               >
-                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#22d65f] transition-colors list-none flex items-center gap-4">
-                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#22d65f]/10 text-[#22d65f] text-xs font-bold flex items-center justify-center group-open:bg-[#22d65f] group-open:text-black transition-all">
+                <summary className="px-6 py-5 cursor-pointer text-sm font-bold text-white hover:text-[#EEFF00] transition-colors list-none flex items-center gap-4">
+                  <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#EEFF00]/10 text-[#EEFF00] text-xs font-bold flex items-center justify-center group-open:bg-[#EEFF00] group-open:text-black transition-all">
                     {i + 1}
                   </span>
                   <span className="flex-1">{faq.q}</span>
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full border border-[#333] flex items-center justify-center group-open:border-[#22d65f] group-open:bg-[#22d65f]/10 transition-all">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full border border-[#333] flex items-center justify-center group-open:border-[#EEFF00] group-open:bg-[#EEFF00]/10 transition-all">
                     <svg
-                      className="w-3 h-3 text-[#22d65f] transition-transform group-open:rotate-180"
+                      className="w-3 h-3 text-[#EEFF00] transition-transform group-open:rotate-180"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -1040,21 +1036,20 @@ export default function TireChangeoverGuide() {
 
         {/* CTA Section */}
         <section className="mt-16 relative rounded-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#22d65f]/15 via-[#22d65f]/5 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#EEFF00]/15 via-[#EEFF00]/5 to-transparent" />
           <div className="absolute inset-0 hero-stripe opacity-30" />
-          <div className="absolute inset-0 border border-[#22d65f]/20 rounded-2xl" />
+          <div className="absolute inset-0 border border-[#EEFF00]/20 rounded-2xl" />
           <div className="relative p-8 sm:p-12 text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#22d65f] border border-[#22d65f]/30 rounded-full">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#22d65f] animate-pulse" />
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-bold uppercase tracking-[3px] text-[#EEFF00] border border-[#EEFF00]/30 rounded-full">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#EEFF00] animate-pulse" />
               Book Your Changeover
             </div>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight">
               Ready for Your{" "}
-              <span className="text-[#22d65f] glow-accent">Tire Changeover?</span>
+              <span className="text-[#EEFF00] glow-accent">Tire Changeover?</span>
             </h2>
             <p className="mt-4 text-[#999] max-w-xl mx-auto leading-relaxed">
-              Tire changeovers, window tinting, PPF, detailing, and wraps —
-              Accurate Autoworks handles it all under one roof in Stony
+              Tire changeovers, window tinting, PPF, detailing, and wraps,               Accurate Autoworks handles it all under one roof in Stony
               Plain. Serving Spruce Grove, Parkland County, Acheson, and
               Edmonton West. Don&apos;t wait until the first snow to book.
             </p>
@@ -1072,9 +1067,9 @@ export default function TireChangeoverGuide() {
         {/* Author / Shop Card */}
         <div className="mt-12 card-gradient rounded-2xl p-6 sm:p-8">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
-            <div className="w-14 h-14 rounded-xl bg-[#22d65f]/10 flex items-center justify-center flex-shrink-0">
+            <div className="w-14 h-14 rounded-xl bg-[#EEFF00]/10 flex items-center justify-center flex-shrink-0">
               <svg
-                className="w-7 h-7 text-[#22d65f]"
+                className="w-7 h-7 text-[#EEFF00]"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -1090,7 +1085,7 @@ export default function TireChangeoverGuide() {
             <div className="text-center sm:text-left">
               <p className="text-sm font-bold text-white">
                 Written by the team at{" "}
-                <Link href="/" className="text-[#22d65f] hover:underline">
+                <Link href="/" className="text-[#EEFF00] hover:underline">
                   Accurate Autoworks
                 </Link>
               </p>
@@ -1103,14 +1098,14 @@ export default function TireChangeoverGuide() {
               <div className="mt-3 flex items-center justify-center sm:justify-start gap-3">
                 <a
                   href="tel:7808189904"
-                  className="text-xs text-[#22d65f] hover:underline font-bold"
+                  className="text-xs text-[#EEFF00] hover:underline font-bold"
                 >
                   780.818.9904
                 </a>
                 <span className="w-1 h-1 rounded-full bg-[#333]" />
                 <Link
                   href="/contact/"
-                  className="text-xs text-[#999] hover:text-[#22d65f] transition-colors"
+                  className="text-xs text-[#999] hover:text-[#EEFF00] transition-colors"
                 >
                   Get in Touch
                 </Link>
@@ -1223,15 +1218,15 @@ function SectionHeading({
 }) {
   return (
     <div className="flex items-start gap-4">
-      <span className="flex-shrink-0 text-xs font-mono font-bold text-[#22d65f]/40 mt-2">
+      <span className="flex-shrink-0 text-xs font-mono font-bold text-[#EEFF00]/40 mt-2">
         {number}
       </span>
       <div>
         <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight leading-tight">
           {children}
-          <span className="text-[#22d65f]">{highlight}</span>
+          <span className="text-[#EEFF00]">{highlight}</span>
         </h2>
-        <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#22d65f] to-transparent" />
+        <div className="mt-3 h-px w-16 bg-gradient-to-r from-[#EEFF00] to-transparent" />
       </div>
     </div>
   );
@@ -1239,7 +1234,7 @@ function SectionHeading({
 
 function PriorityBadge({ level, label }: { level: string; label: string }) {
   const colors: Record<string, string> = {
-    essential: "bg-[#22d65f]/15 text-[#22d65f] border-[#22d65f]/30",
+    essential: "bg-[#EEFF00]/15 text-[#EEFF00] border-[#EEFF00]/30",
     recommended: "bg-white/5 text-white border-white/20",
     optional: "bg-[#666]/10 text-[#999] border-[#666]/20",
   };
@@ -1256,7 +1251,7 @@ function PriorityBadge({ level, label }: { level: string; label: string }) {
 
 function TireRatingBadge({ level, label }: { level: string; label: string }) {
   const colors: Record<string, string> = {
-    best: "bg-[#22d65f]/15 text-[#22d65f] border-[#22d65f]/30",
+    best: "bg-[#EEFF00]/15 text-[#EEFF00] border-[#EEFF00]/30",
     good: "bg-white/5 text-white border-white/20",
     poor: "bg-red-500/10 text-red-400 border-red-500/20",
   };
@@ -1280,10 +1275,10 @@ function Callout({
 }) {
   const styles = {
     tip: {
-      border: "border-[#22d65f]/20",
-      bg: "bg-[#22d65f]/[0.04]",
-      icon: "text-[#22d65f]",
-      iconBg: "bg-[#22d65f]/10",
+      border: "border-[#EEFF00]/20",
+      bg: "bg-[#EEFF00]/[0.04]",
+      icon: "text-[#EEFF00]",
+      iconBg: "bg-[#EEFF00]/10",
     },
     info: {
       border: "border-blue-500/20",
