@@ -29,8 +29,8 @@ const FAQ_DATA = [
     a: "October is the right time for most Stony Plain and Spruce Grove drivers. Daytime temperatures in Parkland County typically drop below 7°C in late October, which is the threshold at which all-season tires start losing grip. Getting your winter tires on, your detail done, and your PPF inspected in October means you are not rushing when the first major snowfall hits. Accurate Autoworks books up fast every fall, calling 780.818.9904 in early October to reserve your spot is the right move.",
   },
   {
-    q: "Is paint protection film worth it specifically for Alberta winters?",
-    a: "Absolutely. Alberta roads are some of the hardest on paint in the country. Parkland County and the Acheson corridor are heavily salted from October through April, and gravel kicked up by plows on secondary highways like Highway 16A creates constant rock chip exposure. PPF acts as a sacrificial barrier that takes the chips and scratches so your paint doesn't. Self-healing PPF recovers minor surface scuffs with heat, and the salt corrosion resistance is genuinely excellent. Most drivers who install PPF in the fall notice a dramatic difference by spring, paint that looks like it just came off the lot. Ask Accurate Autoworks about PPF options at 780.818.9904.",
+    q: "How do I protect my vehicle's undercarriage from Alberta road salt damage?",
+    a: "The undercarriage takes the worst of Alberta road salt, gravel, and sand every winter. A few things help significantly: getting a thorough undercarriage rinse every few weeks during salted-road months, having a rubberized undercoating applied if your vehicle does not already have factory protection, and parking in a heated garage when possible to slow corrosion between washes. At Accurate Autoworks, we include an undercarriage inspection during our detailing packages and flag any early rust or corrosion before it becomes a structural problem. Call 780.818.9904 for a pre-winter or post-winter vehicle inspection.",
   },
   {
     q: "Does window tint actually help in Alberta winters?",

@@ -31,8 +31,8 @@ const FAQ_DATA = [
     a: "For most Alberta drivers, yes. Ceramic film rejects far more heat and infrared energy than dyed or carbon film at the same shade, so your interior stays cooler in summer and your AC works less. It also blocks over 99% of UV rays without interfering with phone, GPS, or radio signals the way old metallic films did, and it will not fade purple over time. If you keep your vehicle for more than a couple of years, ceramic pays for itself in comfort and durability.",
   },
   {
-    q: "What is the legal window tint limit in Alberta?",
-    a: "Alberta law restricts the front windows, not the back. Your front side windows must let through more than 70% of light, which means only a very light tint is legal up front. The windshield can only be tinted along a narrow strip at the top (above the AS-1 line). There is no tint limit on the rear side windows or the rear window, so you can go as dark as you like behind the driver. A reputable shop will keep your fronts legal so you avoid tickets and failed inspections.",
+    q: "Is it worth tinting just the windshield, and what does it cost in Alberta?",
+    a: "A full windshield tint is not legal in Alberta, but a ceramic windshield film applied below the legal visor strip is one of the best heat-rejection upgrades you can do. It blocks the intense UV and infrared that beats through front glass on summer highway drives and reduces the brutal sun glare that hits drivers low in the sky during Alberta winters. A ceramic windshield film installation typically runs $150 to $350 depending on vehicle size. At Accurate Autoworks in Stony Plain, we quote your exact vehicle before any work starts, call 780.818.9904 for pricing.",
   },
   {
     q: "Why is some window tint so cheap?",
@@ -43,8 +43,8 @@ const FAQ_DATA = [
     a: "Quality ceramic or carbon film installed correctly lasts the life of the vehicle for most owners, often 10 years or more, and carries a manufacturer warranty against fading, bubbling, and peeling. Cheap dyed film in our freeze-thaw climate may start failing in as little as 1 to 3 years. The film grade and the quality of the install are what determine lifespan, not the shade.",
   },
   {
-    q: "Does window tint help in winter, or just summer?",
-    a: "Both. In summer, quality tint rejects heat and keeps your interior cooler. In winter, that same heat-rejection layer helps your vehicle hold cabin warmth a little better, and the film blocks the harsh low-angle glare common on Alberta highways in the colder months. Year round, tint blocks over 99% of UV, which protects your skin and stops your dash and seats from cracking and fading.",
+    q: "Does installing window tint increase my vehicle's resale value?",
+    a: "Properly installed, quality window tint adds to resale value in two ways: it preserves the interior by blocking UV that causes dashboard cracking, seat fading, and upholstery damage, and it appeals to buyers who value the privacy, look, and heat rejection it delivers. The key is quality. Bubbling or purple-shifted cheap film actively hurts resale by making a vehicle look neglected. Ceramic tint from a shop like Accurate Autoworks stays clean and clear for years, making it a visible upgrade that future buyers will notice.",
   },
   {
     q: "How long does it take to tint a vehicle?",

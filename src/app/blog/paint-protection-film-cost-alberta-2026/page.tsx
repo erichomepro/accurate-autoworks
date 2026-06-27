@@ -28,8 +28,8 @@ const FAQ_DATA = [
     a: "Full vehicle PPF coverage in the Stony Plain and Edmonton area costs $4,500 to $8,500 in 2026, depending on vehicle size and film grade. Partial front-end packages (hood, fenders, mirrors, front bumper, headlights) run $1,800 to $3,200. Full front clip with A-pillars and roof leading edge runs $2,800 to $4,500.",
   },
   {
-    q: "How long does paint protection film last in Alberta?",
-    a: "Quality urethane PPF lasts 7 to 10 years in Alberta when professionally installed. Top-tier self-healing films with ceramic topcoats can extend that to 12+ years. Modern films are engineered for the Alberta climate.",
+    q: "Does Accurate Autoworks offer a manufacturer warranty on PPF installations?",
+    a: "Yes. Accurate Autoworks installs PPF from manufacturers whose films carry multi-year warranties against yellowing, cracking, bubbling, and delamination. Warranty terms vary by film grade, typically ranging from five to ten years, and require that care guidelines are followed. Our installation workmanship is also backed separately from the film warranty. If a defect appears within the warranty period, we address it. Call 780.818.9904 to ask about the exact warranty terms for the specific film we quote for your vehicle.",
   },
   {
     q: "Is paint protection film worth it on a new vehicle?",
@@ -40,8 +40,8 @@ const FAQ_DATA = [
     a: "PPF is a physical urethane film 8 to 10 mil thick that protects paint from impacts and chips. Ceramic coating is a chemical bond a few microns thick that adds gloss and hydrophobic properties but offers zero impact protection. Most premium owners use both.",
   },
   {
-    q: "Will PPF damage my paint when removed?",
-    a: "No, when professionally installed and removed within the warranty window. Quality urethane PPF uses an acrylic adhesive that releases cleanly with controlled heat and lifts the film without pulling paint.",
+    q: "Does the colour or condition of my vehicle's paint affect PPF installation cost?",
+    a: "Paint colour does not directly affect PPF pricing, but paint condition can. If your vehicle has existing chips, scratches, or oxidation, those areas typically need paint correction before PPF goes on, which adds to the total. Dark paints like black and deep navy show any installation imperfections more clearly and require extra precision, which better shops factor into their pricing. Pearlescent, matte, or custom-painted vehicles also require additional care. At Accurate Autoworks, we inspect every vehicle before quoting so the number you get reflects the actual condition of your paint, call 780.818.9904.",
   },
   {
     q: "Can I install PPF myself with a kit?",

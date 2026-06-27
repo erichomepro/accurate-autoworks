@@ -31,8 +31,8 @@ const FAQ_DATA = [
     a: "For most Alberta drivers, yes, especially if you drive on the Yellowhead Highway, Highway 16A, or any Parkland County gravel road regularly. Alberta roads are notoriously hard on paint: chip seal highway surfaces, gravel shoulders, loose aggregate on rural roads, and sand/salt used for eight months of the year create constant chip hazards. Without PPF, a truck driven in this environment will show front-end chip damage within the first year. Accurate Autoworks installs PPF on everything from brand-new trucks to daily drivers that owners want to keep looking sharp.",
   },
   {
-    q: "How much does PPF cost in Stony Plain or Spruce Grove?",
-    a: "PPF pricing in the Stony Plain and Spruce Grove area depends on coverage area and film type. A partial front package (bumper plus leading hood edge) starts around $600 to $900. A full front package, bumper, full hood, fenders, mirrors, and A-pillars, typically runs $1,500 to $2,500 for a truck or SUV. Full-vehicle coverage can reach $5,000 to $9,000+ depending on vehicle size. Call Accurate Autoworks at 780.818.9904 for an exact quote on your vehicle, prices vary by panel count and film grade.",
+    q: "Can PPF be combined with a vinyl wrap or ceramic coating at Accurate Autoworks?",
+    a: "Yes, and this combination is increasingly popular with truck and SUV owners in Stony Plain and Spruce Grove. The most common setup is PPF on the high-impact zones, full front bumper, hood, fenders, mirrors, and A-pillars, with a ceramic coating applied across all painted surfaces including on top of the PPF. For owners who want a colour change, PPF goes on the high-impact areas first, then a vinyl wrap covers the rest of the vehicle. Accurate Autoworks can plan and execute all three services in the right order. Call 780.818.9904 to discuss your build.",
   },
   {
     q: "What is the difference between self-healing PPF and standard PPF?",

@@ -47,8 +47,8 @@ const FAQ_DATA = [
     a: "Absolutely. A professionally detailed vehicle consistently commands a higher asking price and sells faster than the same vehicle in poor cosmetic condition. Studies from the automotive remarketing industry consistently show that clean, well-presented vehicles achieve 5 to 15% higher sale prices than identical vehicles that appear neglected. At Accurate Autoworks, we offer pre-sale detail packages specifically designed to maximize your vehicle's visual appeal. Call 780.818.9904, for what a detail costs, the return on investment when selling is almost always positive.",
   },
   {
-    q: "Do you detail trucks and SUVs?",
-    a: "Yes, trucks, SUVs, and vans are some of our most common detailing jobs at Accurate Autoworks. Larger vehicles carry a small premium over standard passenger sedans due to the additional surface area, larger cargo areas, and the fact that trucks typically accumulate more grime in harder-to-reach areas. Extended cabs, crew cabs with rear seat areas, and trucks with bed liners or tool boxes all add time. Give us a call at 780.818.9904 with your vehicle details and we will give you an accurate quote.",
+    q: "Can Accurate Autoworks handle commercial fleets or company vehicles for recurring detailing?",
+    a: "Yes. Accurate Autoworks in Stony Plain handles commercial vehicle detailing for local businesses, contractors, and fleet operators in Parkland County, Spruce Grove, and the Acheson industrial corridor. Whether you have a couple of service trucks or a larger fleet, regular professional detailing keeps your vehicles presentable, extends their working life, and protects resale value when it is time to turn them over. Contact us at 780.818.9904 to discuss a recurring maintenance schedule and fleet pricing that works for your operation.",
   },
   {
     q: "Can I bundle detailing with other services at Accurate Autoworks?",

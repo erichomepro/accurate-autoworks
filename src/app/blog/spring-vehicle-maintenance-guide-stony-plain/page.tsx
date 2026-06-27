@@ -32,8 +32,8 @@ const FAQ_DATA = [
     a: "A full spring detail (interior and exterior) at Accurate Autoworks in Stony Plain typically runs $250 to $500 depending on vehicle size and condition. This includes hand wash, clay bar, polish, wax or sealant, interior vacuum, shampoo, leather conditioning, and full surface cleaning. Heavily soiled vehicles may be higher.",
   },
   {
-    q: "Is paint protection film worth it for Alberta drivers?",
-    a: "If you drive Highway 16A, gravel roads around Parkland County, or work in the Acheson industrial area, PPF pays for itself by preventing rock chips that cost hundreds to repair. The front bumper, hood, and fenders take the most abuse. Self-healing PPF absorbs impacts and stays clear for years.",
+    q: "How do I remove winter road salt and grime from my vehicle's paint after spring?",
+    a: "A regular hand wash will not fully remove what winter builds up. Road salt, calcium chloride, and bonded brake dust require a proper decontamination wash: foam pre-soak, two-bucket hand wash, followed by a clay bar treatment to lift contamination that washing leaves behind. Skipping this step and applying wax or sealant directly traps the contamination under the protection layer, which defeats the purpose. Accurate Autoworks in Stony Plain offers spring decontamination details that leave the paint clean enough to properly assess and protect for the season. Call 780.818.9904 to book.",
   },
   {
     q: "How do I know if my window tint needs replacing?",

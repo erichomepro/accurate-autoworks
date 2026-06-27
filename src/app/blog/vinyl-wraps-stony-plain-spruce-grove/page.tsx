@@ -18,8 +18,8 @@ export const metadata: Metadata = {
 
 const FAQ_DATA = [
   {
-    q: "How much does a full vehicle wrap cost in Stony Plain?",
-    a: "A full colour-change wrap for a standard sedan runs $3,200-$4,500 in the Stony Plain and Spruce Grove area, while trucks and SUVs range $4,500-$6,500 depending on size and complexity. Commercial fleet wraps for work trucks typically cost $2,800-$4,200 per vehicle. At Accurate Autoworks on Boulder Boulevard, we provide detailed quotes after measuring your vehicle and discussing your design goals. Call us at 780.818.9904 for a free consultation and pricing specific to your vehicle.",
+    q: "How long does a full vehicle wrap installation take at Accurate Autoworks?",
+    a: "A full colour-change vehicle wrap typically takes two to four days at Accurate Autoworks, depending on vehicle size, complexity of body lines, and whether custom printing is involved. Sedans and coupes can often be completed in two days. Full-size trucks, SUVs, and vans take three to four days. Custom-printed designs with logos or detailed graphics add time for artwork proofing and alignment. We schedule appointments so you are not without your vehicle for a week. Call 780.818.9904 to book and get a timeline for your specific vehicle.",
   },
   {
     q: "How long do vinyl wraps last in Alberta winters?",
@@ -42,8 +42,8 @@ const FAQ_DATA = [
     a: "Partial wraps and accent wraps are common, hood, roof, mirrors, pillars, door handles, trim pieces. A hood and roof wrap runs $800-$1,400 depending on vehicle size. Chrome delete (wrapping all chrome trim in black or body colour) costs $400-$900. These partial options give you a custom look at a fraction of full-wrap cost, and they&apos;re popular with truck owners in Spruce Grove who want to black out their F-150s or Silverados without committing to a full colour change.",
   },
   {
-    q: "How do I maintain a vinyl wrap in Stony Plain winters?",
-    a: "Wash every 2 weeks during winter to remove road salt, hand wash or touchless automatic only, never brush washes. Avoid pressure washers above 1,200 PSI and keep the nozzle 12+ inches from the vinyl. Park in a garage when possible, especially during extreme cold snaps below -30°C. Wax isn&apos;t necessary, but a spray sealant every 3 months adds UV protection and makes snow slide off easier. At Accurate Autoworks (780.818.9904), we walk every customer through proper care during pickup so your wrap lasts the full 5-7 year lifespan.",
+    q: "Can I get a custom colour or finish that is not available in a standard wrap catalogue?",
+    a: "Absolutely. One of the biggest advantages of vinyl wraps over paint is the range of finishes and custom options available, including matte, satin, gloss, brushed metal, carbon fibre texture, colour-shift, chrome, and full custom-printed designs. If you have a specific Pantone colour, a brand colour, or design artwork, we can work with it. Custom designs go through a proofing step so you approve the artwork before we print. Accurate Autoworks carries wrap vinyl from leading manufacturers with hundreds of stock colours, plus full custom printing capability for logos, fleet graphics, and one-of-a-kind builds.",
   },
   {
     q: "Can I get a custom design or logo printed on my wrap?",

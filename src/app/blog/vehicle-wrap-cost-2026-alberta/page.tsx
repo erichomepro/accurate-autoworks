@@ -31,8 +31,8 @@ const FAQ_DATA = [
     a: "The material cost alone for a quality cast vinyl film from a brand like 3M or Avery Dennison runs $500 to $1,500 for a full vehicle. The rest is skilled labour, proper wraps require disassembling trim, doors, and bumpers, cutting and stretching film precisely around every curve and recess, and finishing edges so they can't lift. A rushed or low-cost wrap will bubble, peel, and damage your paint. The price reflects the time, skill, and materials needed to do it right.",
   },
   {
-    q: "How long does a vehicle wrap last in Alberta's climate?",
-    a: "A professionally installed cast vinyl wrap using quality film lasts 5 to 7 years in Alberta conditions when properly cared for. The freeze-thaw cycles, road salt, and intense summer UV we get in the Edmonton area accelerate wear on cheap calendered vinyl, which may only last 2 to 3 years. At Accurate Autoworks, we use premium cast films rated for Alberta's climate, the investment holds.",
+    q: "What is the typical booking lead time for a vehicle wrap in Stony Plain?",
+    a: "During peak season — spring and early summer — bookings at Accurate Autoworks typically run one to three weeks out for a full vehicle wrap. Smaller jobs like partial wraps and accent pieces can often be scheduled sooner. Winter months tend to have more availability. If you have a specific event, trade show, or season opener that your vehicle needs to be ready for, book as far in advance as possible. Call 780.818.9904 or use the contact form to check current availability and hold a slot.",
   },
   {
     q: "Is a partial wrap cheaper than a full wrap?",
@@ -43,8 +43,8 @@ const FAQ_DATA = [
     a: "Yes, quality vinyl wrap acts as a physical shield against rock chips, UV fading, minor abrasions, and bird droppings. This is actually one of the top reasons drivers wrap rather than paint: the factory paint stays pristine under the film. When the wrap is eventually removed (properly), the paint underneath looks like new. If maximum paint protection is your priority, pair the wrap with PPF on high-impact zones, ask Accurate Autoworks about combo installs.",
   },
   {
-    q: "Can a vehicle wrap be removed without damaging paint?",
-    a: "Yes, if the wrap was properly installed and the underlying paint is in good condition. Quality cast vinyl is designed to be removable for up to 7 years without leaving adhesive residue or lifting paint. Cheaper films, wraps left on too long, or wraps applied over already-compromised paint can cause issues on removal. At Accurate Autoworks, we use removal-friendly premium films and can remove old wraps safely.",
+    q: "Is there an extra charge for custom-printed graphics versus a solid colour wrap?",
+    a: "Yes. A solid colour or pattern wrap uses stock vinyl film off the roll, which keeps costs lower. A custom-printed design, brand logo, or photo-quality graphic involves design time, print setup, and additional materials, which add $500 to $1,800 to the total depending on complexity. For commercial fleet wraps, design can be a significant portion of the overall budget. Accurate Autoworks quotes the full project, including design and installation, so you know the number before work starts. Call 780.818.9904 with your vision and we will give you an honest breakdown.",
   },
   {
     q: "How much does a commercial fleet wrap cost per vehicle?",
@@ -59,8 +59,8 @@ const FAQ_DATA = [
     a: "Standard solid colours, matte black, gloss white, satin grey, are the most cost-effective. Specialty finishes like chrome, colour-shift (also called chameleon or flip), brushed metal, or carbon fibre texture films carry a premium of $500 to $1,500 over a standard colour due to higher material cost and the extra skill required to install them without distorting the effect. If you want chrome or colour-shift, expect the total to be at the higher end of the pricing range.",
   },
   {
-    q: "How do I keep a vehicle wrap looking new in Alberta?",
-    a: "Hand wash with a gentle automotive soap, never use automated car washes with stiff brushes, which will lift wrap edges. Keep the vehicle out of prolonged UV exposure when parked (a garage or covered space helps enormously in Alberta summers). Avoid harsh solvents near seams. For matte or satin wraps, a dedicated wrap sealant product keeps the finish looking clean. Accurate Autoworks provides care instructions with every wrap installation and is happy to answer questions, just call 780.818.9904.",
+    q: "Does Accurate Autoworks offer a guarantee or warranty on wrap installations?",
+    a: "Yes. Accurate Autoworks stands behind our wrap installations. We use premium cast vinyl from established manufacturers, and installations are backed against workmanship defects. The vinyl itself carries the manufacturer's warranty against fading, cracking, and delamination, typically three to seven years depending on the product line and finish. The warranty applies to proper care, so we walk every customer through the maintenance expectations at pickup. Call 780.818.9904 to ask about the specific warranty terms for your chosen film before you commit.",
   },
 ];
 

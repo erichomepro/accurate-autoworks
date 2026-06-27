@@ -29,8 +29,8 @@ const FAQ_DATA = [
     a: "Yes, window tint is legal in Alberta with specific restrictions. Front side windows must allow at least 50% visible light transmission (VLT). Rear side windows and the rear window have no VLT minimum, any darkness is permitted. The windshield may only have a non-reflective tint strip along the top (the visor band). Violating these rules can result in fines and a required fix-it order. At Accurate Autoworks, every installation is done to Alberta Traffic Safety Act standards.",
   },
   {
-    q: "How long does window tint last in Alberta?",
-    a: "Quality matters enormously here. Low-grade dyed tint can start bubbling and fading to purple within 2 to 3 Alberta winters due to the extreme freeze-thaw cycles and UV load. Carbon tint lasts 5 to 8 years. Ceramic tint, which is what we recommend and install at Accurate Autoworks, routinely lasts 10 or more years without fading, bubbling, or signal interference. A warranty-backed ceramic installation is a one-time investment.",
+    q: "Does Accurate Autoworks offer a warranty on window tint installation?",
+    a: "Yes. Accurate Autoworks backs our window tint installations with a written warranty. Our ceramic film carries the manufacturer's warranty against bubbling, peeling, cracking, and colour change, typically five to ten years depending on the film grade. Our workmanship is also warranted separately. If anything goes wrong due to the installation within the warranty period, we make it right. Before you book, ask us about the specific warranty terms for the film you choose, or call 780.818.9904.",
   },
   {
     q: "Can I roll my windows down after getting tint installed?",
