@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { BlogPostClient } from "./client";
 
 export const metadata: Metadata = {
-  title: "Paint Protection Film Stony Plain | Accurate Autoworks",
+  title: "Paint Protection Film Stony Plain",
   description:
     "PPF in Stony Plain & Spruce Grove: rock chip protection, self-healing film, 2026 Alberta costs, and whether clear bra is worth it for your vehicle.",
   alternates: {

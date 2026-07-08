@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { BlogPostClient } from "./client";
 
 export const metadata: Metadata = {
-  title: "Vehicle Wrap Cost 2026: Alberta Pricing Guide | Accurate Autoworks",
+  title: "Vehicle Wrap Cost 2026: Alberta Guide",
   description:
     "How much does a vehicle wrap cost in Alberta in 2026? Full-colour change, partial wraps, commercial fleet pricing, real numbers from Stony Plain.",
   alternates: {

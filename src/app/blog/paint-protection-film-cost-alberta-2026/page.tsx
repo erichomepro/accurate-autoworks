@@ -4,7 +4,7 @@ import Script from "next/script";
 import { BlogPostClient } from "./client";
 
 export const metadata: Metadata = {
-  title: "Paint Protection Film Cost in Alberta 2026 | Accurate Autoworks",
+  title: "Paint Protection Film Cost Alberta 2026",
   description:
     "Paint protection film cost in Alberta in 2026: full PPF $4,500-$8,500, partial $1,800-$3,200. Lifespan, types, install process, and is PPF worth it for your vehicle.",
   alternates: {

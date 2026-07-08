@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { BlogPostClient } from "./client";
 
 export const metadata: Metadata = {
-  title: "Ceramic Coating Stony Plain & Spruce Grove | Accurate Autoworks",
+  title: "Ceramic Coating Stony Plain AB",
   description:
     "Ceramic coating in Stony Plain: how it works, 2026 Alberta costs, how long it lasts, and whether it's worth it for your truck or SUV.",
   alternates: {

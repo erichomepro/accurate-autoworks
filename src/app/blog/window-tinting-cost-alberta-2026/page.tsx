@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { BlogPostClient } from "./client";
 
 export const metadata: Metadata = {
-  title: "Window Tinting Cost in Alberta 2026 | Accurate Autoworks",
+  title: "Window Tinting Cost in Alberta 2026",
   description:
     "How much does window tinting cost in Alberta in 2026? Dyed, carbon, and ceramic tint pricing, Alberta tint laws, and what to expect. Stony Plain & Spruce Grove.",
   alternates: {

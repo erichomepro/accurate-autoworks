@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { BlogPostClient } from "./client";
 
 export const metadata: Metadata = {
-  title: "Truck & SUV Detailing Stony Plain | Accurate Autoworks",
+  title: "Truck & SUV Detailing Stony Plain",
   description:
     "Truck and SUV detailing in Stony Plain & Spruce Grove: what's different, 2026 Alberta pricing, packages, and what to expect at Accurate Autoworks.",
   alternates: {

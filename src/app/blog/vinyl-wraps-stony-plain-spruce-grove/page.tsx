@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { BlogPostClient } from "./client";
 
 export const metadata: Metadata = {
-  title: "Vinyl Wraps Stony Plain & Spruce Grove | Accurate Autoworks",
+  title: "Vinyl Wraps Stony Plain & Spruce Grove",
   description: "Vinyl wraps & colour-change wraps in Stony Plain: types, Alberta pricing, how long they last, and what to expect. Accurate Autoworks, 780.818.9904.",
   alternates: { canonical: "https://www.accurateautoworks.ca/blog/vinyl-wraps-stony-plain-spruce-grove/" },
   openGraph: {
