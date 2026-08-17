@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 const SERVICES = [
   "Window Tinting",
@@ -30,6 +30,13 @@ export function ContactForm() {
   const [preferredDate, setPreferredDate] = useState("");
   const [message, setMessage] = useState("");
 
+  /* Honeypot. Hidden from people, irresistible to naive bots that fill every
+     input they find. Kept in a ref so typing into it never re-renders. */
+  const honeypotRef = useRef<HTMLInputElement>(null);
+  /* When this component mounted, so the server can see how long the form was on
+     screen. A submit faster than a human can read is strong bot evidence. */
+  const mountedAtRef = useRef(Date.now());
+
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("sending");
@@ -48,6 +55,8 @@ export function ContactForm() {
           preferred_date: preferredDate,
           message,
           page: typeof window !== "undefined" ? window.location.pathname : "/contact",
+          website: honeypotRef.current?.value ?? "",
+          elapsedMs: Date.now() - mountedAtRef.current,
         }),
       });
 
@@ -78,6 +87,20 @@ export function ContactForm() {
           onSubmit={handleSubmit}
           className="card-gradient rounded-xl p-8 sm:p-10 space-y-6"
         >
+          {/* Honeypot. Positioned off-screen rather than type="hidden", because
+              bots skip hidden inputs but do fill visible-to-the-DOM ones. */}
+          <div aria-hidden="true" style={{ position: "absolute", left: "-9999px", width: "1px", height: "1px", overflow: "hidden" }}>
+            <label htmlFor="website-url">Do not fill this in</label>
+            <input
+              id="website-url"
+              name="website"
+              type="text"
+              ref={honeypotRef}
+              tabIndex={-1}
+              autoComplete="off"
+              defaultValue=""
+            />
+          </div>
           <div className="grid sm:grid-cols-2 gap-6">
             <div>
               <label htmlFor="name" className="block text-xs font-bold uppercase tracking-wider text-[#888] mb-2">

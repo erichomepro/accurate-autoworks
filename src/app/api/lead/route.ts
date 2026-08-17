@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { classify, canonicalEmail } from "@/lib/spam-filter";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -17,7 +18,49 @@ type LeadBody = {
   preferred_date?: string;
   message?: string;
   page?: string;
+  /** Hidden honeypot. Real users never see it, so any value means a bot. */
+  website?: string;
+  /** Milliseconds between form render and submit, reported by the client. */
+  elapsedMs?: number;
 };
+
+/**
+ * Burst limiter, keyed by canonical email so Gmail dot-variants collapse to one
+ * identity. In-memory on purpose: this is a single low-traffic route and the
+ * burst it defends against is one bot hammering within seconds. A cold start
+ * empties the map, which only means a burst may restart -- the content filter is
+ * the real defence and this is a cheap second layer.
+ */
+const recentByEmail = new Map<string, number[]>();
+const RATE_WINDOW_MS = 60_000;
+const RATE_MAX_IN_WINDOW = 3;
+
+function isRateLimited(email: string): boolean {
+  const key = canonicalEmail(email);
+  const now = Date.now();
+  const hits = (recentByEmail.get(key) ?? []).filter((t) => now - t < RATE_WINDOW_MS);
+  hits.push(now);
+  recentByEmail.set(key, hits);
+
+  // Opportunistic sweep, so a long-lived instance cannot leak.
+  if (recentByEmail.size > 500) {
+    for (const [k, v] of recentByEmail) {
+      if (v.every((t) => now - t >= RATE_WINDOW_MS)) recentByEmail.delete(k);
+    }
+  }
+
+  return hits.length > RATE_MAX_IN_WINDOW;
+}
+
+/**
+ * Drop the anti-spam plumbing before a lead is stored or emailed. These fields
+ * say nothing about the customer and would otherwise put an empty honeypot on
+ * every CRM record forever.
+ */
+function stripInternalFields(body: LeadBody): Omit<LeadBody, "website" | "elapsedMs"> {
+  const { website: _website, elapsedMs: _elapsedMs, ...rest } = body;
+  return rest;
+}
 
 function escapeHtml(s: string): string {
   return s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c] as string);
@@ -72,6 +115,45 @@ export async function POST(req: Request) {
   if (!body.name || !body.phone) {
     return NextResponse.json({ error: "Name and phone are required" }, { status: 400 });
   }
+
+  // Spam gate. On 2026-08-17 this form took 7 bot submissions in a single day:
+  // gibberish name pairs, random-string messages, Gmail dot-obfuscated senders,
+  // and harvested third-party addresses. The same bot had just been locked out
+  // of aiprecisionmarketing.ca and worked down to the client sites.
+  //
+  // A rejected submission returns 200 rather than 4xx on purpose. A bot that
+  // sees an error retunes its payload; one that sees success keeps sending the
+  // signature we already detect. The classifier fails open, and every drop is
+  // logged loudly enough to audit, because losing one real quote request costs
+  // Cody more than forwarding one more spam message.
+  const verdict = classify({
+    name: body.name,
+    email: body.email,
+    phone: body.phone,
+    message: body.message,
+    website: body.website,
+    elapsedMs: body.elapsedMs,
+  });
+  if (verdict.isSpam) {
+    console.warn(
+      { scope: "lead.spam", score: verdict.score, reasons: verdict.reasons, email: body.email, page: body.page },
+      "Submission rejected as spam; not emailed, not stored",
+    );
+    return NextResponse.json({ ok: true });
+  }
+
+  // Same reasoning for a burst from one inbox. Only meaningful when an email was
+  // supplied; this form requires name and phone, so email can legitimately be absent.
+  if (body.email && isRateLimited(body.email)) {
+    console.warn(
+      { scope: "lead.ratelimit", email: canonicalEmail(body.email), page: body.page },
+      "Submission rejected as rate limited; not emailed, not stored",
+    );
+    return NextResponse.json({ ok: true });
+  }
+
+  // Everything downstream sees lead data only, never the anti-spam plumbing.
+  body = stripInternalFields(body) as LeadBody;
 
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {
